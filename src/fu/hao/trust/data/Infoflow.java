@@ -7,7 +7,7 @@
  * Contributors: Christian Fritz, Steven Arzt, Siegfried Rasthofer, Eric
  * Bodden, and others.
  ******************************************************************************/
-package fu.hao.trust.noTaint;
+package fu.hao.trust.data;
 
 import heros.solver.CountingThreadPoolExecutor;
 

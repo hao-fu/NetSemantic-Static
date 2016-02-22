@@ -19,8 +19,7 @@ import org.slf4j.LoggerFactory;
 import org.xmlpull.v1.XmlPullParserException;
 
 import fu.hao.trust.FlowDroidMain;
-import fu.hao.trust.gator.Config;
-import fu.hao.trust.noTaint.SetupApplication;
+import fu.hao.trust.utils.Settings;
 import soot.Scene;
 import soot.jimple.infoflow.InfoflowConfiguration.CallgraphAlgorithm;
 import soot.jimple.infoflow.android.InfoflowAndroidConfiguration;
@@ -66,7 +65,7 @@ public class App extends FlowDroidMain {
 		System.gc();
 		soot.G.reset();
 		
-		app = new SetupApplication(Config.platformDir, Config.apkPath);
+		app = new SetupApplication(Settings.platformDir, Settings.apkPath);
 		try {
 			// Set configuration object
 			// Support layout mode. --Hao

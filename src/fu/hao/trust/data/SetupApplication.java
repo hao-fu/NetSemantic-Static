@@ -1,5 +1,5 @@
 /**  
- * Copyright � 2016 Hao Fu. All rights reserved.
+ * Copyright 锟� 2016 Hao Fu. All rights reserved.
  *
  * @Title: SetupApplication.java
  * @Prject: UiDroid
@@ -9,7 +9,7 @@
  * @date: Jan 19, 2016 9:53:26 PM
  * @version: V1.0  
  */
-package fu.hao.trust.noTaint;
+package fu.hao.trust.data;
 
 /**
  * @ClassName: SetupApplication

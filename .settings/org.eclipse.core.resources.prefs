@@ -1,9 +1,5 @@
 eclipse.preferences.version=1
-encoding//src/fu/hao/trust/UIDroidMain.java=UTF-8
 encoding//src/fu/hao/trust/data/App.java=UTF-8
 encoding//src/fu/hao/trust/data/CondDepSub.java=UTF-8
 encoding//src/fu/hao/trust/data/SensSrc.java=UTF-8
-encoding//src/fu/hao/trust/depTaint/EntrySolver.java=UTF-8
-encoding//src/fu/hao/trust/gator/Flowgraph.java=UTF-8
-encoding//src/fu/hao/trust/noTaint/SensAnalysis.java=UTF-8
-encoding//src/fu/hao/trust/noTaint/SetupApplication.java=UTF-8
+encoding//src/fu/hao/trust/data/SetupApplication.java=UTF-8
