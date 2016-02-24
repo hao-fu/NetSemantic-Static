@@ -6,6 +6,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Set;
 
+import fu.hao.trust.analysis.Results;
 import fu.hao.trust.data.App;
 import fu.hao.trust.utils.Log;
 import soot.Scene;
@@ -68,6 +69,8 @@ public class SuspAnalysis {
 					
 					if (isSuspicous(method)) {
 						suspicous.add(method);
+						Log.warn(TAG, "found a suspicous method: " + method);
+						Results.results.add(method.toString());
 					}
 				} catch (java.lang.ClassCastException e) {
 					e.printStackTrace();

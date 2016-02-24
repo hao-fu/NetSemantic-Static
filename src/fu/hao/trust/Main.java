@@ -7,17 +7,18 @@ import java.io.FileWriter;
 import java.io.FilenameFilter;
 import java.io.IOException;
 import java.util.ArrayList;
-
 import java.util.List;
 import java.util.Set;
 
 import org.xmlpull.v1.XmlPullParserException;
 
 
+
 import soot.SootMethod;
 
 import com.opencsv.CSVWriter;
 
+import fu.hao.trust.analysis.Results;
 import fu.hao.trust.staticAnalysis.SuspAnalysis;
 import fu.hao.trust.utils.Log;
 import fu.hao.trust.utils.Settings;
@@ -78,6 +79,7 @@ public class Main {
 		}
 
 		for (final String fileName : apkFiles) {
+			Results.reset();
 			System.gc();
 			soot.G.reset();
 			final long beforeRun = System.nanoTime();

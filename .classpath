@@ -15,5 +15,6 @@
 	<classpathentry kind="lib" path="/soot-infoflow-android/lib/org.hamcrest.core_1.3.0.jar"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/gator"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/TRUST-DVM"/>
+	<classpathentry kind="lib" path="C:/Users/hao/workspace/Gator/gator/lib/AndroidBench/platform/android-19/android.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
