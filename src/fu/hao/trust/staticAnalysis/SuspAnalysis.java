@@ -93,7 +93,7 @@ public class SuspAnalysis {
 								.getSources()) {
 							if (unit.toString().contains((srcDef.toString()))) {
 								srcMethods.add(unit);
-								sensitives.put(unit, getPrevNodes(unit));
+								//sensitives.put(unit, getPrevNodes(unit));
 								break;
 							}
 						}
@@ -102,7 +102,7 @@ public class SuspAnalysis {
 								.getSinks()) {
 							if (unit.toString().contains((sinkDef.toString()))) {
 								sinkMethods.add(unit);
-								sensitives.put(unit, getPrevNodes(unit));
+								//sensitives.put(unit, getPrevNodes(unit));
 								break;
 							}
 						}
@@ -164,7 +164,7 @@ public class SuspAnalysis {
 		Set<SootMethod> visited = new HashSet<>();
 		queue.add(target);
 		boolean srcFound = false;
-		boolean sinkFound = true;
+		boolean sinkFound = false;
 		while (!queue.isEmpty()) {
 			int len = queue.size();
 			for (int i = 0; i < len; i++) {
@@ -184,10 +184,12 @@ public class SuspAnalysis {
 					
 					Unit unit = out.srcUnit();
 					if (srcMethods.contains(unit)) {
+						Log.debug(TAG, "src found " + unit);
 						srcFound = true;
 					}
 					
 					if (sinkMethods.contains(unit)) {
+						Log.debug(TAG, "sink found " + unit);
 						sinkFound = true;
 					}
 					
