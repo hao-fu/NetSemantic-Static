@@ -36,7 +36,8 @@ public class MainTest {
 	
 	@Test
 	public void testGeneralJava_VirtualDispatch1() {
-		args[0] = "C:/Users/hao/workspace/DroidBenchProj/apks/VirtualDispatch1/";
+		//args[0] = "C:/Users/hao/workspace/DroidBenchProj/apks/VirtualDispatch1/";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/GeneralJava_VirtualDispatch1/app";
 		Main.main(args);
 		assertEquals(Results.results.isEmpty(), true);
 	}

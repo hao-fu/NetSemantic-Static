@@ -61,7 +61,7 @@ public class Main {
 				apkFiles.add(s);
 			}
 		} else {
-			// 获得文件类型
+			// FIXME
 			String extension = apkFile.getName().substring(
 					apkFile.getName().lastIndexOf("."));
 			if (extension.equalsIgnoreCase(".txt")) {
@@ -108,7 +108,6 @@ public class Main {
 	 */
 	public static void writeCSV(Set<SootMethod> suspicous) throws IOException {
 		String csv = "./sootOutput/" + Settings.apkName + ".csv";
-		String apkName = Settings.apkName;
 		File csvFile = new File(csv);
 		Log.msg(TAG, csv);
 		if (!csvFile.exists()) {
@@ -122,11 +121,8 @@ public class Main {
 		for (SootMethod method : suspicous) {
 			Log.msg(TAG, method.getSignature());
 			List<String> result = new ArrayList<>();
-
-			result.add(apkName);
-			result.add(method.getSignature());
-			result.add(method.getDeclaringClass().toString());
-
+			result.add(method.getDeclaringClass().getName());
+			result.add(method.getName());
 			String[] resultArray = (String[]) result.toArray(new String[result
 					.size()]);
 			results.add(resultArray);
