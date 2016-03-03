@@ -53,5 +53,15 @@ public class MainTest {
 		assertEquals(Results.results.contains(res2), true);
 		assertEquals(Results.results.size(), 2);
 	}
+	
+	//@Test
+	public void testFieldAndObjectSensitivity_FieldSensitivity1() {
+		//args[0] = "C:/Users/hao/workspace/DroidBenchProj/apks/VirtualDispatch1/";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/FieldAndObjectSensitivity_FieldSensitivity1/app";
+		Main.main(args);
+		String res1 = "<de.ecspride.FieldSensitivity1: void onCreate(android.os.Bundle)>";
+		assertEquals(Results.results.contains(res1), true);
+		assertEquals(Results.results.size(), 1);
+	}
 
 }
