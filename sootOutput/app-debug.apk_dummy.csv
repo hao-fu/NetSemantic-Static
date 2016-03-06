@@ -1,6 +1,4 @@
 "android.app.Activity","de.ecspride.MainActivity:onCreate","de.ecspride.GeneralActivity:onResume"
 "android.app.Activity","de.ecspride.ActivityLifecycle1:onStart","de.ecspride.ActivityLifecycle1:onStart"
-"android.app.Activity","ru.atools.sytrant.Sytrant:onCreate","ru.atools.sytrant.Sytrant:onCreate"
 "android.app.Activity","de.ecspride.LoopExample1:onCreate"
 "android.app.Activity","de.ecspride.VirtualDispatch1:onCreate","de.ecspride.VirtualDispatch1:clickButton"
-"android.app.Activity","de.ecspride.FieldSensitivity1:onCreate"

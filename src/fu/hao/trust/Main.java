@@ -28,7 +28,8 @@ public class Main {
 	
 	public static void main(String[] args) {
 		try {
-			myTestMain(args);
+			Main main = new Main();
+			main.myTestMain(args);
 		} catch (IOException | InterruptedException e) {
 			e.printStackTrace();
 		} catch (XmlPullParserException e) {
@@ -46,7 +47,7 @@ public class Main {
 	 * @return void
 	 * @throws
 	 */
-	public static void myTestMain(String[] args) throws IOException,
+	public void myTestMain(String[] args) throws IOException,
 			InterruptedException, XmlPullParserException {
 		List<String> apkFiles = new ArrayList<>();
 		File apkFile = new File(args[0]);
@@ -106,7 +107,7 @@ public class Main {
 	 * @throws IOException
 	 * @return: void
 	 */
-	public static void writeCSV(Set<SootMethod> suspicous) throws IOException {
+	public void writeCSV(Set<SootMethod> suspicous) throws IOException {
 		String csv = "./sootOutput/" + Settings.apkName + ".csv";
 		File csvFile = new File(csv);
 		Log.msg(TAG, csv);

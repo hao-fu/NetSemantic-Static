@@ -134,24 +134,49 @@ public class SuspAnalysis {
 								// sensitives.put(unit, getPrevNodes(unit));
 								Log.warn(TAG, "src found " + unit + " from "
 										+ topMethod);
-								if (!res.containsKey(topMethod
-										.getDeclaringClass())) {
+								SootClass topClass = topMethod
+										.getDeclaringClass();
+								while (topClass.hasSuperclass()) {
+									topClass = topClass.getSuperclass();
+									Log.warn(TAG, topClass.toString());
+									if (topClass.toString().equals(
+											"android.app.Activity")) {
+										break;
+									}
+								}
+								if (!res.containsKey(topClass)) {
 									List<SootMethod> chain = new LinkedList<>();
 									chain.add(topMethod);
-									res.put(topMethod.getDeclaringClass(),
-											chain);
-									queue.clear();
+									// Dummy node for each component (activity,
+									// service and icc)
+									
+									res.put(topClass, chain);
+									
 								}
+								
+								if (!res.get(topClass).contains(topMethod)) {
+									res.get(topClass).add(topMethod);
+								}
+								queue.clear();
 							}
 
 							if (sinkMethods.contains(unit)) {
+								SootClass topClass = topMethod
+										.getDeclaringClass();
+								while (topClass.hasSuperclass()) {
+									topClass = topClass.getSuperclass();
+									if (topClass.toString().equals(
+											"android.app.Activity")) {
+										break;
+									}
+								}
 								// sensitives.put(unit, getPrevNodes(unit));
-								if (res.containsKey(topMethod
-										.getDeclaringClass())) {
+								if (res.containsKey(topClass)) {
 									Log.warn(TAG, "sink found " + unit
 											+ " from " + topMethod);
-									res.get(topMethod.getDeclaringClass()).add(
-											topMethod);
+									if (!res.get(topClass).contains(topMethod)) {
+										res.get(topClass).add(topMethod);
+									}
 									queue.clear();
 								}
 							}
@@ -178,11 +203,11 @@ public class SuspAnalysis {
 
 		for (SootClass sootClass : Scene.v().getClasses()) {
 			for (SootMethod method : sootClass.getMethods()) {
-				
+
 				if (method.getSignature().contains("dummyMainMethod")) {
 					continue;
 				}
-				
+
 				try {
 					for (Unit unit : icfg.getCallsFromWithin(method)) {
 						for (SourceSinkDefinition srcDef : app.getApp()
@@ -283,12 +308,12 @@ public class SuspAnalysis {
 
 					Unit unit = out.srcUnit();
 					if (srcMethods.contains(unit)) {
-						Log.debug(TAG, "src found " + unit);
+						Log.warn(TAG, "src found " + unit);
 						srcFound = true;
 					}
 
 					if (sinkMethods.contains(unit)) {
-						Log.debug(TAG, "sink found " + unit);
+						Log.warn(TAG, "sink found " + unit);
 						sinkFound = true;
 					}
 
@@ -370,7 +395,7 @@ public class SuspAnalysis {
 			result.add(sootClass.toString());
 			for (SootMethod method : suspicous.get(sootClass)) {
 				// result.add(apkName);
-				result.add(method.getName());
+				result.add(method.getDeclaringClass() + ":" + method.getName());
 			}
 			String[] resultArray = (String[]) result.toArray(new String[result
 					.size()]);

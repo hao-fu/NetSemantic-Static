@@ -15,7 +15,7 @@ public class MainTest {
 		Settings.logLevel = 2; //2
 	}
 	
-	//@Test
+	@Test
 	public void testGeneralJava_Loop1() {
 		args[0] = "C:/Users/hao/workspace/GeneralJava_Loop1/app/";
 		Main.main(args);
@@ -27,7 +27,7 @@ public class MainTest {
 		assertEquals(Results.results.size(), 2);
 	}
 
-	//@Test
+	@Test
 	public void testGeneralJava_UnreachableCode() {
 		args[0] = "C:/Users/hao/workspace/DroidBenchProj/GeneralJava_UnreachableCode/app/";
 		Main.main(args);
@@ -42,7 +42,7 @@ public class MainTest {
 		assertEquals(Results.results.isEmpty(), true);
 	}
 	
-	//@Test
+	@Test
 	public void test() {
 		args[0] = "C:/Users/hao/workspace/DroidBenchProj/apks";
 		Main.main(args);
@@ -54,7 +54,7 @@ public class MainTest {
 		assertEquals(Results.results.size(), 2);
 	}
 	
-	//@Test
+	@Test
 	public void testFieldAndObjectSensitivity_FieldSensitivity1() {
 		//args[0] = "C:/Users/hao/workspace/DroidBenchProj/apks/VirtualDispatch1/";
 		args[0] = "C:/Users/hao/workspace/DroidBenchProj/FieldAndObjectSensitivity_FieldSensitivity1/app";
@@ -62,6 +62,22 @@ public class MainTest {
 		String res1 = "<de.ecspride.FieldSensitivity1: void onCreate(android.os.Bundle)>";
 		assertEquals(Results.results.contains(res1), true);
 		assertEquals(Results.results.size(), 1);
+	}
+	
+	@Test
+	public void testLifecycle_ActivityLifecycle1() {
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Lifecycle_ActivityLifecycle1/app";
+		Main.main(args);
+		String res1 = "<de.ecspride.FieldSensitivity1: void onCreate(android.os.Bundle)>";
+		assertEquals(Results.results.contains(res1), true);
+		assertEquals(Results.results.size(), 1);
+	}
+	
+	@Test
+	public void testLifecycle_ActivityLifecycle2() {
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Lifecycle_ActivityLifecycle2/app";
+		Main.main(args);
+		
 	}
 
 }
