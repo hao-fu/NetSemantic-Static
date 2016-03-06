@@ -77,7 +77,24 @@ public class MainTest {
 	public void testLifecycle_ActivityLifecycle2() {
 		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Lifecycle_ActivityLifecycle2/app";
 		Main.main(args);
-		
+	}
+	
+	@Test
+	public void testLifecycle_ActivityLifecycle3() {
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Lifecycle_ActivityLifecycle3/app";
+		Main.main(args);
+	}
+	
+	@Test
+	public void testLifecycle_ActivityLifecycle4() {
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Lifecycle_ActivityLifecycle4/app";
+		Main.main(args);
+	}
+	
+	@Test
+	public void testLifecycle_ApplicationLifecycle1() {
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Lifecycle_ApplicationLifecycle1/app";
+		Main.main(args);
 	}
 
 }

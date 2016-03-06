@@ -90,6 +90,7 @@ public class SuspAnalysis {
 
 	public Set<SootMethod> runAnalysis() throws IOException {
 		runAnalysisOld();
+		SootClass application = null;
 
 		SootMethod dummyMain = Scene.v().getMethod(
 				"<dummyMainClass: void dummyMainMethod(java.lang.String[])>");
@@ -141,12 +142,16 @@ public class SuspAnalysis {
 									SootClass topClass = topMethod
 											.getDeclaringClass();
 									while (topClass.hasSuperclass()) {
-										topClass = topClass.getSuperclass();
-										Log.warn(TAG, topClass.toString());
 										if (topClass.toString().equals(
 												"android.app.Activity")) {
 											break;
+										} else if (topClass.toString().equals(
+												"android.app.Application")) {
+											application = topClass;
+											break;
 										}
+										topClass = topClass.getSuperclass();
+										Log.warn(TAG, topClass.toString());								
 									}
 									if (!res.containsKey(topClass)) {
 										List<SootMethod> chain = new LinkedList<>();
@@ -168,11 +173,11 @@ public class SuspAnalysis {
 									SootClass topClass = topMethod
 											.getDeclaringClass();
 									while (topClass.hasSuperclass()) {
-										topClass = topClass.getSuperclass();
 										if (topClass.toString().equals(
 												"android.app.Activity")) {
 											break;
 										}
+										topClass = topClass.getSuperclass();
 									}
 									// sensitives.put(unit, getPrevNodes(unit));
 									if (res.containsKey(topClass)) {
@@ -181,6 +186,16 @@ public class SuspAnalysis {
 										if (!res.get(topClass).contains(
 												topMethod)) {
 											res.get(topClass).add(topMethod);
+										}
+										queue.clear();
+									}
+									
+									if (application != null && res.containsKey(application)) {
+										Log.warn(TAG, "Top sink found2 " + unit
+												+ " from " + topMethod);
+										if (!res.get(application).contains(
+												topMethod)) {
+											res.get(application).add(topMethod);
 										}
 										queue.clear();
 									}
