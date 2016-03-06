@@ -12,7 +12,7 @@ public class Test {
 		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
 		Settings.logLevel = 2; //2
 		
-		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Lifecycle_ApplicationLifecycle1/app";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Lifecycle_BroadcastReceiverLifecycle1/app";
 		Main.main(args);
 		String res1 = "<de.ecspride.FieldSensitivity1: void onCreate(android.os.Bundle)>";
 		assertEquals(Results.results.contains(res1), true);

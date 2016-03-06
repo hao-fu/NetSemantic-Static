@@ -1,0 +1,2 @@
+"android.app.Application","de.ecspride.ContentProvider:onCreate","de.ecspride.ContentProvider:onCreate","de.ecspride.ApplicationLifecyle3:onCreate"
+"android.content.ContentProvider","de.ecspride.ContentProvider:onCreate"

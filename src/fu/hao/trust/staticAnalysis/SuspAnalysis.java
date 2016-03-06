@@ -91,10 +91,10 @@ public class SuspAnalysis {
 	public Set<SootMethod> runAnalysis() throws IOException {
 		runAnalysisOld();
 		SootClass application = null;
+		boolean appSink = false;
 
 		SootMethod dummyMain = Scene.v().getMethod(
 				"<dummyMainClass: void dummyMainMethod(java.lang.String[])>");
-		
 
 		// Run twice to add potential missed.
 		for (int j = 0; j < 2; j++) {
@@ -143,7 +143,13 @@ public class SuspAnalysis {
 											.getDeclaringClass();
 									while (topClass.hasSuperclass()) {
 										if (topClass.toString().equals(
-												"android.app.Activity")) {
+												"android.app.Activity")
+												|| topClass
+														.toString()
+														.equals("android.content.ContentProvider")
+												|| topClass
+														.toString()
+														.equals("android.content.BroadcastReceiver")) {
 											break;
 										} else if (topClass.toString().equals(
 												"android.app.Application")) {
@@ -151,12 +157,13 @@ public class SuspAnalysis {
 											break;
 										}
 										topClass = topClass.getSuperclass();
-										Log.warn(TAG, topClass.toString());								
+										Log.warn(TAG, topClass.toString());
 									}
 									if (!res.containsKey(topClass)) {
 										List<SootMethod> chain = new LinkedList<>();
 										chain.add(topMethod);
-										// Dummy node for each component(activity, service and icc)
+										// Dummy node for each
+										// component(activity, service and icc)
 
 										res.put(topClass, chain);
 									}
@@ -164,6 +171,20 @@ public class SuspAnalysis {
 									if (!res.get(topClass).contains(topMethod)) {
 										res.get(topClass).add(topMethod);
 									}
+
+									if (appSink) {
+										if (!res.containsKey(application)) {
+											List<SootMethod> chain = new LinkedList<>();
+											chain.add(topMethod);
+											// Dummy node for each
+											// component(activity, service and
+											// icc)
+
+											res.put(application, chain);
+										}
+										res.get(application).add(topMethod);
+									}
+
 									queue.clear();
 								}
 
@@ -174,7 +195,19 @@ public class SuspAnalysis {
 											.getDeclaringClass();
 									while (topClass.hasSuperclass()) {
 										if (topClass.toString().equals(
-												"android.app.Activity")) {
+												"android.app.Activity")
+												|| topClass
+														.toString()
+														.equals("android.content.ContentProvider")
+												|| topClass
+														.toString()
+														.equals("android.content.BroadcastReceiver")) {
+											break;
+										} else if (topClass.toString().equals(
+												"android.app.Application")) {
+											application = topClass;
+											appSink = true;
+											Log.warn(TAG, "app sink on!");
 											break;
 										}
 										topClass = topClass.getSuperclass();
@@ -189,8 +222,9 @@ public class SuspAnalysis {
 										}
 										queue.clear();
 									}
-									
-									if (application != null && res.containsKey(application)) {
+
+									if (application != null
+											&& res.containsKey(application)) {
 										Log.warn(TAG, "Top sink found2 " + unit
 												+ " from " + topMethod);
 										if (!res.get(application).contains(

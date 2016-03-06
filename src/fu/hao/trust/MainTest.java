@@ -96,5 +96,11 @@ public class MainTest {
 		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Lifecycle_ApplicationLifecycle1/app";
 		Main.main(args);
 	}
+	
+	@Test
+	public void testLifecycle_ApplicationLifecycle2() {
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Lifecycle_ApplicationLifecycle2/app";
+		Main.main(args);
+	}
 
 }
