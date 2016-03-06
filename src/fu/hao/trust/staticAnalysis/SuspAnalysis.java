@@ -93,94 +93,100 @@ public class SuspAnalysis {
 
 		SootMethod dummyMain = Scene.v().getMethod(
 				"<dummyMainClass: void dummyMainMethod(java.lang.String[])>");
-		Set<SootMethod> visited = new HashSet<>();
+		
 
-		for (Unit mainUnit : icfg.getOrCreateUnitGraph(dummyMain)) {
-			Stmt stmt = (Stmt) mainUnit;
-			if (stmt.containsInvokeExpr()) {
-				SootMethod topMethod = stmt.getInvokeExpr().getMethod();
+		// Run twice to add potential missed.
+		for (int j = 0; j < 2; j++) {
+			Set<SootMethod> visited = new HashSet<>();
+			Log.warn(TAG, "j " + j);
+			for (Unit mainUnit : icfg.getOrCreateUnitGraph(dummyMain)) {
+				Stmt stmt = (Stmt) mainUnit;
+				if (stmt.containsInvokeExpr()) {
+					SootMethod topMethod = stmt.getInvokeExpr().getMethod();
 
-				if (topMethod.getDeclaringClass().getName()
-						.startsWith("android")
-						|| topMethod.getDeclaringClass().getName()
-								.startsWith("java")) {
-					continue;
-				}
+					if (topMethod.getDeclaringClass().getName()
+							.startsWith("android")
+							|| topMethod.getDeclaringClass().getName()
+									.startsWith("java")) {
+						continue;
+					}
 
-				Queue<SootMethod> queue = new LinkedList<>();
-				queue.add(topMethod);
+					Queue<SootMethod> queue = new LinkedList<>();
+					queue.add(topMethod);
 
-				Log.warn(TAG, "top :: " + topMethod);
+					Log.warn(TAG, "top :: " + topMethod);
 
-				while (!queue.isEmpty()) {
-					int len = queue.size();
-					for (int i = 0; i < len; i++) {
-						SootMethod node = queue.poll();
-						if (visited.contains(node)) {
-							continue;
-						}
-						visited.add(node);
-						Iterator<Edge> iterator = cg.edgesOutOf(node);
-						while (iterator.hasNext()) {
-							Edge out = iterator.next();
-							Unit unit = out.srcUnit();
-							queue.add(out.getTgt().method());
-
-							if (unit == null) {
+					while (!queue.isEmpty()) {
+						int len = queue.size();
+						for (int i = 0; i < len; i++) {
+							SootMethod node = queue.poll();
+							if (visited.contains(node)) {
 								continue;
 							}
+							visited.add(node);
+							Iterator<Edge> iterator = cg.edgesOutOf(node);
+							while (iterator.hasNext()) {
+								Edge out = iterator.next();
+								Unit unit = out.srcUnit();
+								queue.add(out.getTgt().method());
 
-							if (srcMethods.contains(unit)) {
-								// sensitives.put(unit, getPrevNodes(unit));
-								Log.warn(TAG, "src found " + unit + " from "
-										+ topMethod);
-								SootClass topClass = topMethod
-										.getDeclaringClass();
-								while (topClass.hasSuperclass()) {
-									topClass = topClass.getSuperclass();
-									Log.warn(TAG, topClass.toString());
-									if (topClass.toString().equals(
-											"android.app.Activity")) {
-										break;
-									}
+								if (unit == null) {
+									continue;
 								}
-								if (!res.containsKey(topClass)) {
-									List<SootMethod> chain = new LinkedList<>();
-									chain.add(topMethod);
-									// Dummy node for each component (activity,
-									// service and icc)
-									
-									res.put(topClass, chain);
-									
-								}
-								
-								if (!res.get(topClass).contains(topMethod)) {
-									res.get(topClass).add(topMethod);
-								}
-								queue.clear();
-							}
 
-							if (sinkMethods.contains(unit)) {
-								SootClass topClass = topMethod
-										.getDeclaringClass();
-								while (topClass.hasSuperclass()) {
-									topClass = topClass.getSuperclass();
-									if (topClass.toString().equals(
-											"android.app.Activity")) {
-										break;
-									}
-								}
-								// sensitives.put(unit, getPrevNodes(unit));
-								if (res.containsKey(topClass)) {
-									Log.warn(TAG, "sink found " + unit
+								if (srcMethods.contains(unit)) {
+									// sensitives.put(unit, getPrevNodes(unit));
+									Log.warn(TAG, "Top src found " + unit
 											+ " from " + topMethod);
+									SootClass topClass = topMethod
+											.getDeclaringClass();
+									while (topClass.hasSuperclass()) {
+										topClass = topClass.getSuperclass();
+										Log.warn(TAG, topClass.toString());
+										if (topClass.toString().equals(
+												"android.app.Activity")) {
+											break;
+										}
+									}
+									if (!res.containsKey(topClass)) {
+										List<SootMethod> chain = new LinkedList<>();
+										chain.add(topMethod);
+										// Dummy node for each component(activity, service and icc)
+
+										res.put(topClass, chain);
+									}
+
 									if (!res.get(topClass).contains(topMethod)) {
 										res.get(topClass).add(topMethod);
 									}
 									queue.clear();
 								}
-							}
 
+								if (sinkMethods.contains(unit)) {
+									Log.warn(TAG, "Top sink found " + unit
+											+ " from " + topMethod);
+									SootClass topClass = topMethod
+											.getDeclaringClass();
+									while (topClass.hasSuperclass()) {
+										topClass = topClass.getSuperclass();
+										if (topClass.toString().equals(
+												"android.app.Activity")) {
+											break;
+										}
+									}
+									// sensitives.put(unit, getPrevNodes(unit));
+									if (res.containsKey(topClass)) {
+										Log.warn(TAG, "Top sink found2 " + unit
+												+ " from " + topMethod);
+										if (!res.get(topClass).contains(
+												topMethod)) {
+											res.get(topClass).add(topMethod);
+										}
+										queue.clear();
+									}
+								}
+
+							}
 						}
 					}
 				}
