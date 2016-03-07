@@ -149,7 +149,9 @@ public class SuspAnalysis {
 														.equals("android.content.ContentProvider")
 												|| topClass
 														.toString()
-														.equals("android.content.BroadcastReceiver")) {
+														.equals("android.content.BroadcastReceiver")
+												|| topClass.toString().equals(
+														"android.app.Service")) {
 											break;
 										} else if (topClass.toString().equals(
 												"android.app.Application")) {
@@ -201,7 +203,9 @@ public class SuspAnalysis {
 														.equals("android.content.ContentProvider")
 												|| topClass
 														.toString()
-														.equals("android.content.BroadcastReceiver")) {
+														.equals("android.content.BroadcastReceiver")
+												|| topClass.toString().equals(
+														"android.app.Service")) {
 											break;
 										} else if (topClass.toString().equals(
 												"android.app.Application")) {

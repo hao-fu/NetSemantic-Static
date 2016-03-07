@@ -1,0 +1,1 @@
+"android.app.Service","de.ecspride.MainService:onStartCommand","de.ecspride.MainService:onLowMemory"
