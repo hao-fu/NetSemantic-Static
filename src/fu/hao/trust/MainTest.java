@@ -108,5 +108,29 @@ public class MainTest {
 		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Lifecycle_ServiceLifecycle1/app";
 		Main.main(args);
 	}
+	
+	@Test
+	public void testGeneralJava_Exceptions1() {
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/GeneralJava_Exceptions1/app";
+		Main.main(args);
+	}
+	
+	@Test
+	public void testGeneralJava_Exceptions2() {
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/GeneralJava_Exceptions2/app";
+		Main.main(args);
+	}
+	
+	@Test
+	public void testGeneralJava_Exceptions3() {
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/GeneralJava_Exceptions3/app";
+		Main.main(args);
+	}
+	
+	@Test
+	public void testGeneralJava_Exceptions4() {
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/GeneralJava_Exceptions4/app";
+		Main.main(args);
+	}
 
 }
