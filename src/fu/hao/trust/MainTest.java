@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import fu.hao.trust.analysis.Results;
+import fu.hao.trust.data.Results;
 import fu.hao.trust.utils.Settings;
 
 public class MainTest {
@@ -130,6 +130,12 @@ public class MainTest {
 	@Test
 	public void testGeneralJava_Exceptions4() {
 		args[0] = "C:/Users/hao/workspace/DroidBenchProj/GeneralJava_Exceptions4/app";
+		Main.main(args);
+	}
+	
+	@Test
+	public void testCallbacks_Button1() {
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Callbacks_Button1/app";
 		Main.main(args);
 	}
 

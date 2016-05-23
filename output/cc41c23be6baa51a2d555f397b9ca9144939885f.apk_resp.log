@@ -1,0 +1,1020 @@
+test - [MSG]: Begin to analyze: cc41c23be6baa51a2d555f397b9ca9144939885f.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $z0 = virtualinvoke $r4.<java.lang.String: boolean equals(java.lang.Object)>("android.provider.Telephony.SMS_RECEIVED") at <com.android.main.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)> in com.android.main.MainService$SMSReceiver
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.main.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.android.main.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>: <com.android.main.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParserException: void <init>(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParserException: void <init>(java.lang.String,org.xmlpull.v1.XmlPullParser,java.lang.Throwable)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParserException: java.lang.Throwable getDetail()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParserException: int getLineNumber()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParserException: int getColumnNumber()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: void setFeature(java.lang.String,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: boolean getFeature(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: void setProperty(java.lang.String,java.lang.Object)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.Object getProperty(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: void setInput(java.io.Reader)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: void setInput(java.io.InputStream,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getInputEncoding()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: void defineEntityReplacementText(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: int getNamespaceCount(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getNamespacePrefix(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getNamespaceUri(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getNamespace(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: int getDepth()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getPositionDescription()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: int getLineNumber()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: int getColumnNumber()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: boolean isWhitespace()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getText()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: char[] getTextCharacters(int[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getNamespace()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getName()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getPrefix()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: boolean isEmptyElementTag()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: int getAttributeCount()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeNamespace(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeName(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getAttributePrefix(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeType(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: boolean isAttributeDefault(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeValue(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeValue(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: int getEventType()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: int next()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: int nextToken()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: void require(int,java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String nextText()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: int nextTag()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: void <clinit>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void setFeature(java.lang.String,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: boolean getFeature(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void setProperty(java.lang.String,java.lang.Object)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: java.lang.Object getProperty(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void setOutput(java.io.OutputStream,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void setOutput(java.io.Writer)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void startDocument(java.lang.String,java.lang.Boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void endDocument()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void setPrefix(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: java.lang.String getPrefix(java.lang.String,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: int getDepth()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: java.lang.String getNamespace()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: java.lang.String getName()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer startTag(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer attribute(java.lang.String,java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer endTag(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer text(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer text(char[],int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void cdsect(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void entityRef(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void processingInstruction(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void comment(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void docdecl(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void ignorableWhitespace(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void flush()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.APKInstaller: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.APKInstaller: java.lang.String exec(java.lang.String[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.APKInstaller: java.lang.String install(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.Base64: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.Base64: byte[] zeroPad(int,byte[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.BaseAuthenicationHttpClient: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() at <com.android.main.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)> in com.android.main.BaseAuthenicationHttpClient
+RespAnalysis - [DEBUG]: Src: <com.android.main.MainService: int LogService(int,int)>, Tgt: <com.android.main.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>
+RespAnalysis - [DEBUG]: Src: <com.android.main.MainService: int LogService(int,java.lang.String)>, Tgt: <com.android.main.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>
+RespAnalysis - [DEBUG]: Src: <com.android.main.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>, Tgt: <com.android.main.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>
+RespAnalysis - [DEBUG]: Src: <com.android.main.MainService: int access$11(com.android.main.MainService,int,int)>, Tgt: <com.android.main.MainService: int LogService(int,int)>
+RespAnalysis - [DEBUG]: Src: <com.android.main.MainService: int access$2(com.android.main.MainService,int,java.lang.String)>, Tgt: <com.android.main.MainService: int LogService(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.android.main.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>, Tgt: <com.android.main.MainService: int access$11(com.android.main.MainService,int,int)>
+RespAnalysis - [DEBUG]: Src: <com.android.main.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>, Tgt: <com.android.main.MainService: int access$2(com.android.main.MainService,int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.main.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.android.main.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>: <com.android.main.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: virtualinvoke $r3.<java.net.HttpURLConnection: void connect()>() at <com.android.main.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)> in com.android.main.BaseAuthenicationHttpClient
+RespAnalysis - [DEBUG]: Src: <com.android.main.MainService: int LogService(int,int)>, Tgt: <com.android.main.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>
+RespAnalysis - [DEBUG]: Src: <com.android.main.MainService: int LogService(int,java.lang.String)>, Tgt: <com.android.main.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>
+RespAnalysis - [DEBUG]: Src: <com.android.main.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>, Tgt: <com.android.main.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>
+RespAnalysis - [DEBUG]: Src: <com.android.main.MainService: int access$11(com.android.main.MainService,int,int)>, Tgt: <com.android.main.MainService: int LogService(int,int)>
+RespAnalysis - [DEBUG]: Src: <com.android.main.MainService: int access$2(com.android.main.MainService,int,java.lang.String)>, Tgt: <com.android.main.MainService: int LogService(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.android.main.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>, Tgt: <com.android.main.MainService: int access$11(com.android.main.MainService,int,int)>
+RespAnalysis - [DEBUG]: Src: <com.android.main.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>, Tgt: <com.android.main.MainService: int access$2(com.android.main.MainService,int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.main.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.android.main.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>: <com.android.main.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r4 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() at <com.android.main.BaseAuthenicationHttpClient: java.lang.String getStringByURL(java.lang.String)> in com.android.main.BaseAuthenicationHttpClient
+RespAnalysis - [DEBUG]: Src: <com.android.main.MainService: int getDestMobile()>, Tgt: <com.android.main.BaseAuthenicationHttpClient: java.lang.String getStringByURL(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.android.main.MainService: void onCreate()>, Tgt: <com.android.main.MainService: int getDestMobile()>
+RespAnalysis - [DEBUG]: Src: <com.android.main.MainService: void onCreate()>, Tgt: <com.android.main.MainService: int getDestMobile()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.main.MainService: void onCreate()>
+RespAnalysis - [MSG]: <com.android.main.BaseAuthenicationHttpClient: java.lang.String getStringByURL(java.lang.String)>: <com.android.main.MainService: void onCreate()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: virtualinvoke $r5.<java.net.HttpURLConnection: void connect()>() at <com.android.main.BaseAuthenicationHttpClient: java.lang.String getStringByURL(java.lang.String)> in com.android.main.BaseAuthenicationHttpClient
+RespAnalysis - [DEBUG]: Src: <com.android.main.MainService: int getDestMobile()>, Tgt: <com.android.main.BaseAuthenicationHttpClient: java.lang.String getStringByURL(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.android.main.MainService: void onCreate()>, Tgt: <com.android.main.MainService: int getDestMobile()>
+RespAnalysis - [DEBUG]: Src: <com.android.main.MainService: void onCreate()>, Tgt: <com.android.main.MainService: int getDestMobile()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.main.MainService: void onCreate()>
+RespAnalysis - [MSG]: <com.android.main.BaseAuthenicationHttpClient: java.lang.String getStringByURL(java.lang.String)>: <com.android.main.MainService: void onCreate()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.BaseAuthenicationHttpClient: java.lang.String getXboxStrByURL(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.FileAct: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.FileUtil$1: void <init>(com.android.main.FileUtil,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.FileUtil$1: void run()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.FileUtil: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.FileUtil: void getDataSource(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.FileUtil: int getFile(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.MainService$1: void handleMessage(android.os.Message)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.MainService: int LogService(int,int,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.MainService: void access$0(com.android.main.MainService)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.MainService: void execMark(java.lang.String,java.lang.String[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.MainService: void execPush(java.lang.String,java.lang.String[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.MainService: void execSoft(java.lang.String,java.lang.String[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.MainService: void execTanc(java.lang.String,java.lang.String[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.MainService: void execTask()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.MainService: void sendSms(java.lang.String,java.lang.String[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.MainService: void writeRecordLog(java.lang.String[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.MainService: void writeTaskLog()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: specialinvoke $r1.<android.content.IntentFilter: void <init>(java.lang.String)>("android.provider.Telephony.SMS_RECEIVED") at <com.android.main.MainService: void onCreate()> in com.android.main.MainService
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.main.MainService: void onCreate()>
+RespAnalysis - [MSG]: <com.android.main.MainService: void onCreate()>: <com.android.main.MainService: void onCreate()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.MainService$2: void run()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.R$attr: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.R: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.R$color: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.R$drawable: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.R$id: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.R$layout: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.R$string: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.R$style: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.StringUtil: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.StringUtil: java.lang.String getDate(java.lang.String,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.StringUtil: java.lang.String getSubString(java.lang.String,java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.StringUtil: int getTimeLength(java.lang.String,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.StringUtil: java.lang.Long getTimeLength(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.StringUtil: boolean isNullOrBlank(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.main.StringUtil: java.lang.String simpleCutString(java.lang.String,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.GameView: boolean CanPeng(com.rainbow.FMaj.GameView$Player,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.GameView: boolean ComDa(com.rainbow.FMaj.GameView$Player)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.GameView: boolean ComWant(com.rainbow.FMaj.GameView$Player)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.GameView: boolean ComWantPeng(com.rainbow.FMaj.GameView$Player,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.GameView: int GetPai(int[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.GameView: void NewGame2()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.GameView: int XiaJiao(int[],int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.GameView: void UpData(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.GameView: void UpData2(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.GameView: void myExit()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.GameView$RefreshHandler2: void handleMessage(android.os.Message)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.GameView$RefreshHandler: void handleMessage(android.os.Message)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.MainView: void UpData(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.LkyDlg: boolean onTouchEvent(android.view.MotionEvent)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.MainView$RefreshHandler: void handleMessage(android.os.Message)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.GameView$1: void onClick(android.content.DialogInterface,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.GameView$2: void onClick(android.content.DialogInterface,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.R$attr: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.R: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.R$drawable: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.R$id: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.R$layout: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.R$raw: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.R$string: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.R$styleable: void <clinit>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.rainbow.FMaj.R$styleable: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView$1: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView$1: void run()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: void <clinit>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: void <init>(android.content.Context)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: android.view.View a()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: void a(android.content.Context)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: void a(android.widget.ImageButton)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: void a(android.widget.RelativeLayout)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: void a(boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: com.wooboo.adlib_android.ImpressionAdView b()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: android.content.Context c()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: void close()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: android.os.Handler d()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: android.widget.RelativeLayout e()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: android.widget.ImageButton f()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: android.graphics.Bitmap g()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: int getAdHeight()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: int getAdWidth()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: int getBtnHeight()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: int getBtnWidth()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: double getDen()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: int getTextColor()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: int h()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: int i()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: void j()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: void setAdHeight(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: void setAdWidth(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: void setBtnHeight(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: void setBtnWidth(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: void setDen(double)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: void show(android.content.Context,android.view.View,int,int,int,boolean,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: void show(android.content.Context,java.lang.String,android.view.View,int,int,int,boolean,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView: void onWindowFocusChanged(boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView$2$1$1: void <init>(com.wooboo.adlib_android.ImpressionAdView$2$1)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView$2$1$1: void onClick(android.view.View)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView$2$1: void <init>(com.wooboo.adlib_android.ImpressionAdView$2,com.wooboo.adlib_android.a)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView$2$1: void run()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView$2: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView$2: void run()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: void <clinit>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: void <init>(com.wooboo.adlib_android.c,android.content.Context,boolean,int,int,double)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: android.graphics.drawable.Drawable a(android.graphics.Rect,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: android.graphics.drawable.Drawable a(android.graphics.Rect,int,int,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: android.widget.ProgressBar a(com.wooboo.adlib_android.a)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: void a(com.wooboo.adlib_android.a,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: byte[] a(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: com.wooboo.adlib_android.f b(com.wooboo.adlib_android.a)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: com.wooboo.adlib_android.c c(com.wooboo.adlib_android.a)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: void h()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: void a()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: void b()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: void d()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: boolean dispatchTouchEvent(android.view.MotionEvent)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: boolean dispatchTrackballEvent(android.view.MotionEvent)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: com.wooboo.adlib_android.c f()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: void onAnimationEnd(android.view.animation.Animation)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: void onAnimationRepeat(android.view.animation.Animation)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: void onAnimationStart(android.view.animation.Animation)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: void onFocusChanged(boolean,int,android.graphics.Rect)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: boolean onKeyDown(int,android.view.KeyEvent)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: boolean onKeyUp(int,android.view.KeyEvent)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: void onSizeChanged(int,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a: void setPressed(boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c$a: void a()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c$a: void b()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c: void <clinit>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c: byte a(com.wooboo.adlib_android.c)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c: com.wooboo.adlib_android.c a(android.content.Context,byte[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c: java.lang.String[] a(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c: com.wooboo.adlib_android.c$a b(com.wooboo.adlib_android.c)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c: java.lang.String c(com.wooboo.adlib_android.c)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c: int d()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c: android.content.Context d(com.wooboo.adlib_android.c)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c: void a()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c: void a(com.wooboo.adlib_android.c$a)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c: java.lang.String b()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c: java.lang.String c()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c: boolean equals(java.lang.Object)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c: int hashCode()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c: java.lang.String toString()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.f: void <init>(android.content.Context,java.io.InputStream)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.f: void a()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.f: void onDraw(android.graphics.Canvas)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.f: void run()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.i: void <clinit>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.i: void <init>(android.content.Context,java.lang.String,android.database.sqlite.SQLiteDatabase$CursorFactory,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.i: com.wooboo.adlib_android.i a(android.content.Context)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.i: void a(java.lang.String,byte[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.i: boolean a(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.i: byte[] b(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.i: void onCreate(android.database.sqlite.SQLiteDatabase)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.i: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.g: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.g: int[] b(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.g: boolean c()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.g: int d()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.g: int e()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.g: void f()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.g: void g()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.g: void h()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.g: int i()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.g: void j()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.g: int a()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.g: int a(java.io.InputStream)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.g: android.graphics.Bitmap a(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.g: android.graphics.Bitmap b()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView$3: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.ImpressionAdView$3: void run()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView$1: void run()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: void <init>(android.content.Context,java.lang.String,int,int,boolean,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: android.os.Handler a()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: com.wooboo.adlib_android.a a(com.wooboo.adlib_android.WoobooAdView)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: void a(com.wooboo.adlib_android.WoobooAdView,com.wooboo.adlib_android.a)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: int b(com.wooboo.adlib_android.WoobooAdView)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: void b(com.wooboo.adlib_android.WoobooAdView,com.wooboo.adlib_android.a)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: com.wooboo.adlib_android.WoobooAdView$a c(com.wooboo.adlib_android.WoobooAdView)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: void c(com.wooboo.adlib_android.WoobooAdView,com.wooboo.adlib_android.a)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: int getAdHeight()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: int getAdWidth()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: double getDensity()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: void setAdHeight(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: void setAdWidth(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: void setDensity(double)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: void RequstAdOnce()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: int getBackgroundColor()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: int getRequestInterval()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: int getTextColor()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: boolean isGoneWithoutAd()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: void requestFreshAd()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView: void setListener(com.wooboo.adlib_android.WoobooAdView$a)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView$2: void <init>(com.wooboo.adlib_android.WoobooAdView,com.wooboo.adlib_android.a)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView$2: void onAnimationEnd(android.view.animation.Animation)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView$2: void onAnimationRepeat(android.view.animation.Animation)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView$2: void onAnimationStart(android.view.animation.Animation)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView$3$1: void <init>(com.wooboo.adlib_android.WoobooAdView$3,com.wooboo.adlib_android.a,int,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView$3$1: void run()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView$3: void <init>(com.wooboo.adlib_android.WoobooAdView)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView$3: void run()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView$b$1: void <init>(com.wooboo.adlib_android.WoobooAdView$b)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView$b$1: void onAnimationEnd(android.view.animation.Animation)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView$b$1: void onAnimationRepeat(android.view.animation.Animation)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView$b$1: void onAnimationStart(android.view.animation.Animation)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView$b: void <init>(com.wooboo.adlib_android.WoobooAdView,com.wooboo.adlib_android.a)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView$b: com.wooboo.adlib_android.a a(com.wooboo.adlib_android.WoobooAdView$b)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView$b: void a(com.wooboo.adlib_android.WoobooAdView$b,com.wooboo.adlib_android.a)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView$b: com.wooboo.adlib_android.a b(com.wooboo.adlib_android.WoobooAdView$b)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.WoobooAdView$b: void run()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a$1: void <init>(com.wooboo.adlib_android.a)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a$1: void run()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a$2: void <init>(com.wooboo.adlib_android.a)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a$2: void run()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a$3: void <init>(com.wooboo.adlib_android.a)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.a$3: void run()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.b: void <init>(float,float,float,float,float,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.b: void applyTransformation(float,android.view.animation.Transformation)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.b: void initialize(int,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c$1: void <init>(com.wooboo.adlib_android.c)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.c$1: void run()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.d$1: void <init>(android.location.LocationManager)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.d$1: void onLocationChanged(android.location.Location)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.d$1: void onProviderDisabled(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.d$1: void onProviderEnabled(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.d$1: void onStatusChanged(java.lang.String,int,android.os.Bundle)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.d: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.d: void a(long)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.d: void a(android.location.Location)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.d: com.wooboo.adlib_android.c f(android.content.Context)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() at <com.wooboo.adlib_android.d: boolean f(java.lang.String)> in com.wooboo.adlib_android.d
+RespAnalysis - [DEBUG]: Src: <com.wooboo.adlib_android.d: void b()>, Tgt: <com.wooboo.adlib_android.d: boolean f(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.wooboo.adlib_android.d: void b()>, Tgt: <com.wooboo.adlib_android.d: boolean f(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.wooboo.adlib_android.d: void b()>, Tgt: <com.wooboo.adlib_android.d: boolean f(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.wooboo.adlib_android.d$2: void run()>, Tgt: <com.wooboo.adlib_android.d: void b()>
+RespAnalysis - [DEBUG]: Src: <com.wooboo.adlib_android.d: void a()>, Tgt: <com.wooboo.adlib_android.d$2: void run()>
+RespAnalysis - [DEBUG]: Src: <com.wooboo.adlib_android.WoobooAdView: void a(android.content.Context)>, Tgt: <com.wooboo.adlib_android.d: void a()>
+RespAnalysis - [DEBUG]: Src: <com.wooboo.adlib_android.WoobooAdView: void <init>(android.content.Context,android.util.AttributeSet,int)>, Tgt: <com.wooboo.adlib_android.WoobooAdView: void a(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.wooboo.adlib_android.WoobooAdView: void <init>(android.content.Context,android.util.AttributeSet)>, Tgt: <com.wooboo.adlib_android.WoobooAdView: void <init>(android.content.Context,android.util.AttributeSet,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.wooboo.adlib_android.WoobooAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [MSG]: <com.wooboo.adlib_android.d: boolean f(java.lang.String)>: <com.wooboo.adlib_android.WoobooAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: virtualinvoke $r3.<java.net.HttpURLConnection: void connect()>() at <com.wooboo.adlib_android.d: boolean f(java.lang.String)> in com.wooboo.adlib_android.d
+RespAnalysis - [DEBUG]: Src: <com.wooboo.adlib_android.d: void b()>, Tgt: <com.wooboo.adlib_android.d: boolean f(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.wooboo.adlib_android.d: void b()>, Tgt: <com.wooboo.adlib_android.d: boolean f(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.wooboo.adlib_android.d: void b()>, Tgt: <com.wooboo.adlib_android.d: boolean f(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.wooboo.adlib_android.d$2: void run()>, Tgt: <com.wooboo.adlib_android.d: void b()>
+RespAnalysis - [DEBUG]: Src: <com.wooboo.adlib_android.d: void a()>, Tgt: <com.wooboo.adlib_android.d$2: void run()>
+RespAnalysis - [DEBUG]: Src: <com.wooboo.adlib_android.WoobooAdView: void a(android.content.Context)>, Tgt: <com.wooboo.adlib_android.d: void a()>
+RespAnalysis - [DEBUG]: Src: <com.wooboo.adlib_android.WoobooAdView: void <init>(android.content.Context,android.util.AttributeSet,int)>, Tgt: <com.wooboo.adlib_android.WoobooAdView: void a(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.wooboo.adlib_android.WoobooAdView: void <init>(android.content.Context,android.util.AttributeSet)>, Tgt: <com.wooboo.adlib_android.WoobooAdView: void <init>(android.content.Context,android.util.AttributeSet,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.wooboo.adlib_android.WoobooAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [MSG]: <com.wooboo.adlib_android.d: boolean f(java.lang.String)>: <com.wooboo.adlib_android.WoobooAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.d: android.location.Location g(android.content.Context)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.g$a: void <init>(android.graphics.Bitmap,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.h: void <clinit>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.h: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.wooboo.adlib_android.h: java.util.ArrayList a(byte[])> has no active body!
+RespAnalysis - [MSG]: ./sootOutput/cc41c23be6baa51a2d555f397b9ca9144939885f.apk_resp.csv
+RespAnalysis - [MSG]: <com.android.main.BaseAuthenicationHttpClient: java.lang.String getStringByURL(java.lang.String)>
+RespAnalysis - [MSG]: <com.android.main.MainService: void onCreate()>
+RespAnalysis - [MSG]: <com.android.main.MainService: void onCreate()>
+RespAnalysis - [MSG]: <com.android.main.MainService: void onCreate()>
+RespAnalysis - [MSG]: <com.android.main.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.android.main.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.android.main.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>
+RespAnalysis - [MSG]: <com.android.main.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.android.main.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>
+RespAnalysis - [MSG]: <com.android.main.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.android.main.BaseAuthenicationHttpClient: java.lang.String getStringByURL(java.lang.String)>
+RespAnalysis - [MSG]: <com.android.main.MainService: void onCreate()>
+RespAnalysis - [MSG]: <com.wooboo.adlib_android.d: boolean f(java.lang.String)>
+RespAnalysis - [MSG]: <com.wooboo.adlib_android.WoobooAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [MSG]: <com.wooboo.adlib_android.d: boolean f(java.lang.String)>
+RespAnalysis - [MSG]: <com.wooboo.adlib_android.WoobooAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+test - [MSG]: Analysis has run for 19.646908176 seconds
+

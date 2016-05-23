@@ -20,7 +20,7 @@ import fu.hao.trust.data.Results;
 import fu.hao.trust.utils.Log;
 import fu.hao.trust.utils.Settings;
 
-public class SensAnalysisTest {
+public class EntryFinderTest {
 	
 	final String TAG = "test";
 
@@ -29,7 +29,7 @@ public class SensAnalysisTest {
 		Settings.logLevel = 2;
 		String[] args = new String[2];
 		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
-		args[0] = "C:/Users/hao/workspace/DroidBenchProj/apks/droidkungfu"; //pjapps"; //droidkungfu";
+		args[0] = "C:/Users/hao/workspace/MultiThreading/app/"; //pjapps"; //droidkungfu";
 		List<String> apkFiles = new ArrayList<>();
 		File apkFile = new File(args[0]);
 		if (apkFile.isDirectory()) {
@@ -71,8 +71,8 @@ public class SensAnalysisTest {
 			Settings.platformDir = args[1];
 		
 			//App.v();
-			SensAnalysis sa = SensAnalysis.v();
-			Set<Unit> sensUnits = sa.runAnalysis();
+			EntryFinder ef = EntryFinder.v();
+			ef.runAnalysis();
 			Log.msg(TAG, "Analysis has run for "
 					+ (System.nanoTime() - beforeRun) / 1E9 + " seconds\n");
 

@@ -15,8 +15,8 @@ import java.util.Set;
 
 import com.opencsv.CSVWriter;
 
-import fu.hao.trust.analysis.Results;
 import fu.hao.trust.data.App;
+import fu.hao.trust.data.Results;
 import fu.hao.trust.utils.Log;
 import fu.hao.trust.utils.Settings;
 import soot.Scene;
@@ -108,7 +108,9 @@ public class SuspAnalysis {
 					if (topMethod.getDeclaringClass().getName()
 							.startsWith("android")
 							|| topMethod.getDeclaringClass().getName()
-									.startsWith("java")) {
+									.startsWith("java")
+							|| topMethod.getDeclaringClass().getName()
+									.startsWith("org.apache.http")) {
 						continue;
 					}
 
@@ -157,10 +159,22 @@ public class SuspAnalysis {
 												"android.app.Application")) {
 											application = topClass;
 											break;
+										} else if (topClass.toString()
+												.contains("onClick")) {
+											topClass = Scene.v().getSootClass(
+													"android.app.Activity");
+											break;
 										}
 										topClass = topClass.getSuperclass();
 										Log.warn(TAG, topClass.toString());
 									}
+
+									if (topMethod.toString()
+											.contains("onClick")) {
+										topClass = Scene.v().getSootClass(
+												"android.app.Activity");
+									}
+
 									if (!res.containsKey(topClass)) {
 										List<SootMethod> chain = new LinkedList<>();
 										chain.add(topMethod);
@@ -216,10 +230,18 @@ public class SuspAnalysis {
 										}
 										topClass = topClass.getSuperclass();
 									}
+
+									if (topMethod.toString()
+											.contains("onClick")) {
+										topClass = Scene.v().getSootClass(
+												"android.app.Activity");
+									}
+
 									// sensitives.put(unit, getPrevNodes(unit));
 									if (res.containsKey(topClass)) {
 										Log.warn(TAG, "Top sink found2 " + unit
-												+ " from " + topMethod);
+												+ " from " + topMethod + " "
+												+ topClass);
 										if (!res.get(topClass).contains(
 												topMethod)) {
 											res.get(topClass).add(topMethod);
@@ -230,7 +252,8 @@ public class SuspAnalysis {
 									if (application != null
 											&& res.containsKey(application)) {
 										Log.warn(TAG, "Top sink found2 " + unit
-												+ " from " + topMethod);
+												+ " from " + topMethod + " "
+												+ topClass);
 										if (!res.get(application).contains(
 												topMethod)) {
 											res.get(application).add(topMethod);

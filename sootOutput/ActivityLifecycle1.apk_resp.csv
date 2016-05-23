@@ -1,0 +1,2 @@
+"$r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>()","<de.ecspride.ActivityLifecycle1: void connect()>","<de.ecspride.ActivityLifecycle1: void onStart()>"
+"virtualinvoke $r4.<java.net.HttpURLConnection: void connect()>()","<de.ecspride.ActivityLifecycle1: void connect()>","<de.ecspride.ActivityLifecycle1: void onStart()>"

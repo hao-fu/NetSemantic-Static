@@ -1,0 +1,2477 @@
+test - [MSG]: Begin to analyze: 71d2f241f2cb8f4208dd3574df3c3ce0dacdd1c0.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParserException: void <init>(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParserException: void <init>(java.lang.String,org.xmlpull.v1.XmlPullParser,java.lang.Throwable)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParserException: java.lang.Throwable getDetail()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParserException: int getLineNumber()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParserException: int getColumnNumber()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: void setFeature(java.lang.String,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: boolean getFeature(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: void setProperty(java.lang.String,java.lang.Object)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.Object getProperty(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: void setInput(java.io.Reader)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: void setInput(java.io.InputStream,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getInputEncoding()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: void defineEntityReplacementText(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: int getNamespaceCount(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getNamespacePrefix(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getNamespaceUri(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getNamespace(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: int getDepth()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getPositionDescription()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: int getLineNumber()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: int getColumnNumber()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: boolean isWhitespace()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getText()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: char[] getTextCharacters(int[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getNamespace()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getName()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getPrefix()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: boolean isEmptyElementTag()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: int getAttributeCount()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeNamespace(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeName(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getAttributePrefix(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeType(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: boolean isAttributeDefault(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeValue(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String getAttributeValue(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: int getEventType()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: int next()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: int nextToken()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: void require(int,java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: java.lang.String nextText()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: int nextTag()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlPullParser: void <clinit>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void setFeature(java.lang.String,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: boolean getFeature(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void setProperty(java.lang.String,java.lang.Object)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: java.lang.Object getProperty(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void setOutput(java.io.OutputStream,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void setOutput(java.io.Writer)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void startDocument(java.lang.String,java.lang.Boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void endDocument()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void setPrefix(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: java.lang.String getPrefix(java.lang.String,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: int getDepth()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: java.lang.String getNamespace()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: java.lang.String getName()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer startTag(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer attribute(java.lang.String,java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer endTag(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer text(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: org.xmlpull.v1.XmlSerializer text(char[],int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void cdsect(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void entityRef(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void processingInstruction(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void comment(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void docdecl(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void ignorableWhitespace(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.xmlpull.v1.XmlSerializer: void flush()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $z0 = virtualinvoke $r6.<java.lang.String: boolean equals(java.lang.Object)>("android.provider.Telephony.SMS_RECEIVED") at <com.android.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)> in com.android.MainService$SMSReceiver
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.android.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>: <com.android.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.APKInstaller: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.Base64: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.Base64: java.lang.String encode(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.Base64: java.lang.String splitLines(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.Base64: byte[] zeroPad(int,byte[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.BaseAuthenicationHttpClient: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.BaseAuthenicationHttpClient: java.lang.String doRequest(java.lang.String,java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.BaseAuthenicationHttpClient: java.lang.String doRequest(java.lang.String,java.lang.String,java.lang.String,java.util.HashMap)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() at <com.android.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)> in com.android.BaseAuthenicationHttpClient
+RespAnalysis - [DEBUG]: Src: <com.android.MainService: int LogService(int,int)>, Tgt: <com.android.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>
+RespAnalysis - [DEBUG]: Src: <com.android.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>, Tgt: <com.android.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>
+RespAnalysis - [DEBUG]: Src: <com.android.MainService: void onCreate()>, Tgt: <com.android.MainService: int LogService(int,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.MainService: void onCreate()>
+RespAnalysis - [MSG]: <com.android.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>: <com.android.MainService: void onCreate()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: virtualinvoke $r3.<java.net.HttpURLConnection: void connect()>() at <com.android.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)> in com.android.BaseAuthenicationHttpClient
+RespAnalysis - [DEBUG]: Src: <com.android.MainService: int LogService(int,int)>, Tgt: <com.android.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>
+RespAnalysis - [DEBUG]: Src: <com.android.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>, Tgt: <com.android.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>
+RespAnalysis - [DEBUG]: Src: <com.android.MainService: void onCreate()>, Tgt: <com.android.MainService: int LogService(int,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.MainService: void onCreate()>
+RespAnalysis - [MSG]: <com.android.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>: <com.android.MainService: void onCreate()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.BaseAuthenicationHttpClient: java.lang.String getStringByURL(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.BaseAuthenicationHttpClient: java.lang.String getXboxStrByURL(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.FileAct: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.FileUtil$1: void <init>(com.android.FileUtil,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.FileUtil: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.FileUtil: void delFile(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.FileUtil: void main(java.lang.String[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r5 = virtualinvoke $r4.<java.net.URL: java.net.URLConnection openConnection()>() at <com.android.FileUtil: void getDataSource(java.lang.String)> in com.android.FileUtil
+RespAnalysis - [DEBUG]: Src: <com.android.FileUtil$1: void run()>, Tgt: <com.android.FileUtil: void getDataSource(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.android.FileUtil$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.android.FileUtil$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <com.android.FileUtil$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void serviceConnect()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void start()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.views.GifView: void initialize()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.LogoScreen: void changeScreen()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void SynchronizeProcess()>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>
+RespAnalysis - [MSG]: <com.android.FileUtil: void getDataSource(java.lang.String)>: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void access$8(com.android.mediaplayer.MainScreen)>, Tgt: <com.android.mediaplayer.MainScreen: void serviceConnect()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void SynchronizeProcess()>, Tgt: <com.android.mediaplayer.tools.Timer: void start()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>, Tgt: <com.android.mediaplayer.views.GifView: void initialize()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>, Tgt: <com.android.mediaplayer.LogoScreen: void changeScreen()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>, Tgt: <com.android.mediaplayer.MainScreen: void SynchronizeProcess()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen$3: void run()>, Tgt: <com.android.mediaplayer.MainScreen: void access$8(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.android.FileUtil: void getDataSource(java.lang.String)>: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.FileUtil: void getDataSource(java.lang.String)>: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.FileUtil: void getDataSource(java.lang.String)>: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.android.mediaplayer.MainScreen$3: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.android.mediaplayer.MainScreen$3: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <com.android.mediaplayer.MainScreen$3: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: virtualinvoke $r5.<java.net.URLConnection: void connect()>() at <com.android.FileUtil: void getDataSource(java.lang.String)> in com.android.FileUtil
+RespAnalysis - [DEBUG]: Src: <com.android.FileUtil$1: void run()>, Tgt: <com.android.FileUtil: void getDataSource(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.android.FileUtil$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.android.FileUtil$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <com.android.FileUtil$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void serviceConnect()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void start()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.views.GifView: void initialize()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.LogoScreen: void changeScreen()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void SynchronizeProcess()>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>
+RespAnalysis - [MSG]: <com.android.FileUtil: void getDataSource(java.lang.String)>: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void access$8(com.android.mediaplayer.MainScreen)>, Tgt: <com.android.mediaplayer.MainScreen: void serviceConnect()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void SynchronizeProcess()>, Tgt: <com.android.mediaplayer.tools.Timer: void start()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>, Tgt: <com.android.mediaplayer.views.GifView: void initialize()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>, Tgt: <com.android.mediaplayer.LogoScreen: void changeScreen()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>, Tgt: <com.android.mediaplayer.MainScreen: void SynchronizeProcess()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen$3: void run()>, Tgt: <com.android.mediaplayer.MainScreen: void access$8(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.android.FileUtil: void getDataSource(java.lang.String)>: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.FileUtil: void getDataSource(java.lang.String)>: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.FileUtil: void getDataSource(java.lang.String)>: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.android.mediaplayer.MainScreen$3: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.android.mediaplayer.MainScreen$3: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <com.android.mediaplayer.MainScreen$3: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r6 = virtualinvoke $r5.<java.net.URLConnection: java.io.InputStream getInputStream()>() at <com.android.FileUtil: void getDataSource(java.lang.String)> in com.android.FileUtil
+RespAnalysis - [DEBUG]: Src: <com.android.FileUtil$1: void run()>, Tgt: <com.android.FileUtil: void getDataSource(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.android.FileUtil$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.android.FileUtil$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <com.android.FileUtil$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void serviceConnect()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void start()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.views.GifView: void initialize()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.LogoScreen: void changeScreen()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void SynchronizeProcess()>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>
+RespAnalysis - [MSG]: <com.android.FileUtil: void getDataSource(java.lang.String)>: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void access$8(com.android.mediaplayer.MainScreen)>, Tgt: <com.android.mediaplayer.MainScreen: void serviceConnect()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void SynchronizeProcess()>, Tgt: <com.android.mediaplayer.tools.Timer: void start()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>, Tgt: <com.android.mediaplayer.views.GifView: void initialize()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>, Tgt: <com.android.mediaplayer.LogoScreen: void changeScreen()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>, Tgt: <com.android.mediaplayer.MainScreen: void SynchronizeProcess()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen$3: void run()>, Tgt: <com.android.mediaplayer.MainScreen: void access$8(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.android.FileUtil: void getDataSource(java.lang.String)>: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.FileUtil: void getDataSource(java.lang.String)>: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.FileUtil: void getDataSource(java.lang.String)>: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.android.mediaplayer.MainScreen$3: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.android.mediaplayer.MainScreen$3: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <com.android.mediaplayer.MainScreen$3: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.FileUtil: int getFile(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.FileUtil: java.lang.String getMIMEType(java.io.File)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.FileUtil: void onPause()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.FileUtil: void onResume()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.FileUtil: void openFile(java.io.File)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.MainService$1: void handleMessage(android.os.Message)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.MainService: void access$0(com.android.MainService)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.MainService: void execPush(java.lang.String,java.lang.String[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.MainService: void execSoft(java.lang.String,java.lang.String[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.MainService: void execTanc(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.MainService: void execTask()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.MainService: void execXbox(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.MainService: void sendSms(java.lang.String,java.lang.String[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: specialinvoke $r1.<android.content.IntentFilter: void <init>(java.lang.String)>("android.provider.Telephony.SMS_RECEIVED") at <com.android.MainService: void onCreate()> in com.android.MainService
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.MainService: void onCreate()>
+RespAnalysis - [MSG]: <com.android.MainService: void onCreate()>: <com.android.MainService: void onCreate()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.StringUtil: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.StringUtil: java.lang.String[] getCountryRegionCity(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.StringUtil: java.lang.String getCurrentDate(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.StringUtil: java.lang.String[] getCurrentTime()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.StringUtil: java.lang.String getDate()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.StringUtil: java.lang.String getDate(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.StringUtil: java.lang.String getDate(java.lang.String,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.StringUtil: java.lang.String getJuZhanInfo(android.telephony.TelephonyManager)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.StringUtil: java.lang.String getRecordInfo(java.lang.String,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.StringUtil: java.lang.String getSubString(java.lang.String,java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.StringUtil: int getTimeLength(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.StringUtil: boolean isNullOrBlank(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.StringUtil: void main(java.lang.String[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.StringUtil: java.lang.String simpleCutString(java.lang.String,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.WebAddress: void <clinit>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.WebAddress: void <init>(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.WebAddress: java.lang.String toString()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Font: void <clinit>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Font: void <init>(android.graphics.Typeface,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Font: com.android.j2meinterface.Font getDefaultFont()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Font: com.android.j2meinterface.Font getFont(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Font: com.android.j2meinterface.Font getFont(int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Font: void initPaint()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Font: int charWidth(char)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Font: int getHeight()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Font: int getSize()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Font: android.graphics.Typeface getTypeface()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Font: int getWidth()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Font: void setHeight(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Font: void setSize(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Font: void setWidth(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Font: int stringWidth(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void <init>(android.graphics.Bitmap)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void <init>(android.graphics.Canvas)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void clearRect(int,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void clipRect(int,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void copyArea(int,int,int,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void dispose()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void drawArc(int,int,int,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void drawClear()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void drawImage(com.android.j2meinterface.Image,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void drawImage(com.android.j2meinterface.Image,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void drawLine(int,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void drawOval(int,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void drawPolygon(int[],int[],int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void drawRect(int,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void drawRoundRect(int,int,int,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void drawString(java.lang.String,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void drawString(java.lang.String,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void fillArc(int,int,int,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void fillRect(int,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void fillRoundRect(int,int,int,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void fillTriangle(int,int,int,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: android.graphics.Bitmap getBitmap()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: android.graphics.Rect getClip()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: int getClipHeight()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: int getClipWidth()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: int getClipX()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: int getClipY()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: int getColor()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: com.android.j2meinterface.Font getFont()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: android.graphics.Canvas getGraphics()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: android.graphics.Paint getPaint()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void setAlign(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void setAlpha(float)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void setAlphaValue(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void setAntiAlias(boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void setClip(int,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void setColor(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void setColor(int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void setFont(com.android.j2meinterface.Font)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Graphics: void translate(int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Image: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Image: void <init>(int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Image: com.android.j2meinterface.Image createImage(int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Image: com.android.j2meinterface.Image createImageFromFile(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Image: com.android.j2meinterface.Image createImageFromRes(android.content.Context,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Image: void setBitmap(android.graphics.Bitmap)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.j2meinterface.Image: android.graphics.Bitmap getBitmap()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Alert: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller$1: void onReceive(android.content.Context,android.content.Intent)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller: boolean isInTheSamePlayList(android.database.Cursor)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller: void nextMusic()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller: void playOrPause()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller: void prevMusic()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller: void reDownloadLyrics()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller: void reDownloadLyrics(com.android.mediaplayer.audio.AudioEntry)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller: void reDownloadSingerImage()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.MainScreen: void aboutButtonRespond()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.MainScreen: int getSelectedTabId()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.MainScreen: void matchAvatarButtonRespond()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.MainScreen: void matchLyricButtonRespond()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.MainScreen: void onLongPress(android.view.MotionEvent)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.MainScreen: void onShowPress(android.view.MotionEvent)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.MainScreen: boolean onTouch(android.view.View,android.view.MotionEvent)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.MainScreen: void scanButtonRespond()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller$MiniScreen: android.widget.PopupWindow initCustomPopupWindow(android.content.Context,int,int,int,int[],android.view.View$OnClickListener[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller$MiniScreen: void showAboutInfo(android.content.Context)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller$MiniScreen: void showCustomLyricsDownloadScreen(android.content.Context,com.android.mediaplayer.audio.AudioEntry)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller$MiniScreen: void showCustomLyricsDownloadWindow(com.android.mediaplayer.audio.AudioEntry)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.Operation: void loadSkinConfigure()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.PlayMode: java.lang.String getNextMusicWhenMediaEnd()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.PlayMode: java.lang.String getNextMusicWhenYouWant()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.PlayMode: java.lang.String getPrevMusicWhenMediaEnd()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.PlayMode: java.lang.String getPrevMusicWhenYouWant()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.PlayMode: boolean hasNextMusic()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.PlayMode: boolean hasPrevMusic()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.PlayMode: void update()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void addToM3uFile(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void changePlayingState(boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void deleteFromM3uFile(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: java.lang.String getSingerRes()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: java.lang.String getTrackNumber()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: java.lang.String getVersion()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: boolean isInM3uFile(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: java.lang.String[] listM3uFiles()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void setAlbumImg(com.android.j2meinterface.Image)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void setBits(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void setChannel(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void setComment(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void setCopyRight(boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void setFileSize(long)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void setGenre(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void setID3V1(boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void setID3V2(boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void setId3v2Length(long)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void setOriginal(boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void setSingerRes(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void setTrackNumber(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void setVBR(boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void setVersion(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void setYear(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void setkHz(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: void showInfo()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioEntry: java.lang.String toString()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.CustomAdapter: void bindView(android.view.View,android.content.Context,android.database.Cursor)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.CustomAdapter: android.view.View getView(int,android.view.View,android.view.ViewGroup)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.CustomAdapter: android.view.View newView(android.content.Context,android.database.Cursor,android.view.ViewGroup)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.CustomAdapter: void setView(int,android.view.View)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context,android.util.AttributeSet)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.views.GifView: boolean access$0(com.android.mediaplayer.views.GifView)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.views.GifView: android.graphics.Bitmap[] access$1(com.android.mediaplayer.views.GifView)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.views.GifView: int access$2(com.android.mediaplayer.views.GifView)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.views.GifView: void access$3(com.android.mediaplayer.views.GifView,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.views.GifView: long getInterval()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.views.GifView: boolean isRun()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.Timer: boolean isRunning()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.Timer: void setUpdateDelay(long)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.Timer: long updateDelay()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.views.VScrollLabel: void addLabel(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.views.VScrollLabel: void remove(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.views.VScrollLabel: void setLabelText(java.lang.String,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.WorkTask: void callStop()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.WorkTask: void execute()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.WorkTask: void setPriority(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller$MiniScreen$11: void onClick(android.content.DialogInterface,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller$MiniScreen$12: void onClick(android.content.DialogInterface,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller$MiniScreen$15: void <init>(com.android.mediaplayer.Controller$MiniScreen)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller$MiniScreen$15: void onClick(android.content.DialogInterface,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller$MiniScreen$1: void <init>(com.android.mediaplayer.Controller$MiniScreen,android.widget.PopupWindow)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller$MiniScreen$1: void onClick(android.view.View)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller$MiniScreen$2: void <init>(com.android.mediaplayer.Controller$MiniScreen,com.android.mediaplayer.audio.AudioEntry,android.view.View,android.content.Context)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller$MiniScreen$2: void onClick(android.content.DialogInterface,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller$MiniScreen$3: void <init>(com.android.mediaplayer.Controller$MiniScreen)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller$MiniScreen$3: void onClick(android.content.DialogInterface,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller$MiniScreen$4: void <init>(com.android.mediaplayer.Controller$MiniScreen)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Controller$MiniScreen$4: void onCheckedChanged(android.widget.CompoundButton,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.Data: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.lyrics.Lyrics: boolean isOk()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.lyrics.Lyrics: void setOffTime(long)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.lyrics.Lyrics: void turnBigSizeOnOrOff(boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioPlayer: int getVolume()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioPlayer: boolean isAvailable()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioPlayer: boolean isLooping()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioPlayer: void lowerVolume()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioPlayer: int maxVolume()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioPlayer: void raiseVolume()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioPlayer: void setLoop(boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioPlayer: void setOnBufferingUpdateListener(android.media.MediaPlayer$OnBufferingUpdateListener)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioPlayer: void setOnInfoListener(android.media.MediaPlayer$OnInfoListener)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioPlayer: void setOnSeekCompleteListener(android.media.MediaPlayer$OnSeekCompleteListener)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.audio.AudioPlayer: void setOnVideoSizeChangedListener(android.media.MediaPlayer$OnVideoSizeChangedListener)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.MainScreen$1: void handleMessage(android.os.Message)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.MainScreen$2: void setView(int,android.view.View)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.MainScreen$6: void onClick(android.content.DialogInterface,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.MainScreen$9: void onCallStateChanged(int,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.MessageManager: void process(com.android.mediaplayer.tools.MessageManager$Message)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.R$anim: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.R: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.R$array: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.R$attr: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.R$drawable: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.R$id: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.R$layout: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.R$menu: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.R$raw: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.R$string: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.R$styleable: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.SDCardListener$1: void <init>(com.android.mediaplayer.SDCardListener)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.SDCardListener$1: void onReceive(android.content.Context,android.content.Intent)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.SDCardListener: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.SDCardListener: com.android.mediaplayer.SDCardStateChangeListener access$0(com.android.mediaplayer.SDCardListener)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.SDCardListener: void registerReceiver(android.app.Activity,com.android.mediaplayer.SDCardStateChangeListener)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.SDCardListener: void unregisterReceiver(android.app.Activity)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.SDCardStateChangeListener: void ACTION_MEDIA_BAD_REMOVAL()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.SDCardStateChangeListener: void ACTION_MEDIA_UNMOUNTED()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.SDCardStateChangeListener: void MEDIA_MOUNTED()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.SDCardStateChangeListener: void MEDIA_REMOVED()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.SetScreen: void onNothingSelected(android.widget.AdapterView)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.TeleListener: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.TeleListener: void onCallStateChanged(int,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.DataZip: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.DataZip: byte[] compressfile(byte[],int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.DataZip: void zip(byte[],int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.ZStream: int deflate(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.ZStream: int deflateEnd()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.ZStream: int deflateInit(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.ZStream: int deflateInit(int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.ZStream: int deflateInit(int,int,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.ZStream: int deflateInit(int,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.ZStream: int deflateParams(int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.ZStream: int deflateSetDictionary(byte[],int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.ZStream: void flush_pending()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.ZStream: void free()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.ZStream: int inflateInit(boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.ZStream: int inflateSetDictionary(byte[],int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.ZStream: int inflateSync()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.ZStream: int read_buf(byte[],int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void <clinit>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: boolean smaller(short[],int,int,byte[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void _tr_align()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void _tr_flush_block(int,int,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void _tr_stored_block(int,int,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: boolean _tr_tally(int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void bi_flush()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void bi_windup()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: int build_bl_tree()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void compress_block(short[],short[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void copy_block(int,int,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: int deflate(com.android.mediaplayer.jzlib.ZStream,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: int deflateEnd()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: int deflateInit(com.android.mediaplayer.jzlib.ZStream,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: int deflateInit(com.android.mediaplayer.jzlib.ZStream,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: int deflateInit2(com.android.mediaplayer.jzlib.ZStream,int,int,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: int deflateParams(com.android.mediaplayer.jzlib.ZStream,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: int deflateReset(com.android.mediaplayer.jzlib.ZStream)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: int deflateSetDictionary(com.android.mediaplayer.jzlib.ZStream,byte[],int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: int deflate_fast(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: int deflate_slow(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: int deflate_stored(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void fill_window()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void flush_block_only(boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void init_block()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void lm_init()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: int longest_match(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void pqdownheap(short[],int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void putShortMSB(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void put_byte(byte)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void put_byte(byte[],int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void put_short(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void scan_tree(short[],int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void send_all_trees(int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void send_bits(int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void send_code(int,short[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void send_tree(short[],int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void set_data_type()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate: void tr_init()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Inflate: int inflateSetDictionary(com.android.mediaplayer.jzlib.ZStream,byte[],int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Inflate: int inflateSync(com.android.mediaplayer.jzlib.ZStream)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Inflate: int inflateSyncPoint(com.android.mediaplayer.jzlib.ZStream)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Deflate$Config: void <init>(int,int,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Tree: void <clinit>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Tree: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Tree: int bi_reverse(int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Tree: int d_code(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Tree: void gen_codes(short[],int,short[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Tree: void build_tree(com.android.mediaplayer.jzlib.Deflate)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.Tree: void gen_bitlen(com.android.mediaplayer.jzlib.Deflate)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.InfBlocks: void set_dictionary(byte[],int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.InfBlocks: int sync_point()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.StaticTree: void <clinit>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.StaticTree: void <init>(short[],int[],int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.JZlib: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.jzlib.JZlib: java.lang.String version()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.log.Logx: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.lyrics.KRCreader: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.lyrics.KRCreader: void check()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.lyrics.LRCreader: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.lyrics.LRCreader: void check()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.AvatarDownloadOperation: void showAlertInfo(android.content.Context)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r4 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() at <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])> in com.android.mediaplayer.model.HttpConnector
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.SoftwareUpdateOperation: void execute()>, Tgt: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.AvatarDownloadOperation: boolean downloadImage(java.lang.String,java.lang.String)>, Tgt: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.AvatarDownloadOperation: com.android.mediaplayer.protocol.AvatarDownloadXml getXml(java.lang.String)>, Tgt: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.LyricDownloadOperation: void execute()>, Tgt: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.LyricDownloadOperation: void execute()>, Tgt: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.LyricDownloadOperation: void execute()>, Tgt: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.ServerChangeOperation: void execute()>, Tgt: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>, Tgt: <com.android.mediaplayer.model.SoftwareUpdateOperation: void execute()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen$4: void run()>, Tgt: <com.android.mediaplayer.model.SoftwareUpdateOperation: void execute()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.AvatarDownloadOperation: void execute()>, Tgt: <com.android.mediaplayer.model.AvatarDownloadOperation: boolean downloadImage(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.AvatarDownloadOperation: void execute()>, Tgt: <com.android.mediaplayer.model.AvatarDownloadOperation: boolean downloadImage(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.AvatarDownloadOperation: void execute()>, Tgt: <com.android.mediaplayer.model.AvatarDownloadOperation: com.android.mediaplayer.protocol.AvatarDownloadXml getXml(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>, Tgt: <com.android.mediaplayer.model.LyricDownloadOperation: void execute()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>, Tgt: <com.android.mediaplayer.model.ServerChangeOperation: void execute()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.LyricDownloadOperation: void execute()>, Tgt: <com.android.mediaplayer.model.ServerChangeOperation: void execute()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.AvatarDownloadOperation: void execute()>, Tgt: <com.android.mediaplayer.model.ServerChangeOperation: void execute()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen$4: void run()>, Tgt: <com.android.mediaplayer.model.ServerChangeOperation: void execute()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void serviceConnect()>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void start()>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.views.GifView: void initialize()>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.WorkQueue: void <init>(int)>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.LogoScreen: void changeScreen()>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.android.mediaplayer.MainScreen$4: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.android.mediaplayer.MainScreen$4: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <com.android.mediaplayer.MainScreen$4: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>, Tgt: <com.android.mediaplayer.model.AvatarDownloadOperation: void execute()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void access$8(com.android.mediaplayer.MainScreen)>, Tgt: <com.android.mediaplayer.MainScreen: void serviceConnect()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void SynchronizeProcess()>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void SynchronizeProcess()>, Tgt: <com.android.mediaplayer.tools.Timer: void start()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>, Tgt: <com.android.mediaplayer.views.GifView: void initialize()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>, Tgt: <com.android.mediaplayer.model.WorkQueue: void <init>(int)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void serviceConnect()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void start()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.views.GifView: void initialize()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.LogoScreen: void changeScreen()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>, Tgt: <com.android.mediaplayer.LogoScreen: void changeScreen()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen$3: void run()>, Tgt: <com.android.mediaplayer.MainScreen: void access$8(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>, Tgt: <com.android.mediaplayer.MainScreen: void SynchronizeProcess()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.android.mediaplayer.MainScreen$3: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.android.mediaplayer.MainScreen$3: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <com.android.mediaplayer.MainScreen$3: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r4 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() at <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])> in com.android.mediaplayer.model.HttpConnector
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.SoftwareUpdateOperation: void execute()>, Tgt: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.AvatarDownloadOperation: boolean downloadImage(java.lang.String,java.lang.String)>, Tgt: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.AvatarDownloadOperation: com.android.mediaplayer.protocol.AvatarDownloadXml getXml(java.lang.String)>, Tgt: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.LyricDownloadOperation: void execute()>, Tgt: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.LyricDownloadOperation: void execute()>, Tgt: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.LyricDownloadOperation: void execute()>, Tgt: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.ServerChangeOperation: void execute()>, Tgt: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>, Tgt: <com.android.mediaplayer.model.SoftwareUpdateOperation: void execute()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen$4: void run()>, Tgt: <com.android.mediaplayer.model.SoftwareUpdateOperation: void execute()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.AvatarDownloadOperation: void execute()>, Tgt: <com.android.mediaplayer.model.AvatarDownloadOperation: boolean downloadImage(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.AvatarDownloadOperation: void execute()>, Tgt: <com.android.mediaplayer.model.AvatarDownloadOperation: boolean downloadImage(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.AvatarDownloadOperation: void execute()>, Tgt: <com.android.mediaplayer.model.AvatarDownloadOperation: com.android.mediaplayer.protocol.AvatarDownloadXml getXml(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>, Tgt: <com.android.mediaplayer.model.LyricDownloadOperation: void execute()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>, Tgt: <com.android.mediaplayer.model.ServerChangeOperation: void execute()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.LyricDownloadOperation: void execute()>, Tgt: <com.android.mediaplayer.model.ServerChangeOperation: void execute()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.AvatarDownloadOperation: void execute()>, Tgt: <com.android.mediaplayer.model.ServerChangeOperation: void execute()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen$4: void run()>, Tgt: <com.android.mediaplayer.model.ServerChangeOperation: void execute()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void serviceConnect()>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void start()>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.views.GifView: void initialize()>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.WorkQueue: void <init>(int)>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.LogoScreen: void changeScreen()>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>, Tgt: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.android.mediaplayer.MainScreen$4: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.android.mediaplayer.MainScreen$4: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <com.android.mediaplayer.MainScreen$4: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.model.WorkQueue$PoolWorker: void run()>, Tgt: <com.android.mediaplayer.model.AvatarDownloadOperation: void execute()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void access$8(com.android.mediaplayer.MainScreen)>, Tgt: <com.android.mediaplayer.MainScreen: void serviceConnect()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void SynchronizeProcess()>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.android.mediaplayer.tools.Timer: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void SynchronizeProcess()>, Tgt: <com.android.mediaplayer.tools.Timer: void start()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>, Tgt: <com.android.mediaplayer.views.GifView: void initialize()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>, Tgt: <com.android.mediaplayer.model.WorkQueue: void <init>(int)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void serviceConnect()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void start()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.views.GifView: void initialize()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.LogoScreen: void changeScreen()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>, Tgt: <com.android.mediaplayer.LogoScreen: void changeScreen()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen$3: void run()>, Tgt: <com.android.mediaplayer.MainScreen: void access$8(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>, Tgt: <com.android.mediaplayer.MainScreen: void SynchronizeProcess()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.android.mediaplayer.MainScreen$3: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.android.mediaplayer.MainScreen$3: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.mediaplayer.tools.Timer: void run()>, Tgt: <com.android.mediaplayer.MainScreen$3: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.HttpConnector: java.io.OutputStream getOutputStream()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.HttpConnector: int getResponseCode()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.HttpConnector: void setRequestMethod(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.HttpConnector: void setRequestProperty(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadXml: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadXml: void addItem(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadXml: java.lang.String getDesc()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadXml: java.lang.String getIdUser()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadXml: com.android.mediaplayer.protocol.XmlItem getItem(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadXml: java.lang.String getItemMD5()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadXml: int getItemsNum()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadXml: int getMode()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadXml: java.lang.String getUrl()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadXml: void init()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadXml: void setMode(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadXml: void setUrl(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.XmlItem: void <init>(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.FileOperator: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.FileOperator: boolean copyFile(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.FileOperator: void createFolder(java.lang.String,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.FileOperator: void deleteFile(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.FileOperator: java.io.FileInputStream getFileInputStream(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.FileOperator: java.io.OutputStream getFileOutputStream(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.FileOperator: long getSize(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.FileOperator: void moveFile(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.FileOperator: void rename(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.FileOperator: void rewriteData(java.lang.String,java.io.InputStream)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.FileOperator: void rewriteData(java.lang.String,byte[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.RMSOperator: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.Resource: void loadPublicImage(boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.Skin: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.Skin: com.android.mediaplayer.model.Skin getInstance()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.Tag: java.util.Hashtable getParms()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.Tag: void setName(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.Tag: void setParm(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.Tag: void setParms(java.util.Hashtable)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.Tag: void setState(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.Tag: java.lang.String toString()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.TypeConvert: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.TypeConvert: byte[] toBytes(long)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.TypeConvert: long toLong(byte[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.model.XMLOperator: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.单曲循环: java.lang.String getNextMusicWhenYouWant()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.单曲循环: java.lang.String getPrevMusicWhenMediaEnd()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.单曲循环: java.lang.String getPrevMusicWhenYouWant()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.单曲循环: boolean hasPrevMusic()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.单曲播放: java.lang.String getNextMusicWhenYouWant()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.单曲播放: java.lang.String getPrevMusicWhenMediaEnd()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.单曲播放: java.lang.String getPrevMusicWhenYouWant()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.单曲播放: boolean hasPrevMusic()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.循环播放: java.lang.String getNextMusicWhenYouWant()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.循环播放: java.lang.String getPrevMusicWhenMediaEnd()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.循环播放: java.lang.String getPrevMusicWhenYouWant()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.循环播放: boolean hasPrevMusic()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.随机播放: java.lang.String getNextMusicWhenYouWant()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.随机播放: java.lang.String getPrevMusicWhenMediaEnd()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.随机播放: java.lang.String getPrevMusicWhenYouWant()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.随机播放: boolean hasPrevMusic()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.顺序播放: java.lang.String getNextMusicWhenYouWant()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.顺序播放: java.lang.String getPrevMusicWhenMediaEnd()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.顺序播放: java.lang.String getPrevMusicWhenYouWant()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.playmode.顺序播放: boolean hasPrevMusic()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: java.lang.String getFileName()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: java.lang.String getId3Singer()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: java.lang.String getId3Song()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: java.lang.String getIdUser()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: java.lang.String getMd5()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: java.lang.String getModel()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: java.lang.String getNetver()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: java.lang.String getOemId()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: java.lang.String getOs()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: java.lang.String getScreenX()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: java.lang.String getScreenY()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: java.lang.String getUserId()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: java.lang.String getVer()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: void setFileName(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: void setId3Singer(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: void setId3Song(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: void setIdUser(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: void setMd5(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: void setModel(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: void setNetver(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: void setOemId(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: void setOs(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: void setScreenX(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: void setScreenY(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: void setUserId(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.AvatarDownloadRequest: void setVer(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: java.lang.String getFileName()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: java.lang.String getId3Singer()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: java.lang.String getId3Song()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: java.lang.String getIdUser()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: java.lang.String getMd5()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: java.lang.String getModel()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: java.lang.String getNetver()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: java.lang.String getOemId()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: java.lang.String getOs()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: java.lang.String getUserId()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: java.lang.String getVer()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: void setFileName(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: void setId3Singer(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: void setId3Song(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: void setIdUser(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: void setMd5(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: void setModel(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: void setNetver(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: void setOemId(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: void setOs(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: void setUserId(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadRequest: void setVer(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadXml: void <init>(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadXml: java.lang.String getDesc()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadXml: java.lang.String getIdUser()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadXml: int getMode()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadXml: java.lang.String getSinger()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadXml: java.lang.String getSong()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadXml: java.lang.String getUpdateUrl()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadXml: int getVal()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.LyricDownloadXml: void init()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.ServerChangeRequest: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.ServerChangeRequest: java.lang.String getIdUser()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.ServerChangeRequest: java.lang.String getMd5()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.ServerChangeRequest: java.lang.String getModel()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.ServerChangeRequest: java.lang.String getNetver()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.ServerChangeRequest: java.lang.String getOemId()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.ServerChangeRequest: java.lang.String getOs()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.ServerChangeRequest: java.lang.String getUserId()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.ServerChangeRequest: java.lang.String getVer()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.ServerChangeRequest: void setIdUser(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.ServerChangeRequest: void setMd5(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.ServerChangeRequest: void setModel(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.ServerChangeRequest: void setNetver(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.ServerChangeRequest: void setOemId(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.ServerChangeRequest: void setOs(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.ServerChangeRequest: void setUserId(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.ServerChangeRequest: void setVer(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.ServerChangeXml: void <init>(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.ServerChangeXml: void init()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.UpdateXML: void <init>(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.UpdateXML: java.lang.String getNotify()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.UpdateXML: void init()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.UpdateXML: void setNotify(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.protocol.UpdateXmlParser: void log(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController$1: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController$1: boolean accept(java.io.File)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController: boolean copy(java.io.File,java.io.File)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController: boolean copy(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController: boolean deleteFile(java.io.File)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController: java.lang.String getFatherPath(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController: void getList(java.io.File,java.io.FilenameFilter,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController: boolean isDirectory(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController: boolean isExists(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController: java.lang.String[] list(java.lang.String,java.io.FilenameFilter)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController: java.lang.String[] list(java.lang.String,java.io.FilenameFilter,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController: java.io.File[] listFiles(java.io.File,java.io.FilenameFilter)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController: java.io.File[] listFiles(java.io.File,java.io.FilenameFilter,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController: java.io.File[] listRoots()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController: void log(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController: java.lang.String[] parseToStringArray(java.io.File[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController: java.io.FileInputStream readFile(java.io.File)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController: java.io.FileInputStream readFile(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController: boolean saveFile(java.io.File,byte[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.FileController: boolean saveFile(java.lang.String,byte[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.ID3Editor: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.ID3Editor: void modifyAudioArtistInfo(android.content.Context,java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.ID3Editor: void modifyAudioTitleInfo(android.content.Context,java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.Library: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.Library: android.database.Cursor getAllSongs(android.content.Context)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.SystemProperty: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.SystemProperty: int GetBackgroundLightDelay(android.content.Context)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.SystemProperty: void NoStatusBar(android.app.Activity)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.SystemProperty: void SetBackgroundLightDelay(android.content.Context,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.SystemProperty: void cancelNotification(android.app.Activity,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.SystemProperty: void createNotification(android.app.Activity,int,int,java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.SystemProperty: java.lang.String getPhoneNumber(android.content.Context)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.SystemProperty: boolean isSDCardAvailable()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.URLEncoder: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.URLEncoder: java.lang.String encode(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.Utils: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.Utils: java.lang.String[] analyzeInfoFromFileName(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.Utils: java.lang.String getFatherPath(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.Utils: android.graphics.Bitmap loadImageFromRes(android.content.Context,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.Utils: java.lang.String rename(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.Utils: void setClip(android.graphics.Canvas,int,int,int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.tools.Utils: int stringWidth(java.lang.String,android.graphics.Paint)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.views.CostomHorizontalScrollView: void <init>(android.content.Context)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.views.CostomHorizontalScrollView: void <init>(android.content.Context,android.util.AttributeSet)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.views.CostomHorizontalScrollView: void <init>(android.content.Context,android.util.AttributeSet,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.views.CostomHorizontalScrollView: boolean executeKeyEvent(android.view.KeyEvent)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.views.CostomHorizontalScrollView: boolean onInterceptTouchEvent(android.view.MotionEvent)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.views.CostomHorizontalScrollView: boolean onTouchEvent(android.view.MotionEvent)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.views.CostomHorizontalScrollView: void setGestureDetector(android.view.GestureDetector)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.android.mediaplayer.views.GifView$1: void handleMessage(android.os.Message)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.sun.midp.rms.RecordStoreFile$1: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.sun.midp.rms.RecordStoreFile$1: boolean accept(java.io.File,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.sun.midp.rms.RecordStoreFile: void <init>(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.sun.midp.rms.RecordStoreFile: boolean deleteFile(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.sun.midp.rms.RecordStoreFile: boolean exists(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.sun.midp.rms.RecordStoreFile: java.lang.String getUniqueIdPath(java.lang.String,android.content.Context)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.sun.midp.rms.RecordStoreFile: java.lang.String[] listRecordStores(android.content.Context)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.sun.midp.rms.RecordStoreFile: int spaceAvailable(android.content.Context)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.sun.midp.rms.RecordStoreFile: void close()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.sun.midp.rms.RecordStoreFile: java.lang.String getUniqueIdPath()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.sun.midp.rms.RecordStoreFile: int read(byte[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.sun.midp.rms.RecordStoreFile: int read(byte[],int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.sun.midp.rms.RecordStoreFile: void seek(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.sun.midp.rms.RecordStoreFile: void truncate(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.sun.midp.rms.RecordStoreFile: void write(byte[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <com.sun.midp.rms.RecordStoreFile: void write(byte[],int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: void <init>(java.util.Collection)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: void <init>(org.json.JSONTokener)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: void <init>(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: int length()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: org.json.JSONArray put(boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: org.json.JSONArray put(double)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: org.json.JSONArray put(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: org.json.JSONArray put(long)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: org.json.JSONArray put(java.lang.Object)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: org.json.JSONArray put(int,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: org.json.JSONArray put(int,double)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: org.json.JSONArray put(int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: org.json.JSONArray put(int,long)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: org.json.JSONArray put(int,java.lang.Object)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: boolean isNull(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: java.lang.Object get(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: java.lang.Object opt(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: boolean getBoolean(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: boolean optBoolean(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: boolean optBoolean(int,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: double getDouble(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: double optDouble(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: double optDouble(int,double)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: int getInt(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: int optInt(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: int optInt(int,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: long getLong(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: long optLong(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: long optLong(int,long)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: java.lang.String getString(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: java.lang.String optString(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: java.lang.String optString(int,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: org.json.JSONArray getJSONArray(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: org.json.JSONArray optJSONArray(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: org.json.JSONObject getJSONObject(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: org.json.JSONObject optJSONObject(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: org.json.JSONObject toJSONObject(org.json.JSONArray)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: java.lang.String join(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: java.lang.String toString()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: java.lang.String toString(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: boolean equals(java.lang.Object)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONArray: int hashCode()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONException: void <init>(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONTokener: void <init>(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONTokener: java.lang.Object nextValue()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONTokener: java.lang.String nextString(char)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONTokener: org.json.JSONException syntaxError(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONTokener: java.lang.String toString()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONTokener: boolean more()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONTokener: char next()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONTokener: char next(char)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONTokener: char nextClean()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONTokener: java.lang.String next(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONTokener: java.lang.String nextTo(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONTokener: java.lang.String nextTo(char)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONTokener: void skipPast(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONTokener: char skipTo(char)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONTokener: void back()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONTokener: int dehexchar(char)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: void <init>(java.util.Map)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: void <init>(org.json.JSONTokener)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: void <init>(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: void <init>(org.json.JSONObject,java.lang.String[])> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: int length()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: org.json.JSONObject put(java.lang.String,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: org.json.JSONObject put(java.lang.String,double)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: org.json.JSONObject put(java.lang.String,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: org.json.JSONObject put(java.lang.String,long)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: org.json.JSONObject put(java.lang.String,java.lang.Object)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: org.json.JSONObject putOpt(java.lang.String,java.lang.Object)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: org.json.JSONObject accumulate(java.lang.String,java.lang.Object)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: java.lang.Object remove(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: boolean isNull(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: boolean has(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: java.lang.Object get(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: java.lang.Object opt(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: boolean getBoolean(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: boolean optBoolean(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: boolean optBoolean(java.lang.String,boolean)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: double getDouble(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: double optDouble(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: double optDouble(java.lang.String,double)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: int getInt(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: int optInt(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: int optInt(java.lang.String,int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: long getLong(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: long optLong(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: long optLong(java.lang.String,long)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: java.lang.String getString(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: java.lang.String optString(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: java.lang.String optString(java.lang.String,java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: org.json.JSONArray getJSONArray(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: org.json.JSONArray optJSONArray(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: org.json.JSONObject getJSONObject(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: org.json.JSONObject optJSONObject(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: org.json.JSONArray toJSONArray(org.json.JSONArray)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: java.util.Iterator keys()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: org.json.JSONArray names()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: java.lang.String toString()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: java.lang.String toString(int)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: java.lang.String numberToString(java.lang.Number)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: java.lang.String quote(java.lang.String)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <org.json.JSONObject: void <clinit>()> has no active body!
+RespAnalysis - [MSG]: ./sootOutput/71d2f241f2cb8f4208dd3574df3c3ce0dacdd1c0.apk_resp.csv
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>
+RespAnalysis - [MSG]: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.FileUtil: void getDataSource(java.lang.String)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>
+RespAnalysis - [MSG]: <com.android.MainService: void onCreate()>
+RespAnalysis - [MSG]: <com.android.mediaplayer.model.HttpConnector: int connect(java.lang.String,int,boolean,byte[])>
+RespAnalysis - [MSG]: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.Controller: void <init>(com.android.mediaplayer.MainScreen)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.FileUtil: void getDataSource(java.lang.String)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.FileUtil: void getDataSource(java.lang.String)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.MainScreen: boolean onLongClick(android.view.View)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.views.GifView: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.LogoScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.mediaplayer.MainScreen: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.android.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.android.MainService$SMSReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.android.BaseAuthenicationHttpClient: int getCodeByURL(java.lang.String,int)>
+RespAnalysis - [MSG]: <com.android.MainService: void onCreate()>
+RespAnalysis - [MSG]: <com.android.MainService: void onCreate()>
+RespAnalysis - [MSG]: <com.android.MainService: void onCreate()>
+test - [MSG]: Analysis has run for 74.074107633 seconds
+

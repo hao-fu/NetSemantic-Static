@@ -8,7 +8,6 @@
 	<classpathentry combineaccessrules="false" kind="src" path="/soot-infoflow-android"/>
 	<classpathentry kind="lib" path="/soot-infoflow-android/lib/AXMLPrinter2.jar" sourcepath="D:/Tools/AXMLPrinter2.source"/>
 	<classpathentry kind="lib" path="/soot-infoflow-android/lib/org.hamcrest.core_1.3.0.jar"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/gator"/>
 	<classpathentry combineaccessrules="false" kind="src" path="/TRUST-DVM"/>
 	<classpathentry kind="lib" path="libs/axml-2.0.jar"/>
 	<classpathentry kind="lib" path="libs/commons-io-2.4.jar"/>

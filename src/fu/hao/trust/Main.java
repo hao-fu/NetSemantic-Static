@@ -14,11 +14,12 @@ import org.xmlpull.v1.XmlPullParserException;
 
 
 
+
 import soot.SootMethod;
 
 import com.opencsv.CSVWriter;
 
-import fu.hao.trust.analysis.Results;
+import fu.hao.trust.data.Results;
 import fu.hao.trust.staticAnalysis.SuspAnalysis;
 import fu.hao.trust.utils.Log;
 import fu.hao.trust.utils.Settings;

@@ -36,15 +36,17 @@ import soot.jimple.toolkits.ide.icfg.JimpleBasedInterproceduralCFG;
  * @date: Feb 25, 2016 10:38:04 AM
  */
 public class RespAnalysis {
-	private final String TAG = getClass().toString();
+	private final String TAG = getClass().getSimpleName();
 
 	private static CallGraph cg;
 	private static JimpleBasedInterproceduralCFG icfg;
-
-	private static Map<Stmt, Set<SootMethod>> sensUnits;
+	// <Sensitive invocation, entries>
+	private static Map<Stmt, LinkedList<SootMethod>> sensUnits;
 	private static List<String> PscoutMethod;
 
 	Map<Stmt, Set<SootMethod>> cgPaths;
+	// The methods might init Intent intent that startActivity/Service
+	Map<Stmt, LinkedList<SootMethod>> startActPaths = new HashMap<>();
 
 	// The nested class to implement singleton
 	private static class SingletonHolder {
@@ -56,11 +58,11 @@ public class RespAnalysis {
 		return SingletonHolder.instance;
 	}
 
-	public Map<Stmt, Set<SootMethod>> runAnalysis() throws IOException {
+	public Map<Stmt, LinkedList<SootMethod>> runAnalysis() throws IOException {
 		cgPaths = new HashMap<>();
 
 		try {
-			PscoutMethod = FileUtils.readLines(new File("./inbound.txt"));
+			PscoutMethod = FileUtils.readLines(new File("./inbound_extended.txt"));//("./inbound.txt"));
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
@@ -77,22 +79,23 @@ public class RespAnalysis {
 			}
 
 			for (SootMethod method : sootClass.getMethods()) {
-				try {
+				if (method.hasActiveBody()) {
 					for (Unit unit : icfg.getCallsFromWithin(method)) {
 						Stmt stmt = (Stmt) unit;
 						if (stmt.containsInvokeExpr()) {
 							SootMethod potential = stmt.getInvokeExpr()
 									.getMethod();
-							Log.debug(TAG, "s: " + unit + " at " + method
+							Log.bb(TAG, "Parse: " + unit + " at " + method
 									+ " in " + sootClass);
 							if (PscoutMethod.contains(potential.toString())
 									|| potential.toString().contains(
 											"org.apache.http")
 									&& potential.toString().contains("exec")) {
-								Set<SootMethod> set = new HashSet<>();
+								LinkedList<SootMethod> set = new LinkedList<>();
 								set.add(method);
-								sensUnits.put((Stmt)unit, set);
-								Log.warn(TAG, "sens: " + unit + " at " + method
+								sensUnits.put((Stmt) unit, set);
+								Log.warn(TAG, "\n");
+								Log.warn(TAG, "Sens: " + unit + " at " + method
 										+ " in " + sootClass);
 								bfsCG((Stmt) unit, method);
 							}
@@ -100,22 +103,31 @@ public class RespAnalysis {
 
 						if (stmt.toString().contains("SMS_RECEIVED")
 								|| stmt.toString().contains("content://sms")) {
-							Set<SootMethod> set = new HashSet<>();
+							LinkedList<SootMethod> set = new LinkedList<>();
 							set.add(method);
-							sensUnits.put((Stmt)unit, set);
-							Log.warn(TAG, "sens: " + unit + " at " + method
+							sensUnits.put((Stmt) unit, set);
+							Log.warn(TAG, "\n");
+							Log.warn(TAG, "Sens: " + unit + " at " + method
 									+ " in " + sootClass);
 							bfsCG((Stmt) unit, method);
 						}
+
+						if (stmt.toString().contains("startActivity")
+								|| stmt.toString().contains("startService")) {
+							dfsCG((Stmt) unit, startActPaths);
+						}
 					}
-				} catch (Exception e) {
-					Log.debug(TAG, e.getMessage());
+				} else {
+					Log.warn(TAG, "\n");
+					Log.warn(TAG, method + " has no active body!");
 				}
+
 			}
 
 		}
 
 		writeCSV(sensUnits);
+		writeStartAct(startActPaths);
 		return sensUnits;
 	}
 
@@ -130,32 +142,65 @@ public class RespAnalysis {
 			int len = queue.size();
 			for (int i = 0; i < len; i++) {
 				SootMethod node = queue.poll();
+				SootMethod entry = null;
 				if (visited.contains(node)) {
 					continue;
 				}
 				visited.add(node);
 				Iterator<Edge> iterator = cg.edgesInto(node);
-				while (iterator.hasNext()) {			
-					Edge in = iterator.next();
-					Log.debug(TAG, "" + in.getSrc().method());
-					String prev = in.getSrc().method().getDeclaringClass().toString();
-					if (prev.startsWith("dummy")) {
-						//break;
-						Set<SootMethod> mList = sensUnits.get(stmt);
-						mList.add(in.getTgt().method());
-						System.out
-								.println(target + ": " + in.getTgt().method());
+				if (!iterator.hasNext()
+						&& !node.getDeclaringClass().toString()
+								.startsWith("dummyMain")) {
+					LinkedList<SootMethod> mList = sensUnits.get(stmt);
+					mList.add(node);
+					entry = node;
+					Log.msg(TAG, target + ": " + node);
+				}
 
+				while (iterator.hasNext()) {
+					Edge in = iterator.next();
+					Log.debug(TAG, "Src: " + in.getSrc().method() + ", Tgt: "
+							+ node);
+					String prevClass = in.getSrc().method().getDeclaringClass()
+							.toString();
+					if (prevClass.startsWith("dummyMain")) {
+						// break;
+						LinkedList<SootMethod> mList = sensUnits.get(stmt);
+						entry = in.getTgt().method();
+						if (!mList.contains(entry)) {
+							mList.add(in.getTgt().method());
+						}
+						
+						Log.msg(TAG, target + ": " + in.getTgt().method());
 					}
+
 					queue.add(in.getSrc().method());
+				}
+
+				if (entry != null) {
+					SootClass entryClass = entry.getDeclaringClass();
+					for (SootClass subclass : Scene.v().getActiveHierarchy()
+							.getSubclassesOf(entryClass)) {
+						try {
+							subclass.getMethodByName(entry.getName());
+						} catch (java.lang.RuntimeException e) {
+							SootMethod newm = new SootMethod(entry.getName(),
+									entry.getParameterTypes(),
+									entry.getReturnType());
+							newm.setDeclaringClass(subclass);
+							subclass.addMethod(newm);
+							LinkedList<SootMethod> mList = sensUnits.get(stmt);
+							mList.add(newm);
+						}
+					}
 				}
 			}
 		}
 	}
 
-	public void dfsCG(Stmt stmt) {
+	public void dfsCG(Stmt stmt, Map<Stmt, LinkedList<SootMethod>> cgPaths) {
 		SootMethod target = stmt.getInvokeExpr().getMethod();
-		Set<SootMethod> prevs = new HashSet<>();
+		LinkedList<SootMethod> prevs = new LinkedList<>();
 		cgPaths.put(stmt, prevs);
 
 		SootMethod node = target;
@@ -163,13 +208,17 @@ public class RespAnalysis {
 		while (cg.edgesInto(node).hasNext()) {
 			Edge edge = cg.edgesInto(node).next();
 			node = edge.getSrc().method();
-			prevs.add(node);
+			if (!node.getSignature().contains(
+					"dummyMainClass: void dummyMainMethod")) {
+				prevs.add(node);
+			}
 		}
 
 	}
 
-	public void writeCSV(Map<Stmt, Set<SootMethod>> cgPaths) throws IOException {
-		String csv = "./sootOutput/" + Settings.apkName + "_resp.csv";
+	public void writeCSV(Map<Stmt, LinkedList<SootMethod>> cgPaths)
+			throws IOException {
+		String csv = "./sootOutput/" + Settings.apkName + ".csv";
 		File csvFile = new File(csv);
 		Log.msg(TAG, csv);
 		if (!csvFile.exists()) {
@@ -196,8 +245,39 @@ public class RespAnalysis {
 		writer.close();
 	}
 
+	public void writeStartAct(Map<Stmt, LinkedList<SootMethod>> cgPaths)
+			throws IOException {
+		String csv = "./sootOutput/" + Settings.apkName + "_StartAct.csv";
+		File csvFile = new File(csv);
+		Log.msg(TAG, csv);
+		if (!csvFile.exists()) {
+			csvFile.createNewFile();
+		} else {
+			csvFile.delete();
+			csvFile.createNewFile();
+		}
+		CSVWriter writer = new CSVWriter(new FileWriter(csv, true));
+		List<String[]> results = new ArrayList<>();
+		for (Stmt stmt : cgPaths.keySet()) {
+			List<String> result = new ArrayList<>();
+			result.add(stmt.toString());
+			for (SootMethod method : cgPaths.get(stmt)) {
+				Log.msg(TAG, method.getDeclaringClass().getName() + ": "
+						+ method.getName());
+				result.add(method.getDeclaringClass().getName() + ": "
+						+ method.getName());
+			}
+			String[] resultArray = (String[]) result.toArray(new String[result
+					.size()]);
+			results.add(resultArray);
+		}
+
+		writer.writeAll(results);
+		writer.close();
+	}
+
 	public void wriCSV(Map<Unit, SootMethod> sensUnits) throws IOException {
-		String csv = "./sootOutput/" + Settings.apkName + "_resp.csv";
+		String csv = "./sootOutput/" + Settings.apkName + ".csv";
 		File csvFile = new File(csv);
 		Log.msg(TAG, csv);
 		if (!csvFile.exists()) {
