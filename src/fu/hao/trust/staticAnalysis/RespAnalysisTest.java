@@ -25,6 +25,18 @@ public class RespAnalysisTest {
 		RespAnalysisTest test = new RespAnalysisTest();
 		args = new String[2];
 		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Lifecycle_ServiceLifecycle1/app";
+		try {
+			test.testRunAnalysis(args);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void testDroidBenchProjBroadcastReceiverLifecycle1() {
+		RespAnalysisTest test = new RespAnalysisTest();
+		args = new String[2];
+		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
 		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Lifecycle_BroadcastReceiverLifecycle1/app";
 		try {
 			test.testRunAnalysis(args);
