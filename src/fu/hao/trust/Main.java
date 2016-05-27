@@ -12,9 +12,6 @@ import java.util.Set;
 
 import org.xmlpull.v1.XmlPullParserException;
 
-
-
-
 import soot.SootMethod;
 
 import com.opencsv.CSVWriter;
@@ -26,7 +23,7 @@ import fu.hao.trust.utils.Settings;
 
 public class Main {
 	private final static String TAG = Main.class.getName();
-	
+
 	public static void main(String[] args) {
 		try {
 			Main main = new Main();
@@ -37,7 +34,7 @@ public class Main {
 			e.printStackTrace();
 		}
 	}
-	
+
 	/**
 	 * @throws XmlPullParserException
 	 * @Title: myTestMain
@@ -89,8 +86,8 @@ public class Main {
 			Settings.apkName = fileName;
 			Settings.apkPath = args[0] + File.separator + fileName;
 			Settings.platformDir = args[1];
-		
-			//App.v();
+
+			// App.v();
 			SuspAnalysis sa = SuspAnalysis.v();
 			Set<SootMethod> suspicous = sa.runAnalysis();
 			writeCSV(suspicous);
@@ -99,7 +96,6 @@ public class Main {
 
 		}
 	}
-
 
 	/**
 	 * @Title: writeCSV
@@ -135,5 +131,3 @@ public class Main {
 	}
 
 }
-
-

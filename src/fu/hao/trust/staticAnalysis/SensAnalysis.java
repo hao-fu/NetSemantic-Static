@@ -180,8 +180,8 @@ public class SensAnalysis {
 				result.add(method.getSignature());
 				result.add(method.getDeclaringClass().toString());
 			}
-			String[] resultArray = (String[]) result
-					.toArray(new String[result.size()]);
+			String[] resultArray = (String[]) result.toArray(new String[result
+					.size()]);
 			results.add(resultArray);
 		}
 

@@ -10,5 +10,5 @@ public class DummyClass {
 	public static void addTag(int tag) {
 		return;
 	}
-	
+
 }

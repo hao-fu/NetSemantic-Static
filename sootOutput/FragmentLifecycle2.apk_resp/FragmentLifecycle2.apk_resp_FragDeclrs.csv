@@ -1,0 +1,4 @@
+"edu.mit.fragments.ArticleFragment","edu.mit.fragments.MainActivity: onArticleSelected"
+"android.app.ListFragment","edu.mit.fragments.HeadlinesFragment: <init>"
+"android.app.Fragment","edu.mit.fragments.ArticleFragment: <init>"
+"edu.mit.fragments.HeadlinesFragment","edu.mit.fragments.MainActivity: onCreate"

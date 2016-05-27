@@ -25,7 +25,7 @@ public class Context {
 	 */
 	SootMethod entrypoint;
 	List<Ref> factorRef;
-	
+
 	List<Stmt> otherFactor;
 
 	public SootMethod getEntrypoint() {
@@ -84,18 +84,18 @@ public class Context {
 			factorRef = new ArrayList<>();
 		return factorRef.contains(r);
 	}
-	
+
 	public void addOtherFactor(Stmt r) {
 		if (otherFactor == null) {
 			otherFactor = new ArrayList<>();
 		}
 		otherFactor.add(r);
 	}
-	
+
 	public List<Stmt> getOtherFactor() {
 		return otherFactor;
 	}
-	
+
 	public boolean hasOtherFactor(Stmt factorValue) {
 		if (otherFactor == null)
 			otherFactor = new ArrayList<>();

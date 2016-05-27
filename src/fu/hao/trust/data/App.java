@@ -39,8 +39,7 @@ public class App extends FlowDroidMain {
 	private CallGraph cg;
 	private JimpleBasedInterproceduralCFG icfg;
 	private SetupApplication app;
-	private final Logger logger = LoggerFactory
-			.getLogger(getClass());
+	private final Logger logger = LoggerFactory.getLogger(getClass());
 
 	// The nested class to implement singleton
 	private static class SingletonHolder {
@@ -56,15 +55,15 @@ public class App extends FlowDroidMain {
 	public App() {
 		loadApp();
 	}
-	
+
 	public SetupApplication getApp() {
 		return app;
 	}
-	
+
 	public void loadApp() {
 		System.gc();
 		soot.G.reset();
-		
+
 		app = new SetupApplication(Settings.platformDir, Settings.apkPath);
 		try {
 			// Set configuration object
@@ -72,9 +71,9 @@ public class App extends FlowDroidMain {
 			// config.setLayoutMatchingMode(LayoutMatchingMode.MatchAll);
 			config.setLayoutMatchingMode(LayoutMatchingMode.NoMatch);
 			// ctx sensitive
-			//config.setPathBuilder(PathBuilder.ContextSensitive);
+			// config.setPathBuilder(PathBuilder.ContextSensitive);
 			// --safemode
-			//InfoflowAndroidConfiguration.setUseThisChainReduction(false);
+			// InfoflowAndroidConfiguration.setUseThisChainReduction(false);
 			InfoflowAndroidConfiguration
 					.setAccessPathLength(Integer.valueOf(3));
 			config.setCallgraphAlgorithm(CallgraphAlgorithm.CHA);
@@ -109,9 +108,9 @@ public class App extends FlowDroidMain {
 				app.printSinks();
 				app.printSources();
 			}
-			
+
 			app.loadClassesAndCG();
-			//app.runInfoflow();
+			// app.runInfoflow();
 			setCG(Scene.v().getCallGraph());
 			logger.info("cgs" + cg.size());
 			setICFG(new JimpleBasedInterproceduralCFG());

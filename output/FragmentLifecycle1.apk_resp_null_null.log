@@ -1,0 +1,41 @@
+test - [MSG]: Begin to analyze: FragmentLifecycle1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <de.ecspride.BuildConfig: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <de.ecspride.ExampleFragment: void onActivityCreated(android.os.Bundle)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <de.ecspride.ExampleFragment: void onAttach(android.app.Activity)> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <de.ecspride.R$attr: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <de.ecspride.R: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <de.ecspride.R$dimen: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <de.ecspride.R$drawable: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <de.ecspride.R$id: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <de.ecspride.R$layout: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <de.ecspride.R$menu: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <de.ecspride.R$string: void <init>()> has no active body!
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: <de.ecspride.R$style: void <init>()> has no active body!
+RespAnalysis - [MSG]: ./sootOutput/FragmentLifecycle1.apk_resp.csv
+RespAnalysis - [MSG]: ./sootOutput/FragmentLifecycle1.apk_resp_StartActServ.csv
+test - [MSG]: Analysis has run for 32.94618285 seconds
+

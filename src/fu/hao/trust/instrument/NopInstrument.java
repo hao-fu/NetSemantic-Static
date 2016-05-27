@@ -45,34 +45,36 @@ import soot.options.Options;
  */
 public class NopInstrument {
 	static int tag = 99999;
-	
+
 	public static void insert(PatchingChain<Unit> units, Unit u, Value v,
 			boolean before) {
-	
-			// 载入要分析的类到Soot
-			SootClass klass = Scene.v().getSootClass("fu.hao.trust.instrument.DummyClass");
-			// 通过函数名寻找函数
-			// 这些函数用于后面的嵌入
-			SootMethod call = klass
-					.getMethod("void addTag(int)");
-			Value v1 = IntConstant.v(tag);
-			Jimple insertStmt = Jimple.v();
-			
-			if (before) {
-				// 如果局部变量是boolean类型
-				
-					// 其余类型全部以Object形式传入
-					System.out.println("tag: " + tag);
-					units.insertBefore(insertStmt.newInvokeStmt(Jimple.v()
-							.newStaticInvokeExpr(call.makeRef(), v1)), u);
-				
-			} else {
-				// 如果局部变量是boolean类型
-				// 其余类型全部以Object形式传入
-				System.out.println("tag: " + tag);
-				units.insertAfter(insertStmt.newInvokeStmt(Jimple.v()
-						.newStaticInvokeExpr(call.makeRef(), v1)), u);
-			}
+
+		// 载入要分析的类到Soot
+		SootClass klass = Scene.v().getSootClass(
+				"fu.hao.trust.instrument.DummyClass");
+		// 通过函数名寻找函数
+		// 这些函数用于后面的嵌入
+		SootMethod call = klass.getMethod("void addTag(int)");
+		Value v1 = IntConstant.v(tag);
+		Jimple insertStmt = Jimple.v();
+
+		if (before) {
+			// 如果局部变量是boolean类型
+
+			// 其余类型全部以Object形式传入
+			System.out.println("tag: " + tag);
+			units.insertBefore(
+					insertStmt.newInvokeStmt(Jimple.v().newStaticInvokeExpr(
+							call.makeRef(), v1)), u);
+
+		} else {
+			// 如果局部变量是boolean类型
+			// 其余类型全部以Object形式传入
+			System.out.println("tag: " + tag);
+			units.insertAfter(
+					insertStmt.newInvokeStmt(Jimple.v().newStaticInvokeExpr(
+							call.makeRef(), v1)), u);
+		}
 	}
 
 	public static void main(String[] args) {
@@ -105,7 +107,7 @@ public class NopInstrument {
 						final PatchingChain<Unit> units = b.getUnits();
 						// 循环对每条语句
 						for (Iterator<Unit> iter = units.snapshotIterator(); iter
-								.hasNext();) {							
+								.hasNext();) {
 							// 多态: 用基类Unit
 							final Unit u = (Unit) iter.next();
 							System.out.println(u);
@@ -125,9 +127,9 @@ public class NopInstrument {
 									// 此if语句使用的操作数和expr
 									// List<ValueBox> values = condition
 									// .getUseBoxes();
-									
-										insert(units, u, null, true);
-										tag++;
+
+									insert(units, u, null, true);
+									tag++;
 
 									// 貌似是用于检验是否为合法的函数体，但没完成的样子
 									b.validate();
@@ -156,8 +158,8 @@ public class NopInstrument {
 				}));
 
 		// 设置运行所需jar(lib等)
-		String class_path = "." + File.pathSeparator + "bin" + File.pathSeparator
-				+ androidJar + File.pathSeparator
+		String class_path = "." + File.pathSeparator + "bin"
+				+ File.pathSeparator + androidJar + File.pathSeparator
 				+ System.getProperty("java.class.path") + File.pathSeparator
 				+ System.getProperty("java.home") + File.separator + "lib";
 
@@ -167,9 +169,10 @@ public class NopInstrument {
 		Options.v().set_soot_classpath(dummyclasspath);
 		Scene.v().loadNecessaryClasses();
 
-		//Scene.v().forceResolve("org.bouncycastle.asn1.DERObjectIdentifier", 3);
+		// Scene.v().forceResolve("org.bouncycastle.asn1.DERObjectIdentifier",
+		// 3);
 		// 执行Soot, 在这里即完成嵌入操作
-		//PackManager.v().runPacks();
+		// PackManager.v().runPacks();
 		PackManager.v().writeOutput();
 	}
 

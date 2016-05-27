@@ -48,6 +48,8 @@ public class RespAnalysis {
 	// The methods might init Intent intent that startActivity/Service
 	Map<Stmt, LinkedList<SootMethod>> startActPaths = new HashMap<>();
 
+	Map<SootMethod, SootClass> fragDeclrs;
+
 	// The nested class to implement singleton
 	private static class SingletonHolder {
 		private static final RespAnalysis instance = new RespAnalysis();
@@ -62,7 +64,8 @@ public class RespAnalysis {
 		cgPaths = new HashMap<>();
 
 		try {
-			PscoutMethod = FileUtils.readLines(new File("./inbound_extended.txt"));//("./inbound.txt"));
+			PscoutMethod = FileUtils.readLines(new File(
+					"./inbound_extended.txt"));// ("./inbound.txt"));
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
@@ -70,16 +73,21 @@ public class RespAnalysis {
 		cg = app.getCG();
 		icfg = app.getICFG();
 		sensUnits = new HashMap<>();
+		fragDeclrs = new HashMap<>();
 
 		for (SootClass sootClass : Scene.v().getClasses()) {
 			if (sootClass.toString().startsWith("android")
 					|| sootClass.toString().startsWith("java")
-					|| sootClass.toString().startsWith("org.apache.http")) {
+					|| sootClass.toString().startsWith("org.apache.http")
+					|| sootClass.toString().startsWith("org.xml")) {
 				continue;
 			}
 
 			for (SootMethod method : sootClass.getMethods()) {
-				if (method.hasActiveBody()) {
+				try {
+					if (!method.hasActiveBody()) {
+						method.retrieveActiveBody();
+					}
 					for (Unit unit : icfg.getCallsFromWithin(method)) {
 						Stmt stmt = (Stmt) unit;
 						if (stmt.containsInvokeExpr()) {
@@ -110,16 +118,32 @@ public class RespAnalysis {
 							Log.warn(TAG, "Sens: " + unit + " at " + method
 									+ " in " + sootClass);
 							bfsCG((Stmt) unit, method);
-						}
-
-						if (stmt.toString().contains("startActivity")
+						} else if (stmt.toString().contains("startActivity")
 								|| stmt.toString().contains("startService")) {
 							dfsCG((Stmt) unit, startActPaths);
+						} else if (stmt.containsInvokeExpr()) {
+							SootMethod met = stmt.getInvokeExpr().getMethod();
+							if (met.isConstructor()) {
+								SootClass clazz = met.getDeclaringClass();
+								SootClass oclazz = clazz;
+								boolean found = false;
+								while (clazz != null
+										&& !clazz.getName().startsWith("java")) {
+									if (clazz.getName().contains("Fragment")) {
+										found = true;
+										break;
+									}
+									clazz = clazz.getSuperclass();
+								}
+								if (found) {
+									fragDeclrs.put(method, oclazz);
+								}
+							}
+
 						}
 					}
-				} else {
-					Log.warn(TAG, "\n");
-					Log.warn(TAG, method + " has no active body!");
+				} catch (Exception e) {
+					Log.warn(TAG, e.getMessage());
 				}
 
 			}
@@ -127,7 +151,8 @@ public class RespAnalysis {
 		}
 
 		writeCSV(sensUnits);
-		writeStartAct(startActPaths);
+		writeStartActServ(startActPaths);
+		writeFragDeclrs(fragDeclrs);
 		return sensUnits;
 	}
 
@@ -170,7 +195,7 @@ public class RespAnalysis {
 						if (!mList.contains(entry)) {
 							mList.add(in.getTgt().method());
 						}
-						
+
 						Log.msg(TAG, target + ": " + in.getTgt().method());
 					}
 
@@ -204,7 +229,7 @@ public class RespAnalysis {
 		cgPaths.put(stmt, prevs);
 
 		SootMethod node = target;
-		// TODO now only consider one path
+		// TODO Now only consider one path
 		while (cg.edgesInto(node).hasNext()) {
 			Edge edge = cg.edgesInto(node).next();
 			node = edge.getSrc().method();
@@ -218,7 +243,18 @@ public class RespAnalysis {
 
 	public void writeCSV(Map<Stmt, LinkedList<SootMethod>> cgPaths)
 			throws IOException {
-		String csv = "./sootOutput/" + Settings.apkName + ".csv";
+		String outdir = "./sootOutput/" + Settings.apkName;
+		File dir = new File(outdir);
+		if (!dir.exists()) {
+			if (dir.mkdir()) {
+				System.out.println("Directory is created!");
+			} else {
+				System.out.println("Failed to create directory!");
+			}
+		}
+
+		String csv = "./sootOutput/" + Settings.apkName + File.separator
+				+ Settings.apkName + ".csv";
 		File csvFile = new File(csv);
 		Log.msg(TAG, csv);
 		if (!csvFile.exists()) {
@@ -245,9 +281,10 @@ public class RespAnalysis {
 		writer.close();
 	}
 
-	public void writeStartAct(Map<Stmt, LinkedList<SootMethod>> cgPaths)
+	public void writeStartActServ(Map<Stmt, LinkedList<SootMethod>> cgPaths)
 			throws IOException {
-		String csv = "./sootOutput/" + Settings.apkName + "_StartAct.csv";
+		String csv = "./sootOutput/" + Settings.apkName + File.separator
+				+ Settings.apkName + "_StartActServ.csv";
 		File csvFile = new File(csv);
 		Log.msg(TAG, csv);
 		if (!csvFile.exists()) {
@@ -276,8 +313,51 @@ public class RespAnalysis {
 		writer.close();
 	}
 
+	private void writeFragDeclrs(Map<SootMethod, SootClass> fragDeclrs)
+			throws IOException {
+		String csv = "./sootOutput/" + Settings.apkName + File.separator
+				+ Settings.apkName + "_FragDeclrs.csv";
+		File csvFile = new File(csv);
+		Log.msg(TAG, csv);
+		if (!csvFile.exists()) {
+			csvFile.createNewFile();
+		} else {
+			csvFile.delete();
+			csvFile.createNewFile();
+		}
+		CSVWriter writer = new CSVWriter(new FileWriter(csv, true));
+		List<String[]> results = new ArrayList<>();
+		for (SootMethod method : fragDeclrs.keySet()) {
+			List<String> result = new ArrayList<>();
+
+			SootClass clazz = fragDeclrs.get(method);
+			Log.msg(TAG, "Fragment: " + clazz + ", " + method);
+			result.add(clazz.getName());
+			result.add(method.getDeclaringClass() + ": " + method.getName());
+			String[] resultArray = (String[]) result.toArray(new String[result
+					.size()]);
+			results.add(resultArray);
+		}
+
+		writer.writeAll(results);
+		writer.close();
+
+	}
+
 	public void wriCSV(Map<Unit, SootMethod> sensUnits) throws IOException {
-		String csv = "./sootOutput/" + Settings.apkName + ".csv";
+		String outdir = "./sootOutput/" + Settings.apkName;
+		File dir = new File(outdir);
+		if (!dir.exists()) {
+			if (dir.mkdir()) {
+				System.out.println("Directory is created!");
+			} else {
+				System.out.println("Failed to create directory!");
+			}
+		}
+
+		String csv = "./sootOutput/" + Settings.apkName + File.separator
+				+ Settings.apkName + ".csv";
+
 		File csvFile = new File(csv);
 		Log.msg(TAG, csv);
 		if (!csvFile.exists()) {

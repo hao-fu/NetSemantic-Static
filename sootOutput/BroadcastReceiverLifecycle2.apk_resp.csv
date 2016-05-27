@@ -1,0 +1,1 @@
+"virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>(""+49 1234"", null, $r4, null, null)","<de.ecspride.MainActivity$MyReceiver: void onReceive(android.content.Context,android.content.Intent)>"

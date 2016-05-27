@@ -41,7 +41,7 @@ public class SensSrc {
 	 * @Description: where the src locates
 	 */
 	SootMethod loc;
-	Map<ResultSinkInfo, SootMethod> sinks = new HashMap<ResultSinkInfo, SootMethod> ();
+	Map<ResultSinkInfo, SootMethod> sinks = new HashMap<ResultSinkInfo, SootMethod>();
 	Set<Unit> uiCalls;
 	Map<ResultSinkInfo, Stmt[]> paths = new HashMap<>();
 	Set<CondDepSub> conds = new HashSet<>();
@@ -100,8 +100,6 @@ public class SensSrc {
 		this.loc = loc;
 	}
 
-
-
 	public SensSrc(Stmt srcStmt, SootMethod loc) {
 		src = new ResultSourceInfo(null, srcStmt);
 		this.loc = loc;
@@ -115,7 +113,8 @@ public class SensSrc {
 		sinks.put(sink, sinkLoc);
 	}
 
-	public void addSinks(InfoflowResults results, JimpleBasedInterproceduralCFG icfg) {
+	public void addSinks(InfoflowResults results,
+			JimpleBasedInterproceduralCFG icfg) {
 		for (ResultSinkInfo sink : results.getResults().keySet()) {
 			for (ResultSourceInfo source : results.getResults().get(sink)) {
 				if (src.equals(source)) {
@@ -139,24 +138,23 @@ public class SensSrc {
 
 	public String printPaths() {
 		StringBuilder sb = new StringBuilder();
-		
-			sb.append("[");
 
-			for (Stmt[] path : paths.values()) {
-				try {
+		sb.append("[");
+
+		for (Stmt[] path : paths.values()) {
+			try {
 				for (int i = 0; i < path.length - 1; i++) {
 					sb.append(path[i]);
 					sb.append(" -> ");
 				}
 				sb.append(path[path.length - 1]);
 				sb.append("; ");
-				} catch (Exception e) {
-					logger.error(e.getMessage());
-				}
+			} catch (Exception e) {
+				logger.error(e.getMessage());
 			}
-			
-			sb.append("]");
-		
+		}
+
+		sb.append("]");
 
 		return sb.toString();
 	}

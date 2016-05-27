@@ -117,8 +117,8 @@ public class EntryFinder {
 									|| potential.toString().contains(
 											"org.apache.http")) {
 								// sensitives.put(unit, getPrevNodes(unit));
-								Log.warn(TAG, "Target found " + unit
-										+ " from " + topMethod);
+								Log.warn(TAG, "Target found " + unit + " from "
+										+ topMethod);
 								entries.add(topMethod);
 								queue.clear();
 							}
