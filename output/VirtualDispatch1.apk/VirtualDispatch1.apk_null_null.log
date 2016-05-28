@@ -1,0 +1,22 @@
+test - [MSG]: Begin to analyze: VirtualDispatch1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: virtualinvoke $r2.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r1, null, null) at <de.ecspride.DataLeak: void logData()> in de.ecspride.DataLeak
+RespAnalysis - [DEBUG]: Src: <de.ecspride.VirtualDispatch1: void clickButton(android.view.View)>, Tgt: <de.ecspride.DataLeak: void logData()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.VirtualDispatch1: void clickButton(android.view.View)>
+RespAnalysis - [MSG]: <de.ecspride.DataLeak: void logData()>: <de.ecspride.VirtualDispatch1: void clickButton(android.view.View)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: virtualinvoke $r1.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r2, null, null) at <de.ecspride.NoDataLeak: void logData()> in de.ecspride.NoDataLeak
+RespAnalysis - [DEBUG]: Src: <de.ecspride.VirtualDispatch1: void clickButton(android.view.View)>, Tgt: <de.ecspride.NoDataLeak: void logData()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.VirtualDispatch1: void clickButton(android.view.View)>
+RespAnalysis - [MSG]: <de.ecspride.NoDataLeak: void logData()>: <de.ecspride.VirtualDispatch1: void clickButton(android.view.View)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch1.apk\VirtualDispatch1.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.DataLeak: void logData()>
+RespAnalysis - [MSG]: <de.ecspride.VirtualDispatch1: void clickButton(android.view.View)>
+RespAnalysis - [MSG]: <de.ecspride.NoDataLeak: void logData()>
+RespAnalysis - [MSG]: <de.ecspride.VirtualDispatch1: void clickButton(android.view.View)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch1.apk\VirtualDispatch1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch1.apk\VirtualDispatch1.apk_FragDeclrs.csv
+test - [MSG]: Analysis has run for 20.794510237 seconds
+

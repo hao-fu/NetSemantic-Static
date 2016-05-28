@@ -41,8 +41,10 @@ public class RespAnalysis {
 	private static CallGraph cg;
 	private static JimpleBasedInterproceduralCFG icfg;
 	// <Sensitive invocation, entries>
-	private static Map<Stmt, LinkedList<SootMethod>> sensUnits;
+	private static Map<Stmt, LinkedList<SootMethod>> sinkUnits;
+	private static Map<Stmt, LinkedList<SootMethod>> srcUnits;
 	private static List<String> PscoutMethod;
+	private static List<String> srcMethods;
 
 	Map<Stmt, Set<SootMethod>> cgPaths;
 	// The methods might init Intent intent that startActivity/Service
@@ -66,13 +68,15 @@ public class RespAnalysis {
 		try {
 			PscoutMethod = FileUtils.readLines(new File(
 					"./inbound_extended.txt"));// ("./inbound.txt"));
+			srcMethods = FileUtils.readLines(new File("./sensitive_srcs.txt"));
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
 		App app = App.v();
 		cg = app.getCG();
 		icfg = app.getICFG();
-		sensUnits = new HashMap<>();
+		sinkUnits = new HashMap<>();
+		srcUnits = new HashMap<>();
 		fragDeclrs = new HashMap<>();
 
 		for (SootClass sootClass : Scene.v().getClasses()) {
@@ -87,6 +91,17 @@ public class RespAnalysis {
 				try {
 					if (!method.hasActiveBody()) {
 						method.retrieveActiveBody();
+						/*
+						Iterator<Edge> iterator = cg.edgesInto(method);
+						while (iterator.hasNext()) {
+							System.err.println(method + ": "
+									+ iterator.next().getSrc().method());
+						}
+
+						for (Unit caller : icfg.getCallersOf(method)) {
+							System.err.println(method + ": " + caller);
+						}*/
+
 					}
 					for (Unit unit : icfg.getCallsFromWithin(method)) {
 						Stmt stmt = (Stmt) unit;
@@ -101,11 +116,20 @@ public class RespAnalysis {
 									&& potential.toString().contains("exec")) {
 								LinkedList<SootMethod> set = new LinkedList<>();
 								set.add(method);
-								sensUnits.put((Stmt) unit, set);
+								sinkUnits.put((Stmt) unit, set);
 								Log.warn(TAG, "\n");
-								Log.warn(TAG, "Sens: " + unit + " at " + method
+								Log.warn(TAG, "Sink: " + unit + " at " + method
 										+ " in " + sootClass);
-								bfsCG((Stmt) unit, method);
+								bfsCG((Stmt) unit, method, sinkUnits);
+							} else if (srcMethods
+									.contains(potential.toString())) {
+								LinkedList<SootMethod> set = new LinkedList<>();
+								set.add(method);
+								srcUnits.put((Stmt) unit, set);
+								Log.warn(TAG, "\n");
+								Log.warn(TAG, "Src: " + unit + " at " + method
+										+ " in " + sootClass);
+								bfsCG((Stmt) unit, method, srcUnits);
 							}
 						}
 
@@ -113,11 +137,11 @@ public class RespAnalysis {
 								|| stmt.toString().contains("content://sms")) {
 							LinkedList<SootMethod> set = new LinkedList<>();
 							set.add(method);
-							sensUnits.put((Stmt) unit, set);
+							sinkUnits.put((Stmt) unit, set);
 							Log.warn(TAG, "\n");
 							Log.warn(TAG, "Sens: " + unit + " at " + method
 									+ " in " + sootClass);
-							bfsCG((Stmt) unit, method);
+							bfsCG((Stmt) unit, method, sinkUnits);
 						} else if (stmt.toString().contains("startActivity")
 								|| stmt.toString().contains("startService")) {
 							dfsCG((Stmt) unit, startActPaths);
@@ -139,10 +163,9 @@ public class RespAnalysis {
 									fragDeclrs.put(method, oclazz);
 								}
 							}
-
 						}
 					}
-				} catch (Exception e) {
+				} catch (RuntimeException e) {
 					Log.warn(TAG, e.getMessage());
 				}
 
@@ -150,16 +173,18 @@ public class RespAnalysis {
 
 		}
 
-		writeCSV(sensUnits);
+		writeCSV(sinkUnits, true);
+		writeCSV(srcUnits, false);
 		writeStartActServ(startActPaths);
 		writeFragDeclrs(fragDeclrs);
-		return sensUnits;
+		return sinkUnits;
 	}
 
 	/*
 	 * bfs the CG to get the entries of all sensitive methods
 	 */
-	public void bfsCG(Stmt stmt, SootMethod target) {
+	public void bfsCG(Stmt stmt, SootMethod target,
+			Map<Stmt, LinkedList<SootMethod>> sinkUnits) {
 		Queue<SootMethod> queue = new LinkedList<>();
 		Set<SootMethod> visited = new HashSet<>();
 		queue.add(target);
@@ -176,7 +201,7 @@ public class RespAnalysis {
 				if (!iterator.hasNext()
 						&& !node.getDeclaringClass().toString()
 								.startsWith("dummyMain")) {
-					LinkedList<SootMethod> mList = sensUnits.get(stmt);
+					LinkedList<SootMethod> mList = sinkUnits.get(stmt);
 					mList.add(node);
 					entry = node;
 					Log.msg(TAG, target + ": " + node);
@@ -190,7 +215,7 @@ public class RespAnalysis {
 							.toString();
 					if (prevClass.startsWith("dummyMain")) {
 						// break;
-						LinkedList<SootMethod> mList = sensUnits.get(stmt);
+						LinkedList<SootMethod> mList = sinkUnits.get(stmt);
 						entry = in.getTgt().method();
 						if (!mList.contains(entry)) {
 							mList.add(in.getTgt().method());
@@ -214,7 +239,7 @@ public class RespAnalysis {
 									entry.getReturnType());
 							newm.setDeclaringClass(subclass);
 							subclass.addMethod(newm);
-							LinkedList<SootMethod> mList = sensUnits.get(stmt);
+							LinkedList<SootMethod> mList = sinkUnits.get(stmt);
 							mList.add(newm);
 						}
 					}
@@ -241,20 +266,16 @@ public class RespAnalysis {
 
 	}
 
-	public void writeCSV(Map<Stmt, LinkedList<SootMethod>> cgPaths)
+	public void writeCSV(Map<Stmt, LinkedList<SootMethod>> cgPaths, boolean sink)
 			throws IOException {
-		String outdir = "./sootOutput/" + Settings.apkName;
-		File dir = new File(outdir);
-		if (!dir.exists()) {
-			if (dir.mkdir()) {
-				System.out.println("Directory is created!");
-			} else {
-				System.out.println("Failed to create directory!");
-			}
+		String csv;
+		if (sink) {
+			csv = Settings.getStaticOutDir() + Settings.getApkName()
+					+ "_resp.csv";
+		} else {
+			csv = Settings.getStaticOutDir() + Settings.getApkName()
+					+ "_src.csv";
 		}
-
-		String csv = "./sootOutput/" + Settings.apkName + File.separator
-				+ Settings.apkName + ".csv";
 		File csvFile = new File(csv);
 		Log.msg(TAG, csv);
 		if (!csvFile.exists()) {
@@ -283,8 +304,8 @@ public class RespAnalysis {
 
 	public void writeStartActServ(Map<Stmt, LinkedList<SootMethod>> cgPaths)
 			throws IOException {
-		String csv = "./sootOutput/" + Settings.apkName + File.separator
-				+ Settings.apkName + "_StartActServ.csv";
+		String csv = Settings.getStaticOutDir() + Settings.getApkName()
+				+ "_StartActServ.csv";
 		File csvFile = new File(csv);
 		Log.msg(TAG, csv);
 		if (!csvFile.exists()) {
@@ -315,8 +336,8 @@ public class RespAnalysis {
 
 	private void writeFragDeclrs(Map<SootMethod, SootClass> fragDeclrs)
 			throws IOException {
-		String csv = "./sootOutput/" + Settings.apkName + File.separator
-				+ Settings.apkName + "_FragDeclrs.csv";
+		String csv = Settings.getStaticOutDir() + Settings.getApkName()
+				+ "_FragDeclrs.csv";
 		File csvFile = new File(csv);
 		Log.msg(TAG, csv);
 		if (!csvFile.exists()) {
@@ -344,19 +365,16 @@ public class RespAnalysis {
 
 	}
 
-	public void wriCSV(Map<Unit, SootMethod> sensUnits) throws IOException {
-		String outdir = "./sootOutput/" + Settings.apkName;
-		File dir = new File(outdir);
-		if (!dir.exists()) {
-			if (dir.mkdir()) {
-				System.out.println("Directory is created!");
-			} else {
-				System.out.println("Failed to create directory!");
-			}
+	public void wriCSV(Map<Unit, SootMethod> sinkUnits, boolean sink)
+			throws IOException {
+		String csv;
+		if (sink) {
+			csv = Settings.getStaticOutDir() + Settings.getApkName()
+					+ "_resp.csv";
+		} else {
+			csv = Settings.getStaticOutDir() + Settings.getApkName()
+					+ "_src.csv";
 		}
-
-		String csv = "./sootOutput/" + Settings.apkName + File.separator
-				+ Settings.apkName + ".csv";
 
 		File csvFile = new File(csv);
 		Log.msg(TAG, csv);
@@ -368,10 +386,10 @@ public class RespAnalysis {
 		}
 		CSVWriter writer = new CSVWriter(new FileWriter(csv, true));
 		List<String[]> results = new ArrayList<>();
-		for (Unit unit : sensUnits.keySet()) {
+		for (Unit unit : sinkUnits.keySet()) {
 			List<String> result = new ArrayList<>();
 			result.add(unit.toString());
-			result.add(sensUnits.get(unit).toString());
+			result.add(sinkUnits.get(unit).toString());
 
 			String[] resultArray = (String[]) result.toArray(new String[result
 					.size()]);

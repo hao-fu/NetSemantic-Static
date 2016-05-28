@@ -24,6 +24,19 @@ public class RespAnalysisTest {
 		RespAnalysisTest test = new RespAnalysisTest();
 		args = new String[2];
 		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/EventOrdering1/app";
+				//+ "GeneralJava_VirtualDispatch1/app"; LocationLeak1/app";
+		try {
+			test.testRunAnalysis(args);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void testDroidBenchProjLifecycle_FragmentLifecycle2() {
+		RespAnalysisTest test = new RespAnalysisTest();
+		args = new String[2];
+		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
 		args[0] = "C:/Users/hao/workspace/DroidBenchProj/FragmentLifecycle2/app";
 		try {
 			test.testRunAnalysis(args);
@@ -270,9 +283,9 @@ public class RespAnalysisTest {
 			System.gc();
 			soot.G.reset();
 			final long beforeRun = System.nanoTime();
-			Settings.apkName = fileName + "_resp";
+			Settings.setApkName(fileName);
 			Log.msg(TAG, "Begin to analyze: " + fileName);
-			Settings.apkPath = args[0] + File.separator + fileName;
+			Settings.setApkPath(args[0] + File.separator + fileName);
 			Settings.platformDir = args[1];
 
 			// App.v();

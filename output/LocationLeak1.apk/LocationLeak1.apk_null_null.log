@@ -1,0 +1,6 @@
+test - [MSG]: Begin to analyze: LocationLeak1.apk
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/LocationLeak1.apk\LocationLeak1.apk_resp.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/LocationLeak1.apk\LocationLeak1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/LocationLeak1.apk\LocationLeak1.apk_FragDeclrs.csv
+test - [MSG]: Analysis has run for 18.053217745 seconds
+

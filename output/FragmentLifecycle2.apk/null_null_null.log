@@ -1,0 +1,17 @@
+test - [MSG]: Begin to analyze: FragmentLifecycle2.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: virtualinvoke $r7.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r1, null, null) at <edu.mit.fragments.ArticleFragment: void updateArticleView(int,java.lang.String)> in edu.mit.fragments.ArticleFragment
+RespAnalysis - [MSG]: <edu.mit.fragments.ArticleFragment: void updateArticleView(int,java.lang.String)>: <edu.mit.fragments.ArticleFragment: void updateArticleView(int,java.lang.String)>
+RespAnalysis - [WARN]: No method source set for method <edu.mit.fragments.HeadlinesFragment$OnHeadlineSelectedListener: void onArticleSelected(int,java.lang.String)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/FragmentLifecycle2.apk\null_resp.csv
+RespAnalysis - [MSG]: <edu.mit.fragments.ArticleFragment: void updateArticleView(int,java.lang.String)>
+RespAnalysis - [MSG]: <edu.mit.fragments.ArticleFragment: void updateArticleView(int,java.lang.String)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/FragmentLifecycle2.apk\null_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/FragmentLifecycle2.apk\null_FragDeclrs.csv
+RespAnalysis - [MSG]: Fragment: edu.mit.fragments.ArticleFragment, <edu.mit.fragments.MainActivity: void onArticleSelected(int,java.lang.String)>
+RespAnalysis - [MSG]: Fragment: android.app.ListFragment, <edu.mit.fragments.HeadlinesFragment: void <init>()>
+RespAnalysis - [MSG]: Fragment: edu.mit.fragments.HeadlinesFragment, <edu.mit.fragments.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: Fragment: android.app.Fragment, <edu.mit.fragments.ArticleFragment: void <init>()>
+test - [MSG]: Analysis has run for 22.92486716 seconds
+

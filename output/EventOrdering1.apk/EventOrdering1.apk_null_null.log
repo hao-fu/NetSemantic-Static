@@ -1,0 +1,19 @@
+test - [MSG]: Begin to analyze: EventOrdering1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r2.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r1, null, null) at <edu.mit.event_ordering.MainActivity: void onLowMemory()> in edu.mit.event_ordering.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.event_ordering.MainActivity: void onLowMemory()>
+RespAnalysis - [MSG]: <edu.mit.event_ordering.MainActivity: void onLowMemory()>: <edu.mit.event_ordering.MainActivity: void onLowMemory()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r1 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <edu.mit.event_ordering.MainActivity: void onLowMemory()> in edu.mit.event_ordering.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.event_ordering.MainActivity: void onLowMemory()>
+RespAnalysis - [MSG]: <edu.mit.event_ordering.MainActivity: void onLowMemory()>: <edu.mit.event_ordering.MainActivity: void onLowMemory()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/EventOrdering1.apk\EventOrdering1.apk_resp.csv
+RespAnalysis - [MSG]: <edu.mit.event_ordering.MainActivity: void onLowMemory()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/EventOrdering1.apk\EventOrdering1.apk_src.csv
+RespAnalysis - [MSG]: <edu.mit.event_ordering.MainActivity: void onLowMemory()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/EventOrdering1.apk\EventOrdering1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/EventOrdering1.apk\EventOrdering1.apk_FragDeclrs.csv
+test - [MSG]: Analysis has run for 6.881554643 seconds
+

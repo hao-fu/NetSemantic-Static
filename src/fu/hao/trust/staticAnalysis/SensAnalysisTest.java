@@ -67,7 +67,7 @@ public class SensAnalysisTest {
 			final long beforeRun = System.nanoTime();
 			Log.msg(TAG, "Begin to analyze: " + fileName);
 			Settings.apkName = fileName;
-			Settings.apkPath = args[0] + File.separator + fileName;
+			Settings.setApkPath(args[0] + File.separator + fileName);
 			Settings.platformDir = args[1];
 
 			// App.v();

@@ -64,12 +64,12 @@ public class App extends FlowDroidMain {
 		System.gc();
 		soot.G.reset();
 
-		app = new SetupApplication(Settings.platformDir, Settings.apkPath);
+		app = new SetupApplication(Settings.platformDir, Settings.getApkPath());
 		try {
 			// Set configuration object
 			// Support layout mode. --Hao
 			// config.setLayoutMatchingMode(LayoutMatchingMode.MatchAll);
-			config.setLayoutMatchingMode(LayoutMatchingMode.NoMatch);
+			config.setLayoutMatchingMode(LayoutMatchingMode.MatchAll);
 			// ctx sensitive
 			// config.setPathBuilder(PathBuilder.ContextSensitive);
 			// --safemode
@@ -112,7 +112,7 @@ public class App extends FlowDroidMain {
 			app.loadClassesAndCG();
 			// app.runInfoflow();
 			setCG(Scene.v().getCallGraph());
-			logger.info("cgs" + cg.size());
+			logger.info("cgs: " + cg.size());
 			setICFG(new JimpleBasedInterproceduralCFG());
 		} catch (IOException ex) {
 			logger.error("Could not read file: " + ex.getMessage());

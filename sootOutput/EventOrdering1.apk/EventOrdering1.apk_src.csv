@@ -1,0 +1,1 @@
+"$r1 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>()","<edu.mit.event_ordering.MainActivity: void onLowMemory()>"
