@@ -22,8 +22,11 @@ import fu.hao.trust.utils.Log;
 import fu.hao.trust.utils.Settings;
 import soot.Scene;
 import soot.SootClass;
+import soot.SootField;
 import soot.SootMethod;
 import soot.Unit;
+import soot.Value;
+import soot.jimple.AssignStmt;
 import soot.jimple.Stmt;
 import soot.jimple.toolkits.callgraph.CallGraph;
 import soot.jimple.toolkits.callgraph.Edge;
@@ -45,6 +48,8 @@ public class RespAnalysis {
 	private static Map<Stmt, LinkedList<SootMethod>> srcUnits;
 	private static List<String> PscoutMethod;
 	private static List<String> srcMethods;
+	private static List<String> nonLifeCallbacks;
+	private static Map<SootField, SootMethod> unknownInitFields;
 
 	Map<Stmt, Set<SootMethod>> cgPaths;
 	// The methods might init Intent intent that startActivity/Service
@@ -69,15 +74,18 @@ public class RespAnalysis {
 			PscoutMethod = FileUtils.readLines(new File(
 					"./inbound_extended.txt"));// ("./inbound.txt"));
 			srcMethods = FileUtils.readLines(new File("./sensitive_srcs.txt"));
+			nonLifeCallbacks = FileUtils.readLines(new File(
+					"./non_life_callbacks.txt"));
 		} catch (IOException e1) {
 			e1.printStackTrace();
 		}
 		App app = App.v();
 		cg = app.getCG();
-		icfg = app.getICFG();
+		setIcfg(app.getICFG());
 		sinkUnits = new HashMap<>();
 		srcUnits = new HashMap<>();
 		fragDeclrs = new HashMap<>();
+		unknownInitFields = new HashMap<>();
 
 		for (SootClass sootClass : Scene.v().getClasses()) {
 			if (sootClass.toString().startsWith("android")
@@ -92,19 +100,40 @@ public class RespAnalysis {
 					if (!method.hasActiveBody()) {
 						method.retrieveActiveBody();
 						/*
-						Iterator<Edge> iterator = cg.edgesInto(method);
-						while (iterator.hasNext()) {
-							System.err.println(method + ": "
-									+ iterator.next().getSrc().method());
-						}
-
-						for (Unit caller : icfg.getCallersOf(method)) {
-							System.err.println(method + ": " + caller);
-						}*/
+						 * Iterator<Edge> iterator = cg.edgesInto(method); while
+						 * (iterator.hasNext()) { System.err.println(method +
+						 * ": " + iterator.next().getSrc().method()); }
+						 * 
+						 * for (Unit caller : icfg.getCallersOf(method)) {
+						 * System.err.println(method + ": " + caller); }
+						 */
 
 					}
-					for (Unit unit : icfg.getCallsFromWithin(method)) {
+
+					boolean nonLife = false;
+					for (String mname : nonLifeCallbacks) {
+						if (method.toString().contains(mname)) {
+							nonLife = true;
+							break;
+						}
+					}
+
+					// for (Unit unit : icfg.getCallsFromWithin(method)) {
+					for (Unit unit : method.getActiveBody().getUnits()) {
 						Stmt stmt = (Stmt) unit;
+						// If method is a non-lifecycle callback and assign
+						// values to the fields
+						if (stmt instanceof AssignStmt
+								&& stmt.containsFieldRef() && nonLife) {
+							AssignStmt astmt = (AssignStmt) stmt;
+							Value fieldValue = stmt.getFieldRefBox().getValue();
+							if (astmt.getLeftOp().equals(fieldValue)) {
+								Log.warn(TAG, "Found assigned field "
+										+ fieldValue);
+								unknownInitFields.put(stmt.getFieldRef()
+										.getField(), method);
+							}
+						}
 						if (stmt.containsInvokeExpr()) {
 							SootMethod potential = stmt.getInvokeExpr()
 									.getMethod();
@@ -177,6 +206,7 @@ public class RespAnalysis {
 		writeCSV(srcUnits, false);
 		writeStartActServ(startActPaths);
 		writeFragDeclrs(fragDeclrs);
+		writeInitUnknownFields(unknownInitFields);
 		return sinkUnits;
 	}
 
@@ -302,6 +332,34 @@ public class RespAnalysis {
 		writer.close();
 	}
 
+	private void writeInitUnknownFields(
+			Map<SootField, SootMethod> unknownInitFields) throws IOException {
+		String csv = Settings.getStaticOutDir() + Settings.getApkName()
+				+ "_UnknownInitFields.csv";
+		File csvFile = new File(csv);
+		Log.msg(TAG, csv);
+		if (!csvFile.exists()) {
+			csvFile.createNewFile();
+		} else {
+			csvFile.delete();
+			csvFile.createNewFile();
+		}
+		CSVWriter writer = new CSVWriter(new FileWriter(csv, true));
+		List<String[]> results = new ArrayList<>();
+		for (SootField field : unknownInitFields.keySet()) {
+			List<String> result = new ArrayList<>();
+			result.add(field.getSignature());
+			result.add(unknownInitFields.get(field).getSignature());
+			String[] resultArray = (String[]) result.toArray(new String[result
+					.size()]);
+			results.add(resultArray);
+			Log.msg(TAG, result);
+		}
+
+		writer.writeAll(results);
+		writer.close();
+	}
+
 	public void writeStartActServ(Map<Stmt, LinkedList<SootMethod>> cgPaths)
 			throws IOException {
 		String csv = Settings.getStaticOutDir() + Settings.getApkName()
@@ -398,5 +456,13 @@ public class RespAnalysis {
 
 		writer.writeAll(results);
 		writer.close();
+	}
+
+	public static JimpleBasedInterproceduralCFG getIcfg() {
+		return icfg;
+	}
+
+	public static void setIcfg(JimpleBasedInterproceduralCFG icfg) {
+		RespAnalysis.icfg = icfg;
 	}
 }
