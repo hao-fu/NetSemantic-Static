@@ -18,5 +18,11 @@ RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Event
 RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/EventOrdering1.apk\EventOrdering1.apk_FragDeclrs.csv
 RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/EventOrdering1.apk\EventOrdering1.apk_UnknownInitFields.csv
 RespAnalysis - [MSG]: [<edu.mit.event_ordering.MainActivity: java.lang.String imei>, <edu.mit.event_ordering.MainActivity: void onLowMemory()>]
-test - [MSG]: Analysis has run for 6.807504533 seconds
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/EventOrdering1.apk\EventOrdering1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: edu.mit.event_ordering.MainActivity: onCreate
+RespAnalysis - [MSG]: edu.mit.event_ordering.MainActivity: onLowMemory
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/EventOrdering1.apk\EventOrdering1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: edu.mit.event_ordering.MainActivity: onCreate
+RespAnalysis - [MSG]: edu.mit.event_ordering.MainActivity: onLowMemory
+test - [MSG]: Analysis has run for 7.57429065 seconds
 

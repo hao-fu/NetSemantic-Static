@@ -50,6 +50,9 @@ public class RespAnalysis {
 	private static List<String> srcMethods;
 	private static List<String> nonLifeCallbacks;
 	private static Map<SootField, SootMethod> unknownInitFields;
+	// entry (callback within the class), the event chain to reach the entry
+	private static Map<SootMethod, List<SootMethod>> srcEventChains;
+	private static Map<SootMethod, List<SootMethod>> sinkEventChains;
 
 	Map<Stmt, Set<SootMethod>> cgPaths;
 	// The methods might init Intent intent that startActivity/Service
@@ -86,6 +89,8 @@ public class RespAnalysis {
 		srcUnits = new HashMap<>();
 		fragDeclrs = new HashMap<>();
 		unknownInitFields = new HashMap<>();
+		srcEventChains = new HashMap<>();
+		sinkEventChains = new HashMap<>();
 
 		for (SootClass sootClass : Scene.v().getClasses()) {
 			if (sootClass.toString().startsWith("android")
@@ -149,7 +154,7 @@ public class RespAnalysis {
 								Log.warn(TAG, "\n");
 								Log.warn(TAG, "Sink: " + unit + " at " + method
 										+ " in " + sootClass);
-								bfsCG((Stmt) unit, method, sinkUnits);
+								bfsCG((Stmt) unit, method, true);
 							} else if (srcMethods
 									.contains(potential.toString())) {
 								LinkedList<SootMethod> set = new LinkedList<>();
@@ -158,7 +163,7 @@ public class RespAnalysis {
 								Log.warn(TAG, "\n");
 								Log.warn(TAG, "Src: " + unit + " at " + method
 										+ " in " + sootClass);
-								bfsCG((Stmt) unit, method, srcUnits);
+								bfsCG((Stmt) unit, method, false);
 							}
 						}
 
@@ -170,7 +175,7 @@ public class RespAnalysis {
 							Log.warn(TAG, "\n");
 							Log.warn(TAG, "Sens: " + unit + " at " + method
 									+ " in " + sootClass);
-							bfsCG((Stmt) unit, method, sinkUnits);
+							bfsCG((Stmt) unit, method, true);
 						} else if (stmt.toString().contains("startActivity")
 								|| stmt.toString().contains("startService")) {
 							dfsCG((Stmt) unit, startActPaths);
@@ -207,14 +212,38 @@ public class RespAnalysis {
 		writeStartActServ(startActPaths);
 		writeFragDeclrs(fragDeclrs);
 		writeInitUnknownFields(unknownInitFields);
+		writeEventChains(srcEventChains, false);
+		writeEventChains(sinkEventChains, true);
 		return sinkUnits;
+	}
+	
+	private boolean isActivity(SootClass clazz) {
+		while (clazz != null) {
+			String typeName = clazz.getShortName();
+			if (typeName.contains("Activity")) {
+				return true;
+			}
+		
+			clazz = clazz.getSuperclass();
+		}
+		
+		return false;
 	}
 
 	/*
 	 * bfs the CG to get the entries of all sensitive methods
 	 */
 	public void bfsCG(Stmt stmt, SootMethod target,
-			Map<Stmt, LinkedList<SootMethod>> sinkUnits) {
+			boolean sink) {
+		Map<Stmt, LinkedList<SootMethod>> sinkUnits;
+		Map<SootMethod, List<SootMethod>> srcEventChains;
+		if (sink) {
+			sinkUnits = RespAnalysis.sinkUnits;
+			srcEventChains = RespAnalysis.sinkEventChains;
+		} else {
+			sinkUnits = RespAnalysis.srcUnits;
+			srcEventChains = RespAnalysis.srcEventChains;
+		}
 		Queue<SootMethod> queue = new LinkedList<>();
 		Set<SootMethod> visited = new HashSet<>();
 		queue.add(target);
@@ -243,12 +272,13 @@ public class RespAnalysis {
 							+ node);
 					String prevClass = in.getSrc().method().getDeclaringClass()
 							.toString();
+					
 					if (prevClass.startsWith("dummyMain")) {
 						// break;
 						LinkedList<SootMethod> mList = sinkUnits.get(stmt);
 						entry = in.getTgt().method();
 						if (!mList.contains(entry)) {
-							mList.add(in.getTgt().method());
+							mList.add(entry);
 						}
 
 						Log.msg(TAG, target + ": " + in.getTgt().method());
@@ -257,8 +287,20 @@ public class RespAnalysis {
 					queue.add(in.getSrc().method());
 				}
 
+				// Add inherit but non-override methods 
 				if (entry != null) {
 					SootClass entryClass = entry.getDeclaringClass();
+					
+					if (isActivity(entryClass)) {
+						// TODO
+						SootMethod onCreate = entryClass.getMethodByName("onCreate");
+						if (!srcEventChains.containsKey(entry)) {
+							srcEventChains.put(entry, new LinkedList<SootMethod>());
+							srcEventChains.get(entry).add(onCreate);
+							srcEventChains.get(entry).add(entry);
+						}						
+					}
+					
 					for (SootClass subclass : Scene.v().getActiveHierarchy()
 							.getSubclassesOf(entryClass)) {
 						try {
@@ -378,6 +420,43 @@ public class RespAnalysis {
 			List<String> result = new ArrayList<>();
 			result.add(stmt.toString());
 			for (SootMethod method : cgPaths.get(stmt)) {
+				Log.msg(TAG, method.getDeclaringClass().getName() + ": "
+						+ method.getName());
+				result.add(method.getDeclaringClass().getName() + ": "
+						+ method.getName());
+			}
+			String[] resultArray = (String[]) result.toArray(new String[result
+					.size()]);
+			results.add(resultArray);
+		}
+
+		writer.writeAll(results);
+		writer.close();
+	}
+	
+	public void writeEventChains(Map<SootMethod, List<SootMethod>> eventChains, boolean sink)
+			throws IOException {
+		String csv;
+		if (sink) {
+			csv = Settings.getStaticOutDir() + Settings.getApkName()
+				+ "_SinkEventChains.csv";
+		} else {
+			csv = Settings.getStaticOutDir() + Settings.getApkName()
+					+ "_SrcEventChains.csv";
+		}
+		File csvFile = new File(csv);
+		Log.msg(TAG, csv);
+		if (!csvFile.exists()) {
+			csvFile.createNewFile();
+		} else {
+			csvFile.delete();
+			csvFile.createNewFile();
+		}
+		CSVWriter writer = new CSVWriter(new FileWriter(csv, true));
+		List<String[]> results = new ArrayList<>();
+		for (SootMethod entry : eventChains.keySet()) {
+			List<String> result = new ArrayList<>();
+			for (SootMethod method : eventChains.get(entry)) {
 				Log.msg(TAG, method.getDeclaringClass().getName() + ": "
 						+ method.getName());
 				result.add(method.getDeclaringClass().getName() + ": "
