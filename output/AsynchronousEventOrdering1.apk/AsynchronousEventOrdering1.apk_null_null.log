@@ -1,0 +1,28 @@
+test - [MSG]: Begin to analyze: AsynchronousEventOrdering1.apk
+RespAnalysis - [WARN]: Found assigned field $r0.<edu.mit.activity_asynchronous_event_ordering.MainActivity: java.lang.String imei>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <edu.mit.activity_asynchronous_event_ordering.MainActivity: void onResume()> in edu.mit.activity_asynchronous_event_ordering.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.activity_asynchronous_event_ordering.MainActivity: void onResume()>
+RespAnalysis - [MSG]: <edu.mit.activity_asynchronous_event_ordering.MainActivity: void onResume()>: <edu.mit.activity_asynchronous_event_ordering.MainActivity: void onResume()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r1.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r2, null, null) at <edu.mit.activity_asynchronous_event_ordering.MainActivity: void onStop()> in edu.mit.activity_asynchronous_event_ordering.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.activity_asynchronous_event_ordering.MainActivity: void onStop()>
+RespAnalysis - [MSG]: <edu.mit.activity_asynchronous_event_ordering.MainActivity: void onStop()>: <edu.mit.activity_asynchronous_event_ordering.MainActivity: void onStop()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/AsynchronousEventOrdering1.apk\AsynchronousEventOrdering1.apk_resp.csv
+RespAnalysis - [MSG]: <edu.mit.activity_asynchronous_event_ordering.MainActivity: void onStop()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/AsynchronousEventOrdering1.apk\AsynchronousEventOrdering1.apk_src.csv
+RespAnalysis - [MSG]: <edu.mit.activity_asynchronous_event_ordering.MainActivity: void onResume()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/AsynchronousEventOrdering1.apk\AsynchronousEventOrdering1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/AsynchronousEventOrdering1.apk\AsynchronousEventOrdering1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/AsynchronousEventOrdering1.apk\AsynchronousEventOrdering1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: [<edu.mit.activity_asynchronous_event_ordering.MainActivity: java.lang.String imei>, <edu.mit.activity_asynchronous_event_ordering.MainActivity: void onLowMemory()>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/AsynchronousEventOrdering1.apk\AsynchronousEventOrdering1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: edu.mit.activity_asynchronous_event_ordering.MainActivity: onCreate
+RespAnalysis - [MSG]: edu.mit.activity_asynchronous_event_ordering.MainActivity: onResume
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/AsynchronousEventOrdering1.apk\AsynchronousEventOrdering1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: edu.mit.activity_asynchronous_event_ordering.MainActivity: onCreate
+RespAnalysis - [MSG]: edu.mit.activity_asynchronous_event_ordering.MainActivity: onStop
+test - [MSG]: Analysis has run for 17.345410056 seconds
+

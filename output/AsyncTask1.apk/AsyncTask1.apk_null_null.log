@@ -1,0 +1,27 @@
+test - [MSG]: Begin to analyze: AsyncTask1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r7 = virtualinvoke $r5.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.MainActivity: void onCreate(android.os.Bundle)> in de.ecspride.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r2.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r3, null, null) at <de.ecspride.MainActivity$MyAsyncTask: java.lang.String doInBackground(java.lang.String[])> in de.ecspride.MainActivity$MyAsyncTask
+RespAnalysis - [DEBUG]: Src: <de.ecspride.MainActivity$MyAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>, Tgt: <de.ecspride.MainActivity$MyAsyncTask: java.lang.String doInBackground(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <de.ecspride.MainActivity$MyAsyncTask: java.lang.Object doInBackground(java.lang.Object[])>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.MainActivity$MyAsyncTask: java.lang.String doInBackground(java.lang.String[])>: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/AsyncTask1.apk\AsyncTask1.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.MainActivity$MyAsyncTask: java.lang.String doInBackground(java.lang.String[])>
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/AsyncTask1.apk\AsyncTask1.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/AsyncTask1.apk\AsyncTask1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/AsyncTask1.apk\AsyncTask1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/AsyncTask1.apk\AsyncTask1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/AsyncTask1.apk\AsyncTask1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MainActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/AsyncTask1.apk\AsyncTask1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MainActivity: onCreate
+test - [MSG]: Analysis has run for 25.903266162 seconds
+

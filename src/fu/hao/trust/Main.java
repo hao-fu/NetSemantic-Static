@@ -83,7 +83,7 @@ public class Main {
 			soot.G.reset();
 			final long beforeRun = System.nanoTime();
 			Log.msg(TAG, "Begin to analyze: " + fileName);
-			Settings.apkName = fileName;
+			Settings.setApkName(fileName);
 			Settings.setApkPath(args[0] + File.separator + fileName);
 			Settings.platformDir = args[1];
 
@@ -105,7 +105,7 @@ public class Main {
 	 * @return: void
 	 */
 	public void writeCSV(Set<SootMethod> suspicous) throws IOException {
-		String csv = "./sootOutput/" + Settings.apkName + ".csv";
+		String csv = "./sootOutput/" + Settings.getApkName() + ".csv";
 		File csvFile = new File(csv);
 		Log.msg(TAG, csv);
 		if (!csvFile.exists()) {

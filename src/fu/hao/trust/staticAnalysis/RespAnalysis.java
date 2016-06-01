@@ -27,6 +27,7 @@ import soot.SootMethod;
 import soot.Unit;
 import soot.Value;
 import soot.jimple.AssignStmt;
+import soot.jimple.NewExpr;
 import soot.jimple.Stmt;
 import soot.jimple.toolkits.callgraph.CallGraph;
 import soot.jimple.toolkits.callgraph.Edge;
@@ -51,14 +52,16 @@ public class RespAnalysis {
 	private static List<String> nonLifeCallbacks;
 	private static Map<SootField, SootMethod> unknownInitFields;
 	// entry (callback within the class), the event chain to reach the entry
-	private static Map<SootMethod, List<SootMethod>> srcEventChains;
-	private static Map<SootMethod, List<SootMethod>> sinkEventChains;
+	private static Map<SootMethod, LinkedList<SootMethod>> srcEventChains;
+	private static Map<SootMethod, LinkedList<SootMethod>> sinkEventChains;
 
 	Map<Stmt, Set<SootMethod>> cgPaths;
 	// The methods might init Intent intent that startActivity/Service
 	Map<Stmt, LinkedList<SootMethod>> startActPaths = new HashMap<>();
 
 	Map<SootMethod, SootClass> fragDeclrs;
+	// <Listener, Chains>
+	Map<SootClass, Set<LinkedList<SootMethod>>> viewListeners;
 
 	// The nested class to implement singleton
 	private static class SingletonHolder {
@@ -91,6 +94,7 @@ public class RespAnalysis {
 		unknownInitFields = new HashMap<>();
 		srcEventChains = new HashMap<>();
 		sinkEventChains = new HashMap<>();
+		viewListeners = new HashMap<>();
 
 		for (SootClass sootClass : Scene.v().getClasses()) {
 			if (sootClass.toString().startsWith("android")
@@ -128,17 +132,20 @@ public class RespAnalysis {
 						Stmt stmt = (Stmt) unit;
 						// If method is a non-lifecycle callback and assign
 						// values to the fields
-						if (stmt instanceof AssignStmt
-								&& stmt.containsFieldRef() && nonLife) {
-							AssignStmt astmt = (AssignStmt) stmt;
-							Value fieldValue = stmt.getFieldRefBox().getValue();
-							if (astmt.getLeftOp().equals(fieldValue)) {
-								Log.warn(TAG, "Found assigned field "
-										+ fieldValue);
-								unknownInitFields.put(stmt.getFieldRef()
-										.getField(), method);
+						if (stmt instanceof AssignStmt) {
+							if (stmt.containsFieldRef() && nonLife) {
+								AssignStmt astmt = (AssignStmt) stmt;
+								Value fieldValue = stmt.getFieldRefBox()
+										.getValue();
+								if (astmt.getLeftOp().equals(fieldValue)) {
+									Log.warn(TAG, "Found assigned field "
+											+ fieldValue);
+									unknownInitFields.put(stmt.getFieldRef()
+											.getField(), method);
+								}
 							}
 						}
+
 						if (stmt.containsInvokeExpr()) {
 							SootMethod potential = stmt.getInvokeExpr()
 									.getMethod();
@@ -212,31 +219,48 @@ public class RespAnalysis {
 		writeStartActServ(startActPaths);
 		writeFragDeclrs(fragDeclrs);
 		writeInitUnknownFields(unknownInitFields);
+		bindViewListeners();
 		writeEventChains(srcEventChains, false);
 		writeEventChains(sinkEventChains, true);
 		return sinkUnits;
 	}
-	
+
 	private boolean isActivity(SootClass clazz) {
 		while (clazz != null) {
 			String typeName = clazz.getShortName();
 			if (typeName.contains("Activity")) {
 				return true;
 			}
-		
-			clazz = clazz.getSuperclass();
+			if (clazz.hasSuperclass()) {
+				clazz = clazz.getSuperclass();
+			} else {
+				clazz = null;
+			}
 		}
-		
+
+		return false;
+	}
+
+	private boolean isViewListener(SootClass clazz) {
+		SootClass listener = Scene.v().getSootClass(
+				"android.view.View$OnClickListener");
+		Log.bb(TAG, "Listener " + listener);
+		for (SootClass sootInterface : clazz.getInterfaces()) {
+			if (sootInterface.equals(listener)) {
+				Log.debug(TAG, "Listener found: " + clazz);
+				return true;
+			}
+		}
+
 		return false;
 	}
 
 	/*
 	 * bfs the CG to get the entries of all sensitive methods
 	 */
-	public void bfsCG(Stmt stmt, SootMethod target,
-			boolean sink) {
+	public void bfsCG(Stmt stmt, SootMethod target, boolean sink) {
 		Map<Stmt, LinkedList<SootMethod>> sinkUnits;
-		Map<SootMethod, List<SootMethod>> srcEventChains;
+		Map<SootMethod, LinkedList<SootMethod>> srcEventChains;
 		if (sink) {
 			sinkUnits = RespAnalysis.sinkUnits;
 			srcEventChains = RespAnalysis.sinkEventChains;
@@ -272,7 +296,7 @@ public class RespAnalysis {
 							+ node);
 					String prevClass = in.getSrc().method().getDeclaringClass()
 							.toString();
-					
+
 					if (prevClass.startsWith("dummyMain")) {
 						// break;
 						LinkedList<SootMethod> mList = sinkUnits.get(stmt);
@@ -287,20 +311,31 @@ public class RespAnalysis {
 					queue.add(in.getSrc().method());
 				}
 
-				// Add inherit but non-override methods 
+				// Add inherit but non-override methods
 				if (entry != null) {
 					SootClass entryClass = entry.getDeclaringClass();
-					
-					if (isActivity(entryClass)) {
-						// TODO
-						SootMethod onCreate = entryClass.getMethodByName("onCreate");
-						if (!srcEventChains.containsKey(entry)) {
-							srcEventChains.put(entry, new LinkedList<SootMethod>());
-							srcEventChains.get(entry).add(onCreate);
-							srcEventChains.get(entry).add(entry);
-						}						
+					Log.debug(TAG, "EntryClass: " + entryClass);
+					if (!srcEventChains.containsKey(entry)) {
+						srcEventChains.put(entry, new LinkedList<SootMethod>());
+						srcEventChains.get(entry).add(entry);
 					}
-					
+					if (isActivity(entryClass)) {
+						if (!entry.getName().equals("onCreate")) {
+							// TODO
+							SootMethod onCreate = entryClass
+									.getMethodByName("onCreate");
+								srcEventChains.get(entry).addFirst(onCreate);
+						}
+					} else if (isViewListener(entryClass)) {
+						Set<LinkedList<SootMethod>> chainSet;
+						if (!viewListeners.containsKey(entryClass)) {
+							chainSet = new HashSet<>();
+							viewListeners.put(entryClass, chainSet);
+						}
+						chainSet = viewListeners.get(entryClass);
+						chainSet.add(srcEventChains.get(entry));
+					}
+
 					for (SootClass subclass : Scene.v().getActiveHierarchy()
 							.getSubclassesOf(entryClass)) {
 						try {
@@ -318,6 +353,61 @@ public class RespAnalysis {
 				}
 			}
 		}
+	}
+
+	/**
+	 * @Title: bindListeners
+	 * @Author: Hao Fu
+	 * @Description: Bind the view listeners to the activities;
+	 * @param
+	 * @return void
+	 * @throws
+	 */
+	private void bindViewListeners() {
+		if (viewListeners.size() == 0) {
+			return;
+		}
+
+		for (SootClass sootClass : Scene.v().getClasses()) {
+			if (sootClass.toString().startsWith("android")
+					|| sootClass.toString().startsWith("java")
+					|| sootClass.toString().startsWith("org.apache.http")
+					|| sootClass.toString().startsWith("org.xml")) {
+				continue;
+			}
+
+			for (SootMethod method : sootClass.getMethods()) {
+				if (method.hasActiveBody()) {
+					for (Unit unit : method.getActiveBody().getUnits()) {
+						Stmt stmt = (Stmt) unit;
+						if (stmt instanceof AssignStmt) {
+							AssignStmt astmt = (AssignStmt) stmt;
+							if (astmt.getRightOp() instanceof NewExpr) {
+								NewExpr nexExpr = (NewExpr) astmt.getRightOp();
+								for (SootClass listener : viewListeners
+										.keySet()) {
+									if (nexExpr.toString().contains(
+											listener.toString())) {
+										Log.bb(TAG, "NewExpr: " + nexExpr);
+										for (LinkedList<SootMethod> chain : viewListeners
+												.get(listener)) {
+											if (isActivity(sootClass)) {
+												SootMethod onCreate = sootClass
+														.getMethodByName("onCreate");
+												chain.addFirst(onCreate);
+												Log.warn(TAG, chain);
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+
+				}
+			}
+		}
+
 	}
 
 	public void dfsCG(Stmt stmt, Map<Stmt, LinkedList<SootMethod>> cgPaths) {
@@ -433,13 +523,14 @@ public class RespAnalysis {
 		writer.writeAll(results);
 		writer.close();
 	}
-	
-	public void writeEventChains(Map<SootMethod, List<SootMethod>> eventChains, boolean sink)
+
+	public void writeEventChains(
+			Map<SootMethod, LinkedList<SootMethod>> eventChains, boolean sink)
 			throws IOException {
 		String csv;
 		if (sink) {
 			csv = Settings.getStaticOutDir() + Settings.getApkName()
-				+ "_SinkEventChains.csv";
+					+ "_SinkEventChains.csv";
 		} else {
 			csv = Settings.getStaticOutDir() + Settings.getApkName()
 					+ "_SrcEventChains.csv";

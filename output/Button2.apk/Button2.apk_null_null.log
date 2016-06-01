@@ -1,0 +1,40 @@
+test - [MSG]: Begin to analyze: Button2.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.Button2: void clickOnButton3(android.view.View)> in de.ecspride.Button2
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.Button2: void clickOnButton3(android.view.View)>
+RespAnalysis - [MSG]: <de.ecspride.Button2: void clickOnButton3(android.view.View)>: <de.ecspride.Button2: void clickOnButton3(android.view.View)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r6.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r4, null, null) at <de.ecspride.Button2: void clickOnButton3(android.view.View)> in de.ecspride.Button2
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.Button2: void clickOnButton3(android.view.View)>
+RespAnalysis - [MSG]: <de.ecspride.Button2: void clickOnButton3(android.view.View)>: <de.ecspride.Button2: void clickOnButton3(android.view.View)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r2.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r4, null, null) at <de.ecspride.Button2$1: void onClick(android.view.View)> in de.ecspride.Button2$1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.Button2$1: void onClick(android.view.View)>
+RespAnalysis - [MSG]: <de.ecspride.Button2$1: void onClick(android.view.View)>: <de.ecspride.Button2$1: void onClick(android.view.View)>
+RespAnalysis - [WARN]: no superclass for java.lang.Object
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r5.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r4, null, null) at <de.ecspride.Button2$2: void onClick(android.view.View)> in de.ecspride.Button2$2
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.Button2$2: void onClick(android.view.View)>
+RespAnalysis - [MSG]: <de.ecspride.Button2$2: void onClick(android.view.View)>: <de.ecspride.Button2$2: void onClick(android.view.View)>
+RespAnalysis - [WARN]: no superclass for java.lang.Object
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Button2.apk\Button2.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.Button2$2: void onClick(android.view.View)>
+RespAnalysis - [MSG]: <de.ecspride.Button2: void clickOnButton3(android.view.View)>
+RespAnalysis - [MSG]: <de.ecspride.Button2$1: void onClick(android.view.View)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Button2.apk\Button2.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.Button2: void clickOnButton3(android.view.View)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Button2.apk\Button2.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Button2.apk\Button2.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Button2.apk\Button2.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Button2.apk\Button2.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.Button2: onCreate
+RespAnalysis - [MSG]: de.ecspride.Button2: clickOnButton3
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Button2.apk\Button2.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.Button2: onCreate
+RespAnalysis - [MSG]: de.ecspride.Button2: clickOnButton3
+test - [MSG]: Analysis has run for 15.661743467 seconds
+

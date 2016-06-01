@@ -24,8 +24,124 @@ public class RespAnalysisTest {
 		RespAnalysisTest test = new RespAnalysisTest();
 		args = new String[2];
 		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
-		args[0] = "C:/Users/hao/workspace/DroidBenchProj/EventOrdering1/app";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Button3/app";
 				//+ "GeneralJava_VirtualDispatch1/app"; LocationLeak1/app";
+		try {
+			test.testRunAnalysis(args);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void testDroidBenchCallbacks_Button2() {
+		RespAnalysisTest test = new RespAnalysisTest();
+		args = new String[2];
+		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Button2/app";
+				//+ "GeneralJava_VirtualDispatch1/app"; LocationLeak1/app";
+		try {
+			test.testRunAnalysis(args);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void testDroidBenchCallbacks_Button1() {
+		RespAnalysisTest test = new RespAnalysisTest();
+		args = new String[2];
+		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Button1/app";
+				//+ "GeneralJava_VirtualDispatch1/app"; LocationLeak1/app";
+		try {
+			test.testRunAnalysis(args);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void testDroidBenchThreading_JavaThread2() {
+		RespAnalysisTest test = new RespAnalysisTest();
+		args = new String[2];
+		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/JavaThread2/app";
+				//+ "GeneralJava_VirtualDispatch1/app"; LocationLeak1/app";
+		try {
+			test.testRunAnalysis(args);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void testDroidBenchThreading_JavaThread1() {
+		RespAnalysisTest test = new RespAnalysisTest();
+		args = new String[2];
+		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/JavaThread1/app";
+				//+ "GeneralJava_VirtualDispatch1/app"; LocationLeak1/app";
+		try {
+			test.testRunAnalysis(args);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void testDroidBenchThreading_Executor1() {
+		RespAnalysisTest test = new RespAnalysisTest();
+		args = new String[2];
+		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Executor1/app";
+				//+ "GeneralJava_VirtualDispatch1/app"; LocationLeak1/app";
+		try {
+			test.testRunAnalysis(args);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void testDroidBenchThreading_AsyncTask1() {
+		RespAnalysisTest test = new RespAnalysisTest();
+		args = new String[2];
+		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/AsyncTask1/app";
+				//+ "GeneralJava_VirtualDispatch1/app"; LocationLeak1/app";
+		try {
+			test.testRunAnalysis(args);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void testDroidBenchProjLifecycle_SharedPreferenceChanged1() {
+		RespAnalysisTest test = new RespAnalysisTest();
+		args = new String[2];
+		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/SharedPreferenceChanged1/app";
+				//+ "GeneralJava_VirtualDispatch1/app"; LocationLeak1/app";
+		try {
+			test.testRunAnalysis(args);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void testDroidBenchProjLifecycle_AsynchronousEventOrdering1() {
+		RespAnalysisTest test = new RespAnalysisTest();
+		args = new String[2];
+		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/AsynchronousEventOrdering1/app";
+				//+ "GeneralJava_VirtualDispatch1/app"; LocationLeak1/app";
+		try {
+			test.testRunAnalysis(args);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void testDroidBenchProjLifecycle_EventOrdering1() {
+		RespAnalysisTest test = new RespAnalysisTest();
+		args = new String[2];
+		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/EventOrdering1/app";
 		try {
 			test.testRunAnalysis(args);
 		} catch (IOException e) {

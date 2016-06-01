@@ -1,0 +1,25 @@
+test - [MSG]: Begin to analyze: Button1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.Button1: void onCreate(android.os.Bundle)> in de.ecspride.Button1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.Button1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.Button1: void onCreate(android.os.Bundle)>: <de.ecspride.Button1: void onCreate(android.os.Bundle)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r4.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r2, null, null) at <de.ecspride.Button1: void sendMessage(android.view.View)> in de.ecspride.Button1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.Button1: void sendMessage(android.view.View)>
+RespAnalysis - [MSG]: <de.ecspride.Button1: void sendMessage(android.view.View)>: <de.ecspride.Button1: void sendMessage(android.view.View)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Button1.apk\Button1.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.Button1: void sendMessage(android.view.View)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Button1.apk\Button1.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.Button1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Button1.apk\Button1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Button1.apk\Button1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Button1.apk\Button1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Button1.apk\Button1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.Button1: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Button1.apk\Button1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.Button1: onCreate
+RespAnalysis - [MSG]: de.ecspride.Button1: sendMessage
+test - [MSG]: Analysis has run for 13.417596439 seconds
+

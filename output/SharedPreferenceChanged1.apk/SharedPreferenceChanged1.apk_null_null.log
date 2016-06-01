@@ -1,0 +1,25 @@
+test - [MSG]: Begin to analyze: SharedPreferenceChanged1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <edu.mit.event_context_shared_pref_listener.MainActivity: void onCreate(android.os.Bundle)> in edu.mit.event_context_shared_pref_listener.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.event_context_shared_pref_listener.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.event_context_shared_pref_listener.MainActivity: void onCreate(android.os.Bundle)>: <edu.mit.event_context_shared_pref_listener.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r2, null, null) at <edu.mit.event_context_shared_pref_listener.MainActivity: void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)> in edu.mit.event_context_shared_pref_listener.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.event_context_shared_pref_listener.MainActivity: void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)>
+RespAnalysis - [MSG]: <edu.mit.event_context_shared_pref_listener.MainActivity: void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)>: <edu.mit.event_context_shared_pref_listener.MainActivity: void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/SharedPreferenceChanged1.apk\SharedPreferenceChanged1.apk_resp.csv
+RespAnalysis - [MSG]: <edu.mit.event_context_shared_pref_listener.MainActivity: void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/SharedPreferenceChanged1.apk\SharedPreferenceChanged1.apk_src.csv
+RespAnalysis - [MSG]: <edu.mit.event_context_shared_pref_listener.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/SharedPreferenceChanged1.apk\SharedPreferenceChanged1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/SharedPreferenceChanged1.apk\SharedPreferenceChanged1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/SharedPreferenceChanged1.apk\SharedPreferenceChanged1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/SharedPreferenceChanged1.apk\SharedPreferenceChanged1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: edu.mit.event_context_shared_pref_listener.MainActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/SharedPreferenceChanged1.apk\SharedPreferenceChanged1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: edu.mit.event_context_shared_pref_listener.MainActivity: onCreate
+RespAnalysis - [MSG]: edu.mit.event_context_shared_pref_listener.MainActivity: onSharedPreferenceChanged
+test - [MSG]: Analysis has run for 7.41167016 seconds
+

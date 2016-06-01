@@ -1,0 +1,241 @@
+test - [MSG]: Begin to analyze: JavaThread2.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r5 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.MainActivity: void onCreate(android.os.Bundle)> in de.ecspride.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r1.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r2, null, null) at <de.ecspride.MainActivity$1: void run()> in de.ecspride.MainActivity$1
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <de.ecspride.MainActivity$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <de.ecspride.MainActivity$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewPager: void completeScroll(boolean)>, Tgt: <de.ecspride.MainActivity$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.DrawerLayout$ViewDragCallback: void onEdgeTouched(int,int)>, Tgt: <de.ecspride.MainActivity$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.ListFragment: void ensureList()>, Tgt: <de.ecspride.MainActivity$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: void updatePositionTimeout()>, Tgt: <de.ecspride.MainActivity$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: void startRefresh()>, Tgt: <de.ecspride.MainActivity$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postAtTime(java.lang.Runnable,long)>, Tgt: <de.ecspride.MainActivity$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewCompat$BaseViewCompatImpl: void postOnAnimation(android.view.View,java.lang.Runnable)>, Tgt: <de.ecspride.MainActivity$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: boolean execPendingActions()>, Tgt: <de.ecspride.MainActivity$1: void run()>
+RespAnalysis - [DEBUG]: Src: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewPager: void completeScroll(boolean)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.DrawerLayout$ViewDragCallback: void onEdgeTouched(int,int)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.ListFragment: void ensureList()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: void updatePositionTimeout()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: void startRefresh()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postAtTime(java.lang.Runnable,long)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewCompat$BaseViewCompatImpl: void postOnAnimation(android.view.View,java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: boolean execPendingActions()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.ListFragment: void ensureList()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewPager: void scrollToItem(int,boolean,int,boolean)>, Tgt: <android.support.v4.view.ViewPager: void completeScroll(boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewPager: void smoothScrollTo(int,int,int)>, Tgt: <android.support.v4.view.ViewPager: void completeScroll(boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.ViewDragHelper: void processTouchEvent(android.view.MotionEvent)>, Tgt: <android.support.v4.widget.DrawerLayout$ViewDragCallback: void onEdgeTouched(int,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.ViewDragHelper: void processTouchEvent(android.view.MotionEvent)>, Tgt: <android.support.v4.widget.DrawerLayout$ViewDragCallback: void onEdgeTouched(int,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.ListFragment: void onViewCreated(android.view.View,android.os.Bundle)>, Tgt: <android.support.v4.app.ListFragment: void ensureList()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.ListFragment: void setListShown(boolean,boolean)>, Tgt: <android.support.v4.app.ListFragment: void ensureList()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: boolean onTouchEvent(android.view.MotionEvent)>, Tgt: <android.support.v4.widget.SwipeRefreshLayout: void updatePositionTimeout()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: boolean onTouchEvent(android.view.MotionEvent)>, Tgt: <android.support.v4.widget.SwipeRefreshLayout: void startRefresh()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.content.AsyncTaskLoader: void executePendingTask()>, Tgt: <android.os.Handler: boolean postAtTime(java.lang.Runnable,long)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewCompat: void postOnAnimation(android.view.View,java.lang.Runnable)>, Tgt: <android.support.v4.view.ViewCompat$BaseViewCompatImpl: void postOnAnimation(android.view.View,java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl$1: void run()>, Tgt: <android.support.v4.app.FragmentManagerImpl: boolean execPendingActions()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void dispatchDestroy()>, Tgt: <android.support.v4.app.FragmentManagerImpl: boolean execPendingActions()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.Fragment: void performResume()>, Tgt: <android.support.v4.app.FragmentManagerImpl: boolean execPendingActions()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.Fragment: void performResume()>, Tgt: <android.support.v4.app.FragmentManagerImpl: boolean execPendingActions()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.Fragment: void performStart()>, Tgt: <android.support.v4.app.FragmentManagerImpl: boolean execPendingActions()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.MainActivity$1: void run()>: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewPager: boolean onTouchEvent(android.view.MotionEvent)>, Tgt: <android.support.v4.view.ViewPager: void scrollToItem(int,boolean,int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewPager: void setCurrentItemInternal(int,boolean,boolean,int)>, Tgt: <android.support.v4.view.ViewPager: void scrollToItem(int,boolean,int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewPager: void scrollToItem(int,boolean,int,boolean)>, Tgt: <android.support.v4.view.ViewPager: void smoothScrollTo(int,int,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.DrawerLayout: boolean onTouchEvent(android.view.MotionEvent)>, Tgt: <android.support.v4.widget.ViewDragHelper: void processTouchEvent(android.view.MotionEvent)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SlidingPaneLayout: boolean onTouchEvent(android.view.MotionEvent)>, Tgt: <android.support.v4.widget.ViewDragHelper: void processTouchEvent(android.view.MotionEvent)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.DrawerLayout: boolean onTouchEvent(android.view.MotionEvent)>, Tgt: <android.support.v4.widget.ViewDragHelper: void processTouchEvent(android.view.MotionEvent)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment,int,int,int,boolean)>, Tgt: <android.support.v4.app.ListFragment: void onViewCreated(android.view.View,android.os.Bundle)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment,int,int,int,boolean)>, Tgt: <android.support.v4.app.ListFragment: void onViewCreated(android.view.View,android.os.Bundle)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.ListFragment: void ensureList()>, Tgt: <android.support.v4.app.ListFragment: void setListShown(boolean,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.ListFragment: void setListAdapter(android.widget.ListAdapter)>, Tgt: <android.support.v4.app.ListFragment: void setListShown(boolean,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.AutoScrollHelper: void cancelTargetTouch()>, Tgt: <android.support.v4.widget.SwipeRefreshLayout: boolean onTouchEvent(android.view.MotionEvent)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.content.AsyncTaskLoader$LoadTask: void run()>, Tgt: <android.support.v4.content.AsyncTaskLoader: void executePendingTask()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.content.AsyncTaskLoader: void onForceLoad()>, Tgt: <android.support.v4.content.AsyncTaskLoader: void executePendingTask()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.AutoScrollHelper$ScrollAnimationRunnable: void run()>, Tgt: <android.support.v4.view.ViewCompat: void postOnAnimation(android.view.View,java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SlidingPaneLayout: void dimChildView(android.view.View,float,int)>, Tgt: <android.support.v4.view.ViewCompat: void postOnAnimation(android.view.View,java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewPager: void completeScroll(boolean)>, Tgt: <android.support.v4.view.ViewCompat: void postOnAnimation(android.view.View,java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <android.support.v4.app.FragmentManagerImpl$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <android.support.v4.app.FragmentManagerImpl$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewPager: void completeScroll(boolean)>, Tgt: <android.support.v4.app.FragmentManagerImpl$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.DrawerLayout$ViewDragCallback: void onEdgeTouched(int,int)>, Tgt: <android.support.v4.app.FragmentManagerImpl$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.ListFragment: void ensureList()>, Tgt: <android.support.v4.app.FragmentManagerImpl$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: void updatePositionTimeout()>, Tgt: <android.support.v4.app.FragmentManagerImpl$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: void startRefresh()>, Tgt: <android.support.v4.app.FragmentManagerImpl$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postAtTime(java.lang.Runnable,long)>, Tgt: <android.support.v4.app.FragmentManagerImpl$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewCompat$BaseViewCompatImpl: void postOnAnimation(android.view.View,java.lang.Runnable)>, Tgt: <android.support.v4.app.FragmentManagerImpl$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: boolean execPendingActions()>, Tgt: <android.support.v4.app.FragmentManagerImpl$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.Fragment: void performDestroy()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void dispatchDestroy()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment,int,int,int,boolean)>, Tgt: <android.support.v4.app.Fragment: void performResume()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment,int,int,int,boolean)>, Tgt: <android.support.v4.app.Fragment: void performStart()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.AutoScrollHelper: void cancelTargetTouch()>, Tgt: <android.support.v4.view.ViewPager: boolean onTouchEvent(android.view.MotionEvent)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewPager: boolean onTouchEvent(android.view.MotionEvent)>, Tgt: <android.support.v4.view.ViewPager: void setCurrentItemInternal(int,boolean,boolean,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewPager: void setCurrentItemInternal(int,boolean,boolean)>, Tgt: <android.support.v4.view.ViewPager: void setCurrentItemInternal(int,boolean,boolean,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.AutoScrollHelper: void cancelTargetTouch()>, Tgt: <android.support.v4.widget.DrawerLayout: boolean onTouchEvent(android.view.MotionEvent)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.AutoScrollHelper: void cancelTargetTouch()>, Tgt: <android.support.v4.widget.SlidingPaneLayout: boolean onTouchEvent(android.view.MotionEvent)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void removeFragment(android.support.v4.app.Fragment,int,int)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment,int,int,int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void performPendingDeferredStart(android.support.v4.app.Fragment)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment,int,int,int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment,int,int,int,boolean)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment,int,int,int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment,int,int,int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void moveToState(int,int,int,boolean)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment,int,int,int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void attachFragment(android.support.v4.app.Fragment,int,int)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment,int,int,int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void detachFragment(android.support.v4.app.Fragment,int,int)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment,int,int,int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.ListFragment: void ensureList()>, Tgt: <android.support.v4.app.ListFragment: void setListAdapter(android.widget.ListAdapter)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.AutoScrollHelper: void access$600(android.support.v4.widget.AutoScrollHelper)>, Tgt: <android.support.v4.widget.AutoScrollHelper: void cancelTargetTouch()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <android.support.v4.content.AsyncTaskLoader$LoadTask: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <android.support.v4.content.AsyncTaskLoader$LoadTask: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewPager: void completeScroll(boolean)>, Tgt: <android.support.v4.content.AsyncTaskLoader$LoadTask: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.DrawerLayout$ViewDragCallback: void onEdgeTouched(int,int)>, Tgt: <android.support.v4.content.AsyncTaskLoader$LoadTask: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.ListFragment: void ensureList()>, Tgt: <android.support.v4.content.AsyncTaskLoader$LoadTask: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: void updatePositionTimeout()>, Tgt: <android.support.v4.content.AsyncTaskLoader$LoadTask: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: void startRefresh()>, Tgt: <android.support.v4.content.AsyncTaskLoader$LoadTask: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postAtTime(java.lang.Runnable,long)>, Tgt: <android.support.v4.content.AsyncTaskLoader$LoadTask: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewCompat$BaseViewCompatImpl: void postOnAnimation(android.view.View,java.lang.Runnable)>, Tgt: <android.support.v4.content.AsyncTaskLoader$LoadTask: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.content.AsyncTaskLoader: void executePendingTask()>, Tgt: <android.support.v4.content.AsyncTaskLoader$LoadTask: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: boolean execPendingActions()>, Tgt: <android.support.v4.content.AsyncTaskLoader$LoadTask: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.content.Loader: void forceLoad()>, Tgt: <android.support.v4.content.AsyncTaskLoader: void onForceLoad()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <android.support.v4.widget.AutoScrollHelper$ScrollAnimationRunnable: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <android.support.v4.widget.AutoScrollHelper$ScrollAnimationRunnable: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewPager: void completeScroll(boolean)>, Tgt: <android.support.v4.widget.AutoScrollHelper$ScrollAnimationRunnable: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.DrawerLayout$ViewDragCallback: void onEdgeTouched(int,int)>, Tgt: <android.support.v4.widget.AutoScrollHelper$ScrollAnimationRunnable: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.ListFragment: void ensureList()>, Tgt: <android.support.v4.widget.AutoScrollHelper$ScrollAnimationRunnable: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: void updatePositionTimeout()>, Tgt: <android.support.v4.widget.AutoScrollHelper$ScrollAnimationRunnable: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: void startRefresh()>, Tgt: <android.support.v4.widget.AutoScrollHelper$ScrollAnimationRunnable: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postAtTime(java.lang.Runnable,long)>, Tgt: <android.support.v4.widget.AutoScrollHelper$ScrollAnimationRunnable: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewCompat$BaseViewCompatImpl: void postOnAnimation(android.view.View,java.lang.Runnable)>, Tgt: <android.support.v4.widget.AutoScrollHelper$ScrollAnimationRunnable: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: boolean execPendingActions()>, Tgt: <android.support.v4.widget.AutoScrollHelper$ScrollAnimationRunnable: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SlidingPaneLayout: void onPanelDragged(int)>, Tgt: <android.support.v4.widget.SlidingPaneLayout: void dimChildView(android.view.View,float,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SlidingPaneLayout: void parallaxOtherViews(float)>, Tgt: <android.support.v4.widget.SlidingPaneLayout: void dimChildView(android.view.View,float,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment,int,int,int,boolean)>, Tgt: <android.support.v4.app.Fragment: void performDestroy()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewPager: void setCurrentItem(int)>, Tgt: <android.support.v4.view.ViewPager: void setCurrentItemInternal(int,boolean,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.BackStackRecord: void run()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void removeFragment(android.support.v4.app.Fragment,int,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.BackStackRecord: void popFromBackStack(boolean)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void removeFragment(android.support.v4.app.Fragment,int,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.BackStackRecord: void popFromBackStack(boolean)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void removeFragment(android.support.v4.app.Fragment,int,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.BackStackRecord: void run()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void removeFragment(android.support.v4.app.Fragment,int,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void startPendingDeferredFragments()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void performPendingDeferredStart(android.support.v4.app.Fragment)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void addFragment(android.support.v4.app.Fragment,boolean)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.BackStackRecord: void run()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(int,int,int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void moveToState(int,boolean)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(int,int,int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.BackStackRecord: void popFromBackStack(boolean)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(int,int,int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.BackStackRecord: void run()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void attachFragment(android.support.v4.app.Fragment,int,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.BackStackRecord: void popFromBackStack(boolean)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void attachFragment(android.support.v4.app.Fragment,int,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.BackStackRecord: void run()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void detachFragment(android.support.v4.app.Fragment,int,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.BackStackRecord: void popFromBackStack(boolean)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void detachFragment(android.support.v4.app.Fragment,int,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.AutoScrollHelper$ScrollAnimationRunnable: void run()>, Tgt: <android.support.v4.widget.AutoScrollHelper: void access$600(android.support.v4.widget.AutoScrollHelper)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.content.CursorLoader: void onStartLoading()>, Tgt: <android.support.v4.content.Loader: void forceLoad()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SlidingPaneLayout: void access$600(android.support.v4.widget.SlidingPaneLayout,int)>, Tgt: <android.support.v4.widget.SlidingPaneLayout: void onPanelDragged(int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SlidingPaneLayout: void onPanelDragged(int)>, Tgt: <android.support.v4.widget.SlidingPaneLayout: void parallaxOtherViews(float)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.PagerTabStrip: boolean onTouchEvent(android.view.MotionEvent)>, Tgt: <android.support.v4.view.ViewPager: void setCurrentItem(int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.PagerTabStrip: boolean onTouchEvent(android.view.MotionEvent)>, Tgt: <android.support.v4.view.ViewPager: void setCurrentItem(int)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <android.support.v4.app.BackStackRecord: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <android.support.v4.app.BackStackRecord: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewPager: void completeScroll(boolean)>, Tgt: <android.support.v4.app.BackStackRecord: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.DrawerLayout$ViewDragCallback: void onEdgeTouched(int,int)>, Tgt: <android.support.v4.app.BackStackRecord: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.ListFragment: void ensureList()>, Tgt: <android.support.v4.app.BackStackRecord: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: void updatePositionTimeout()>, Tgt: <android.support.v4.app.BackStackRecord: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: void startRefresh()>, Tgt: <android.support.v4.app.BackStackRecord: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postAtTime(java.lang.Runnable,long)>, Tgt: <android.support.v4.app.BackStackRecord: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewCompat$BaseViewCompatImpl: void postOnAnimation(android.view.View,java.lang.Runnable)>, Tgt: <android.support.v4.app.BackStackRecord: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: boolean execPendingActions()>, Tgt: <android.support.v4.app.BackStackRecord: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: boolean popBackStackState(android.os.Handler,java.lang.String,int,int)>, Tgt: <android.support.v4.app.BackStackRecord: void popFromBackStack(boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: boolean popBackStackState(android.os.Handler,java.lang.String,int,int)>, Tgt: <android.support.v4.app.BackStackRecord: void popFromBackStack(boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: boolean execPendingActions()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void startPendingDeferredFragments()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.LoaderManagerImpl$LoaderInfo: void onLoadComplete(android.support.v4.content.Loader,java.lang.Object)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void startPendingDeferredFragments()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void moveToState(int,int,int,boolean)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void startPendingDeferredFragments()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.BackStackRecord: void run()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void addFragment(android.support.v4.app.Fragment,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.BackStackRecord: void popFromBackStack(boolean)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void addFragment(android.support.v4.app.Fragment,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.BackStackRecord: void popFromBackStack(boolean)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void addFragment(android.support.v4.app.Fragment,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.BackStackRecord: void run()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void addFragment(android.support.v4.app.Fragment,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void dispatchCreate()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void dispatchDestroy()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void dispatchDestroyView()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void dispatchReallyStop()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void dispatchStop()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void dispatchPause()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void dispatchResume()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void dispatchStart()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void dispatchActivityCreated()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void moveToState(int,boolean)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.content.Loader: void startLoading()>, Tgt: <android.support.v4.content.CursorLoader: void onStartLoading()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SlidingPaneLayout$DragHelperCallback: void onViewPositionChanged(android.view.View,int,int,int,int)>, Tgt: <android.support.v4.widget.SlidingPaneLayout: void access$600(android.support.v4.widget.SlidingPaneLayout,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.AutoScrollHelper: void cancelTargetTouch()>, Tgt: <android.support.v4.view.PagerTabStrip: boolean onTouchEvent(android.view.MotionEvent)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl$3: void run()>, Tgt: <android.support.v4.app.FragmentManagerImpl: boolean popBackStackState(android.os.Handler,java.lang.String,int,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl$4: void run()>, Tgt: <android.support.v4.app.FragmentManagerImpl: boolean popBackStackState(android.os.Handler,java.lang.String,int,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl$2: void run()>, Tgt: <android.support.v4.app.FragmentManagerImpl: boolean popBackStackState(android.os.Handler,java.lang.String,int,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.content.Loader: void deliverResult(java.lang.Object)>, Tgt: <android.support.v4.app.LoaderManagerImpl$LoaderInfo: void onLoadComplete(android.support.v4.content.Loader,java.lang.Object)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.Fragment: void performCreate(android.os.Bundle)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void dispatchCreate()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.Fragment: void performDestroyView()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void dispatchDestroyView()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.Fragment: void performReallyStop()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void dispatchReallyStop()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.Fragment: void performStop()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void dispatchStop()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.Fragment: void performPause()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void dispatchPause()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.Fragment: void performResume()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void dispatchResume()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.Fragment: void performStart()>, Tgt: <android.support.v4.app.FragmentManagerImpl: void dispatchStart()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.Fragment: void performActivityCreated(android.os.Bundle)>, Tgt: <android.support.v4.app.FragmentManagerImpl: void dispatchActivityCreated()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.LoaderManagerImpl$LoaderInfo: void start()>, Tgt: <android.support.v4.content.Loader: void startLoading()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.ViewDragHelper: void dragTo(int,int,int,int)>, Tgt: <android.support.v4.widget.SlidingPaneLayout$DragHelperCallback: void onViewPositionChanged(android.view.View,int,int,int,int)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <android.support.v4.app.FragmentManagerImpl$3: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <android.support.v4.app.FragmentManagerImpl$3: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewPager: void completeScroll(boolean)>, Tgt: <android.support.v4.app.FragmentManagerImpl$3: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.DrawerLayout$ViewDragCallback: void onEdgeTouched(int,int)>, Tgt: <android.support.v4.app.FragmentManagerImpl$3: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.ListFragment: void ensureList()>, Tgt: <android.support.v4.app.FragmentManagerImpl$3: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: void updatePositionTimeout()>, Tgt: <android.support.v4.app.FragmentManagerImpl$3: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: void startRefresh()>, Tgt: <android.support.v4.app.FragmentManagerImpl$3: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postAtTime(java.lang.Runnable,long)>, Tgt: <android.support.v4.app.FragmentManagerImpl$3: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewCompat$BaseViewCompatImpl: void postOnAnimation(android.view.View,java.lang.Runnable)>, Tgt: <android.support.v4.app.FragmentManagerImpl$3: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: boolean execPendingActions()>, Tgt: <android.support.v4.app.FragmentManagerImpl$3: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <android.support.v4.app.FragmentManagerImpl$4: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <android.support.v4.app.FragmentManagerImpl$4: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewPager: void completeScroll(boolean)>, Tgt: <android.support.v4.app.FragmentManagerImpl$4: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.DrawerLayout$ViewDragCallback: void onEdgeTouched(int,int)>, Tgt: <android.support.v4.app.FragmentManagerImpl$4: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.ListFragment: void ensureList()>, Tgt: <android.support.v4.app.FragmentManagerImpl$4: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: void updatePositionTimeout()>, Tgt: <android.support.v4.app.FragmentManagerImpl$4: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: void startRefresh()>, Tgt: <android.support.v4.app.FragmentManagerImpl$4: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postAtTime(java.lang.Runnable,long)>, Tgt: <android.support.v4.app.FragmentManagerImpl$4: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewCompat$BaseViewCompatImpl: void postOnAnimation(android.view.View,java.lang.Runnable)>, Tgt: <android.support.v4.app.FragmentManagerImpl$4: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: boolean execPendingActions()>, Tgt: <android.support.v4.app.FragmentManagerImpl$4: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <android.support.v4.app.FragmentManagerImpl$2: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <android.support.v4.app.FragmentManagerImpl$2: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewPager: void completeScroll(boolean)>, Tgt: <android.support.v4.app.FragmentManagerImpl$2: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.DrawerLayout$ViewDragCallback: void onEdgeTouched(int,int)>, Tgt: <android.support.v4.app.FragmentManagerImpl$2: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.ListFragment: void ensureList()>, Tgt: <android.support.v4.app.FragmentManagerImpl$2: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: void updatePositionTimeout()>, Tgt: <android.support.v4.app.FragmentManagerImpl$2: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.SwipeRefreshLayout: void startRefresh()>, Tgt: <android.support.v4.app.FragmentManagerImpl$2: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postAtTime(java.lang.Runnable,long)>, Tgt: <android.support.v4.app.FragmentManagerImpl$2: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.view.ViewCompat$BaseViewCompatImpl: void postOnAnimation(android.view.View,java.lang.Runnable)>, Tgt: <android.support.v4.app.FragmentManagerImpl$2: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: boolean execPendingActions()>, Tgt: <android.support.v4.app.FragmentManagerImpl$2: void run()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.content.CursorLoader: void deliverResult(android.database.Cursor)>, Tgt: <android.support.v4.content.Loader: void deliverResult(java.lang.Object)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment,int,int,int,boolean)>, Tgt: <android.support.v4.app.Fragment: void performCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment,int,int,int,boolean)>, Tgt: <android.support.v4.app.Fragment: void performDestroyView()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment,int,int,int,boolean)>, Tgt: <android.support.v4.app.Fragment: void performReallyStop()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment,int,int,int,boolean)>, Tgt: <android.support.v4.app.Fragment: void performStop()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment,int,int,int,boolean)>, Tgt: <android.support.v4.app.Fragment: void performPause()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.FragmentManagerImpl: void moveToState(android.support.v4.app.Fragment,int,int,int,boolean)>, Tgt: <android.support.v4.app.Fragment: void performActivityCreated(android.os.Bundle)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.LoaderManagerImpl: void doStart()>, Tgt: <android.support.v4.app.LoaderManagerImpl$LoaderInfo: void start()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.LoaderManagerImpl: void installLoader(android.support.v4.app.LoaderManagerImpl$LoaderInfo)>, Tgt: <android.support.v4.app.LoaderManagerImpl$LoaderInfo: void start()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.widget.ViewDragHelper: void processTouchEvent(android.view.MotionEvent)>, Tgt: <android.support.v4.widget.ViewDragHelper: void dragTo(int,int,int,int)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.content.CursorLoader: void onStartLoading()>, Tgt: <android.support.v4.content.CursorLoader: void deliverResult(android.database.Cursor)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.Fragment: void onStart()>, Tgt: <android.support.v4.app.LoaderManagerImpl: void doStart()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.LoaderManagerImpl$LoaderInfo: void onLoadComplete(android.support.v4.content.Loader,java.lang.Object)>, Tgt: <android.support.v4.app.LoaderManagerImpl: void installLoader(android.support.v4.app.LoaderManagerImpl$LoaderInfo)>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.Fragment: void performStart()>, Tgt: <android.support.v4.app.Fragment: void onStart()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.DialogFragment: void onStart()>, Tgt: <android.support.v4.app.Fragment: void onStart()>
+RespAnalysis - [DEBUG]: Src: <android.support.v4.app.Fragment: void performStart()>, Tgt: <android.support.v4.app.DialogFragment: void onStart()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/JavaThread2.apk\JavaThread2.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.MainActivity$1: void run()>
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/JavaThread2.apk\JavaThread2.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/JavaThread2.apk\JavaThread2.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/JavaThread2.apk\JavaThread2.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/JavaThread2.apk\JavaThread2.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/JavaThread2.apk\JavaThread2.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MainActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/JavaThread2.apk\JavaThread2.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MainActivity: onCreate
+test - [MSG]: Analysis has run for 28.533890165 seconds
+
