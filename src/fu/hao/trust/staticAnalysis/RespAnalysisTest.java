@@ -24,6 +24,44 @@ public class RespAnalysisTest {
 		RespAnalysisTest test = new RespAnalysisTest();
 		args = new String[2];
 		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/LocationLeak1/app";
+
+		try {
+			test.testRunAnalysis(args);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	public void testDroidBenchCallbacks_Button5() {
+		RespAnalysisTest test = new RespAnalysisTest();
+		args = new String[2];
+		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Button5/app";
+		try {
+			test.testRunAnalysis(args);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void testDroidBenchCallbacks_Button4() {
+		RespAnalysisTest test = new RespAnalysisTest();
+		args = new String[2];
+		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Button4/app";
+				//+ "GeneralJava_VirtualDispatch1/app"; LocationLeak1/app";
+		try {
+			test.testRunAnalysis(args);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void testDroidBenchCallbacks_Button3() {
+		RespAnalysisTest test = new RespAnalysisTest();
+		args = new String[2];
+		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
 		args[0] = "C:/Users/hao/workspace/DroidBenchProj/Button3/app";
 				//+ "GeneralJava_VirtualDispatch1/app"; LocationLeak1/app";
 		try {

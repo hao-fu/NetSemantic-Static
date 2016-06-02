@@ -319,6 +319,9 @@ public class RespAnalysis {
 						srcEventChains.put(entry, new LinkedList<SootMethod>());
 						srcEventChains.get(entry).add(entry);
 					}
+					if (entryClass.hasOuterClass()) {
+						entryClass = entryClass.getOuterClass();
+					}
 					if (isActivity(entryClass)) {
 						if (!entry.getName().equals("onCreate")) {
 							// TODO

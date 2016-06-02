@@ -11,3 +11,5 @@ Permission:SENS_SRCS
 <android.telephony.TelephonyManager: java.lang.String getDeviceId()>
 <android.location.LocationManager: android.location.LocationProvider getProvider(java.lang.String)>
 <android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>
+<android.location.Location: double getLatitude()>
+<android.location.Location: double getLongitude()>
