@@ -1,0 +1,1 @@
+"virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>(""+49"", null, $r2, null, null)","<de.ecspride.LocationLeak2: void onResume()>"

@@ -24,6 +24,32 @@ public class RespAnalysisTest {
 		RespAnalysisTest test = new RespAnalysisTest();
 		args = new String[2];
 		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/LocationLeak3/app";
+
+		try {
+			test.testRunAnalysis(args);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void testDroidBenchCallbacks_LocationLeak2() {
+		RespAnalysisTest test = new RespAnalysisTest();
+		args = new String[2];
+		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
+		args[0] = "C:/Users/hao/workspace/DroidBenchProj/LocationLeak2/app";
+
+		try {
+			test.testRunAnalysis(args);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void testDroidBenchCallbacks_LocationLeak1() {
+		RespAnalysisTest test = new RespAnalysisTest();
+		args = new String[2];
+		args[1] = "C:/Users/hao/Downloads/android-sdk-windows/platforms";
 		args[0] = "C:/Users/hao/workspace/DroidBenchProj/LocationLeak1/app";
 
 		try {

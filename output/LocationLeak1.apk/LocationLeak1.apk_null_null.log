@@ -5,24 +5,28 @@ RespAnalysis - [WARN]: Sink: virtualinvoke $r3.<android.telephony.SmsManager: vo
 RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.LocationLeak1: void onResume()>
 RespAnalysis - [MSG]: <de.ecspride.LocationLeak1: void onResume()>: <de.ecspride.LocationLeak1: void onResume()>
 RespAnalysis - [DEBUG]: EntryClass: de.ecspride.LocationLeak1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.LocationLeak1: void onCreate(android.os.Bundle)>, <de.ecspride.LocationLeak1: void onResume()>]
 RespAnalysis - [WARN]: 
 
 RespAnalysis - [WARN]: Sink: virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r2, null, null) at <de.ecspride.LocationLeak1: void onResume()> in de.ecspride.LocationLeak1
 RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.LocationLeak1: void onResume()>
 RespAnalysis - [MSG]: <de.ecspride.LocationLeak1: void onResume()>: <de.ecspride.LocationLeak1: void onResume()>
 RespAnalysis - [DEBUG]: EntryClass: de.ecspride.LocationLeak1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.LocationLeak1: void onCreate(android.os.Bundle)>, <de.ecspride.LocationLeak1: void onResume()>]
 RespAnalysis - [WARN]: 
 
 RespAnalysis - [WARN]: Src: $d0 = virtualinvoke $r1.<android.location.Location: double getLatitude()>() at <de.ecspride.LocationLeak1$MyLocationListener: void onLocationChanged(android.location.Location)> in de.ecspride.LocationLeak1$MyLocationListener
 RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.LocationLeak1$MyLocationListener: void onLocationChanged(android.location.Location)>
 RespAnalysis - [MSG]: <de.ecspride.LocationLeak1$MyLocationListener: void onLocationChanged(android.location.Location)>: <de.ecspride.LocationLeak1$MyLocationListener: void onLocationChanged(android.location.Location)>
 RespAnalysis - [DEBUG]: EntryClass: de.ecspride.LocationLeak1$MyLocationListener
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.LocationLeak1: void onCreate(android.os.Bundle)>, <de.ecspride.LocationLeak1$MyLocationListener: void onLocationChanged(android.location.Location)>]
 RespAnalysis - [WARN]: 
 
 RespAnalysis - [WARN]: Src: $d1 = virtualinvoke $r1.<android.location.Location: double getLongitude()>() at <de.ecspride.LocationLeak1$MyLocationListener: void onLocationChanged(android.location.Location)> in de.ecspride.LocationLeak1$MyLocationListener
 RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.LocationLeak1$MyLocationListener: void onLocationChanged(android.location.Location)>
 RespAnalysis - [MSG]: <de.ecspride.LocationLeak1$MyLocationListener: void onLocationChanged(android.location.Location)>: <de.ecspride.LocationLeak1$MyLocationListener: void onLocationChanged(android.location.Location)>
 RespAnalysis - [DEBUG]: EntryClass: de.ecspride.LocationLeak1$MyLocationListener
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.LocationLeak1: void onCreate(android.os.Bundle)>, <de.ecspride.LocationLeak1$MyLocationListener: void onLocationChanged(android.location.Location)>]
 RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/LocationLeak1.apk\LocationLeak1.apk_resp.csv
 RespAnalysis - [MSG]: <de.ecspride.LocationLeak1: void onResume()>
 RespAnalysis - [MSG]: <de.ecspride.LocationLeak1: void onResume()>
@@ -34,11 +38,9 @@ RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Locat
 RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/LocationLeak1.apk\LocationLeak1.apk_UnknownInitFields.csv
 RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/LocationLeak1.apk\LocationLeak1.apk_SrcEventChains.csv
 RespAnalysis - [MSG]: de.ecspride.LocationLeak1: onCreate
-RespAnalysis - [MSG]: de.ecspride.LocationLeak1: onCreate
 RespAnalysis - [MSG]: de.ecspride.LocationLeak1$MyLocationListener: onLocationChanged
 RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/LocationLeak1.apk\LocationLeak1.apk_SinkEventChains.csv
 RespAnalysis - [MSG]: de.ecspride.LocationLeak1: onCreate
-RespAnalysis - [MSG]: de.ecspride.LocationLeak1: onCreate
 RespAnalysis - [MSG]: de.ecspride.LocationLeak1: onResume
-test - [MSG]: Analysis has run for 13.384284124 seconds
+test - [MSG]: Analysis has run for 14.011035703 seconds
 

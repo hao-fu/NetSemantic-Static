@@ -54,6 +54,7 @@ public class RespAnalysis {
 	// entry (callback within the class), the event chain to reach the entry
 	private static Map<SootMethod, LinkedList<SootMethod>> srcEventChains;
 	private static Map<SootMethod, LinkedList<SootMethod>> sinkEventChains;
+	private static Set<SootClass> listenerInterfaces;
 
 	Map<Stmt, Set<SootMethod>> cgPaths;
 	// The methods might init Intent intent that startActivity/Service
@@ -61,7 +62,8 @@ public class RespAnalysis {
 
 	Map<SootMethod, SootClass> fragDeclrs;
 	// <Listener, Chains>
-	Map<SootClass, Set<LinkedList<SootMethod>>> viewListeners;
+	//Map<SootClass, Set<LinkedList<SootMethod>>> viewListeners;
+	Map<SootClass, Set<LinkedList<SootMethod>>> listeners;
 
 	// The nested class to implement singleton
 	private static class SingletonHolder {
@@ -94,7 +96,17 @@ public class RespAnalysis {
 		unknownInitFields = new HashMap<>();
 		srcEventChains = new HashMap<>();
 		sinkEventChains = new HashMap<>();
-		viewListeners = new HashMap<>();
+		//viewListeners = new HashMap<>();
+		listeners = new HashMap<>();
+		
+		listenerInterfaces = new HashSet<>();
+		SootClass listener = Scene.v().getSootClass(
+				"android.view.View$OnClickListener");
+		listenerInterfaces.add(listener);
+		listener = Scene.v().getSootClass(
+				"android.location.LocationListener");
+		listenerInterfaces.add(listener);
+		
 
 		for (SootClass sootClass : Scene.v().getClasses()) {
 			if (sootClass.toString().startsWith("android")
@@ -219,7 +231,7 @@ public class RespAnalysis {
 		writeStartActServ(startActPaths);
 		writeFragDeclrs(fragDeclrs);
 		writeInitUnknownFields(unknownInitFields);
-		bindViewListeners();
+		bindListeners();
 		writeEventChains(srcEventChains, false);
 		writeEventChains(sinkEventChains, true);
 		return sinkUnits;
@@ -241,12 +253,13 @@ public class RespAnalysis {
 		return false;
 	}
 
-	private boolean isViewListener(SootClass clazz) {
+	private boolean isListener(SootClass clazz) {
 		SootClass listener = Scene.v().getSootClass(
 				"android.view.View$OnClickListener");
+		
 		Log.bb(TAG, "Listener " + listener);
 		for (SootClass sootInterface : clazz.getInterfaces()) {
-			if (sootInterface.equals(listener)) {
+			if (listenerInterfaces.contains(sootInterface)) {	
 				Log.debug(TAG, "Listener found: " + clazz);
 				return true;
 			}
@@ -327,18 +340,20 @@ public class RespAnalysis {
 							// TODO
 							SootMethod onCreate = entryClass
 									.getMethodByName("onCreate");
+							if (!srcEventChains.get(entry).getFirst().equals(onCreate)) {
 								srcEventChains.get(entry).addFirst(onCreate);
+							}
 						}
-					} else if (isViewListener(entryClass)) {
+					} else if (isListener(entryClass)) {
 						Set<LinkedList<SootMethod>> chainSet;
-						if (!viewListeners.containsKey(entryClass)) {
+						if (!listeners.containsKey(entryClass)) {
 							chainSet = new HashSet<>();
-							viewListeners.put(entryClass, chainSet);
+							listeners.put(entryClass, chainSet);
 						}
-						chainSet = viewListeners.get(entryClass);
+						chainSet = listeners.get(entryClass);
 						chainSet.add(srcEventChains.get(entry));
 					}
-
+					Log.msg(TAG, "chainSet: " + srcEventChains.get(entry));
 					for (SootClass subclass : Scene.v().getActiveHierarchy()
 							.getSubclassesOf(entryClass)) {
 						try {
@@ -366,8 +381,8 @@ public class RespAnalysis {
 	 * @return void
 	 * @throws
 	 */
-	private void bindViewListeners() {
-		if (viewListeners.size() == 0) {
+	private void bindListeners() {
+		if (listeners.size() == 0) {
 			return;
 		}
 
@@ -387,12 +402,12 @@ public class RespAnalysis {
 							AssignStmt astmt = (AssignStmt) stmt;
 							if (astmt.getRightOp() instanceof NewExpr) {
 								NewExpr nexExpr = (NewExpr) astmt.getRightOp();
-								for (SootClass listener : viewListeners
+								for (SootClass listener : listeners
 										.keySet()) {
 									if (nexExpr.toString().contains(
 											listener.toString())) {
 										Log.bb(TAG, "NewExpr: " + nexExpr);
-										for (LinkedList<SootMethod> chain : viewListeners
+										for (LinkedList<SootMethod> chain : listeners
 												.get(listener)) {
 											if (isActivity(sootClass)) {
 												SootMethod onCreate = sootClass
