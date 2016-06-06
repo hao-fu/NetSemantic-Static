@@ -1,0 +1,43 @@
+test - [MSG]: Begin to analyze: MultiHandlers1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r2, null, null) at <de.ecspride.MultiHandlers2: void onResume()> in de.ecspride.MultiHandlers2
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MultiHandlers2: void onResume()>
+RespAnalysis - [MSG]: <de.ecspride.MultiHandlers2: void onResume()>: <de.ecspride.MultiHandlers2: void onResume()>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MultiHandlers2
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MultiHandlers2: void onCreate(android.os.Bundle)>, <de.ecspride.MultiHandlers2: void onResume()>]
+RespAnalysis - [WARN]: No method source set for method <de.ecspride.IDataProvider: void setData(java.lang.String)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $d0 = virtualinvoke $r1.<android.location.Location: double getLongitude()>() at <de.ecspride.MyLocationListener1: void onLocationChanged(android.location.Location)> in de.ecspride.MyLocationListener1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MyLocationListener1: void onLocationChanged(android.location.Location)>
+RespAnalysis - [MSG]: <de.ecspride.MyLocationListener1: void onLocationChanged(android.location.Location)>: <de.ecspride.MyLocationListener1: void onLocationChanged(android.location.Location)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MyLocationListener1
+RespAnalysis - [DEBUG]: Listener found: de.ecspride.MyLocationListener1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MyLocationListener1: void onLocationChanged(android.location.Location)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $d0 = virtualinvoke $r1.<android.location.Location: double getLatitude()>() at <de.ecspride.MyLocationListener1: void onLocationChanged(android.location.Location)> in de.ecspride.MyLocationListener1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MyLocationListener1: void onLocationChanged(android.location.Location)>
+RespAnalysis - [MSG]: <de.ecspride.MyLocationListener1: void onLocationChanged(android.location.Location)>: <de.ecspride.MyLocationListener1: void onLocationChanged(android.location.Location)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MyLocationListener1
+RespAnalysis - [DEBUG]: Listener found: de.ecspride.MyLocationListener1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MyLocationListener1: void onLocationChanged(android.location.Location)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/MultiHandlers1.apk\MultiHandlers1.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.MultiHandlers2: void onResume()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/MultiHandlers1.apk\MultiHandlers1.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.MyLocationListener1: void onLocationChanged(android.location.Location)>
+RespAnalysis - [MSG]: <de.ecspride.MyLocationListener1: void onLocationChanged(android.location.Location)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/MultiHandlers1.apk\MultiHandlers1.apk_StartActServ.csv
+RespAnalysis - [MSG]: de.ecspride.MultiHandlers1: onResume
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/MultiHandlers1.apk\MultiHandlers1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/MultiHandlers1.apk\MultiHandlers1.apk_UnknownInitFields.csv
+RespAnalysis - [WARN]: [<de.ecspride.MultiHandlers2: void onCreate(android.os.Bundle)>, <de.ecspride.MyLocationListener1: void onLocationChanged(android.location.Location)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/MultiHandlers1.apk\MultiHandlers1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MultiHandlers2: onCreate
+RespAnalysis - [MSG]: de.ecspride.MyLocationListener1: onLocationChanged
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/MultiHandlers1.apk\MultiHandlers1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MultiHandlers2: onCreate
+RespAnalysis - [MSG]: de.ecspride.MultiHandlers2: onResume
+test - [MSG]: Analysis has run for 12.857704474 seconds
+

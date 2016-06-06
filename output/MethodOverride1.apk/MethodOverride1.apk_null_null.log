@@ -1,0 +1,30 @@
+test - [MSG]: Begin to analyze: MethodOverride1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.MethodOverride1: void attachBaseContext(android.content.Context)> in de.ecspride.MethodOverride1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MethodOverride1: void attachBaseContext(android.content.Context)>
+RespAnalysis - [MSG]: <de.ecspride.MethodOverride1: void attachBaseContext(android.content.Context)>: <de.ecspride.MethodOverride1: void attachBaseContext(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MethodOverride1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MethodOverride1: void onCreate(android.os.Bundle)>, <de.ecspride.MethodOverride1: void attachBaseContext(android.content.Context)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r5.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r4, null, null) at <de.ecspride.MethodOverride1: void attachBaseContext(android.content.Context)> in de.ecspride.MethodOverride1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MethodOverride1: void attachBaseContext(android.content.Context)>
+RespAnalysis - [MSG]: <de.ecspride.MethodOverride1: void attachBaseContext(android.content.Context)>: <de.ecspride.MethodOverride1: void attachBaseContext(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MethodOverride1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MethodOverride1: void onCreate(android.os.Bundle)>, <de.ecspride.MethodOverride1: void attachBaseContext(android.content.Context)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/MethodOverride1.apk\MethodOverride1.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.MethodOverride1: void attachBaseContext(android.content.Context)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/MethodOverride1.apk\MethodOverride1.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.MethodOverride1: void attachBaseContext(android.content.Context)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/MethodOverride1.apk\MethodOverride1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/MethodOverride1.apk\MethodOverride1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/MethodOverride1.apk\MethodOverride1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/MethodOverride1.apk\MethodOverride1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MethodOverride1: onCreate
+RespAnalysis - [MSG]: de.ecspride.MethodOverride1: attachBaseContext
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/MethodOverride1.apk\MethodOverride1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MethodOverride1: onCreate
+RespAnalysis - [MSG]: de.ecspride.MethodOverride1: attachBaseContext
+test - [MSG]: Analysis has run for 16.274570025 seconds
+

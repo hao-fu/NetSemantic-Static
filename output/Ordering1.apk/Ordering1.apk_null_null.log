@@ -1,0 +1,37 @@
+test - [MSG]: Begin to analyze: Ordering1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r4.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r3, null, null) at <de.ecspride.MainActivity: void onCreate(android.os.Bundle)> in de.ecspride.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MainActivity
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $d0 = virtualinvoke $r1.<android.location.Location: double getLatitude()>() at <de.ecspride.MainActivity$1: void onLocationChanged(android.location.Location)> in de.ecspride.MainActivity$1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MainActivity$1: void onLocationChanged(android.location.Location)>
+RespAnalysis - [MSG]: <de.ecspride.MainActivity$1: void onLocationChanged(android.location.Location)>: <de.ecspride.MainActivity$1: void onLocationChanged(android.location.Location)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MainActivity$1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MainActivity: void onCreate(android.os.Bundle)>, <de.ecspride.MainActivity$1: void onLocationChanged(android.location.Location)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $d1 = virtualinvoke $r1.<android.location.Location: double getLongitude()>() at <de.ecspride.MainActivity$1: void onLocationChanged(android.location.Location)> in de.ecspride.MainActivity$1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MainActivity$1: void onLocationChanged(android.location.Location)>
+RespAnalysis - [MSG]: <de.ecspride.MainActivity$1: void onLocationChanged(android.location.Location)>: <de.ecspride.MainActivity$1: void onLocationChanged(android.location.Location)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MainActivity$1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MainActivity: void onCreate(android.os.Bundle)>, <de.ecspride.MainActivity$1: void onLocationChanged(android.location.Location)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Ordering1.apk\Ordering1.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Ordering1.apk\Ordering1.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.MainActivity$1: void onLocationChanged(android.location.Location)>
+RespAnalysis - [MSG]: <de.ecspride.MainActivity$1: void onLocationChanged(android.location.Location)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Ordering1.apk\Ordering1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Ordering1.apk\Ordering1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Ordering1.apk\Ordering1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Ordering1.apk\Ordering1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MainActivity: onCreate
+RespAnalysis - [MSG]: de.ecspride.MainActivity$1: onLocationChanged
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Ordering1.apk\Ordering1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MainActivity: onCreate
+test - [MSG]: Analysis has run for 11.690902949 seconds
+
