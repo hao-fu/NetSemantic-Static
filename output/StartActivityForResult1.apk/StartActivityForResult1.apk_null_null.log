@@ -1,0 +1,57 @@
+test - [MSG]: Begin to analyze: StartActivityForResult1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r7.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r4, null, null) at <org.cert.WriteFile.MainActivity: void onActivityResult(int,int,android.content.Intent)> in org.cert.WriteFile.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <org.cert.WriteFile.MainActivity: void onActivityResult(int,int,android.content.Intent)>
+RespAnalysis - [MSG]: <org.cert.WriteFile.MainActivity: void onActivityResult(int,int,android.content.Intent)>: <org.cert.WriteFile.MainActivity: void onActivityResult(int,int,android.content.Intent)>
+RespAnalysis - [DEBUG]: EntryClass: org.cert.WriteFile.MainActivity
+RespAnalysis - [MSG]: chainSet: [<org.cert.WriteFile.MainActivity: void onCreate(android.os.Bundle)>, <org.cert.WriteFile.MainActivity: void onActivityResult(int,int,android.content.Intent)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r5 = virtualinvoke $r4.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>("gps") at <org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()> in org.cert.WriteFile.Button1Listener
+RespAnalysis - [DEBUG]: Src: <org.cert.WriteFile.Button1Listener: void onClick(android.view.View)>, Tgt: <org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <org.cert.WriteFile.Button1Listener: void onClick(android.view.View)>
+RespAnalysis - [MSG]: <org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()>: <org.cert.WriteFile.Button1Listener: void onClick(android.view.View)>
+RespAnalysis - [DEBUG]: EntryClass: org.cert.WriteFile.Button1Listener
+RespAnalysis - [DEBUG]: Listener found: org.cert.WriteFile.Button1Listener
+RespAnalysis - [MSG]: chainSet: [<org.cert.WriteFile.Button1Listener: void onClick(android.view.View)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $d0 = virtualinvoke $r5.<android.location.Location: double getLongitude()>() at <org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()> in org.cert.WriteFile.Button1Listener
+RespAnalysis - [DEBUG]: Src: <org.cert.WriteFile.Button1Listener: void onClick(android.view.View)>, Tgt: <org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <org.cert.WriteFile.Button1Listener: void onClick(android.view.View)>
+RespAnalysis - [MSG]: <org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()>: <org.cert.WriteFile.Button1Listener: void onClick(android.view.View)>
+RespAnalysis - [DEBUG]: EntryClass: org.cert.WriteFile.Button1Listener
+RespAnalysis - [DEBUG]: Listener found: org.cert.WriteFile.Button1Listener
+RespAnalysis - [MSG]: chainSet: [<org.cert.WriteFile.Button1Listener: void onClick(android.view.View)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $d1 = virtualinvoke $r5.<android.location.Location: double getLatitude()>() at <org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()> in org.cert.WriteFile.Button1Listener
+RespAnalysis - [DEBUG]: Src: <org.cert.WriteFile.Button1Listener: void onClick(android.view.View)>, Tgt: <org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <org.cert.WriteFile.Button1Listener: void onClick(android.view.View)>
+RespAnalysis - [MSG]: <org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()>: <org.cert.WriteFile.Button1Listener: void onClick(android.view.View)>
+RespAnalysis - [DEBUG]: EntryClass: org.cert.WriteFile.Button1Listener
+RespAnalysis - [DEBUG]: Listener found: org.cert.WriteFile.Button1Listener
+RespAnalysis - [MSG]: chainSet: [<org.cert.WriteFile.Button1Listener: void onClick(android.view.View)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StartActivityForResult1.apk\StartActivityForResult1.apk_resp.csv
+RespAnalysis - [MSG]: <org.cert.WriteFile.MainActivity: void onActivityResult(int,int,android.content.Intent)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StartActivityForResult1.apk\StartActivityForResult1.apk_src.csv
+RespAnalysis - [MSG]: <org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()>
+RespAnalysis - [MSG]: <org.cert.WriteFile.Button1Listener: void onClick(android.view.View)>
+RespAnalysis - [MSG]: <org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()>
+RespAnalysis - [MSG]: <org.cert.WriteFile.Button1Listener: void onClick(android.view.View)>
+RespAnalysis - [MSG]: <org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()>
+RespAnalysis - [MSG]: <org.cert.WriteFile.Button1Listener: void onClick(android.view.View)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StartActivityForResult1.apk\StartActivityForResult1.apk_StartActServ.csv
+RespAnalysis - [MSG]: org.cert.WriteFile.Button1Listener: onClick
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StartActivityForResult1.apk\StartActivityForResult1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StartActivityForResult1.apk\StartActivityForResult1.apk_UnknownInitFields.csv
+RespAnalysis - [WARN]: [<org.cert.WriteFile.MainActivity: void onCreate(android.os.Bundle)>, <org.cert.WriteFile.Button1Listener: void onClick(android.view.View)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StartActivityForResult1.apk\StartActivityForResult1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: org.cert.WriteFile.MainActivity: onCreate
+RespAnalysis - [MSG]: org.cert.WriteFile.Button1Listener: onClick
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StartActivityForResult1.apk\StartActivityForResult1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: org.cert.WriteFile.MainActivity: onCreate
+RespAnalysis - [MSG]: org.cert.WriteFile.MainActivity: onActivityResult
+test - [MSG]: Analysis has run for 16.741448964 seconds
+

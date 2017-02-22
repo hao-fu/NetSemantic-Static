@@ -1,0 +1,19 @@
+test - [MSG]: Begin to analyze: IntentSink1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.IntentSink1: void onCreate(android.os.Bundle)> in de.ecspride.IntentSink1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.IntentSink1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.IntentSink1: void onCreate(android.os.Bundle)>: <de.ecspride.IntentSink1: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.IntentSink1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.IntentSink1: void onCreate(android.os.Bundle)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/IntentSink1.apk\IntentSink1.apk_resp.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/IntentSink1.apk\IntentSink1.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.IntentSink1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/IntentSink1.apk\IntentSink1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/IntentSink1.apk\IntentSink1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/IntentSink1.apk\IntentSink1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/IntentSink1.apk\IntentSink1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.IntentSink1: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/IntentSink1.apk\IntentSink1.apk_SinkEventChains.csv
+test - [MSG]: Analysis has run for 22.324007023 seconds
+

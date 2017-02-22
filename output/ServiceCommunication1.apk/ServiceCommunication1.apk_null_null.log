@@ -1,0 +1,29 @@
+test - [MSG]: Begin to analyze: ServiceCommunication1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r5 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <edu.mit.icc_service_messages.ActivityMessenger: void sayHello(android.view.View)> in edu.mit.icc_service_messages.ActivityMessenger
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.icc_service_messages.ActivityMessenger: void sayHello(android.view.View)>
+RespAnalysis - [MSG]: <edu.mit.icc_service_messages.ActivityMessenger: void sayHello(android.view.View)>: <edu.mit.icc_service_messages.ActivityMessenger: void sayHello(android.view.View)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.icc_service_messages.ActivityMessenger
+RespAnalysis - [MSG]: chainSet: [<edu.mit.icc_service_messages.ActivityMessenger: void onCreate(android.os.Bundle)>, <edu.mit.icc_service_messages.ActivityMessenger: void sayHello(android.view.View)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r4.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r3, null, null) at <edu.mit.icc_service_messages.MessengerService$IncomingHandler: void handleMessage(android.os.Message)> in edu.mit.icc_service_messages.MessengerService$IncomingHandler
+RespAnalysis - [MSG]: <edu.mit.icc_service_messages.MessengerService$IncomingHandler: void handleMessage(android.os.Message)>: <edu.mit.icc_service_messages.MessengerService$IncomingHandler: void handleMessage(android.os.Message)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.icc_service_messages.MessengerService$IncomingHandler
+RespAnalysis - [MSG]: chainSet: [<edu.mit.icc_service_messages.MessengerService$IncomingHandler: void handleMessage(android.os.Message)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ServiceCommunication1.apk\ServiceCommunication1.apk_resp.csv
+RespAnalysis - [MSG]: <edu.mit.icc_service_messages.MessengerService$IncomingHandler: void handleMessage(android.os.Message)>
+RespAnalysis - [MSG]: <edu.mit.icc_service_messages.MessengerService$IncomingHandler: void handleMessage(android.os.Message)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ServiceCommunication1.apk\ServiceCommunication1.apk_src.csv
+RespAnalysis - [MSG]: <edu.mit.icc_service_messages.ActivityMessenger: void sayHello(android.view.View)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ServiceCommunication1.apk\ServiceCommunication1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ServiceCommunication1.apk\ServiceCommunication1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ServiceCommunication1.apk\ServiceCommunication1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ServiceCommunication1.apk\ServiceCommunication1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: edu.mit.icc_service_messages.ActivityMessenger: onCreate
+RespAnalysis - [MSG]: edu.mit.icc_service_messages.ActivityMessenger: sayHello
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ServiceCommunication1.apk\ServiceCommunication1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: edu.mit.icc_service_messages.MessengerService$IncomingHandler: handleMessage
+test - [MSG]: Analysis has run for 7.157580248 seconds
+

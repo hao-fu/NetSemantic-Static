@@ -1,0 +1,636 @@
+test - [MSG]: Begin to analyze: 7656cd2159882c165b28ad5ba9e523a34357cf6d.apk
+RespAnalysis - [WARN]: No method source set for method <com.google.ads.Ad: boolean isReady()>
+RespAnalysis - [WARN]: No method source set for method <com.google.ads.Ad: void loadAd(com.google.ads.AdRequest)>
+RespAnalysis - [WARN]: No method source set for method <com.google.ads.Ad: void setAdListener(com.google.ads.AdListener)>
+RespAnalysis - [WARN]: No method source set for method <com.google.ads.Ad: void stopLoading()>
+RespAnalysis - [WARN]: No method source set for method <com.google.ads.AdListener: void onDismissScreen(com.google.ads.Ad)>
+RespAnalysis - [WARN]: No method source set for method <com.google.ads.AdListener: void onFailedToReceiveAd(com.google.ads.Ad,com.google.ads.AdRequest$ErrorCode)>
+RespAnalysis - [WARN]: No method source set for method <com.google.ads.AdListener: void onLeaveApplication(com.google.ads.Ad)>
+RespAnalysis - [WARN]: No method source set for method <com.google.ads.AdListener: void onPresentScreen(com.google.ads.Ad)>
+RespAnalysis - [WARN]: No method source set for method <com.google.ads.AdListener: void onReceiveAd(com.google.ads.Ad)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r4 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() at <b: java.lang.Void a(java.lang.String[])> in b
+RespAnalysis - [MSG]: <b: java.lang.Void a(java.lang.String[])>: <b: java.lang.Void a(java.lang.String[])>
+RespAnalysis - [DEBUG]: EntryClass: b
+RespAnalysis - [MSG]: chainSet: [<b: java.lang.Void a(java.lang.String[])>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r5.<java.net.HttpURLConnection: void connect()>() at <b: java.lang.Void a(java.lang.String[])> in b
+RespAnalysis - [MSG]: <b: java.lang.Void a(java.lang.String[])>: <b: java.lang.Void a(java.lang.String[])>
+RespAnalysis - [DEBUG]: EntryClass: b
+RespAnalysis - [MSG]: chainSet: [<b: java.lang.Void a(java.lang.String[])>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r10 = virtualinvoke $r9.<java.net.URL: java.net.URLConnection openConnection()>() at <com.google.ads.InstallReceiver: void onReceive(android.content.Context,android.content.Intent)> in com.google.ads.InstallReceiver
+RespAnalysis - [MSG]: <com.google.ads.InstallReceiver: void onReceive(android.content.Context,android.content.Intent)>: <com.google.ads.InstallReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [DEBUG]: EntryClass: com.google.ads.InstallReceiver
+RespAnalysis - [MSG]: chainSet: [<com.google.ads.InstallReceiver: void onReceive(android.content.Context,android.content.Intent)>]
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.ExclusionStrategy: boolean shouldSkipClass(java.lang.Class)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.ExclusionStrategy: boolean shouldSkipField(com.google.gson.FieldAttributes)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.b: java.lang.Object a(java.lang.Object)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.b: void a(java.lang.Object,java.lang.Object)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.k: java.lang.String a(com.google.gson.FieldAttributes)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.FieldNamingStrategy: java.lang.String translateName(java.lang.reflect.Field)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.w: void a(com.google.gson.JsonElement,java.lang.Appendable,boolean)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.JsonElement: void a(java.lang.Appendable,com.google.gson.h)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.am: java.lang.Object a(java.lang.reflect.Type)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.am: java.lang.Object a(java.lang.reflect.Type,int)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.ObjectNavigator$Visitor: void end(com.google.gson.ao)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.ObjectNavigator$Visitor: java.lang.Object getTarget()>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.ObjectNavigator$Visitor: void start(com.google.gson.ao)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.ObjectNavigator$Visitor: void startVisitingObject(java.lang.Object)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.ObjectNavigator$Visitor: void visitArray(java.lang.Object,java.lang.reflect.Type)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.ObjectNavigator$Visitor: void visitArrayField(com.google.gson.FieldAttributes,java.lang.reflect.Type,java.lang.Object)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.ObjectNavigator$Visitor: boolean visitFieldUsingCustomHandler(com.google.gson.FieldAttributes,java.lang.reflect.Type,java.lang.Object)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.ObjectNavigator$Visitor: void visitObjectField(com.google.gson.FieldAttributes,java.lang.reflect.Type,java.lang.Object)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.ObjectNavigator$Visitor: void visitPrimitive(java.lang.Object)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.ObjectNavigator$Visitor: boolean visitUsingCustomHandler(com.google.gson.ao)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.LongSerializationPolicy$b: com.google.gson.JsonElement a(java.lang.Long)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.InstanceCreator: java.lang.Object createInstance(java.lang.reflect.Type)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.JsonDeserializationContext: java.lang.Object deserialize(com.google.gson.JsonElement,java.lang.reflect.Type)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.JsonDeserializer: java.lang.Object deserialize(com.google.gson.JsonElement,java.lang.reflect.Type,com.google.gson.JsonDeserializationContext)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.JsonSerializationContext: com.google.gson.JsonElement serialize(java.lang.Object)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.JsonSerializationContext: com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.JsonSerializer: com.google.gson.JsonElement serialize(java.lang.Object,java.lang.reflect.Type,com.google.gson.JsonSerializationContext)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.av: java.lang.String a(java.lang.String,java.lang.reflect.Type,java.util.Collection)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.u: void a()>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.u: void a(com.google.gson.JsonPrimitive)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.u: void a(com.google.gson.JsonPrimitive,boolean)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.u: void a(java.lang.String,com.google.gson.JsonPrimitive,boolean)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.u: void a(java.lang.String,boolean)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.u: void a(boolean)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.u: void b()>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.u: void b(java.lang.String,boolean)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.u: void b(boolean)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.u: void c()>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.u: void c(java.lang.String,boolean)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.u: void c(boolean)>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.u: void d()>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.u: void e()>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.annotations.Expose: boolean deserialize()>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.annotations.Expose: boolean serialize()>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.annotations.SerializedName: java.lang.String value()>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.annotations.Since: double value()>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.annotations.Until: double value()>
+RespAnalysis - [WARN]: No method source set for method <com.google.gson.s: java.lang.Object a()>
+RespAnalysis - [WARN]: No method source set for method <com.info.common.IListener: void doinBG()>
+RespAnalysis - [WARN]: No method source set for method <com.info.common.IListener: void onPostExeute()>
+RespAnalysis - [WARN]: No method source set for method <com.info.common.IListener: void onPreExecute()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r0 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms") at <com.info.common.TaskHandler: void <clinit>()> in com.info.common.TaskHandler
+RespAnalysis - [DEBUG]: Src: <com.info.eraser.glance.main: void onCreate(android.os.Bundle)>, Tgt: <com.info.common.TaskHandler: void <clinit>()>
+RespAnalysis - [DEBUG]: Src: <com.info.common.TaskHandler: int deleteAllSms()>, Tgt: <com.info.common.TaskHandler: void <clinit>()>
+RespAnalysis - [DEBUG]: Src: <com.info.common.TaskHandler: int deleteAllSms()>, Tgt: <com.info.common.TaskHandler: void <clinit>()>
+RespAnalysis - [DEBUG]: Src: <com.info.common.TaskHandler: int deleteAllCallLogs()>, Tgt: <com.info.common.TaskHandler: void <clinit>()>
+RespAnalysis - [DEBUG]: Src: <com.info.common.TaskHandler: int deleteAllContacts()>, Tgt: <com.info.common.TaskHandler: void <clinit>()>
+RespAnalysis - [DEBUG]: Src: <com.info.common.TaskHandler: void <clinit>()>, Tgt: <com.info.common.TaskHandler: void <clinit>()>
+RespAnalysis - [DEBUG]: Src: <com.info.common.TaskHandler: void <clinit>()>, Tgt: <com.info.common.TaskHandler: void <clinit>()>
+RespAnalysis - [DEBUG]: Src: <com.info.common.TaskHandler: void <clinit>()>, Tgt: <com.info.common.TaskHandler: void <clinit>()>
+RespAnalysis - [DEBUG]: Src: <com.info.common.TaskHandler: void <clinit>()>, Tgt: <com.info.common.TaskHandler: void <clinit>()>
+RespAnalysis - [DEBUG]: Src: <com.info.common.TaskHandler: void <clinit>()>, Tgt: <com.info.common.TaskHandler: void <clinit>()>
+RespAnalysis - [DEBUG]: Src: <com.info.common.TaskHandler: void <clinit>()>, Tgt: <com.info.common.TaskHandler: void <clinit>()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.info.eraser.glance.main: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.info.common.TaskHandler: void <clinit>()>: <com.info.eraser.glance.main: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.info.eraser.glance.main
+RespAnalysis - [MSG]: chainSet: [<com.info.eraser.glance.main: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.info.eraser.glance.main$2: void doinBG()>, Tgt: <com.info.common.TaskHandler: int deleteAllSms()>
+RespAnalysis - [DEBUG]: Src: <com.info.eraser.glance.main$2: void doinBG()>, Tgt: <com.info.common.TaskHandler: int deleteAllCallLogs()>
+RespAnalysis - [DEBUG]: Src: <com.info.eraser.glance.main$2: void doinBG()>, Tgt: <com.info.common.TaskHandler: int deleteAllContacts()>
+RespAnalysis - [DEBUG]: Src: <com.info.common.BGTask: java.lang.Void doInBackground(java.lang.Void[])>, Tgt: <com.info.eraser.glance.main$2: void doinBG()>
+RespAnalysis - [DEBUG]: Src: <com.info.common.BGTask: java.lang.Object doInBackground(java.lang.Object[])>, Tgt: <com.info.common.BGTask: java.lang.Void doInBackground(java.lang.Void[])>
+RespAnalysis - [DEBUG]: Src: <com.info.eraser.glance.main: void doWork(int)>, Tgt: <com.info.common.BGTask: java.lang.Object doInBackground(java.lang.Object[])>
+RespAnalysis - [DEBUG]: Src: <com.info.eraser.glance.main: void access$0(com.info.eraser.glance.main,int)>, Tgt: <com.info.eraser.glance.main: void doWork(int)>
+RespAnalysis - [DEBUG]: Src: <com.info.eraser.glance.main$1: void onClick(android.content.DialogInterface,int)>, Tgt: <com.info.eraser.glance.main: void access$0(com.info.eraser.glance.main,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.info.eraser.glance.main$1: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.info.common.TaskHandler: void <clinit>()>: <com.info.eraser.glance.main$1: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.info.eraser.glance.main$1
+RespAnalysis - [MSG]: chainSet: [<com.info.eraser.glance.main: void onCreate(android.os.Bundle)>, <com.info.eraser.glance.main$1: void onClick(android.content.DialogInterface,int)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r0 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms") at <com.info.eraser.glance.strategy.core.ContactSmsHandler: void <clinit>()> in com.info.eraser.glance.strategy.core.ContactSmsHandler
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.core.ContactSmsHandler: void <clinit>()>: <com.info.eraser.glance.strategy.core.ContactSmsHandler: void <clinit>()>
+RespAnalysis - [DEBUG]: EntryClass: com.info.eraser.glance.strategy.core.ContactSmsHandler
+RespAnalysis - [MSG]: chainSet: [<com.info.eraser.glance.strategy.core.ContactSmsHandler: void <clinit>()>]
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NodeList is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NodeList,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NodeList is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NodeList,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMException is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMException,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DocumentType is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DocumentType,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DocumentType is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DocumentType,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DocumentType is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DocumentType,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DocumentType is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DocumentType,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DocumentType is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DocumentType,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DocumentType is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DocumentType,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMImplementation is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMImplementation,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMImplementation is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMImplementation,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMImplementation is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMImplementation,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Text is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Text,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ProcessingInstruction is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ProcessingInstruction,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ProcessingInstruction is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ProcessingInstruction,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ProcessingInstruction is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ProcessingInstruction,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Attr is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Attr,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Attr is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Attr,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Attr is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Attr,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Attr is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Attr,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Attr is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Attr,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r4 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() at <com.info.eraser.glance.strategy.net.HttpHandler: java.net.HttpURLConnection openHttpURLConnection()> in com.info.eraser.glance.strategy.net.HttpHandler
+RespAnalysis - [DEBUG]: Src: <com.info.eraser.glance.strategy.net.HttpHandler: void processData()>, Tgt: <com.info.eraser.glance.strategy.net.HttpHandler: java.net.HttpURLConnection openHttpURLConnection()>
+RespAnalysis - [DEBUG]: Src: <com.info.eraser.glance.strategy.net.HttpHandler$2: void run()>, Tgt: <com.info.eraser.glance.strategy.net.HttpHandler: void processData()>
+RespAnalysis - [DEBUG]: Src: <com.info.eraser.glance.strategy.net.HttpHandler: int sendRequest(java.lang.String)>, Tgt: <com.info.eraser.glance.strategy.net.HttpHandler$2: void run()>
+RespAnalysis - [DEBUG]: Src: <com.info.eraser.glance.strategy.service.CelebrateService: boolean downloadApp(java.lang.String,java.lang.String,android.os.Handler)>, Tgt: <com.info.eraser.glance.strategy.net.HttpHandler: int sendRequest(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.info.eraser.glance.strategy.service.CelebrateService: boolean access$7(com.info.eraser.glance.strategy.service.CelebrateService,java.lang.String,java.lang.String,android.os.Handler)>, Tgt: <com.info.eraser.glance.strategy.service.CelebrateService: boolean downloadApp(java.lang.String,java.lang.String,android.os.Handler)>
+RespAnalysis - [DEBUG]: Src: <com.info.eraser.glance.strategy.service.CelebrateService$3: void run()>, Tgt: <com.info.eraser.glance.strategy.service.CelebrateService: boolean access$7(com.info.eraser.glance.strategy.service.CelebrateService,java.lang.String,java.lang.String,android.os.Handler)>
+RespAnalysis - [DEBUG]: Src: <com.info.eraser.glance.strategy.service.CelebrateService: void onStart(android.content.Intent,int)>, Tgt: <com.info.eraser.glance.strategy.service.CelebrateService$3: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.info.eraser.glance.strategy.service.CelebrateService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.net.HttpHandler: java.net.HttpURLConnection openHttpURLConnection()>: <com.info.eraser.glance.strategy.service.CelebrateService: void onStart(android.content.Intent,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.info.eraser.glance.strategy.service.CelebrateService
+RespAnalysis - [MSG]: chainSet: [<com.info.eraser.glance.strategy.service.CelebrateService: void onStart(android.content.Intent,int)>]
+RespAnalysis - [WARN]: No method source set for method <junit.framework.Test: int countTestCases()>
+RespAnalysis - [WARN]: No method source set for method <junit.framework.Test: void run(junit.framework.TestResult)>
+RespAnalysis - [WARN]: No method source set for method <junit.framework.TestListener: void addError(junit.framework.Test,java.lang.Throwable)>
+RespAnalysis - [WARN]: No method source set for method <junit.framework.TestListener: void addFailure(junit.framework.Test,junit.framework.AssertionFailedError)>
+RespAnalysis - [WARN]: No method source set for method <junit.framework.TestListener: void endTest(junit.framework.Test)>
+RespAnalysis - [WARN]: No method source set for method <junit.framework.TestListener: void startTest(junit.framework.Test)>
+RespAnalysis - [WARN]: No method source set for method <junit.framework.Protectable: void protect()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r6 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms") at <com.info.eraser.glance.strategy.service.Tools: boolean createInboxSms(android.content.Context,java.lang.String,java.lang.String)> in com.info.eraser.glance.strategy.service.Tools
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.service.Tools: boolean createInboxSms(android.content.Context,java.lang.String,java.lang.String)>: <com.info.eraser.glance.strategy.service.Tools: boolean createInboxSms(android.content.Context,java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.info.eraser.glance.strategy.service.Tools
+RespAnalysis - [MSG]: chainSet: [<com.info.eraser.glance.strategy.service.Tools: boolean createInboxSms(android.content.Context,java.lang.String,java.lang.String)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMEI(android.content.Context)> in com.info.eraser.glance.strategy.service.Tools
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMEI(android.content.Context)>: <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMEI(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: com.info.eraser.glance.strategy.service.Tools
+RespAnalysis - [MSG]: chainSet: [<com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMEI(android.content.Context)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMEI(android.content.Context)> in com.info.eraser.glance.strategy.service.Tools
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMEI(android.content.Context)>: <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMEI(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: com.info.eraser.glance.strategy.service.Tools
+RespAnalysis - [MSG]: chainSet: [<com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMEI(android.content.Context)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() at <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMSI(android.content.Context)> in com.info.eraser.glance.strategy.service.Tools
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMSI(android.content.Context)>: <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMSI(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: com.info.eraser.glance.strategy.service.Tools
+RespAnalysis - [MSG]: chainSet: [<com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMSI(android.content.Context)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() at <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMSI(android.content.Context)> in com.info.eraser.glance.strategy.service.Tools
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMSI(android.content.Context)>: <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMSI(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: com.info.eraser.glance.strategy.service.Tools
+RespAnalysis - [MSG]: chainSet: [<com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMSI(android.content.Context)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r4.<android.telephony.SmsManager: void sendMultipartTextMessage(java.lang.String,java.lang.String,java.util.ArrayList,java.util.ArrayList,java.util.ArrayList)>($r0, null, $r5, $r3, null) at <com.info.eraser.glance.strategy.service.Tools: boolean sendSms(java.lang.String,java.lang.String,android.app.PendingIntent)> in com.info.eraser.glance.strategy.service.Tools
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.service.Tools: boolean sendSms(java.lang.String,java.lang.String,android.app.PendingIntent)>: <com.info.eraser.glance.strategy.service.Tools: boolean sendSms(java.lang.String,java.lang.String,android.app.PendingIntent)>
+RespAnalysis - [DEBUG]: EntryClass: com.info.eraser.glance.strategy.service.Tools
+RespAnalysis - [MSG]: chainSet: [<com.info.eraser.glance.strategy.service.Tools: boolean sendSms(java.lang.String,java.lang.String,android.app.PendingIntent)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r12 = virtualinvoke $r11.<java.net.URL: java.net.URLConnection openConnection()>() at <h$a: java.lang.Void a(java.lang.String[])> in h$a
+RespAnalysis - [MSG]: <h$a: java.lang.Void a(java.lang.String[])>: <h$a: java.lang.Void a(java.lang.String[])>
+RespAnalysis - [DEBUG]: EntryClass: h$a
+RespAnalysis - [MSG]: chainSet: [<h$a: java.lang.Void a(java.lang.String[])>]
+RespAnalysis - [WARN]: No method source set for method <i: void a(d,java.util.HashMap,android.webkit.WebView)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $d0 = virtualinvoke $r0.<android.location.Location: double getLatitude()>() at <u: java.lang.String a(android.location.Location)> in u
+RespAnalysis - [MSG]: <u: java.lang.String a(android.location.Location)>: <u: java.lang.String a(android.location.Location)>
+RespAnalysis - [DEBUG]: EntryClass: u
+RespAnalysis - [MSG]: chainSet: [<u: java.lang.String a(android.location.Location)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $d0 = virtualinvoke $r0.<android.location.Location: double getLongitude()>() at <u: java.lang.String a(android.location.Location)> in u
+RespAnalysis - [MSG]: <u: java.lang.String a(android.location.Location)>: <u: java.lang.String a(android.location.Location)>
+RespAnalysis - [DEBUG]: EntryClass: u
+RespAnalysis - [MSG]: chainSet: [<u: java.lang.String a(android.location.Location)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() at <w: java.lang.Void a(java.lang.String[])> in w
+RespAnalysis - [MSG]: <w: java.lang.Void a(java.lang.String[])>: <w: java.lang.Void a(java.lang.String[])>
+RespAnalysis - [DEBUG]: EntryClass: w
+RespAnalysis - [MSG]: chainSet: [<w: java.lang.Void a(java.lang.String[])>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/7656cd2159882c165b28ad5ba9e523a34357cf6d.apk\7656cd2159882c165b28ad5ba9e523a34357cf6d.apk_resp.csv
+RespAnalysis - [MSG]: <com.info.common.TaskHandler: void <clinit>()>
+RespAnalysis - [MSG]: <com.info.eraser.glance.main: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.info.eraser.glance.main$1: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.google.ads.InstallReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.google.ads.InstallReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <b: java.lang.Void a(java.lang.String[])>
+RespAnalysis - [MSG]: <b: java.lang.Void a(java.lang.String[])>
+RespAnalysis - [MSG]: <w: java.lang.Void a(java.lang.String[])>
+RespAnalysis - [MSG]: <w: java.lang.Void a(java.lang.String[])>
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.service.Tools: boolean sendSms(java.lang.String,java.lang.String,android.app.PendingIntent)>
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.service.Tools: boolean sendSms(java.lang.String,java.lang.String,android.app.PendingIntent)>
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.core.ContactSmsHandler: void <clinit>()>
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.core.ContactSmsHandler: void <clinit>()>
+RespAnalysis - [MSG]: <h$a: java.lang.Void a(java.lang.String[])>
+RespAnalysis - [MSG]: <h$a: java.lang.Void a(java.lang.String[])>
+RespAnalysis - [MSG]: <b: java.lang.Void a(java.lang.String[])>
+RespAnalysis - [MSG]: <b: java.lang.Void a(java.lang.String[])>
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.net.HttpHandler: java.net.HttpURLConnection openHttpURLConnection()>
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.service.CelebrateService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.service.Tools: boolean createInboxSms(android.content.Context,java.lang.String,java.lang.String)>
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.service.Tools: boolean createInboxSms(android.content.Context,java.lang.String,java.lang.String)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/7656cd2159882c165b28ad5ba9e523a34357cf6d.apk\7656cd2159882c165b28ad5ba9e523a34357cf6d.apk_src.csv
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMEI(android.content.Context)>
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMEI(android.content.Context)>
+RespAnalysis - [MSG]: <u: java.lang.String a(android.location.Location)>
+RespAnalysis - [MSG]: <u: java.lang.String a(android.location.Location)>
+RespAnalysis - [MSG]: <u: java.lang.String a(android.location.Location)>
+RespAnalysis - [MSG]: <u: java.lang.String a(android.location.Location)>
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMSI(android.content.Context)>
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMSI(android.content.Context)>
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMSI(android.content.Context)>
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMSI(android.content.Context)>
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMEI(android.content.Context)>
+RespAnalysis - [MSG]: <com.info.eraser.glance.strategy.service.Tools: java.lang.String getIMEI(android.content.Context)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/7656cd2159882c165b28ad5ba9e523a34357cf6d.apk\7656cd2159882c165b28ad5ba9e523a34357cf6d.apk_StartActServ.csv
+RespAnalysis - [MSG]: com.info.eraser.glance.strategy.core.RebirthReceiver: onReceive
+RespAnalysis - [MSG]: com.google.ads.AdActivity: onCreate
+RespAnalysis - [MSG]: com.google.ads.AdActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/7656cd2159882c165b28ad5ba9e523a34357cf6d.apk\7656cd2159882c165b28ad5ba9e523a34357cf6d.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/7656cd2159882c165b28ad5ba9e523a34357cf6d.apk\7656cd2159882c165b28ad5ba9e523a34357cf6d.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/7656cd2159882c165b28ad5ba9e523a34357cf6d.apk\7656cd2159882c165b28ad5ba9e523a34357cf6d.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: com.info.eraser.glance.strategy.service.Tools: getIMEI
+RespAnalysis - [MSG]: com.info.eraser.glance.strategy.service.Tools: getIMSI
+RespAnalysis - [MSG]: u: a
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/7656cd2159882c165b28ad5ba9e523a34357cf6d.apk\7656cd2159882c165b28ad5ba9e523a34357cf6d.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: com.info.eraser.glance.main: onCreate
+RespAnalysis - [MSG]: com.info.eraser.glance.strategy.service.Tools: createInboxSms
+RespAnalysis - [MSG]: com.google.ads.InstallReceiver: onReceive
+RespAnalysis - [MSG]: w: a
+RespAnalysis - [MSG]: com.info.eraser.glance.strategy.core.ContactSmsHandler: <clinit>
+RespAnalysis - [MSG]: com.info.eraser.glance.strategy.service.Tools: sendSms
+RespAnalysis - [MSG]: com.info.eraser.glance.main: onCreate
+RespAnalysis - [MSG]: com.info.eraser.glance.main$1: onClick
+RespAnalysis - [MSG]: h$a: a
+RespAnalysis - [MSG]: b: a
+RespAnalysis - [MSG]: com.info.eraser.glance.strategy.service.CelebrateService: onStart
+test - [MSG]: Analysis has run for 32.788825753 seconds
+

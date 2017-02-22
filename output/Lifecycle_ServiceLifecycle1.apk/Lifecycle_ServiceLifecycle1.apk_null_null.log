@@ -1,0 +1,30 @@
+test - [MSG]: Begin to analyze: Lifecycle_ServiceLifecycle1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r2.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r1, null, null) at <de.ecspride.MainService: void onLowMemory()> in de.ecspride.MainService
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MainService: void onLowMemory()>
+RespAnalysis - [MSG]: <de.ecspride.MainService: void onLowMemory()>: <de.ecspride.MainService: void onLowMemory()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MainService: void onLowMemory()>
+RespAnalysis - [MSG]: <de.ecspride.MainService: void onLowMemory()>: <de.ecspride.MainService: void onLowMemory()>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MainService
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MainService: void onLowMemory()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()>() at <de.ecspride.MainService: int onStartCommand(android.content.Intent,int,int)> in de.ecspride.MainService
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MainService: int onStartCommand(android.content.Intent,int,int)>
+RespAnalysis - [MSG]: <de.ecspride.MainService: int onStartCommand(android.content.Intent,int,int)>: <de.ecspride.MainService: int onStartCommand(android.content.Intent,int,int)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MainService
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MainService: int onStartCommand(android.content.Intent,int,int)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Lifecycle_ServiceLifecycle1.apk\Lifecycle_ServiceLifecycle1.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.MainService: void onLowMemory()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Lifecycle_ServiceLifecycle1.apk\Lifecycle_ServiceLifecycle1.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.MainService: int onStartCommand(android.content.Intent,int,int)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Lifecycle_ServiceLifecycle1.apk\Lifecycle_ServiceLifecycle1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Lifecycle_ServiceLifecycle1.apk\Lifecycle_ServiceLifecycle1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Lifecycle_ServiceLifecycle1.apk\Lifecycle_ServiceLifecycle1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Lifecycle_ServiceLifecycle1.apk\Lifecycle_ServiceLifecycle1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MainService: onStartCommand
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Lifecycle_ServiceLifecycle1.apk\Lifecycle_ServiceLifecycle1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MainService: onLowMemory
+test - [MSG]: Analysis has run for 13.425566195 seconds
+

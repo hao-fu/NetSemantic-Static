@@ -1,0 +1,1 @@
+"virtualinvoke $r8.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>(""+49 1234"", null, $r9, null, null)","<edu.mit.dynamic_dispatch.MainActivity: void onCreate(android.os.Bundle)>"

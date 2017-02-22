@@ -1,0 +1,32 @@
+test - [MSG]: Begin to analyze: VirtualDispatch2.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r8.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r9, null, null) at <edu.mit.dynamic_dispatch.MainActivity: void onCreate(android.os.Bundle)> in edu.mit.dynamic_dispatch.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.dynamic_dispatch.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.dynamic_dispatch.MainActivity: void onCreate(android.os.Bundle)>: <edu.mit.dynamic_dispatch.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.dynamic_dispatch.MainActivity
+RespAnalysis - [MSG]: chainSet: [<edu.mit.dynamic_dispatch.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r1 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <edu.mit.dynamic_dispatch.B: java.lang.String f()> in edu.mit.dynamic_dispatch.B
+RespAnalysis - [DEBUG]: Src: <edu.mit.dynamic_dispatch.Test: java.lang.String method(edu.mit.dynamic_dispatch.A)>, Tgt: <edu.mit.dynamic_dispatch.B: java.lang.String f()>
+RespAnalysis - [DEBUG]: Src: <edu.mit.dynamic_dispatch.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <edu.mit.dynamic_dispatch.Test: java.lang.String method(edu.mit.dynamic_dispatch.A)>
+RespAnalysis - [DEBUG]: Src: <edu.mit.dynamic_dispatch.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <edu.mit.dynamic_dispatch.Test: java.lang.String method(edu.mit.dynamic_dispatch.A)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.dynamic_dispatch.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.dynamic_dispatch.B: java.lang.String f()>: <edu.mit.dynamic_dispatch.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.dynamic_dispatch.MainActivity
+RespAnalysis - [MSG]: chainSet: [<edu.mit.dynamic_dispatch.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch2.apk\VirtualDispatch2.apk_resp.csv
+RespAnalysis - [MSG]: <edu.mit.dynamic_dispatch.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch2.apk\VirtualDispatch2.apk_src.csv
+RespAnalysis - [MSG]: <edu.mit.dynamic_dispatch.B: java.lang.String f()>
+RespAnalysis - [MSG]: <edu.mit.dynamic_dispatch.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch2.apk\VirtualDispatch2.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch2.apk\VirtualDispatch2.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch2.apk\VirtualDispatch2.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch2.apk\VirtualDispatch2.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: edu.mit.dynamic_dispatch.MainActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch2.apk\VirtualDispatch2.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: edu.mit.dynamic_dispatch.MainActivity: onCreate
+test - [MSG]: Analysis has run for 7.167385047 seconds
+

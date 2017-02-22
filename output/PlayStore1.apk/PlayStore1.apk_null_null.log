@@ -1,0 +1,32 @@
+test - [MSG]: Begin to analyze: PlayStore1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r3 = virtualinvoke $r15.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.MainActivity: void onCreate(android.os.Bundle)> in de.ecspride.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MainActivity
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r16.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r3, null, null) at <de.ecspride.MainActivity: void onCreate(android.os.Bundle)> in de.ecspride.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MainActivity
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/PlayStore1.apk\PlayStore1.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/PlayStore1.apk\PlayStore1.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/PlayStore1.apk\PlayStore1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/PlayStore1.apk\PlayStore1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: Fragment: android.support.v7.app.ActionBarActivity, <de.ecspride.MainActivity: void <init>()>
+RespAnalysis - [MSG]: Fragment: android.support.v4.app.Fragment, <de.ecspride.MainActivity$PlaceholderFragment: void <init>()>
+RespAnalysis - [MSG]: Fragment: de.ecspride.MainActivity, <dummyMainClass: void dummyMainMethod(java.lang.String[])>
+RespAnalysis - [MSG]: Fragment: de.ecspride.MainActivity$PlaceholderFragment, <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/PlayStore1.apk\PlayStore1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/PlayStore1.apk\PlayStore1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MainActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/PlayStore1.apk\PlayStore1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MainActivity: onCreate
+test - [MSG]: Analysis has run for 49.573469371 seconds
+

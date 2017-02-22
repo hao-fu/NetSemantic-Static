@@ -1,0 +1,32 @@
+test - [MSG]: Begin to analyze: RegisterGlobal2.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r2, null, null) at <de.ecspride.MyApplication$1: void onConfigurationChanged(android.content.res.Configuration)> in de.ecspride.MyApplication$1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MyApplication$1: void onConfigurationChanged(android.content.res.Configuration)>
+RespAnalysis - [MSG]: <de.ecspride.MyApplication$1: void onConfigurationChanged(android.content.res.Configuration)>: <de.ecspride.MyApplication$1: void onConfigurationChanged(android.content.res.Configuration)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MyApplication$1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MyApplication: void onCreate()>, <de.ecspride.MyApplication$1: void onConfigurationChanged(android.content.res.Configuration)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.MyApplication$1: void onLowMemory()> in de.ecspride.MyApplication$1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MyApplication$1: void onLowMemory()>
+RespAnalysis - [MSG]: <de.ecspride.MyApplication$1: void onLowMemory()>: <de.ecspride.MyApplication$1: void onLowMemory()>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MyApplication$1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MyApplication: void onCreate()>, <de.ecspride.MyApplication$1: void onLowMemory()>]
+RespAnalysis - [WARN]: Found assigned field $r0.<de.ecspride.MyApplication$1: java.lang.String imei>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/RegisterGlobal2.apk\RegisterGlobal2.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.MyApplication$1: void onConfigurationChanged(android.content.res.Configuration)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/RegisterGlobal2.apk\RegisterGlobal2.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.MyApplication$1: void onLowMemory()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/RegisterGlobal2.apk\RegisterGlobal2.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/RegisterGlobal2.apk\RegisterGlobal2.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/RegisterGlobal2.apk\RegisterGlobal2.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: [<de.ecspride.MyApplication$1: java.lang.String imei>, <de.ecspride.MyApplication$1: void onLowMemory()>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/RegisterGlobal2.apk\RegisterGlobal2.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MyApplication: onCreate
+RespAnalysis - [MSG]: de.ecspride.MyApplication$1: onLowMemory
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/RegisterGlobal2.apk\RegisterGlobal2.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MyApplication: onCreate
+RespAnalysis - [MSG]: de.ecspride.MyApplication$1: onConfigurationChanged
+test - [MSG]: Analysis has run for 14.150241157 seconds
+

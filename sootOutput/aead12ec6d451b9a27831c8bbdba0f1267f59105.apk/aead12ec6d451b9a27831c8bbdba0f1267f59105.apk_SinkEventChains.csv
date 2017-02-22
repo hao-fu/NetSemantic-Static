@@ -1,0 +1,7 @@
+"net.youmi.android.AdView: <init>"
+"com.allen.contact.MissedContactList: onCreate"
+"com.eguan.state.StateService: onCreate"
+"com.allen.contact.OutgoingContactList: onCreate"
+"com.eguan.state.Utils: downloadFile"
+"net.youmi.android.h: onClick"
+"com.allen.contact.IncomingContactList: onCreate"

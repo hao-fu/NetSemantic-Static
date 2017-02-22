@@ -1,0 +1,20 @@
+test - [MSG]: Begin to analyze: PrivateDataLeak1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r7.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r4, null, null) at <de.ecspride.PrivateDateLeakage: void sendMessage(android.view.View)> in de.ecspride.PrivateDateLeakage
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.PrivateDateLeakage: void sendMessage(android.view.View)>
+RespAnalysis - [MSG]: <de.ecspride.PrivateDateLeakage: void sendMessage(android.view.View)>: <de.ecspride.PrivateDateLeakage: void sendMessage(android.view.View)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.PrivateDateLeakage
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.PrivateDateLeakage: void onCreate(android.os.Bundle)>, <de.ecspride.PrivateDateLeakage: void sendMessage(android.view.View)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/PrivateDataLeak1.apk\PrivateDataLeak1.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.PrivateDateLeakage: void sendMessage(android.view.View)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/PrivateDataLeak1.apk\PrivateDataLeak1.apk_src.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/PrivateDataLeak1.apk\PrivateDataLeak1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/PrivateDataLeak1.apk\PrivateDataLeak1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/PrivateDataLeak1.apk\PrivateDataLeak1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/PrivateDataLeak1.apk\PrivateDataLeak1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/PrivateDataLeak1.apk\PrivateDataLeak1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.PrivateDateLeakage: onCreate
+RespAnalysis - [MSG]: de.ecspride.PrivateDateLeakage: sendMessage
+test - [MSG]: Analysis has run for 18.335865172 seconds
+

@@ -1,0 +1,416 @@
+test - [MSG]: Begin to analyze: 881ee009e90d7d70d2802c3193190d973445d807.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r8 = virtualinvoke $r7.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r1) at <com.google.ssearch.SearchService: void doSearchReport()> in com.google.ssearch.SearchService
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void onCreate()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean getPermission1()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.ssearch.SearchService: void doSearchReport()>: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.google.ssearch.SearchService
+RespAnalysis - [MSG]: chainSet: [<com.google.ssearch.SearchService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void access$0(com.google.ssearch.SearchService)>, Tgt: <com.google.ssearch.SearchService: void doTimerTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: boolean getPermission1()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void onCreate()>, Tgt: <com.google.ssearch.SearchService: void getPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$1: void run()>, Tgt: <com.google.ssearch.SearchService: void access$0(com.google.ssearch.SearchService)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.ssearch.SearchService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils$TCP: void startListen()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: boolean tryStartPermission()>, Tgt: <com.google.ssearch.Utils$TCP: void startListen()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission3()>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: boolean checkPermission()>, Tgt: <com.google.ssearch.Utils: boolean tryStartPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean checkPermission()>, Tgt: <com.google.ssearch.Utils: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchReport()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void uninstallPackage(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void installPakage(java.lang.String[],java.lang.String,boolean)>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: java.lang.String getSearchTask()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean getPermission1()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execDelete(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void uninstallPackage(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void installPakage(java.lang.String[],java.lang.String,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchTask()>, Tgt: <com.google.ssearch.SearchService: java.lang.String getSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void execDelete(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void doSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchTask()>, Tgt: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r10 = virtualinvoke $r9.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r2) at <com.google.ssearch.SearchService: java.lang.String getSearchTask()> in com.google.ssearch.SearchService
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchTask()>, Tgt: <com.google.ssearch.SearchService: java.lang.String getSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void doSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void access$0(com.google.ssearch.SearchService)>, Tgt: <com.google.ssearch.SearchService: void doTimerTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$1: void run()>, Tgt: <com.google.ssearch.SearchService: void access$0(com.google.ssearch.SearchService)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.ssearch.SearchService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils$TCP: void startListen()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: boolean tryStartPermission()>, Tgt: <com.google.ssearch.Utils$TCP: void startListen()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission3()>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: boolean checkPermission()>, Tgt: <com.google.ssearch.Utils: boolean tryStartPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean checkPermission()>, Tgt: <com.google.ssearch.Utils: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void onCreate()>, Tgt: <com.google.ssearch.SearchService: void getPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchReport()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void uninstallPackage(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void installPakage(java.lang.String[],java.lang.String,boolean)>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: java.lang.String getSearchTask()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean getPermission1()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.ssearch.SearchService: java.lang.String getSearchTask()>: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.google.ssearch.SearchService
+RespAnalysis - [MSG]: chainSet: [<com.google.ssearch.SearchService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void onCreate()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean getPermission1()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execDelete(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void uninstallPackage(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void installPakage(java.lang.String[],java.lang.String,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: boolean getPermission1()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void execDelete(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchTask()>, Tgt: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r8 = virtualinvoke $r7.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r2) at <com.google.ssearch.SearchService: void reportState(int,java.lang.String)> in com.google.ssearch.SearchService
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchTask()>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void uninstallPackage(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void uninstallPackage(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void uninstallPackage(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void uninstallPackage(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void installPakage(java.lang.String[],java.lang.String,boolean)>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void installPakage(java.lang.String[],java.lang.String,boolean)>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void installPakage(java.lang.String[],java.lang.String,boolean)>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execOpenUrl(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execOpenUrl(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execDelete(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execStartApp(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execHomepage(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void runPackage(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void runPackage(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchTask()>, Tgt: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void doSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execDelete(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void uninstallPackage(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void installPakage(java.lang.String[],java.lang.String,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void execOpenUrl(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void execDelete(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void execStartApp(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void execHomepage(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchTask()>, Tgt: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchTask()>, Tgt: <com.google.ssearch.SearchService: void runPackage(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void installPakage(java.lang.String[],java.lang.String,boolean)>, Tgt: <com.google.ssearch.SearchService: void runPackage(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execStartApp(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void runPackage(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void access$0(com.google.ssearch.SearchService)>, Tgt: <com.google.ssearch.SearchService: void doTimerTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$1: void run()>, Tgt: <com.google.ssearch.SearchService: void access$0(com.google.ssearch.SearchService)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.ssearch.SearchService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils$TCP: void startListen()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: boolean tryStartPermission()>, Tgt: <com.google.ssearch.Utils$TCP: void startListen()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission3()>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: boolean checkPermission()>, Tgt: <com.google.ssearch.Utils: boolean tryStartPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean checkPermission()>, Tgt: <com.google.ssearch.Utils: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void onCreate()>, Tgt: <com.google.ssearch.SearchService: void getPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchReport()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void uninstallPackage(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void installPakage(java.lang.String[],java.lang.String,boolean)>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: java.lang.String getSearchTask()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean getPermission1()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.google.ssearch.SearchService
+RespAnalysis - [MSG]: chainSet: [<com.google.ssearch.SearchService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void onCreate()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean getPermission1()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchTask()>, Tgt: <com.google.ssearch.SearchService: java.lang.String getSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: boolean getPermission1()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r4 = virtualinvoke $r0.<java.net.URL: java.net.URLConnection openConnection()>() at <com.google.ssearch.Utils: java.lang.String[] downloadFile(android.content.Context,java.lang.String)> in com.google.ssearch.Utils
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>, Tgt: <com.google.ssearch.Utils: java.lang.String[] downloadFile(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchTask()>, Tgt: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void doSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void access$0(com.google.ssearch.SearchService)>, Tgt: <com.google.ssearch.SearchService: void doTimerTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$1: void run()>, Tgt: <com.google.ssearch.SearchService: void access$0(com.google.ssearch.SearchService)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.ssearch.SearchService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils$TCP: void startListen()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: boolean tryStartPermission()>, Tgt: <com.google.ssearch.Utils$TCP: void startListen()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission3()>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: boolean checkPermission()>, Tgt: <com.google.ssearch.Utils: boolean tryStartPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean checkPermission()>, Tgt: <com.google.ssearch.Utils: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void onCreate()>, Tgt: <com.google.ssearch.SearchService: void getPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchReport()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void uninstallPackage(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void installPakage(java.lang.String[],java.lang.String,boolean)>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: java.lang.String getSearchTask()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean getPermission1()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.ssearch.Utils: java.lang.String[] downloadFile(android.content.Context,java.lang.String)>: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.google.ssearch.SearchService
+RespAnalysis - [MSG]: chainSet: [<com.google.ssearch.SearchService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void onCreate()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean getPermission1()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execDelete(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void uninstallPackage(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void installPakage(java.lang.String[],java.lang.String,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchTask()>, Tgt: <com.google.ssearch.SearchService: java.lang.String getSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: boolean getPermission1()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void execDelete(java.lang.String[])>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r5.<java.net.HttpURLConnection: void connect()>() at <com.google.ssearch.Utils: java.lang.String[] downloadFile(android.content.Context,java.lang.String)> in com.google.ssearch.Utils
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>, Tgt: <com.google.ssearch.Utils: java.lang.String[] downloadFile(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchTask()>, Tgt: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void doSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void access$0(com.google.ssearch.SearchService)>, Tgt: <com.google.ssearch.SearchService: void doTimerTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$1: void run()>, Tgt: <com.google.ssearch.SearchService: void access$0(com.google.ssearch.SearchService)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.ssearch.SearchService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils$TCP: void startListen()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: boolean tryStartPermission()>, Tgt: <com.google.ssearch.Utils$TCP: void startListen()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission3()>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: boolean checkPermission()>, Tgt: <com.google.ssearch.Utils: boolean tryStartPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean checkPermission()>, Tgt: <com.google.ssearch.Utils: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void onCreate()>, Tgt: <com.google.ssearch.SearchService: void getPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchReport()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void uninstallPackage(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void installPakage(java.lang.String[],java.lang.String,boolean)>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: java.lang.String getSearchTask()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean getPermission1()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.ssearch.Utils: java.lang.String[] downloadFile(android.content.Context,java.lang.String)>: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.google.ssearch.SearchService
+RespAnalysis - [MSG]: chainSet: [<com.google.ssearch.SearchService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void onCreate()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean getPermission1()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execDelete(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void uninstallPackage(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void installPakage(java.lang.String[],java.lang.String,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchTask()>, Tgt: <com.google.ssearch.SearchService: java.lang.String getSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: boolean getPermission1()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void execDelete(java.lang.String[])>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r2 = virtualinvoke $r1.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <com.google.ssearch.Utils$PhoneState: java.lang.String getImei(android.content.Context)> in com.google.ssearch.Utils$PhoneState
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void updateInfo()>, Tgt: <com.google.ssearch.Utils$PhoneState: java.lang.String getImei(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchReport()>, Tgt: <com.google.ssearch.SearchService: void updateInfo()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void onCreate()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean getPermission1()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.ssearch.Utils$PhoneState: java.lang.String getImei(android.content.Context)>: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.google.ssearch.SearchService
+RespAnalysis - [MSG]: chainSet: [<com.google.ssearch.SearchService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void access$0(com.google.ssearch.SearchService)>, Tgt: <com.google.ssearch.SearchService: void doTimerTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: boolean getPermission1()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void onCreate()>, Tgt: <com.google.ssearch.SearchService: void getPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$1: void run()>, Tgt: <com.google.ssearch.SearchService: void access$0(com.google.ssearch.SearchService)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.ssearch.SearchService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils$TCP: void startListen()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: boolean tryStartPermission()>, Tgt: <com.google.ssearch.Utils$TCP: void startListen()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission3()>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: boolean checkPermission()>, Tgt: <com.google.ssearch.Utils: boolean tryStartPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean checkPermission()>, Tgt: <com.google.ssearch.Utils: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchReport()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void uninstallPackage(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void installPakage(java.lang.String[],java.lang.String,boolean)>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: java.lang.String getSearchTask()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean getPermission1()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execDelete(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void uninstallPackage(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void installPakage(java.lang.String[],java.lang.String,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchTask()>, Tgt: <com.google.ssearch.SearchService: java.lang.String getSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void execDelete(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void doSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchTask()>, Tgt: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r2 = virtualinvoke $r1.<android.telephony.TelephonyManager: java.lang.String getLine1Number()>() at <com.google.ssearch.Utils$PhoneState: java.lang.String getMobile(android.content.Context)> in com.google.ssearch.Utils$PhoneState
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void updateInfo()>, Tgt: <com.google.ssearch.Utils$PhoneState: java.lang.String getMobile(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchReport()>, Tgt: <com.google.ssearch.SearchService: void updateInfo()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void onCreate()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean getPermission1()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.ssearch.Utils$PhoneState: java.lang.String getMobile(android.content.Context)>: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.google.ssearch.SearchService
+RespAnalysis - [MSG]: chainSet: [<com.google.ssearch.SearchService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void access$0(com.google.ssearch.SearchService)>, Tgt: <com.google.ssearch.SearchService: void doTimerTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: boolean getPermission1()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void onCreate()>, Tgt: <com.google.ssearch.SearchService: void getPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$1: void run()>, Tgt: <com.google.ssearch.SearchService: void access$0(com.google.ssearch.SearchService)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.ssearch.SearchService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils$TCP: void startListen()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService$MyThread: void run()>, Tgt: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: boolean tryStartPermission()>, Tgt: <com.google.ssearch.Utils$TCP: void startListen()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: void runsh(java.lang.String,java.lang.String)>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission3()>, Tgt: <com.google.ssearch.SearchService$MyThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.Utils: boolean checkPermission()>, Tgt: <com.google.ssearch.Utils: boolean tryStartPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean checkPermission()>, Tgt: <com.google.ssearch.Utils: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchReport()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void uninstallPackage(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void installPakage(java.lang.String[],java.lang.String,boolean)>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: java.lang.String getSearchTask()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission2()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: boolean getPermission1()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void getPermission()>, Tgt: <com.google.ssearch.SearchService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execDelete(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void uninstallPackage(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>, Tgt: <com.google.ssearch.SearchService: void installPakage(java.lang.String[],java.lang.String,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchTask()>, Tgt: <com.google.ssearch.SearchService: java.lang.String getSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void execDelete(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.ssearch.SearchService: void execInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doTimerTask()>, Tgt: <com.google.ssearch.SearchService: void doSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.ssearch.SearchService: void doSearchTask()>, Tgt: <com.google.ssearch.SearchService: void doExecuteTask(java.lang.String)>
+RespAnalysis - [WARN]: No method source set for method <uk.co.lilhermit.android.core.Native: java.lang.String getprop(java.lang.String)>
+RespAnalysis - [WARN]: No method source set for method <uk.co.lilhermit.android.core.Native: int runcmd(java.lang.String,java.lang.String)>
+RespAnalysis - [WARN]: No method source set for method <uk.co.lilhermit.android.core.Native: int runcmd_simple(java.lang.String)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/881ee009e90d7d70d2802c3193190d973445d807.apk\881ee009e90d7d70d2802c3193190d973445d807.apk_resp.csv
+RespAnalysis - [MSG]: <com.google.ssearch.Utils: java.lang.String[] downloadFile(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.ssearch.SearchService: java.lang.String getSearchTask()>
+RespAnalysis - [MSG]: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.ssearch.SearchService: void doSearchReport()>
+RespAnalysis - [MSG]: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.ssearch.Utils: java.lang.String[] downloadFile(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.ssearch.SearchService: void reportState(int,java.lang.String)>
+RespAnalysis - [MSG]: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/881ee009e90d7d70d2802c3193190d973445d807.apk\881ee009e90d7d70d2802c3193190d973445d807.apk_src.csv
+RespAnalysis - [MSG]: <com.google.ssearch.Utils$PhoneState: java.lang.String getMobile(android.content.Context)>
+RespAnalysis - [MSG]: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.ssearch.Utils$PhoneState: java.lang.String getImei(android.content.Context)>
+RespAnalysis - [MSG]: <com.google.ssearch.SearchService: void onCreate()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/881ee009e90d7d70d2802c3193190d973445d807.apk\881ee009e90d7d70d2802c3193190d973445d807.apk_StartActServ.csv
+RespAnalysis - [MSG]: com.google.ssearch.SearchService: getPermission2
+RespAnalysis - [MSG]: com.google.ssearch.SearchService: getPermission
+RespAnalysis - [MSG]: com.google.ssearch.SearchService: onCreate
+RespAnalysis - [MSG]: com.google.ssearch.Dialog$1: onClick
+RespAnalysis - [MSG]: com.google.ssearch.SearchService: getPermission2
+RespAnalysis - [MSG]: com.google.ssearch.SearchService: getPermission
+RespAnalysis - [MSG]: com.google.ssearch.SearchService: onCreate
+RespAnalysis - [MSG]: com.google.ssearch.SearchService: getPermission2
+RespAnalysis - [MSG]: com.google.ssearch.SearchService: getPermission
+RespAnalysis - [MSG]: com.google.ssearch.SearchService: onCreate
+RespAnalysis - [MSG]: com.google.ssearch.SearchService: getPermission2
+RespAnalysis - [MSG]: com.google.ssearch.SearchService: getPermission
+RespAnalysis - [MSG]: com.google.ssearch.SearchService: onCreate
+RespAnalysis - [MSG]: com.google.ssearch.Dialog$1: onClick
+RespAnalysis - [MSG]: com.google.ssearch.Dialog$1: onClick
+RespAnalysis - [MSG]: com.google.ssearch.SearchService: getPermission2
+RespAnalysis - [MSG]: com.google.ssearch.SearchService: getPermission
+RespAnalysis - [MSG]: com.google.ssearch.SearchService: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/881ee009e90d7d70d2802c3193190d973445d807.apk\881ee009e90d7d70d2802c3193190d973445d807.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/881ee009e90d7d70d2802c3193190d973445d807.apk\881ee009e90d7d70d2802c3193190d973445d807.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/881ee009e90d7d70d2802c3193190d973445d807.apk\881ee009e90d7d70d2802c3193190d973445d807.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: com.google.ssearch.SearchService: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/881ee009e90d7d70d2802c3193190d973445d807.apk\881ee009e90d7d70d2802c3193190d973445d807.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: com.google.ssearch.SearchService: onCreate
+test - [MSG]: Analysis has run for 28.633628099 seconds
+

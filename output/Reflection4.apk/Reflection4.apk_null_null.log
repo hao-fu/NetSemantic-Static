@@ -1,0 +1,34 @@
+test - [MSG]: Begin to analyze: Reflection4.apk
+RespAnalysis - [WARN]: No method source set for method <de.ecspride.BaseClass: void bar(java.lang.String)>
+RespAnalysis - [WARN]: No method source set for method <de.ecspride.BaseClass: java.lang.String foo(android.content.Context)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r2.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r1, null, null) at <de.ecspride.ConcreteClass: void bar(java.lang.String)> in de.ecspride.ConcreteClass
+RespAnalysis - [DEBUG]: Src: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <de.ecspride.ConcreteClass: void bar(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.ConcreteClass: void bar(java.lang.String)>: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MainActivity
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.ConcreteClass: java.lang.String foo(android.content.Context)> in de.ecspride.ConcreteClass
+RespAnalysis - [DEBUG]: Src: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <de.ecspride.ConcreteClass: java.lang.String foo(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.ConcreteClass: java.lang.String foo(android.content.Context)>: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MainActivity
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Reflection4.apk\Reflection4.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.ConcreteClass: void bar(java.lang.String)>
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Reflection4.apk\Reflection4.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.ConcreteClass: java.lang.String foo(android.content.Context)>
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Reflection4.apk\Reflection4.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Reflection4.apk\Reflection4.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Reflection4.apk\Reflection4.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Reflection4.apk\Reflection4.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MainActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Reflection4.apk\Reflection4.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MainActivity: onCreate
+test - [MSG]: Analysis has run for 17.23069659 seconds
+

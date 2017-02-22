@@ -1,0 +1,20 @@
+test - [MSG]: Begin to analyze: LogNoLeak.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r1.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r2, null, null) at <de.ecspride.LogNoLeak: void onPause()> in de.ecspride.LogNoLeak
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.LogNoLeak: void onPause()>
+RespAnalysis - [MSG]: <de.ecspride.LogNoLeak: void onPause()>: <de.ecspride.LogNoLeak: void onPause()>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.LogNoLeak
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.LogNoLeak: void onCreate(android.os.Bundle)>, <de.ecspride.LogNoLeak: void onPause()>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/LogNoLeak.apk\LogNoLeak.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.LogNoLeak: void onPause()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/LogNoLeak.apk\LogNoLeak.apk_src.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/LogNoLeak.apk\LogNoLeak.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/LogNoLeak.apk\LogNoLeak.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/LogNoLeak.apk\LogNoLeak.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/LogNoLeak.apk\LogNoLeak.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/LogNoLeak.apk\LogNoLeak.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.LogNoLeak: onCreate
+RespAnalysis - [MSG]: de.ecspride.LogNoLeak: onPause
+test - [MSG]: Analysis has run for 16.943448891 seconds
+

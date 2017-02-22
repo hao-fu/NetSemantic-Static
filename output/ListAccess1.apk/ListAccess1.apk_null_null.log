@@ -1,0 +1,28 @@
+test - [MSG]: Begin to analyze: ListAccess1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r6 = virtualinvoke $r5.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.ListAccess1: void onCreate(android.os.Bundle)> in de.ecspride.ListAccess1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.ListAccess1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.ListAccess1: void onCreate(android.os.Bundle)>: <de.ecspride.ListAccess1: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.ListAccess1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.ListAccess1: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r7.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r6, null, null) at <de.ecspride.ListAccess1: void onCreate(android.os.Bundle)> in de.ecspride.ListAccess1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.ListAccess1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.ListAccess1: void onCreate(android.os.Bundle)>: <de.ecspride.ListAccess1: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.ListAccess1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.ListAccess1: void onCreate(android.os.Bundle)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ListAccess1.apk\ListAccess1.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.ListAccess1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ListAccess1.apk\ListAccess1.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.ListAccess1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ListAccess1.apk\ListAccess1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ListAccess1.apk\ListAccess1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ListAccess1.apk\ListAccess1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ListAccess1.apk\ListAccess1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.ListAccess1: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ListAccess1.apk\ListAccess1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.ListAccess1: onCreate
+test - [MSG]: Analysis has run for 17.230587341 seconds
+

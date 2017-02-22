@@ -1,0 +1,843 @@
+test - [MSG]: Begin to analyze: adc8ac7b72a1055438773e7f075028df681d987c.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>($r1, null, $r2, null, null) at <v: void a(java.lang.String,java.lang.String)> in v
+RespAnalysis - [MSG]: <v: void a(java.lang.String,java.lang.String)>: <v: void a(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: v
+RespAnalysis - [MSG]: chainSet: [<v: void a(java.lang.String,java.lang.String)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() at <v: void f()> in v
+RespAnalysis - [MSG]: <v: void f()>: <v: void f()>
+RespAnalysis - [DEBUG]: EntryClass: v
+RespAnalysis - [MSG]: chainSet: [<v: void f()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() at <v: void g()> in v
+RespAnalysis - [MSG]: <v: void g()>: <v: void g()>
+RespAnalysis - [DEBUG]: EntryClass: v
+RespAnalysis - [MSG]: chainSet: [<v: void g()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r6 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms/inbox") at <v: void h()> in v
+RespAnalysis - [MSG]: <v: void h()>: <v: void h()>
+RespAnalysis - [DEBUG]: EntryClass: v
+RespAnalysis - [MSG]: chainSet: [<v: void h()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() at <v: java.lang.String j()> in v
+RespAnalysis - [MSG]: <v: java.lang.String j()>: <v: java.lang.String j()>
+RespAnalysis - [DEBUG]: EntryClass: v
+RespAnalysis - [MSG]: chainSet: [<v: java.lang.String j()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r8 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms") at <v: java.lang.String j()> in v
+RespAnalysis - [MSG]: <v: java.lang.String j()>: <v: java.lang.String j()>
+RespAnalysis - [DEBUG]: EntryClass: v
+RespAnalysis - [MSG]: chainSet: [<v: java.lang.String j()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r8 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms/sim") at <v: java.lang.String j()> in v
+RespAnalysis - [MSG]: <v: java.lang.String j()>: <v: java.lang.String j()>
+RespAnalysis - [DEBUG]: EntryClass: v
+RespAnalysis - [MSG]: chainSet: [<v: java.lang.String j()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: virtualinvoke $r2.<android.telephony.TelephonyManager: void listen(android.telephony.PhoneStateListener,int)>($r3, 35) at <com.android.battery.ZlPhoneService: void a()> in com.android.battery.ZlPhoneService
+RespAnalysis - [MSG]: <com.android.battery.ZlPhoneService: void a()>: <com.android.battery.ZlPhoneService: void a()>
+RespAnalysis - [DEBUG]: EntryClass: com.android.battery.ZlPhoneService
+RespAnalysis - [MSG]: chainSet: [<com.android.battery.ZlPhoneService: void a()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() at <com.android.battery.ZlPhoneService: java.lang.String b()> in com.android.battery.ZlPhoneService
+RespAnalysis - [MSG]: <com.android.battery.ZlPhoneService: java.lang.String b()>: <com.android.battery.ZlPhoneService: java.lang.String b()>
+RespAnalysis - [DEBUG]: EntryClass: com.android.battery.ZlPhoneService
+RespAnalysis - [MSG]: chainSet: [<com.android.battery.ZlPhoneService: java.lang.String b()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r8 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms") at <com.android.battery.ZlPhoneService: java.lang.String b()> in com.android.battery.ZlPhoneService
+RespAnalysis - [MSG]: <com.android.battery.ZlPhoneService: java.lang.String b()>: <com.android.battery.ZlPhoneService: java.lang.String b()>
+RespAnalysis - [DEBUG]: EntryClass: com.android.battery.ZlPhoneService
+RespAnalysis - [MSG]: chainSet: [<com.android.battery.ZlPhoneService: java.lang.String b()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r8 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms/sim") at <com.android.battery.ZlPhoneService: java.lang.String b()> in com.android.battery.ZlPhoneService
+RespAnalysis - [MSG]: <com.android.battery.ZlPhoneService: java.lang.String b()>: <com.android.battery.ZlPhoneService: java.lang.String b()>
+RespAnalysis - [DEBUG]: EntryClass: com.android.battery.ZlPhoneService
+RespAnalysis - [MSG]: chainSet: [<com.android.battery.ZlPhoneService: java.lang.String b()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: virtualinvoke $r5.<android.telephony.TelephonyManager: void listen(android.telephony.PhoneStateListener,int)>($r0, 0) at <j: void onCallStateChanged(int,java.lang.String)> in j
+RespAnalysis - [MSG]: <j: void onCallStateChanged(int,java.lang.String)>: <j: void onCallStateChanged(int,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: j
+RespAnalysis - [MSG]: chainSet: [<j: void onCallStateChanged(int,java.lang.String)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>($r1, null, $r2, null, null) at <c: void b(java.lang.String,java.lang.String)> in c
+RespAnalysis - [DEBUG]: Src: <c: boolean a(android.content.Context,android.content.Intent)>, Tgt: <c: void b(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <c: boolean a(android.content.Context,android.content.Intent)>, Tgt: <c: void b(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>, Tgt: <c: boolean a(android.content.Context,android.content.Intent)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <c: void b(java.lang.String,java.lang.String)>: <com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [DEBUG]: EntryClass: com.android.battery.BaseBroadcastReceiver
+RespAnalysis - [MSG]: chainSet: [<com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() at <c: void a(java.lang.String)> in c
+RespAnalysis - [DEBUG]: Src: <e: void run()>, Tgt: <c: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <e: void run()>
+RespAnalysis - [DEBUG]: Src: <v: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <c: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.battery.BridgeProvider: void onCreate()>, Tgt: <v: void a()>
+RespAnalysis - [DEBUG]: Src: <c: void b(java.lang.String)>, Tgt: <c: void a()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.battery.BridgeProvider: void onCreate()>
+RespAnalysis - [MSG]: <c: void a(java.lang.String)>: <com.android.battery.BridgeProvider: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.android.battery.BridgeProvider
+RespAnalysis - [MSG]: chainSet: [<com.android.battery.BridgeProvider: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <c: boolean a(android.content.Context,android.content.Intent)>, Tgt: <c: void b(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>, Tgt: <c: boolean a(android.content.Context,android.content.Intent)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <c: void a(java.lang.String)>: <com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [DEBUG]: EntryClass: com.android.battery.BaseBroadcastReceiver
+RespAnalysis - [MSG]: chainSet: [<com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $z0 = virtualinvoke $r6.<java.lang.String: boolean equals(java.lang.Object)>("android.provider.Telephony.SMS_RECEIVED") at <c: boolean a(android.content.Context,android.content.Intent)> in c
+RespAnalysis - [DEBUG]: Src: <com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>, Tgt: <c: boolean a(android.content.Context,android.content.Intent)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <c: boolean a(android.content.Context,android.content.Intent)>: <com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [DEBUG]: EntryClass: com.android.battery.BaseBroadcastReceiver
+RespAnalysis - [MSG]: chainSet: [<com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r5 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() at <e: void run()> in e
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <e: void run()>
+RespAnalysis - [DEBUG]: Src: <v: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <c: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.android.battery.BridgeProvider: void onCreate()>, Tgt: <v: void a()>
+RespAnalysis - [DEBUG]: Src: <c: void b(java.lang.String)>, Tgt: <c: void a()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.battery.BridgeProvider: void onCreate()>
+RespAnalysis - [MSG]: <e: void run()>: <com.android.battery.BridgeProvider: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.android.battery.BridgeProvider
+RespAnalysis - [MSG]: chainSet: [<com.android.battery.BridgeProvider: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <c: boolean a(android.content.Context,android.content.Intent)>, Tgt: <c: void b(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>, Tgt: <c: boolean a(android.content.Context,android.content.Intent)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <e: void run()>: <com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [DEBUG]: EntryClass: com.android.battery.BaseBroadcastReceiver
+RespAnalysis - [MSG]: chainSet: [<com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>]
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMImplementation is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMImplementation,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMImplementation is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMImplementation,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMImplementation is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMImplementation,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMImplementation is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMImplementation,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMException is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMException,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DocumentType is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DocumentType,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DocumentType is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DocumentType,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DocumentType is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DocumentType,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DocumentType is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DocumentType,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DocumentType is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DocumentType,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DocumentType is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DocumentType,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Text is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Text,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Text is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Text,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Text is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Text,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Text is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Text,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ProcessingInstruction is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ProcessingInstruction,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ProcessingInstruction is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ProcessingInstruction,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ProcessingInstruction is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ProcessingInstruction,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Attr is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Attr,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Attr is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Attr,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Attr is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Attr,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Attr is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Attr,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Attr is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Attr,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Attr is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Attr,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Attr is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Attr,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NodeList is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NodeList,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NodeList is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NodeList,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMConfiguration is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMConfiguration,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMConfiguration is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMConfiguration,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMConfiguration is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMConfiguration,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMConfiguration is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMConfiguration,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.UserDataHandler is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.UserDataHandler,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.TypeInfo is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.TypeInfo,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.TypeInfo is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.TypeInfo,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.TypeInfo is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.TypeInfo,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMStringList is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMStringList,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMStringList is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMStringList,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMStringList is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMStringList,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSResourceResolver is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSResourceResolver,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() at <m: java.lang.String d(android.content.Context)> in m
+RespAnalysis - [MSG]: <m: java.lang.String d(android.content.Context)>: <m: java.lang.String d(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: m
+RespAnalysis - [MSG]: chainSet: [<m: java.lang.String d(android.content.Context)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r5 = virtualinvoke $r4.<java.net.URL: java.net.URLConnection openConnection()>() at <s: void a(java.lang.String)> in s
+RespAnalysis - [MSG]: <s: void a(java.lang.String)>: <s: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: s
+RespAnalysis - [MSG]: chainSet: [<s: void a(java.lang.String)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/adc8ac7b72a1055438773e7f075028df681d987c.apk\adc8ac7b72a1055438773e7f075028df681d987c.apk_resp.csv
+RespAnalysis - [MSG]: <com.android.battery.ZlPhoneService: java.lang.String b()>
+RespAnalysis - [MSG]: <com.android.battery.ZlPhoneService: java.lang.String b()>
+RespAnalysis - [MSG]: <com.android.battery.ZlPhoneService: java.lang.String b()>
+RespAnalysis - [MSG]: <com.android.battery.ZlPhoneService: java.lang.String b()>
+RespAnalysis - [MSG]: <v: java.lang.String j()>
+RespAnalysis - [MSG]: <v: java.lang.String j()>
+RespAnalysis - [MSG]: <c: boolean a(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <s: void a(java.lang.String)>
+RespAnalysis - [MSG]: <s: void a(java.lang.String)>
+RespAnalysis - [MSG]: <c: void b(java.lang.String,java.lang.String)>
+RespAnalysis - [MSG]: <com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <v: void a(java.lang.String,java.lang.String)>
+RespAnalysis - [MSG]: <v: void a(java.lang.String,java.lang.String)>
+RespAnalysis - [MSG]: <c: void a(java.lang.String)>
+RespAnalysis - [MSG]: <com.android.battery.BridgeProvider: void onCreate()>
+RespAnalysis - [MSG]: <com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <v: void h()>
+RespAnalysis - [MSG]: <v: void h()>
+RespAnalysis - [MSG]: <v: java.lang.String j()>
+RespAnalysis - [MSG]: <v: java.lang.String j()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/adc8ac7b72a1055438773e7f075028df681d987c.apk\adc8ac7b72a1055438773e7f075028df681d987c.apk_src.csv
+RespAnalysis - [MSG]: <m: java.lang.String d(android.content.Context)>
+RespAnalysis - [MSG]: <m: java.lang.String d(android.content.Context)>
+RespAnalysis - [MSG]: <j: void onCallStateChanged(int,java.lang.String)>
+RespAnalysis - [MSG]: <j: void onCallStateChanged(int,java.lang.String)>
+RespAnalysis - [MSG]: <v: java.lang.String j()>
+RespAnalysis - [MSG]: <v: java.lang.String j()>
+RespAnalysis - [MSG]: <e: void run()>
+RespAnalysis - [MSG]: <com.android.battery.BridgeProvider: void onCreate()>
+RespAnalysis - [MSG]: <com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <v: void g()>
+RespAnalysis - [MSG]: <v: void g()>
+RespAnalysis - [MSG]: <com.android.battery.ZlPhoneService: java.lang.String b()>
+RespAnalysis - [MSG]: <com.android.battery.ZlPhoneService: java.lang.String b()>
+RespAnalysis - [MSG]: <v: void f()>
+RespAnalysis - [MSG]: <v: void f()>
+RespAnalysis - [MSG]: <com.android.battery.ZlPhoneService: void a()>
+RespAnalysis - [MSG]: <com.android.battery.ZlPhoneService: void a()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/adc8ac7b72a1055438773e7f075028df681d987c.apk\adc8ac7b72a1055438773e7f075028df681d987c.apk_StartActServ.csv
+RespAnalysis - [MSG]: com.android.battery.BalckActivity2: a
+RespAnalysis - [MSG]: com.android.battery.BalckActivity2: onStop
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/adc8ac7b72a1055438773e7f075028df681d987c.apk\adc8ac7b72a1055438773e7f075028df681d987c.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/adc8ac7b72a1055438773e7f075028df681d987c.apk\adc8ac7b72a1055438773e7f075028df681d987c.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/adc8ac7b72a1055438773e7f075028df681d987c.apk\adc8ac7b72a1055438773e7f075028df681d987c.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: com.android.battery.BridgeProvider: onCreate
+RespAnalysis - [MSG]: com.android.battery.ZlPhoneService: b
+RespAnalysis - [MSG]: v: j
+RespAnalysis - [MSG]: v: f
+RespAnalysis - [MSG]: v: g
+RespAnalysis - [MSG]: com.android.battery.ZlPhoneService: a
+RespAnalysis - [MSG]: j: onCallStateChanged
+RespAnalysis - [MSG]: m: d
+RespAnalysis - [MSG]: com.android.battery.BaseBroadcastReceiver: onReceive
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/adc8ac7b72a1055438773e7f075028df681d987c.apk\adc8ac7b72a1055438773e7f075028df681d987c.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: com.android.battery.BridgeProvider: onCreate
+RespAnalysis - [MSG]: com.android.battery.ZlPhoneService: b
+RespAnalysis - [MSG]: v: j
+RespAnalysis - [MSG]: v: h
+RespAnalysis - [MSG]: v: a
+RespAnalysis - [MSG]: s: a
+RespAnalysis - [MSG]: com.android.battery.BaseBroadcastReceiver: onReceive
+test - [MSG]: Analysis has run for 18.594231628 seconds
+

@@ -1,0 +1,384 @@
+test - [MSG]: Begin to analyze: 1034b746a26e236b9a623a5cebfb67dde52a1d8a.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $z0 = virtualinvoke $r6.<java.lang.String: boolean equals(java.lang.Object)>("android.provider.Telephony.SMS_RECEIVED") at <com.GoldDream.zj.zjReceiver: void onReceive(android.content.Context,android.content.Intent)> in com.GoldDream.zj.zjReceiver
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.GoldDream.zj.zjReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjReceiver: void onReceive(android.content.Context,android.content.Intent)>: <com.GoldDream.zj.zjReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [DEBUG]: EntryClass: com.GoldDream.zj.zjReceiver
+RespAnalysis - [MSG]: chainSet: [<com.GoldDream.zj.zjReceiver: void onReceive(android.content.Context,android.content.Intent)>]
+RespAnalysis - [WARN]: No method source set for method <com.google.ads.Ad: boolean isReady()>
+RespAnalysis - [WARN]: No method source set for method <com.google.ads.Ad: void loadAd(com.google.ads.AdRequest)>
+RespAnalysis - [WARN]: No method source set for method <com.google.ads.Ad: void setAdListener(com.google.ads.AdListener)>
+RespAnalysis - [WARN]: No method source set for method <com.google.ads.Ad: void stopLoading()>
+RespAnalysis - [WARN]: No method source set for method <com.google.ads.AdListener: void onDismissScreen(com.google.ads.Ad)>
+RespAnalysis - [WARN]: No method source set for method <com.google.ads.AdListener: void onFailedToReceiveAd(com.google.ads.Ad,com.google.ads.AdRequest$ErrorCode)>
+RespAnalysis - [WARN]: No method source set for method <com.google.ads.AdListener: void onLeaveApplication(com.google.ads.Ad)>
+RespAnalysis - [WARN]: No method source set for method <com.google.ads.AdListener: void onPresentScreen(com.google.ads.Ad)>
+RespAnalysis - [WARN]: No method source set for method <com.google.ads.AdListener: void onReceiveAd(com.google.ads.Ad)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r4 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() at <b: java.lang.Void a(java.lang.String[])> in b
+RespAnalysis - [MSG]: <b: java.lang.Void a(java.lang.String[])>: <b: java.lang.Void a(java.lang.String[])>
+RespAnalysis - [DEBUG]: EntryClass: b
+RespAnalysis - [MSG]: chainSet: [<b: java.lang.Void a(java.lang.String[])>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r5.<java.net.HttpURLConnection: void connect()>() at <b: java.lang.Void a(java.lang.String[])> in b
+RespAnalysis - [MSG]: <b: java.lang.Void a(java.lang.String[])>: <b: java.lang.Void a(java.lang.String[])>
+RespAnalysis - [DEBUG]: EntryClass: b
+RespAnalysis - [MSG]: chainSet: [<b: java.lang.Void a(java.lang.String[])>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r8 = virtualinvoke $r7.<java.net.URL: java.net.URLConnection openConnection()>() at <com.GoldDream.zj.UploadFiles: void uploadFile(java.lang.String,java.lang.String)> in com.GoldDream.zj.UploadFiles
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: java.lang.String executeTask(java.lang.Integer,java.lang.String)>, Tgt: <com.GoldDream.zj.UploadFiles: void uploadFile(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void uploadAllFiles()>, Tgt: <com.GoldDream.zj.UploadFiles: void uploadFile(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void uploadAllFiles()>, Tgt: <com.GoldDream.zj.UploadFiles: void uploadFile(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void doWorkTask()>, Tgt: <com.GoldDream.zj.zjService: java.lang.String executeTask(java.lang.Integer,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void checkUpload()>, Tgt: <com.GoldDream.zj.zjService: void uploadAllFiles()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService: void doWorkTask()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void access$2(com.GoldDream.zj.zjService)>, Tgt: <com.GoldDream.zj.zjService: void checkUpload()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService: void access$2(com.GoldDream.zj.zjService)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <com.GoldDream.zj.UploadFiles: void uploadFile(java.lang.String,java.lang.String)>: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.GoldDream.zj.zjService
+RespAnalysis - [MSG]: chainSet: [<com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>]
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <x: void run()>, Tgt: <d: void w()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <x: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <com.GoldDream.zj.zjService: void GetDeviceInfo()> in com.GoldDream.zj.zjService
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void checkUid()>, Tgt: <com.GoldDream.zj.zjService: void GetDeviceInfo()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService: void checkUid()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: void GetDeviceInfo()>: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.GoldDream.zj.zjService
+RespAnalysis - [MSG]: chainSet: [<com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>]
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <x: void run()>, Tgt: <d: void w()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <x: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() at <com.GoldDream.zj.zjService: void GetDeviceInfo()> in com.GoldDream.zj.zjService
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void checkUid()>, Tgt: <com.GoldDream.zj.zjService: void GetDeviceInfo()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService: void checkUid()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: void GetDeviceInfo()>: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.GoldDream.zj.zjService
+RespAnalysis - [MSG]: chainSet: [<com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>]
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <x: void run()>, Tgt: <d: void w()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <x: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()>() at <com.GoldDream.zj.zjService: void GetDeviceInfo()> in com.GoldDream.zj.zjService
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void checkUid()>, Tgt: <com.GoldDream.zj.zjService: void GetDeviceInfo()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService: void checkUid()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: void GetDeviceInfo()>: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.GoldDream.zj.zjService
+RespAnalysis - [MSG]: chainSet: [<com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>]
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <x: void run()>, Tgt: <d: void w()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <x: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>($r1, null, $r2, null, null) at <com.GoldDream.zj.zjService: java.lang.String bg_sendSms(java.lang.String,java.lang.String,int)> in com.GoldDream.zj.zjService
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: java.lang.String executeTask(java.lang.Integer,java.lang.String)>, Tgt: <com.GoldDream.zj.zjService: java.lang.String bg_sendSms(java.lang.String,java.lang.String,int)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void doWorkTask()>, Tgt: <com.GoldDream.zj.zjService: java.lang.String executeTask(java.lang.Integer,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService: void doWorkTask()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: java.lang.String bg_sendSms(java.lang.String,java.lang.String,int)>: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.GoldDream.zj.zjService
+RespAnalysis - [MSG]: chainSet: [<com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>]
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <x: void run()>, Tgt: <d: void w()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <x: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r6 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() at <com.GoldDream.zj.zjService: java.lang.String getUidfromServer()> in com.GoldDream.zj.zjService
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void checkUid()>, Tgt: <com.GoldDream.zj.zjService: java.lang.String getUidfromServer()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService: void checkUid()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: java.lang.String getUidfromServer()>: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.GoldDream.zj.zjService
+RespAnalysis - [MSG]: chainSet: [<com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>]
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <x: void run()>, Tgt: <d: void w()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <x: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r5 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() at <com.GoldDream.zj.zjService: java.lang.String getValueFromServer(java.lang.String)> in com.GoldDream.zj.zjService
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void UpdatedParametersFromServer()>, Tgt: <com.GoldDream.zj.zjService: java.lang.String getValueFromServer(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: boolean isUpdateParam()>, Tgt: <com.GoldDream.zj.zjService: java.lang.String getValueFromServer(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: java.lang.String executeTask(java.lang.Integer,java.lang.String)>, Tgt: <com.GoldDream.zj.zjService: java.lang.String getValueFromServer(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: java.lang.String executeTask(java.lang.Integer,java.lang.String)>, Tgt: <com.GoldDream.zj.zjService: java.lang.String getValueFromServer(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: java.lang.String getTaskFromServer(int,java.lang.String,java.lang.String)>, Tgt: <com.GoldDream.zj.zjService: java.lang.String getValueFromServer(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: int getTaskCountFromServer(java.lang.String)>, Tgt: <com.GoldDream.zj.zjService: java.lang.String getValueFromServer(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void access$1(com.GoldDream.zj.zjService)>, Tgt: <com.GoldDream.zj.zjService: void UpdatedParametersFromServer()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void UpdatedParametersFromServer()>, Tgt: <com.GoldDream.zj.zjService: boolean isUpdateParam()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void doWorkTask()>, Tgt: <com.GoldDream.zj.zjService: java.lang.String executeTask(java.lang.Integer,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void doWorkTask()>, Tgt: <com.GoldDream.zj.zjService: java.lang.String getTaskFromServer(int,java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void doWorkTask()>, Tgt: <com.GoldDream.zj.zjService: int getTaskCountFromServer(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService: void access$1(com.GoldDream.zj.zjService)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService: void doWorkTask()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: java.lang.String getValueFromServer(java.lang.String)>: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.GoldDream.zj.zjService
+RespAnalysis - [MSG]: chainSet: [<com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>]
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <x: void run()>, Tgt: <d: void w()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <x: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r8 = virtualinvoke $r7.<java.net.URL: java.net.URLConnection openConnection()>() at <com.google.ads.InstallReceiver: void onReceive(android.content.Context,android.content.Intent)> in com.google.ads.InstallReceiver
+RespAnalysis - [MSG]: <com.google.ads.InstallReceiver: void onReceive(android.content.Context,android.content.Intent)>: <com.google.ads.InstallReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [DEBUG]: EntryClass: com.google.ads.InstallReceiver
+RespAnalysis - [MSG]: chainSet: [<com.google.ads.InstallReceiver: void onReceive(android.content.Context,android.content.Intent)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $d0 = virtualinvoke $r0.<android.location.Location: double getLatitude()>() at <com.google.ads.util.AdUtil: java.lang.String a(android.location.Location)> in com.google.ads.util.AdUtil
+RespAnalysis - [DEBUG]: Src: <com.google.ads.AdRequest: java.util.Map getRequestMap(android.content.Context)>, Tgt: <com.google.ads.util.AdUtil: java.lang.String a(android.location.Location)>
+RespAnalysis - [DEBUG]: Src: <c: java.lang.String a(com.google.ads.AdRequest,android.app.Activity)>, Tgt: <com.google.ads.AdRequest: java.util.Map getRequestMap(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <c: com.google.ads.AdRequest$ErrorCode a(com.google.ads.AdRequest[])>, Tgt: <c: java.lang.String a(com.google.ads.AdRequest,android.app.Activity)>
+RespAnalysis - [DEBUG]: Src: <c: java.lang.Object doInBackground(java.lang.Object[])>, Tgt: <c: com.google.ads.AdRequest$ErrorCode a(com.google.ads.AdRequest[])>
+RespAnalysis - [DEBUG]: Src: <d: void a(com.google.ads.AdRequest)>, Tgt: <c: java.lang.Object doInBackground(java.lang.Object[])>
+RespAnalysis - [DEBUG]: Src: <com.google.ads.AdView: void loadAd(com.google.ads.AdRequest)>, Tgt: <d: void a(com.google.ads.AdRequest)>
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <d: void a(com.google.ads.AdRequest)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.TingTing12i.readme: void onCreate(android.os.Bundle)>, Tgt: <com.google.ads.AdView: void loadAd(com.google.ads.AdRequest)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.TingTing12i.TingTing21: void onCreate(android.os.Bundle)>, Tgt: <com.google.ads.AdView: void loadAd(com.google.ads.AdRequest)>
+RespAnalysis - [DEBUG]: Src: <x: void run()>, Tgt: <d: void w()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.GoldDream.TingTing12i.readme: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.google.ads.util.AdUtil: java.lang.String a(android.location.Location)>: <com.GoldDream.TingTing12i.readme: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.GoldDream.TingTing12i.readme
+RespAnalysis - [MSG]: chainSet: [<com.GoldDream.TingTing12i.readme: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.GoldDream.TingTing12i.TingTing21: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.google.ads.util.AdUtil: java.lang.String a(android.location.Location)>: <com.GoldDream.TingTing12i.TingTing21: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.GoldDream.TingTing12i.TingTing21
+RespAnalysis - [MSG]: chainSet: [<com.GoldDream.TingTing12i.TingTing21: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <com.google.ads.util.AdUtil: java.lang.String a(android.location.Location)>: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.GoldDream.zj.zjService
+RespAnalysis - [MSG]: chainSet: [<com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $d0 = virtualinvoke $r0.<android.location.Location: double getLongitude()>() at <com.google.ads.util.AdUtil: java.lang.String a(android.location.Location)> in com.google.ads.util.AdUtil
+RespAnalysis - [DEBUG]: Src: <com.google.ads.AdRequest: java.util.Map getRequestMap(android.content.Context)>, Tgt: <com.google.ads.util.AdUtil: java.lang.String a(android.location.Location)>
+RespAnalysis - [DEBUG]: Src: <c: java.lang.String a(com.google.ads.AdRequest,android.app.Activity)>, Tgt: <com.google.ads.AdRequest: java.util.Map getRequestMap(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <c: com.google.ads.AdRequest$ErrorCode a(com.google.ads.AdRequest[])>, Tgt: <c: java.lang.String a(com.google.ads.AdRequest,android.app.Activity)>
+RespAnalysis - [DEBUG]: Src: <c: java.lang.Object doInBackground(java.lang.Object[])>, Tgt: <c: com.google.ads.AdRequest$ErrorCode a(com.google.ads.AdRequest[])>
+RespAnalysis - [DEBUG]: Src: <d: void a(com.google.ads.AdRequest)>, Tgt: <c: java.lang.Object doInBackground(java.lang.Object[])>
+RespAnalysis - [DEBUG]: Src: <com.google.ads.AdView: void loadAd(com.google.ads.AdRequest)>, Tgt: <d: void a(com.google.ads.AdRequest)>
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <d: void a(com.google.ads.AdRequest)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.TingTing12i.readme: void onCreate(android.os.Bundle)>, Tgt: <com.google.ads.AdView: void loadAd(com.google.ads.AdRequest)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.TingTing12i.TingTing21: void onCreate(android.os.Bundle)>, Tgt: <com.google.ads.AdView: void loadAd(com.google.ads.AdRequest)>
+RespAnalysis - [DEBUG]: Src: <x: void run()>, Tgt: <d: void w()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.GoldDream.TingTing12i.readme: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.google.ads.util.AdUtil: java.lang.String a(android.location.Location)>: <com.GoldDream.TingTing12i.readme: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.GoldDream.TingTing12i.readme
+RespAnalysis - [MSG]: chainSet: [<com.GoldDream.TingTing12i.readme: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.GoldDream.TingTing12i.TingTing21: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.google.ads.util.AdUtil: java.lang.String a(android.location.Location)>: <com.GoldDream.TingTing12i.TingTing21: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.GoldDream.TingTing12i.TingTing21
+RespAnalysis - [MSG]: chainSet: [<com.GoldDream.TingTing12i.TingTing21: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <com.google.ads.util.AdUtil: java.lang.String a(android.location.Location)>: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.GoldDream.zj.zjService
+RespAnalysis - [MSG]: chainSet: [<com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>]
+RespAnalysis - [WARN]: No method source set for method <i: void a(d,java.util.HashMap,android.webkit.WebView)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r3 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() at <w: void run()> in w
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <w: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <w: void run()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <x: void run()>, Tgt: <d: void w()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <w: void run()>: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.GoldDream.zj.zjService
+RespAnalysis - [MSG]: chainSet: [<com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>]
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <x: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r4.<java.net.HttpURLConnection: void connect()>() at <w: void run()> in w
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <w: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <w: void run()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.GoldDream.zj.zjService$1: void run()>, Tgt: <com.GoldDream.zj.zjService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <x: void run()>, Tgt: <d: void w()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <w: void run()>: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.GoldDream.zj.zjService
+RespAnalysis - [MSG]: chainSet: [<com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>]
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean postDelayed(java.lang.Runnable,long)>, Tgt: <x: void run()>
+RespAnalysis - [DEBUG]: Src: <d: void w()>, Tgt: <x: void run()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/1034b746a26e236b9a623a5cebfb67dde52a1d8a.apk\1034b746a26e236b9a623a5cebfb67dde52a1d8a.apk_resp.csv
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: java.lang.String getValueFromServer(java.lang.String)>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: java.lang.String getUidfromServer()>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <com.GoldDream.zj.UploadFiles: void uploadFile(java.lang.String,java.lang.String)>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <com.google.ads.InstallReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.google.ads.InstallReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: java.lang.String bg_sendSms(java.lang.String,java.lang.String,int)>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <b: java.lang.Void a(java.lang.String[])>
+RespAnalysis - [MSG]: <b: java.lang.Void a(java.lang.String[])>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <w: void run()>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <b: java.lang.Void a(java.lang.String[])>
+RespAnalysis - [MSG]: <b: java.lang.Void a(java.lang.String[])>
+RespAnalysis - [MSG]: <w: void run()>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/1034b746a26e236b9a623a5cebfb67dde52a1d8a.apk\1034b746a26e236b9a623a5cebfb67dde52a1d8a.apk_src.csv
+RespAnalysis - [MSG]: <com.google.ads.util.AdUtil: java.lang.String a(android.location.Location)>
+RespAnalysis - [MSG]: <com.GoldDream.TingTing12i.readme: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.GoldDream.TingTing12i.TingTing21: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: void GetDeviceInfo()>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: void GetDeviceInfo()>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <com.google.ads.util.AdUtil: java.lang.String a(android.location.Location)>
+RespAnalysis - [MSG]: <com.GoldDream.TingTing12i.readme: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.GoldDream.TingTing12i.TingTing21: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: void GetDeviceInfo()>
+RespAnalysis - [MSG]: <com.GoldDream.zj.zjService: void onStart(android.content.Intent,int)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/1034b746a26e236b9a623a5cebfb67dde52a1d8a.apk\1034b746a26e236b9a623a5cebfb67dde52a1d8a.apk_StartActServ.csv
+RespAnalysis - [MSG]: com.GoldDream.zj.zjService: executeTask
+RespAnalysis - [MSG]: com.GoldDream.zj.zjService: doWorkTask
+RespAnalysis - [MSG]: com.GoldDream.zj.zjService$1: run
+RespAnalysis - [MSG]: com.GoldDream.zj.zjService: onStart
+RespAnalysis - [MSG]: com.GoldDream.TingTing12i.readme: onMenuItemSelected
+RespAnalysis - [MSG]: com.GoldDream.TingTing12i.readme: onMenuItemSelected
+RespAnalysis - [MSG]: com.GoldDream.zj.zjReceiver: onReceive
+RespAnalysis - [MSG]: com.GoldDream.zj.zjService: executeTask
+RespAnalysis - [MSG]: com.GoldDream.zj.zjService: doWorkTask
+RespAnalysis - [MSG]: com.GoldDream.zj.zjService$1: run
+RespAnalysis - [MSG]: com.GoldDream.zj.zjService: onStart
+RespAnalysis - [MSG]: com.GoldDream.TingTing12i.readme: onMenuItemSelected
+RespAnalysis - [MSG]: com.GoldDream.TingTing12i.readme: onMenuItemSelected
+RespAnalysis - [MSG]: com.GoldDream.TingTing12i.readme: onMenuItemSelected
+RespAnalysis - [MSG]: com.GoldDream.TingTing12i.readme: onMenuItemSelected
+RespAnalysis - [MSG]: com.GoldDream.zj.zjService: executeTask
+RespAnalysis - [MSG]: com.GoldDream.zj.zjService: doWorkTask
+RespAnalysis - [MSG]: com.GoldDream.zj.zjService$1: run
+RespAnalysis - [MSG]: com.GoldDream.zj.zjService: onStart
+RespAnalysis - [MSG]: com.GoldDream.TingTing12i.readme: onMenuItemSelected
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/1034b746a26e236b9a623a5cebfb67dde52a1d8a.apk\1034b746a26e236b9a623a5cebfb67dde52a1d8a.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/1034b746a26e236b9a623a5cebfb67dde52a1d8a.apk\1034b746a26e236b9a623a5cebfb67dde52a1d8a.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/1034b746a26e236b9a623a5cebfb67dde52a1d8a.apk\1034b746a26e236b9a623a5cebfb67dde52a1d8a.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: com.GoldDream.zj.zjService: onStart
+RespAnalysis - [MSG]: com.GoldDream.TingTing12i.TingTing21: onCreate
+RespAnalysis - [MSG]: com.GoldDream.TingTing12i.readme: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/1034b746a26e236b9a623a5cebfb67dde52a1d8a.apk\1034b746a26e236b9a623a5cebfb67dde52a1d8a.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: com.GoldDream.zj.zjService: onStart
+RespAnalysis - [MSG]: com.google.ads.InstallReceiver: onReceive
+RespAnalysis - [MSG]: b: a
+RespAnalysis - [MSG]: com.GoldDream.zj.zjReceiver: onReceive
+test - [MSG]: Analysis has run for 30.409789809 seconds
+

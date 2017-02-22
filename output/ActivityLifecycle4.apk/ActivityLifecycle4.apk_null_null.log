@@ -1,0 +1,30 @@
+test - [MSG]: Begin to analyze: ActivityLifecycle4.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r2.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r1, null, null) at <de.ecspride.MainActivity: void onPause()> in de.ecspride.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MainActivity: void onPause()>
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void onPause()>: <de.ecspride.MainActivity: void onPause()>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MainActivity
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MainActivity: void onCreate(android.os.Bundle)>, <de.ecspride.MainActivity: void onPause()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.MainActivity: void onResume()> in de.ecspride.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MainActivity: void onResume()>
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void onResume()>: <de.ecspride.MainActivity: void onResume()>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MainActivity
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MainActivity: void onCreate(android.os.Bundle)>, <de.ecspride.MainActivity: void onResume()>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityLifecycle4.apk\ActivityLifecycle4.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void onPause()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityLifecycle4.apk\ActivityLifecycle4.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void onResume()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityLifecycle4.apk\ActivityLifecycle4.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityLifecycle4.apk\ActivityLifecycle4.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityLifecycle4.apk\ActivityLifecycle4.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityLifecycle4.apk\ActivityLifecycle4.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MainActivity: onCreate
+RespAnalysis - [MSG]: de.ecspride.MainActivity: onResume
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityLifecycle4.apk\ActivityLifecycle4.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MainActivity: onCreate
+RespAnalysis - [MSG]: de.ecspride.MainActivity: onPause
+test - [MSG]: Analysis has run for 12.928136612 seconds
+

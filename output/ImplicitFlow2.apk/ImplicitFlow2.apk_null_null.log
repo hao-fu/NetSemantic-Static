@@ -1,0 +1,10 @@
+test - [MSG]: Begin to analyze: ImplicitFlow2.apk
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ImplicitFlow2.apk\ImplicitFlow2.apk_resp.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ImplicitFlow2.apk\ImplicitFlow2.apk_src.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ImplicitFlow2.apk\ImplicitFlow2.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ImplicitFlow2.apk\ImplicitFlow2.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ImplicitFlow2.apk\ImplicitFlow2.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ImplicitFlow2.apk\ImplicitFlow2.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ImplicitFlow2.apk\ImplicitFlow2.apk_SinkEventChains.csv
+test - [MSG]: Analysis has run for 35.175812409 seconds
+

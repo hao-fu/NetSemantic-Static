@@ -1,0 +1,30 @@
+test - [MSG]: Begin to analyze: RegisterGlobal1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r2, null, null) at <de.ecspride.MyApplication$ApplicationCallbacks: void onActivityPaused(android.app.Activity)> in de.ecspride.MyApplication$ApplicationCallbacks
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MyApplication$ApplicationCallbacks: void onActivityPaused(android.app.Activity)>
+RespAnalysis - [MSG]: <de.ecspride.MyApplication$ApplicationCallbacks: void onActivityPaused(android.app.Activity)>: <de.ecspride.MyApplication$ApplicationCallbacks: void onActivityPaused(android.app.Activity)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MyApplication$ApplicationCallbacks
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MyApplication: void onCreate()>, <de.ecspride.MyApplication$ApplicationCallbacks: void onActivityPaused(android.app.Activity)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r5 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.MyApplication$ApplicationCallbacks: void onActivityStarted(android.app.Activity)> in de.ecspride.MyApplication$ApplicationCallbacks
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MyApplication$ApplicationCallbacks: void onActivityStarted(android.app.Activity)>
+RespAnalysis - [MSG]: <de.ecspride.MyApplication$ApplicationCallbacks: void onActivityStarted(android.app.Activity)>: <de.ecspride.MyApplication$ApplicationCallbacks: void onActivityStarted(android.app.Activity)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MyApplication$ApplicationCallbacks
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MyApplication: void onCreate()>, <de.ecspride.MyApplication$ApplicationCallbacks: void onActivityStarted(android.app.Activity)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/RegisterGlobal1.apk\RegisterGlobal1.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.MyApplication$ApplicationCallbacks: void onActivityPaused(android.app.Activity)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/RegisterGlobal1.apk\RegisterGlobal1.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.MyApplication$ApplicationCallbacks: void onActivityStarted(android.app.Activity)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/RegisterGlobal1.apk\RegisterGlobal1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/RegisterGlobal1.apk\RegisterGlobal1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/RegisterGlobal1.apk\RegisterGlobal1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/RegisterGlobal1.apk\RegisterGlobal1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MyApplication: onCreate
+RespAnalysis - [MSG]: de.ecspride.MyApplication$ApplicationCallbacks: onActivityStarted
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/RegisterGlobal1.apk\RegisterGlobal1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MyApplication: onCreate
+RespAnalysis - [MSG]: de.ecspride.MyApplication$ApplicationCallbacks: onActivityPaused
+test - [MSG]: Analysis has run for 17.095046737 seconds
+

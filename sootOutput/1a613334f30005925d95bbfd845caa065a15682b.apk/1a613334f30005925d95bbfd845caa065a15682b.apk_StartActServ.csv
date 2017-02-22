@@ -1,0 +1,8 @@
+"virtualinvoke $r1.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r18)"
+"virtualinvoke $r2.<com.passion.lightdd.CoreService: void startActivity(android.content.Intent)>($r12)","com.admob.android.ads.ae: a","com.admob.android.ads.ae: j","com.admob.android.ads.ai: a","com.admob.android.ads.c: a","com.admob.android.ads.c: run","com.admob.android.ads.o: f","com.admob.android.ads.ae: a","com.admob.android.ads.AdMobActivity: onCreate"
+"virtualinvoke $r4.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r2)"
+"virtualinvoke $r1.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r2)"
+"virtualinvoke $r0.<com.passion.callvibrate.main: android.content.ComponentName startService(android.content.Intent)>($r2)","com.passion.callvibrate.BootReceiver: onReceive"
+"virtualinvoke $r0.<com.passion.callvibrate.main: android.content.ComponentName startService(android.content.Intent)>($r2)","com.passion.callvibrate.BootReceiver: onReceive"
+"virtualinvoke $r9.<android.content.Context: void startActivity(android.content.Intent)>($r13)"
+"virtualinvoke $r0.<android.content.Context: void startActivity(android.content.Intent)>($r6)"

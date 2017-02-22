@@ -1,0 +1,28 @@
+test - [MSG]: Begin to analyze: ArrayAccess2.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r5 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.ArrayAccess2: void onCreate(android.os.Bundle)> in de.ecspride.ArrayAccess2
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.ArrayAccess2: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.ArrayAccess2: void onCreate(android.os.Bundle)>: <de.ecspride.ArrayAccess2: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.ArrayAccess2
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.ArrayAccess2: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r6.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r5, null, null) at <de.ecspride.ArrayAccess2: void onCreate(android.os.Bundle)> in de.ecspride.ArrayAccess2
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.ArrayAccess2: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.ArrayAccess2: void onCreate(android.os.Bundle)>: <de.ecspride.ArrayAccess2: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.ArrayAccess2
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.ArrayAccess2: void onCreate(android.os.Bundle)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ArrayAccess2.apk\ArrayAccess2.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.ArrayAccess2: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ArrayAccess2.apk\ArrayAccess2.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.ArrayAccess2: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ArrayAccess2.apk\ArrayAccess2.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ArrayAccess2.apk\ArrayAccess2.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ArrayAccess2.apk\ArrayAccess2.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ArrayAccess2.apk\ArrayAccess2.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.ArrayAccess2: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ArrayAccess2.apk\ArrayAccess2.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.ArrayAccess2: onCreate
+test - [MSG]: Analysis has run for 14.886140174 seconds
+

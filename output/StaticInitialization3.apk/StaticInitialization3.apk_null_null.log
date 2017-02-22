@@ -1,0 +1,30 @@
+test - [MSG]: Begin to analyze: StaticInitialization3.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r4, null, null) at <edu.mit.clinit.MainActivity: void onCreate(android.os.Bundle)> in edu.mit.clinit.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.clinit.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.clinit.MainActivity: void onCreate(android.os.Bundle)>: <edu.mit.clinit.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.clinit.MainActivity
+RespAnalysis - [MSG]: chainSet: [<edu.mit.clinit.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <edu.mit.clinit.Test: void <clinit>()> in edu.mit.clinit.Test
+RespAnalysis - [DEBUG]: Src: <edu.mit.clinit.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <edu.mit.clinit.Test: void <clinit>()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.clinit.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.clinit.Test: void <clinit>()>: <edu.mit.clinit.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.clinit.MainActivity
+RespAnalysis - [MSG]: chainSet: [<edu.mit.clinit.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StaticInitialization3.apk\StaticInitialization3.apk_resp.csv
+RespAnalysis - [MSG]: <edu.mit.clinit.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StaticInitialization3.apk\StaticInitialization3.apk_src.csv
+RespAnalysis - [MSG]: <edu.mit.clinit.Test: void <clinit>()>
+RespAnalysis - [MSG]: <edu.mit.clinit.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StaticInitialization3.apk\StaticInitialization3.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StaticInitialization3.apk\StaticInitialization3.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StaticInitialization3.apk\StaticInitialization3.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StaticInitialization3.apk\StaticInitialization3.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: edu.mit.clinit.MainActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StaticInitialization3.apk\StaticInitialization3.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: edu.mit.clinit.MainActivity: onCreate
+test - [MSG]: Analysis has run for 9.14569422 seconds
+

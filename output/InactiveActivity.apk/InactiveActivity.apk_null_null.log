@@ -1,0 +1,10 @@
+test - [MSG]: Begin to analyze: InactiveActivity.apk
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/InactiveActivity.apk\InactiveActivity.apk_resp.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/InactiveActivity.apk\InactiveActivity.apk_src.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/InactiveActivity.apk\InactiveActivity.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/InactiveActivity.apk\InactiveActivity.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/InactiveActivity.apk\InactiveActivity.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/InactiveActivity.apk\InactiveActivity.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/InactiveActivity.apk\InactiveActivity.apk_SinkEventChains.csv
+test - [MSG]: Analysis has run for 12.544647899 seconds
+

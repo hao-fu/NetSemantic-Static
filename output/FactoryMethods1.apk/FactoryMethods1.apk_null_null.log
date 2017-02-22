@@ -1,0 +1,52 @@
+test - [MSG]: Begin to analyze: FactoryMethods1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r6 = virtualinvoke $r4.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r5) at <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)> in de.ecspride.FactoryMethods1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.FactoryMethods1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $d0 = virtualinvoke $r6.<android.location.Location: double getLatitude()>() at <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)> in de.ecspride.FactoryMethods1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.FactoryMethods1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $d0 = virtualinvoke $r6.<android.location.Location: double getLongitude()>() at <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)> in de.ecspride.FactoryMethods1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.FactoryMethods1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $d0 = virtualinvoke $r6.<android.location.Location: double getLatitude()>() at <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)> in de.ecspride.FactoryMethods1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.FactoryMethods1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r8.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r5, null, null) at <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)> in de.ecspride.FactoryMethods1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.FactoryMethods1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/FactoryMethods1.apk\FactoryMethods1.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/FactoryMethods1.apk\FactoryMethods1.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/FactoryMethods1.apk\FactoryMethods1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/FactoryMethods1.apk\FactoryMethods1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/FactoryMethods1.apk\FactoryMethods1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/FactoryMethods1.apk\FactoryMethods1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.FactoryMethods1: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/FactoryMethods1.apk\FactoryMethods1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.FactoryMethods1: onCreate
+test - [MSG]: Analysis has run for 20.192263205 seconds
+

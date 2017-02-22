@@ -1,0 +1,1 @@
+"$r1 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>()","<edu.mit.dynamic_dispatch.B: java.lang.String f()>","<edu.mit.dynamic_dispatch.MainActivity: void onCreate(android.os.Bundle)>"

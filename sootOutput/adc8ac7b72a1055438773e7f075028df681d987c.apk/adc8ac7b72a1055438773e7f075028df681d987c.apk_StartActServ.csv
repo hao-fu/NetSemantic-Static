@@ -1,0 +1,6 @@
+"virtualinvoke $r1.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r5)"
+"virtualinvoke $r1.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r5)"
+"virtualinvoke $r0.<com.android.battery.BalckActivity2: void startActivity(android.content.Intent)>($r2)","com.android.battery.BalckActivity2: a","com.android.battery.BalckActivity2: onStop"
+"virtualinvoke $r1.<android.content.Context: void startActivity(android.content.Intent)>($r2)"
+"virtualinvoke $r1.<android.content.Context: void startActivity(android.content.Intent)>($r2)"
+"virtualinvoke $r1.<android.content.Context: void startActivity(android.content.Intent)>($r2)"

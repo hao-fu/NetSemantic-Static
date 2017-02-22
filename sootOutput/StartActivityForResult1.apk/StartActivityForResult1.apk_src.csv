@@ -1,0 +1,3 @@
+"$r5 = virtualinvoke $r4.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>(""gps"")","<org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()>","<org.cert.WriteFile.Button1Listener: void onClick(android.view.View)>"
+"$d0 = virtualinvoke $r5.<android.location.Location: double getLongitude()>()","<org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()>","<org.cert.WriteFile.Button1Listener: void onClick(android.view.View)>"
+"$d1 = virtualinvoke $r5.<android.location.Location: double getLatitude()>()","<org.cert.WriteFile.Button1Listener: java.lang.String getMyLocation()>","<org.cert.WriteFile.Button1Listener: void onClick(android.view.View)>"

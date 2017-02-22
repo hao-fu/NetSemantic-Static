@@ -1,0 +1,3 @@
+"virtualinvoke $r1.<android.content.Context: android.content.ComponentName startService(android.content.Intent)>($r6)"
+"virtualinvoke $r3.<android.app.Activity: void startActivity(android.content.Intent)>($r4)"
+"virtualinvoke $r3.<android.app.Activity: void startActivity(android.content.Intent)>($r4)"

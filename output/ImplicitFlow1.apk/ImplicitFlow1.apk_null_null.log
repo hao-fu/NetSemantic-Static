@@ -1,0 +1,31 @@
+test - [MSG]: Begin to analyze: ImplicitFlow1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r2.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r1, null, null) at <de.ecspride.ImplicitFlow1: void writeToLog(java.lang.String)> in de.ecspride.ImplicitFlow1
+RespAnalysis - [DEBUG]: Src: <de.ecspride.ImplicitFlow1: void onCreate(android.os.Bundle)>, Tgt: <de.ecspride.ImplicitFlow1: void writeToLog(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <de.ecspride.ImplicitFlow1: void onCreate(android.os.Bundle)>, Tgt: <de.ecspride.ImplicitFlow1: void writeToLog(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.ImplicitFlow1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.ImplicitFlow1: void writeToLog(java.lang.String)>: <de.ecspride.ImplicitFlow1: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.ImplicitFlow1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.ImplicitFlow1: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.ImplicitFlow1: void onCreate(android.os.Bundle)> in de.ecspride.ImplicitFlow1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.ImplicitFlow1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.ImplicitFlow1: void onCreate(android.os.Bundle)>: <de.ecspride.ImplicitFlow1: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.ImplicitFlow1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.ImplicitFlow1: void onCreate(android.os.Bundle)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ImplicitFlow1.apk\ImplicitFlow1.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.ImplicitFlow1: void writeToLog(java.lang.String)>
+RespAnalysis - [MSG]: <de.ecspride.ImplicitFlow1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ImplicitFlow1.apk\ImplicitFlow1.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.ImplicitFlow1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ImplicitFlow1.apk\ImplicitFlow1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ImplicitFlow1.apk\ImplicitFlow1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ImplicitFlow1.apk\ImplicitFlow1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ImplicitFlow1.apk\ImplicitFlow1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.ImplicitFlow1: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ImplicitFlow1.apk\ImplicitFlow1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.ImplicitFlow1: onCreate
+test - [MSG]: Analysis has run for 17.563631506 seconds
+

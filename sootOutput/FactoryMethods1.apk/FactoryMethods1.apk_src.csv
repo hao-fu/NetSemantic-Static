@@ -1,0 +1,4 @@
+"$d0 = virtualinvoke $r6.<android.location.Location: double getLatitude()>()","<de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>"
+"$d0 = virtualinvoke $r6.<android.location.Location: double getLatitude()>()","<de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>"
+"$r6 = virtualinvoke $r4.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r5)","<de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>"
+"$d0 = virtualinvoke $r6.<android.location.Location: double getLongitude()>()","<de.ecspride.FactoryMethods1: void onCreate(android.os.Bundle)>"

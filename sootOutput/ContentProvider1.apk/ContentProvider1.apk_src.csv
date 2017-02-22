@@ -1,0 +1,2 @@
+"$r7 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>()","<de.ecspride.MainActivity: void onCreate(android.os.Bundle)>"
+"$r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>()","<de.ecspride.MyContentProvider: boolean onCreate()>"

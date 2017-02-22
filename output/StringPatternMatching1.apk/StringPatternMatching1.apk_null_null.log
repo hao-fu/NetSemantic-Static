@@ -1,0 +1,28 @@
+test - [MSG]: Begin to analyze: StringPatternMatching1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <edu.mit.pattern_matcher.MainActivity: void onCreate(android.os.Bundle)> in edu.mit.pattern_matcher.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.pattern_matcher.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.pattern_matcher.MainActivity: void onCreate(android.os.Bundle)>: <edu.mit.pattern_matcher.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.pattern_matcher.MainActivity
+RespAnalysis - [MSG]: chainSet: [<edu.mit.pattern_matcher.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r7.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r4, null, null) at <edu.mit.pattern_matcher.MainActivity: void onCreate(android.os.Bundle)> in edu.mit.pattern_matcher.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.pattern_matcher.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.pattern_matcher.MainActivity: void onCreate(android.os.Bundle)>: <edu.mit.pattern_matcher.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.pattern_matcher.MainActivity
+RespAnalysis - [MSG]: chainSet: [<edu.mit.pattern_matcher.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StringPatternMatching1.apk\StringPatternMatching1.apk_resp.csv
+RespAnalysis - [MSG]: <edu.mit.pattern_matcher.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StringPatternMatching1.apk\StringPatternMatching1.apk_src.csv
+RespAnalysis - [MSG]: <edu.mit.pattern_matcher.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StringPatternMatching1.apk\StringPatternMatching1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StringPatternMatching1.apk\StringPatternMatching1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StringPatternMatching1.apk\StringPatternMatching1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StringPatternMatching1.apk\StringPatternMatching1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: edu.mit.pattern_matcher.MainActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StringPatternMatching1.apk\StringPatternMatching1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: edu.mit.pattern_matcher.MainActivity: onCreate
+test - [MSG]: Analysis has run for 9.255920646 seconds
+

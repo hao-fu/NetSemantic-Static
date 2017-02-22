@@ -1,0 +1,28 @@
+test - [MSG]: Begin to analyze: Exceptions3.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r6.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.Exceptions3: void onCreate(android.os.Bundle)> in de.ecspride.Exceptions3
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.Exceptions3: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.Exceptions3: void onCreate(android.os.Bundle)>: <de.ecspride.Exceptions3: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.Exceptions3
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.Exceptions3: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r7.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r4, null, null) at <de.ecspride.Exceptions3: void onCreate(android.os.Bundle)> in de.ecspride.Exceptions3
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.Exceptions3: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.Exceptions3: void onCreate(android.os.Bundle)>: <de.ecspride.Exceptions3: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.Exceptions3
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.Exceptions3: void onCreate(android.os.Bundle)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Exceptions3.apk\Exceptions3.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.Exceptions3: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Exceptions3.apk\Exceptions3.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.Exceptions3: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Exceptions3.apk\Exceptions3.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Exceptions3.apk\Exceptions3.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Exceptions3.apk\Exceptions3.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Exceptions3.apk\Exceptions3.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.Exceptions3: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Exceptions3.apk\Exceptions3.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.Exceptions3: onCreate
+test - [MSG]: Analysis has run for 42.553078502 seconds
+

@@ -1,0 +1,2 @@
+"$r5 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>()","<com.km.MainActivity: java.lang.String getUrl()>","<com.km.MainActivity: void onCreate(android.os.Bundle)>"
+"$r6 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>()","<com.km.MainActivity: java.lang.String getUrl()>","<com.km.MainActivity: void onCreate(android.os.Bundle)>"

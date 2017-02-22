@@ -1,0 +1,28 @@
+test - [MSG]: Begin to analyze: ApplicationLifecycle3.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.ContentProvider: boolean onCreate()> in de.ecspride.ContentProvider
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.ContentProvider: boolean onCreate()>
+RespAnalysis - [MSG]: <de.ecspride.ContentProvider: boolean onCreate()>: <de.ecspride.ContentProvider: boolean onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.ContentProvider
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.ContentProvider: boolean onCreate()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r2.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r1, null, null) at <de.ecspride.ApplicationLifecyle3: void onCreate()> in de.ecspride.ApplicationLifecyle3
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.ApplicationLifecyle3: void onCreate()>
+RespAnalysis - [MSG]: <de.ecspride.ApplicationLifecyle3: void onCreate()>: <de.ecspride.ApplicationLifecyle3: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.ApplicationLifecyle3
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.ApplicationLifecyle3: void onCreate()>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ApplicationLifecycle3.apk\ApplicationLifecycle3.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.ApplicationLifecyle3: void onCreate()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ApplicationLifecycle3.apk\ApplicationLifecycle3.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.ContentProvider: boolean onCreate()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ApplicationLifecycle3.apk\ApplicationLifecycle3.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ApplicationLifecycle3.apk\ApplicationLifecycle3.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ApplicationLifecycle3.apk\ApplicationLifecycle3.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ApplicationLifecycle3.apk\ApplicationLifecycle3.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.ContentProvider: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ApplicationLifecycle3.apk\ApplicationLifecycle3.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.ApplicationLifecyle3: onCreate
+test - [MSG]: Analysis has run for 15.365328844 seconds
+

@@ -1,0 +1,631 @@
+test - [MSG]: Begin to analyze: 3726cfddc691cb72e7ed6b059bf943ad9b4d1774.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <com.km.ad.AdService: void init()> in com.km.ad.AdService
+RespAnalysis - [DEBUG]: Src: <com.km.ad.AdService: void onCreate()>, Tgt: <com.km.ad.AdService: void init()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.ad.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.km.ad.AdService: void init()>: <com.km.ad.AdService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.km.ad.AdService
+RespAnalysis - [MSG]: chainSet: [<com.km.ad.AdService: void onCreate()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() at <com.km.ad.AdService: void init()> in com.km.ad.AdService
+RespAnalysis - [DEBUG]: Src: <com.km.ad.AdService: void onCreate()>, Tgt: <com.km.ad.AdService: void init()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.ad.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.km.ad.AdService: void init()>: <com.km.ad.AdService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.km.ad.AdService
+RespAnalysis - [MSG]: chainSet: [<com.km.ad.AdService: void onCreate()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r2 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms/inbox") at <com.km.ad.AdService: java.lang.String getSMSC()> in com.km.ad.AdService
+RespAnalysis - [MSG]: <com.km.ad.AdService: java.lang.String getSMSC()>: <com.km.ad.AdService: java.lang.String getSMSC()>
+RespAnalysis - [DEBUG]: EntryClass: com.km.ad.AdService
+RespAnalysis - [MSG]: chainSet: [<com.km.ad.AdService: java.lang.String getSMSC()>]
+RespAnalysis - [WARN]: No method source set for method <com.km.charge.BbxChargeInterface: void BbxChargeEnd(int)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r4 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() at <com.km.charge.HttpBox: void connect()> in com.km.charge.HttpBox
+RespAnalysis - [DEBUG]: Src: <com.km.charge.BbxChargeEngine$HttpClient: void run()>, Tgt: <com.km.charge.HttpBox: void connect()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.HttpBox: void autoTurn()>, Tgt: <com.km.charge.HttpBox: void connect()>
+RespAnalysis - [DEBUG]: Src: <com.km.tool.mms.MmsContent: void connect()>, Tgt: <com.km.charge.HttpBox: void connect()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.CycleService: void onCreate()>, Tgt: <com.km.charge.BbxChargeEngine$HttpClient: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.BbxChargeEngine: void StartConnect()>, Tgt: <com.km.charge.BbxChargeEngine$HttpClient: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>, Tgt: <com.km.charge.BbxChargeEngine$HttpClient: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.LauncherModel: void loadApplications(boolean,com.km.launcher.Launcher,boolean)>, Tgt: <com.km.charge.BbxChargeEngine$HttpClient: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.km.charge.BbxChargeEngine$HttpClient: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.ChargeEngine: void <init>(android.content.Context)>, Tgt: <com.km.charge.BbxChargeEngine$HttpClient: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <com.km.charge.BbxChargeEngine$HttpClient: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.HttpBox: void connect()>, Tgt: <com.km.charge.HttpBox: void autoTurn()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.HoldMessage$1: void run()>, Tgt: <com.km.tool.mms.MmsContent: void connect()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.CycleService: void onCreate()>
+RespAnalysis - [MSG]: <com.km.charge.HttpBox: void connect()>: <com.km.charge.CycleService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.CycleService
+RespAnalysis - [DEBUG]: java.lang.Runnable
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.CycleService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.km.charge.BbxChargeEngine: void StartCharge(java.util.Vector)>, Tgt: <com.km.charge.BbxChargeEngine: void StartConnect()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void startLoaders()>, Tgt: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder: void changeFolderName()>, Tgt: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder: void changeFolderName()>, Tgt: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void startLoaders()>, Tgt: <com.km.launcher.LauncherModel: void loadApplications(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.CycleService: void onCreate()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.LauncherModel: void loadApplications(boolean,com.km.launcher.Launcher,boolean)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.ChargeEngine: void <init>(android.content.Context)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.charge.ChargeEngine: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.CycleService: void run()>, Tgt: <com.km.charge.ChargeEngine: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.charge.HttpBox: void connect()>: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.km.charge.CycleService: void onCreate()>, Tgt: <com.km.charge.HoldMessage$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>, Tgt: <com.km.charge.HoldMessage$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.LauncherModel: void loadApplications(boolean,com.km.launcher.Launcher,boolean)>, Tgt: <com.km.charge.HoldMessage$1: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.km.charge.HoldMessage$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.ChargeEngine: void <init>(android.content.Context)>, Tgt: <com.km.charge.HoldMessage$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <com.km.charge.HoldMessage$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.ChargeEngine: void AnalyseData(java.lang.String)>, Tgt: <com.km.charge.BbxChargeEngine: void StartCharge(java.util.Vector)>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>, Tgt: <com.km.launcher.Launcher: void startLoaders()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void init()>, Tgt: <com.km.launcher.Launcher: void startLoaders()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void onResume()>, Tgt: <com.km.launcher.Launcher: void startLoaders()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder: void access$1(com.km.launcher.Launcher$RenameFolder)>, Tgt: <com.km.launcher.Launcher$RenameFolder: void changeFolderName()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.HttpBox: void connect()>: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.HttpBox: void connect()>: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.MainActivity: void onCreate(android.os.Bundle)>, <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>]
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.km.charge.CycleService: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.charge.ChargeEngine: void AnalyseData(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.CycleService: void run()>, Tgt: <com.km.charge.ChargeEngine: void AnalyseData(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.charge.HttpBox: void connect()>: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.launcher.Launcher
+RespAnalysis - [MSG]: chainSet: [<com.km.launcher.Launcher: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: boolean changeTheme(com.km.theme.ThemeInfo)>, Tgt: <com.km.launcher.Launcher: void init()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void themeSetupAction(int)>, Tgt: <com.km.launcher.Launcher: void init()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher: void onResume()>
+RespAnalysis - [MSG]: <com.km.charge.HttpBox: void connect()>: <com.km.launcher.Launcher: void onResume()>
+RespAnalysis - [DEBUG]: EntryClass: com.km.launcher.Launcher
+RespAnalysis - [MSG]: chainSet: [<com.km.launcher.Launcher: void onCreate(android.os.Bundle)>, <com.km.launcher.Launcher: void onResume()>]
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.launcher.Launcher$RenameFolder: void access$1(com.km.launcher.Launcher$RenameFolder)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeListActivity: boolean changeTheme(com.km.theme.ThemeInfo)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: void delTheme(com.km.theme.ThemeInfo)>, Tgt: <com.km.theme.ThemeListActivity: boolean changeTheme(com.km.theme.ThemeInfo)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeManager: void chargeAction(int)>, Tgt: <com.km.launcher.Launcher: void themeSetupAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeManager: void chargeAction(int)>, Tgt: <com.km.launcher.Launcher: void themeSetupAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeManager: void chargeAction(int)>, Tgt: <com.km.launcher.Launcher: void themeSetupAction(int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.HttpBox: void connect()>: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.HttpBox: void connect()>: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.launcher.Launcher$RenameFolder$3
+RespAnalysis - [MSG]: chainSet: [<com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.HttpBox: void connect()>: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.theme.ThemeListActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.theme.ThemeListActivity: void onCreate(android.os.Bundle)>, <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>]
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeListActivity: void delTheme(com.km.theme.ThemeInfo)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [MSG]: <com.km.charge.HttpBox: void connect()>: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [MSG]: <com.km.charge.HttpBox: void connect()>: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.MainActivity: void onCreate(android.os.Bundle)>, <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>]
+RespAnalysis - [WARN]: No method source set for method <com.km.charge.SendMessageInterface: void SendMessageEnd(int)>
+RespAnalysis - [WARN]: No method source set for method <com.km.charge.HoldMessageInterface: void AddBackMessage(java.lang.String,java.lang.String)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r6 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)> in com.km.charge.ChargeUtil
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.CycleService: void run()>, Tgt: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.km.charge.CycleService: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.CycleService: void onCreate()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.LauncherModel: void loadApplications(boolean,com.km.launcher.Launcher,boolean)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.ChargeEngine: void <init>(android.content.Context)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.CycleService: void onCreate()>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.charge.CycleService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.CycleService
+RespAnalysis - [DEBUG]: java.lang.Runnable
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.CycleService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void startLoaders()>, Tgt: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder: void changeFolderName()>, Tgt: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder: void changeFolderName()>, Tgt: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void startLoaders()>, Tgt: <com.km.launcher.LauncherModel: void loadApplications(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.charge.ChargeEngine: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.CycleService: void run()>, Tgt: <com.km.charge.ChargeEngine: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>, Tgt: <com.km.launcher.Launcher: void startLoaders()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void init()>, Tgt: <com.km.launcher.Launcher: void startLoaders()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void onResume()>, Tgt: <com.km.launcher.Launcher: void startLoaders()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder: void access$1(com.km.launcher.Launcher$RenameFolder)>, Tgt: <com.km.launcher.Launcher$RenameFolder: void changeFolderName()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.MainActivity: void onCreate(android.os.Bundle)>, <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.launcher.Launcher
+RespAnalysis - [MSG]: chainSet: [<com.km.launcher.Launcher: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: boolean changeTheme(com.km.theme.ThemeInfo)>, Tgt: <com.km.launcher.Launcher: void init()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void themeSetupAction(int)>, Tgt: <com.km.launcher.Launcher: void init()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher: void onResume()>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.launcher.Launcher: void onResume()>
+RespAnalysis - [DEBUG]: EntryClass: com.km.launcher.Launcher
+RespAnalysis - [MSG]: chainSet: [<com.km.launcher.Launcher: void onCreate(android.os.Bundle)>, <com.km.launcher.Launcher: void onResume()>]
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.launcher.Launcher$RenameFolder: void access$1(com.km.launcher.Launcher$RenameFolder)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeListActivity: boolean changeTheme(com.km.theme.ThemeInfo)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: void delTheme(com.km.theme.ThemeInfo)>, Tgt: <com.km.theme.ThemeListActivity: boolean changeTheme(com.km.theme.ThemeInfo)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeManager: void chargeAction(int)>, Tgt: <com.km.launcher.Launcher: void themeSetupAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeManager: void chargeAction(int)>, Tgt: <com.km.launcher.Launcher: void themeSetupAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeManager: void chargeAction(int)>, Tgt: <com.km.launcher.Launcher: void themeSetupAction(int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.launcher.Launcher$RenameFolder$3
+RespAnalysis - [MSG]: chainSet: [<com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.theme.ThemeListActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.theme.ThemeListActivity: void onCreate(android.os.Bundle)>, <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>]
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeListActivity: void delTheme(com.km.theme.ThemeInfo)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.MainActivity: void onCreate(android.os.Bundle)>, <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r7 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() at <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)> in com.km.charge.ChargeUtil
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.CycleService: void run()>, Tgt: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.km.charge.CycleService: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.CycleService: void onCreate()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.LauncherModel: void loadApplications(boolean,com.km.launcher.Launcher,boolean)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.ChargeEngine: void <init>(android.content.Context)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.CycleService: void onCreate()>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.charge.CycleService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.CycleService
+RespAnalysis - [DEBUG]: java.lang.Runnable
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.CycleService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void startLoaders()>, Tgt: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder: void changeFolderName()>, Tgt: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder: void changeFolderName()>, Tgt: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void startLoaders()>, Tgt: <com.km.launcher.LauncherModel: void loadApplications(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.charge.ChargeEngine: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.CycleService: void run()>, Tgt: <com.km.charge.ChargeEngine: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>, Tgt: <com.km.launcher.Launcher: void startLoaders()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void init()>, Tgt: <com.km.launcher.Launcher: void startLoaders()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void onResume()>, Tgt: <com.km.launcher.Launcher: void startLoaders()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder: void access$1(com.km.launcher.Launcher$RenameFolder)>, Tgt: <com.km.launcher.Launcher$RenameFolder: void changeFolderName()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.MainActivity: void onCreate(android.os.Bundle)>, <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.launcher.Launcher
+RespAnalysis - [MSG]: chainSet: [<com.km.launcher.Launcher: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: boolean changeTheme(com.km.theme.ThemeInfo)>, Tgt: <com.km.launcher.Launcher: void init()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void themeSetupAction(int)>, Tgt: <com.km.launcher.Launcher: void init()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher: void onResume()>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.launcher.Launcher: void onResume()>
+RespAnalysis - [DEBUG]: EntryClass: com.km.launcher.Launcher
+RespAnalysis - [MSG]: chainSet: [<com.km.launcher.Launcher: void onCreate(android.os.Bundle)>, <com.km.launcher.Launcher: void onResume()>]
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.launcher.Launcher$RenameFolder: void access$1(com.km.launcher.Launcher$RenameFolder)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeListActivity: boolean changeTheme(com.km.theme.ThemeInfo)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: void delTheme(com.km.theme.ThemeInfo)>, Tgt: <com.km.theme.ThemeListActivity: boolean changeTheme(com.km.theme.ThemeInfo)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeManager: void chargeAction(int)>, Tgt: <com.km.launcher.Launcher: void themeSetupAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeManager: void chargeAction(int)>, Tgt: <com.km.launcher.Launcher: void themeSetupAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeManager: void chargeAction(int)>, Tgt: <com.km.launcher.Launcher: void themeSetupAction(int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.launcher.Launcher$RenameFolder$3
+RespAnalysis - [MSG]: chainSet: [<com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.theme.ThemeListActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.theme.ThemeListActivity: void onCreate(android.os.Bundle)>, <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>]
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeListActivity: void delTheme(com.km.theme.ThemeInfo)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.MainActivity: void onCreate(android.os.Bundle)>, <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $z0 = virtualinvoke $r5.<java.lang.String: boolean equals(java.lang.Object)>("android.provider.Telephony.SMS_RECEIVED") at <com.km.charge.HoldMessage: void onReceive(android.content.Context,android.content.Intent)> in com.km.charge.HoldMessage
+RespAnalysis - [MSG]: <com.km.charge.HoldMessage: void onReceive(android.content.Context,android.content.Intent)>: <com.km.charge.HoldMessage: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.HoldMessage
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.HoldMessage: void onReceive(android.content.Context,android.content.Intent)>]
+RespAnalysis - [WARN]: No method source set for method <com.km.charge.MainActivity$ChargeListener: void chargeAction(int)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r4 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms/inbox") at <com.km.charge.MmsReceive: void start(android.content.Context)> in com.km.charge.MmsReceive
+RespAnalysis - [MSG]: <com.km.charge.MmsReceive: void start(android.content.Context)>: <com.km.charge.MmsReceive: void start(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.MmsReceive
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.MmsReceive: void start(android.content.Context)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: specialinvoke $r7.<java.lang.StringBuilder: void <init>(java.lang.String)>("content://sms/") at <com.km.charge.MmsReceive: void start(android.content.Context)> in com.km.charge.MmsReceive
+RespAnalysis - [MSG]: <com.km.charge.MmsReceive: void start(android.content.Context)>: <com.km.charge.MmsReceive: void start(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.MmsReceive
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.MmsReceive: void start(android.content.Context)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r4 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms/inbox") at <com.km.charge.SmsReceive: void start(android.content.Context)> in com.km.charge.SmsReceive
+RespAnalysis - [MSG]: <com.km.charge.SmsReceive: void start(android.content.Context)>: <com.km.charge.SmsReceive: void start(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.SmsReceive
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.SmsReceive: void start(android.content.Context)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: specialinvoke $r7.<java.lang.StringBuilder: void <init>(java.lang.String)>("content://sms/") at <com.km.charge.SmsReceive: void start(android.content.Context)> in com.km.charge.SmsReceive
+RespAnalysis - [MSG]: <com.km.charge.SmsReceive: void start(android.content.Context)>: <com.km.charge.SmsReceive: void start(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.SmsReceive
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.SmsReceive: void start(android.content.Context)>]
+RespAnalysis - [WARN]: No method source set for method <com.km.launcher.AddAdapter$AddAction: void bindView(android.view.View)>
+RespAnalysis - [WARN]: No method source set for method <com.km.theme.ThemeManager$ThemeSetupListener: void themeSetupAction(int)>
+RespAnalysis - [WARN]: No method source set for method <com.km.launcher.DragController: void removeDragListener(com.km.launcher.DragController$DragListener)>
+RespAnalysis - [WARN]: No method source set for method <com.km.launcher.DragController: void setDragListener(com.km.launcher.DragController$DragListener)>
+RespAnalysis - [WARN]: No method source set for method <com.km.launcher.DragController: void startDrag(android.view.View,com.km.launcher.DragSource,java.lang.Object,int)>
+RespAnalysis - [WARN]: No method source set for method <com.km.launcher.DragSource: void onDropCompleted(android.view.View,boolean)>
+RespAnalysis - [WARN]: No method source set for method <com.km.launcher.DragSource: void setDragger(com.km.launcher.DragController)>
+RespAnalysis - [WARN]: No method source set for method <com.km.launcher.DragScroller: void scrollLeft()>
+RespAnalysis - [WARN]: No method source set for method <com.km.launcher.DragScroller: void scrollRight()>
+RespAnalysis - [WARN]: No method source set for method <com.km.launcher.DropTarget: boolean acceptDrop(com.km.launcher.DragSource,int,int,int,int,java.lang.Object)>
+RespAnalysis - [WARN]: No method source set for method <com.km.launcher.DropTarget: void onDragEnter(com.km.launcher.DragSource,int,int,int,int,java.lang.Object)>
+RespAnalysis - [WARN]: No method source set for method <com.km.launcher.DropTarget: void onDragExit(com.km.launcher.DragSource,int,int,int,int,java.lang.Object)>
+RespAnalysis - [WARN]: No method source set for method <com.km.launcher.DropTarget: void onDragOver(com.km.launcher.DragSource,int,int,int,int,java.lang.Object)>
+RespAnalysis - [WARN]: No method source set for method <com.km.launcher.DropTarget: void onDrop(com.km.launcher.DragSource,int,int,int,int,java.lang.Object)>
+RespAnalysis - [WARN]: No method source set for method <com.km.launcher.DragController$DragListener: void onDragEnd()>
+RespAnalysis - [WARN]: No method source set for method <com.km.launcher.DragController$DragListener: void onDragStart(android.view.View,com.km.launcher.DragSource,java.lang.Object,int)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r4 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() at <com.km.tool.Http: void connectOperate()> in com.km.tool.Http
+RespAnalysis - [DEBUG]: Src: <com.km.tool.Http: void connect()>, Tgt: <com.km.tool.Http: void connectOperate()>
+RespAnalysis - [DEBUG]: Src: <com.km.tool.Http: void autoTurn()>, Tgt: <com.km.tool.Http: void connectOperate()>
+RespAnalysis - [DEBUG]: Src: <com.km.tool.Http: void connect()>, Tgt: <com.km.tool.Http: void connectOperate()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.CycleService: void run()>, Tgt: <com.km.tool.Http: void connect()>
+RespAnalysis - [DEBUG]: Src: <com.km.ad.AdTask: java.lang.String applicationDispose(com.km.ad.AdApplication)>, Tgt: <com.km.tool.Http: void connect()>
+RespAnalysis - [DEBUG]: Src: <com.km.ad.AdTask: void report(java.lang.String,java.lang.String,java.lang.String)>, Tgt: <com.km.tool.Http: void connect()>
+RespAnalysis - [DEBUG]: Src: <com.km.ad.AdTask: java.lang.String getHttpJson()>, Tgt: <com.km.tool.Http: void connect()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void run()>, Tgt: <com.km.tool.Http: void connect()>
+RespAnalysis - [DEBUG]: Src: <com.km.tool.Http: void connectOperate()>, Tgt: <com.km.tool.Http: void autoTurn()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.km.charge.CycleService: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.ad.AdTask: void applicationDispose(java.lang.String,com.km.ad.AdApplication[],int)>, Tgt: <com.km.ad.AdTask: java.lang.String applicationDispose(com.km.ad.AdApplication)>
+RespAnalysis - [DEBUG]: Src: <com.km.ad.AdTask: void creatMessage(java.lang.String,com.km.ad.AdMessage[],int)>, Tgt: <com.km.ad.AdTask: void report(java.lang.String,java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.km.ad.AdTask: void applicationDispose(java.lang.String,com.km.ad.AdApplication[],int)>, Tgt: <com.km.ad.AdTask: void report(java.lang.String,java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.km.ad.AdTask: void run()>, Tgt: <com.km.ad.AdTask: java.lang.String getHttpJson()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.km.charge.MainActivity: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.CycleService: void onCreate()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.LauncherModel: void loadApplications(boolean,com.km.launcher.Launcher,boolean)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.ChargeEngine: void <init>(android.content.Context)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.ad.AdTask: void run()>, Tgt: <com.km.ad.AdTask: void applicationDispose(java.lang.String,com.km.ad.AdApplication[],int)>
+RespAnalysis - [DEBUG]: Src: <com.km.ad.AdTask: void run()>, Tgt: <com.km.ad.AdTask: void creatMessage(java.lang.String,com.km.ad.AdMessage[],int)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.km.ad.AdTask: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.CycleService: void onCreate()>
+RespAnalysis - [MSG]: <com.km.tool.Http: void connectOperate()>: <com.km.charge.CycleService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.CycleService
+RespAnalysis - [DEBUG]: java.lang.Runnable
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.CycleService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void startLoaders()>, Tgt: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder: void changeFolderName()>, Tgt: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder: void changeFolderName()>, Tgt: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void startLoaders()>, Tgt: <com.km.launcher.LauncherModel: void loadApplications(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.charge.ChargeEngine: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.CycleService: void run()>, Tgt: <com.km.charge.ChargeEngine: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.tool.Http: void connectOperate()>: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>, Tgt: <com.km.launcher.Launcher: void startLoaders()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void init()>, Tgt: <com.km.launcher.Launcher: void startLoaders()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void onResume()>, Tgt: <com.km.launcher.Launcher: void startLoaders()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder: void access$1(com.km.launcher.Launcher$RenameFolder)>, Tgt: <com.km.launcher.Launcher$RenameFolder: void changeFolderName()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.tool.Http: void connectOperate()>: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.tool.Http: void connectOperate()>: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.MainActivity: void onCreate(android.os.Bundle)>, <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.tool.Http: void connectOperate()>: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.launcher.Launcher
+RespAnalysis - [MSG]: chainSet: [<com.km.launcher.Launcher: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: boolean changeTheme(com.km.theme.ThemeInfo)>, Tgt: <com.km.launcher.Launcher: void init()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void themeSetupAction(int)>, Tgt: <com.km.launcher.Launcher: void init()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher: void onResume()>
+RespAnalysis - [MSG]: <com.km.tool.Http: void connectOperate()>: <com.km.launcher.Launcher: void onResume()>
+RespAnalysis - [DEBUG]: EntryClass: com.km.launcher.Launcher
+RespAnalysis - [MSG]: chainSet: [<com.km.launcher.Launcher: void onCreate(android.os.Bundle)>, <com.km.launcher.Launcher: void onResume()>]
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.launcher.Launcher$RenameFolder: void access$1(com.km.launcher.Launcher$RenameFolder)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeListActivity: boolean changeTheme(com.km.theme.ThemeInfo)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: void delTheme(com.km.theme.ThemeInfo)>, Tgt: <com.km.theme.ThemeListActivity: boolean changeTheme(com.km.theme.ThemeInfo)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeManager: void chargeAction(int)>, Tgt: <com.km.launcher.Launcher: void themeSetupAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeManager: void chargeAction(int)>, Tgt: <com.km.launcher.Launcher: void themeSetupAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeManager: void chargeAction(int)>, Tgt: <com.km.launcher.Launcher: void themeSetupAction(int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.tool.Http: void connectOperate()>: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.tool.Http: void connectOperate()>: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.launcher.Launcher$RenameFolder$3
+RespAnalysis - [MSG]: chainSet: [<com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.tool.Http: void connectOperate()>: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.theme.ThemeListActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.theme.ThemeListActivity: void onCreate(android.os.Bundle)>, <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>]
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeListActivity: void delTheme(com.km.theme.ThemeInfo)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [MSG]: <com.km.tool.Http: void connectOperate()>: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [MSG]: <com.km.tool.Http: void connectOperate()>: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.MainActivity: void onCreate(android.os.Bundle)>, <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r0 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms/inbox") at <com.km.tool.SmsFactory: void <clinit>()> in com.km.tool.SmsFactory
+RespAnalysis - [DEBUG]: Src: <com.km.ad.AdTask: java.lang.String createMessage(com.km.ad.AdMessage)>, Tgt: <com.km.tool.SmsFactory: void <clinit>()>
+RespAnalysis - [DEBUG]: Src: <com.km.tool.SmsFactory: void smsCreate(android.content.Context,java.lang.String,java.lang.String)>, Tgt: <com.km.tool.SmsFactory: void <clinit>()>
+RespAnalysis - [DEBUG]: Src: <com.km.tool.SmsFactory: void smsCreate(android.content.Context,java.lang.String,java.lang.String,boolean)>, Tgt: <com.km.tool.SmsFactory: void <clinit>()>
+RespAnalysis - [DEBUG]: Src: <com.km.tool.SmsFactory: void smsCreate(android.content.Context,java.lang.String,java.lang.String,boolean)>, Tgt: <com.km.tool.SmsFactory: void <clinit>()>
+RespAnalysis - [DEBUG]: Src: <com.km.tool.SmsFactory: void <clinit>()>, Tgt: <com.km.tool.SmsFactory: void <clinit>()>
+RespAnalysis - [DEBUG]: Src: <com.km.ad.AdTask: java.lang.String createMessage(com.km.ad.AdMessage)>, Tgt: <com.km.tool.SmsFactory: void <clinit>()>
+RespAnalysis - [DEBUG]: Src: <com.km.ad.AdTask: void creatMessage(java.lang.String,com.km.ad.AdMessage[],int)>, Tgt: <com.km.ad.AdTask: java.lang.String createMessage(com.km.ad.AdMessage)>
+RespAnalysis - [DEBUG]: Src: <com.km.tool.SmsFactory: void smsCreate(android.content.Context,java.lang.String,java.lang.String,boolean)>, Tgt: <com.km.tool.SmsFactory: void smsCreate(android.content.Context,java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.km.ad.AdTask: java.lang.String createMessage(com.km.ad.AdMessage)>, Tgt: <com.km.tool.SmsFactory: void smsCreate(android.content.Context,java.lang.String,java.lang.String,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.ad.AdTask: java.lang.String createMessage(com.km.ad.AdMessage)>, Tgt: <com.km.tool.SmsFactory: void smsCreate(android.content.Context,java.lang.String,java.lang.String,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.ad.AdTask: void run()>, Tgt: <com.km.ad.AdTask: void creatMessage(java.lang.String,com.km.ad.AdMessage[],int)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.km.ad.AdTask: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.CycleService: void onCreate()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.LauncherModel: void loadApplications(boolean,com.km.launcher.Launcher,boolean)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.ChargeEngine: void <init>(android.content.Context)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.CycleService: void onCreate()>
+RespAnalysis - [MSG]: <com.km.tool.SmsFactory: void <clinit>()>: <com.km.charge.CycleService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.CycleService
+RespAnalysis - [DEBUG]: java.lang.Runnable
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.CycleService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void startLoaders()>, Tgt: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder: void changeFolderName()>, Tgt: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder: void changeFolderName()>, Tgt: <com.km.launcher.LauncherModel: void loadUserItems(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void startLoaders()>, Tgt: <com.km.launcher.LauncherModel: void loadApplications(boolean,com.km.launcher.Launcher,boolean)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.charge.ChargeEngine: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.CycleService: void run()>, Tgt: <com.km.charge.ChargeEngine: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.tool.SmsFactory: void <clinit>()>: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>, Tgt: <com.km.launcher.Launcher: void startLoaders()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void init()>, Tgt: <com.km.launcher.Launcher: void startLoaders()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void onResume()>, Tgt: <com.km.launcher.Launcher: void startLoaders()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder: void access$1(com.km.launcher.Launcher$RenameFolder)>, Tgt: <com.km.launcher.Launcher$RenameFolder: void changeFolderName()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.tool.SmsFactory: void <clinit>()>: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.tool.SmsFactory: void <clinit>()>: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.MainActivity: void onCreate(android.os.Bundle)>, <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>]
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.km.charge.CycleService: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.tool.SmsFactory: void <clinit>()>: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.launcher.Launcher
+RespAnalysis - [MSG]: chainSet: [<com.km.launcher.Launcher: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: boolean changeTheme(com.km.theme.ThemeInfo)>, Tgt: <com.km.launcher.Launcher: void init()>
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher: void themeSetupAction(int)>, Tgt: <com.km.launcher.Launcher: void init()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher: void onResume()>
+RespAnalysis - [MSG]: <com.km.tool.SmsFactory: void <clinit>()>: <com.km.launcher.Launcher: void onResume()>
+RespAnalysis - [DEBUG]: EntryClass: com.km.launcher.Launcher
+RespAnalysis - [MSG]: chainSet: [<com.km.launcher.Launcher: void onCreate(android.os.Bundle)>, <com.km.launcher.Launcher: void onResume()>]
+RespAnalysis - [DEBUG]: Src: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.launcher.Launcher$RenameFolder: void access$1(com.km.launcher.Launcher$RenameFolder)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeListActivity: boolean changeTheme(com.km.theme.ThemeInfo)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: void delTheme(com.km.theme.ThemeInfo)>, Tgt: <com.km.theme.ThemeListActivity: boolean changeTheme(com.km.theme.ThemeInfo)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeManager: void chargeAction(int)>, Tgt: <com.km.launcher.Launcher: void themeSetupAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeManager: void chargeAction(int)>, Tgt: <com.km.launcher.Launcher: void themeSetupAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeManager: void chargeAction(int)>, Tgt: <com.km.launcher.Launcher: void themeSetupAction(int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.tool.SmsFactory: void <clinit>()>: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.tool.SmsFactory: void <clinit>()>: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.launcher.Launcher$RenameFolder$3
+RespAnalysis - [MSG]: chainSet: [<com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.tool.SmsFactory: void <clinit>()>: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.theme.ThemeListActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.theme.ThemeListActivity: void onCreate(android.os.Bundle)>, <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>]
+RespAnalysis - [DEBUG]: Src: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeListActivity: void delTheme(com.km.theme.ThemeInfo)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.theme.ThemeManager: void chargeAction(int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [MSG]: <com.km.tool.SmsFactory: void <clinit>()>: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [MSG]: <com.km.tool.SmsFactory: void <clinit>()>: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.charge.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.charge.MainActivity: void onCreate(android.os.Bundle)>, <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: specialinvoke $r3.<android.content.Intent: void <init>(java.lang.String)>("android.provider.Telephony.SMS_RECEIVED") at <com.km.tool.SmsFactory: void sendBroadcast()> in com.km.tool.SmsFactory
+RespAnalysis - [MSG]: <com.km.tool.SmsFactory: void sendBroadcast()>: <com.km.tool.SmsFactory: void sendBroadcast()>
+RespAnalysis - [DEBUG]: EntryClass: com.km.tool.SmsFactory
+RespAnalysis - [MSG]: chainSet: [<com.km.tool.SmsFactory: void sendBroadcast()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r3 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms/inbox") at <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])> in com.km.tool.SmsMmsManager
+RespAnalysis - [MSG]: <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>: <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>
+RespAnalysis - [DEBUG]: EntryClass: com.km.tool.SmsMmsManager
+RespAnalysis - [MSG]: chainSet: [<com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: specialinvoke $r6.<java.lang.StringBuilder: void <init>(java.lang.String)>("content://sms/") at <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])> in com.km.tool.SmsMmsManager
+RespAnalysis - [MSG]: <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>: <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>
+RespAnalysis - [DEBUG]: EntryClass: com.km.tool.SmsMmsManager
+RespAnalysis - [MSG]: chainSet: [<com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>]
+RespAnalysis - [WARN]: cannot get resident body for phantom class : <dalvik.system.VMRuntime: dalvik.system.VMRuntime getRuntime()>; maybe you want to call c.setApplicationClass() on this class!
+RespAnalysis - [WARN]: cannot get resident body for phantom class : <dalvik.system.VMRuntime: long setMinimumHeapSize(long)>; maybe you want to call c.setApplicationClass() on this class!
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/3726cfddc691cb72e7ed6b059bf943ad9b4d1774.apk\3726cfddc691cb72e7ed6b059bf943ad9b4d1774.apk_resp.csv
+RespAnalysis - [MSG]: <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>
+RespAnalysis - [MSG]: <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>
+RespAnalysis - [MSG]: <com.km.charge.SmsReceive: void start(android.content.Context)>
+RespAnalysis - [MSG]: <com.km.charge.SmsReceive: void start(android.content.Context)>
+RespAnalysis - [MSG]: <com.km.charge.HoldMessage: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.km.charge.HoldMessage: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.km.charge.HttpBox: void connect()>
+RespAnalysis - [MSG]: <com.km.charge.CycleService: void onCreate()>
+RespAnalysis - [MSG]: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.launcher.Launcher: void onResume()>
+RespAnalysis - [MSG]: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [MSG]: <com.km.charge.MmsReceive: void start(android.content.Context)>
+RespAnalysis - [MSG]: <com.km.charge.MmsReceive: void start(android.content.Context)>
+RespAnalysis - [MSG]: <com.km.ad.AdService: java.lang.String getSMSC()>
+RespAnalysis - [MSG]: <com.km.ad.AdService: java.lang.String getSMSC()>
+RespAnalysis - [MSG]: <com.km.tool.SmsFactory: void <clinit>()>
+RespAnalysis - [MSG]: <com.km.charge.CycleService: void onCreate()>
+RespAnalysis - [MSG]: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.launcher.Launcher: void onResume()>
+RespAnalysis - [MSG]: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [MSG]: <com.km.tool.Http: void connectOperate()>
+RespAnalysis - [MSG]: <com.km.charge.CycleService: void onCreate()>
+RespAnalysis - [MSG]: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.launcher.Launcher: void onResume()>
+RespAnalysis - [MSG]: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [MSG]: <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>
+RespAnalysis - [MSG]: <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>
+RespAnalysis - [MSG]: <com.km.tool.SmsFactory: void sendBroadcast()>
+RespAnalysis - [MSG]: <com.km.tool.SmsFactory: void sendBroadcast()>
+RespAnalysis - [MSG]: <com.km.charge.SmsReceive: void start(android.content.Context)>
+RespAnalysis - [MSG]: <com.km.charge.SmsReceive: void start(android.content.Context)>
+RespAnalysis - [MSG]: <com.km.charge.MmsReceive: void start(android.content.Context)>
+RespAnalysis - [MSG]: <com.km.charge.MmsReceive: void start(android.content.Context)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/3726cfddc691cb72e7ed6b059bf943ad9b4d1774.apk\3726cfddc691cb72e7ed6b059bf943ad9b4d1774.apk_src.csv
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>
+RespAnalysis - [MSG]: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.charge.CycleService: void onCreate()>
+RespAnalysis - [MSG]: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.launcher.Launcher: void onResume()>
+RespAnalysis - [MSG]: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [MSG]: <com.km.charge.ChargeUtil: java.lang.String getUrl(android.content.Context,int)>
+RespAnalysis - [MSG]: <com.km.charge.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.charge.CycleService: void onCreate()>
+RespAnalysis - [MSG]: <com.km.charge.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.launcher.Launcher: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.launcher.Launcher: void onResume()>
+RespAnalysis - [MSG]: <com.km.launcher.Launcher$RenameFolder$3: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.theme.ThemeListActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.charge.MainActivity: void onCancel(android.content.DialogInterface)>
+RespAnalysis - [MSG]: <com.km.ad.AdService: void init()>
+RespAnalysis - [MSG]: <com.km.ad.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.km.ad.AdService: void init()>
+RespAnalysis - [MSG]: <com.km.ad.AdService: void onCreate()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/3726cfddc691cb72e7ed6b059bf943ad9b4d1774.apk\3726cfddc691cb72e7ed6b059bf943ad9b4d1774.apk_StartActServ.csv
+RespAnalysis - [MSG]: com.km.launcher.Search: sendLaunchIntent
+RespAnalysis - [MSG]: com.km.launcher.Search: launchSuggestion
+RespAnalysis - [MSG]: com.km.launcher.Search: onItemClick
+RespAnalysis - [MSG]: com.km.launcher.Folder: onItemClick
+RespAnalysis - [MSG]: com.km.launcher.Launcher: onKeyDown
+RespAnalysis - [MSG]: com.km.launcher.Folder: onItemClick
+RespAnalysis - [MSG]: com.km.launcher.Launcher: onKeyDown
+RespAnalysis - [MSG]: com.km.launcher.Folder: onItemClick
+RespAnalysis - [MSG]: com.km.charge.BootReceiver: onReceive
+RespAnalysis - [MSG]: com.km.launcher.Launcher: onKeyDown
+RespAnalysis - [MSG]: com.km.launcher.Launcher: startActivityForResult
+RespAnalysis - [MSG]: com.km.launcher.Launcher: onKeyDown
+RespAnalysis - [MSG]: com.km.launcher.Folder: onItemClick
+RespAnalysis - [MSG]: com.km.launcher.Folder: onItemClick
+RespAnalysis - [MSG]: com.km.launcher.Launcher: onKeyDown
+RespAnalysis - [MSG]: com.km.charge.BootReceiver: onReceive
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/3726cfddc691cb72e7ed6b059bf943ad9b4d1774.apk\3726cfddc691cb72e7ed6b059bf943ad9b4d1774.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/3726cfddc691cb72e7ed6b059bf943ad9b4d1774.apk\3726cfddc691cb72e7ed6b059bf943ad9b4d1774.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/3726cfddc691cb72e7ed6b059bf943ad9b4d1774.apk\3726cfddc691cb72e7ed6b059bf943ad9b4d1774.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: com.km.launcher.Launcher$RenameFolder$3: onClick
+RespAnalysis - [MSG]: com.km.launcher.Launcher: onCreate
+RespAnalysis - [MSG]: com.km.charge.MainActivity: onCreate
+RespAnalysis - [MSG]: com.km.charge.MainActivity: onCancel
+RespAnalysis - [MSG]: com.km.launcher.Launcher: onCreate
+RespAnalysis - [MSG]: com.km.launcher.Launcher: onResume
+RespAnalysis - [MSG]: com.km.theme.ThemeListActivity: onCreate
+RespAnalysis - [MSG]: com.km.theme.ThemeListActivity: onClick
+RespAnalysis - [MSG]: com.km.charge.CycleService: onCreate
+RespAnalysis - [MSG]: com.km.charge.MainActivity: onCreate
+RespAnalysis - [MSG]: com.km.ad.AdService: onCreate
+RespAnalysis - [MSG]: com.km.charge.MainActivity: onCreate
+RespAnalysis - [MSG]: com.km.charge.MainActivity: onClick
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/3726cfddc691cb72e7ed6b059bf943ad9b4d1774.apk\3726cfddc691cb72e7ed6b059bf943ad9b4d1774.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: com.km.ad.AdService: getSMSC
+RespAnalysis - [MSG]: com.km.launcher.Launcher$RenameFolder$3: onClick
+RespAnalysis - [MSG]: com.km.charge.MainActivity: onCreate
+RespAnalysis - [MSG]: com.km.charge.MainActivity: onCancel
+RespAnalysis - [MSG]: com.km.theme.ThemeListActivity: onCreate
+RespAnalysis - [MSG]: com.km.theme.ThemeListActivity: onClick
+RespAnalysis - [MSG]: com.km.charge.CycleService: onCreate
+RespAnalysis - [MSG]: com.km.charge.HoldMessage: onReceive
+RespAnalysis - [MSG]: com.km.charge.MainActivity: onCreate
+RespAnalysis - [MSG]: com.km.charge.MainActivity: onClick
+RespAnalysis - [MSG]: com.km.tool.SmsFactory: sendBroadcast
+RespAnalysis - [MSG]: com.km.charge.MmsReceive: start
+RespAnalysis - [MSG]: com.km.launcher.Launcher: onCreate
+RespAnalysis - [MSG]: com.km.launcher.Launcher: onCreate
+RespAnalysis - [MSG]: com.km.launcher.Launcher: onResume
+RespAnalysis - [MSG]: com.km.charge.SmsReceive: start
+RespAnalysis - [MSG]: com.km.tool.SmsMmsManager: smsDel
+RespAnalysis - [MSG]: com.km.charge.MainActivity: onCreate
+test - [MSG]: Analysis has run for 50.853963637 seconds
+

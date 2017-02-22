@@ -1,0 +1,2 @@
+"$r2 = virtualinvoke $r1.<android.telephony.TelephonyManager: java.lang.String getLine1Number()>()","<com.google.ssearch.Utils$PhoneState: java.lang.String getMobile(android.content.Context)>","<com.google.ssearch.SearchService: void onCreate()>"
+"$r2 = virtualinvoke $r1.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>()","<com.google.ssearch.Utils$PhoneState: java.lang.String getImei(android.content.Context)>","<com.google.ssearch.SearchService: void onCreate()>"

@@ -1,0 +1,2 @@
+"$d0 = virtualinvoke $r1.<android.location.Location: double getLongitude()>()","<de.ecspride.AnnonymousClass1$1: void onLocationChanged(android.location.Location)>"
+"$d0 = virtualinvoke $r1.<android.location.Location: double getLatitude()>()","<de.ecspride.AnnonymousClass1$1: void onLocationChanged(android.location.Location)>"

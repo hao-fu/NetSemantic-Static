@@ -1,0 +1,38 @@
+test - [MSG]: Begin to analyze: UnresolvableIntent1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r4.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r3, null, null) at <edu.mit.icc_unresolvable_intent.InFlowActivity: void onCreate(android.os.Bundle)> in edu.mit.icc_unresolvable_intent.InFlowActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.icc_unresolvable_intent.InFlowActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.icc_unresolvable_intent.InFlowActivity: void onCreate(android.os.Bundle)>: <edu.mit.icc_unresolvable_intent.InFlowActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.icc_unresolvable_intent.InFlowActivity
+RespAnalysis - [MSG]: chainSet: [<edu.mit.icc_unresolvable_intent.InFlowActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r4.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r3, null, null) at <edu.mit.icc_unresolvable_intent.InFlowActivity2: void onCreate(android.os.Bundle)> in edu.mit.icc_unresolvable_intent.InFlowActivity2
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.icc_unresolvable_intent.InFlowActivity2: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.icc_unresolvable_intent.InFlowActivity2: void onCreate(android.os.Bundle)>: <edu.mit.icc_unresolvable_intent.InFlowActivity2: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.icc_unresolvable_intent.InFlowActivity2
+RespAnalysis - [MSG]: chainSet: [<edu.mit.icc_unresolvable_intent.InFlowActivity2: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r5 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <edu.mit.icc_unresolvable_intent.OutFlowActivity: void onCreate(android.os.Bundle)> in edu.mit.icc_unresolvable_intent.OutFlowActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.icc_unresolvable_intent.OutFlowActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.icc_unresolvable_intent.OutFlowActivity: void onCreate(android.os.Bundle)>: <edu.mit.icc_unresolvable_intent.OutFlowActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.icc_unresolvable_intent.OutFlowActivity
+RespAnalysis - [MSG]: chainSet: [<edu.mit.icc_unresolvable_intent.OutFlowActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/UnresolvableIntent1.apk\UnresolvableIntent1.apk_resp.csv
+RespAnalysis - [MSG]: <edu.mit.icc_unresolvable_intent.InFlowActivity2: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.icc_unresolvable_intent.InFlowActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/UnresolvableIntent1.apk\UnresolvableIntent1.apk_src.csv
+RespAnalysis - [MSG]: <edu.mit.icc_unresolvable_intent.OutFlowActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/UnresolvableIntent1.apk\UnresolvableIntent1.apk_StartActServ.csv
+RespAnalysis - [MSG]: edu.mit.icc_unresolvable_intent.OutFlowActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/UnresolvableIntent1.apk\UnresolvableIntent1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/UnresolvableIntent1.apk\UnresolvableIntent1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/UnresolvableIntent1.apk\UnresolvableIntent1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: edu.mit.icc_unresolvable_intent.OutFlowActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/UnresolvableIntent1.apk\UnresolvableIntent1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: edu.mit.icc_unresolvable_intent.InFlowActivity2: onCreate
+RespAnalysis - [MSG]: edu.mit.icc_unresolvable_intent.InFlowActivity: onCreate
+test - [MSG]: Analysis has run for 15.684137006 seconds
+

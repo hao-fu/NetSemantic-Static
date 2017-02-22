@@ -1,0 +1,1457 @@
+test - [MSG]: Begin to analyze: e1c2188a69727bf4ec4a5d72319cfe87428c7f35.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r5 = virtualinvoke $r3.<java.net.URL: java.net.URLConnection openConnection()>() at <com.adwo.adsdk.b: byte[] a(java.lang.String)> in com.adwo.adsdk.b
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void <init>(com.adwo.adsdk.f,android.content.Context,int,int,double)>, Tgt: <com.adwo.adsdk.b: byte[] a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.b: void <init>(com.adwo.adsdk.f,android.content.Context,int,int,double)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.b: byte[] a(java.lang.String)>: <com.adwo.adsdk.b: void <init>(com.adwo.adsdk.f,android.content.Context,int,int,double)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.b: void <init>(com.adwo.adsdk.f,android.content.Context,int,int,double)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.b: void <init>(com.adwo.adsdk.f,android.content.Context,int,int,double)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.b: byte[] a(java.lang.String)>: <com.adwo.adsdk.b: void <init>(com.adwo.adsdk.f,android.content.Context,int,int,double)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.b
+RespAnalysis - [DEBUG]: android.view.animation.Animation$AnimationListener
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.b: void <init>(com.adwo.adsdk.f,android.content.Context,int,int,double)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.b: byte[] a(java.lang.String)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.b: byte[] a(java.lang.String)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.b: byte[] a(java.lang.String)>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.b: byte[] a(java.lang.String)>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r6.<java.net.HttpURLConnection: void connect()>() at <com.adwo.adsdk.b: byte[] a(java.lang.String)> in com.adwo.adsdk.b
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void <init>(com.adwo.adsdk.f,android.content.Context,int,int,double)>, Tgt: <com.adwo.adsdk.b: byte[] a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.b: void <init>(com.adwo.adsdk.f,android.content.Context,int,int,double)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.b: byte[] a(java.lang.String)>: <com.adwo.adsdk.b: void <init>(com.adwo.adsdk.f,android.content.Context,int,int,double)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.b: void <init>(com.adwo.adsdk.f,android.content.Context,int,int,double)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.b: void <init>(com.adwo.adsdk.f,android.content.Context,int,int,double)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.b: byte[] a(java.lang.String)>: <com.adwo.adsdk.b: void <init>(com.adwo.adsdk.f,android.content.Context,int,int,double)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.b
+RespAnalysis - [DEBUG]: android.view.animation.Animation$AnimationListener
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.b: void <init>(com.adwo.adsdk.f,android.content.Context,int,int,double)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.b: byte[] a(java.lang.String)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.b: byte[] a(java.lang.String)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.b: byte[] a(java.lang.String)>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.b: byte[] a(java.lang.String)>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [WARN]: No method source set for method <com.adwo.adsdk.h: void e()>
+RespAnalysis - [WARN]: No method source set for method <com.adwo.adsdk.h: void f()>
+RespAnalysis - [WARN]: No method source set for method <com.adwo.adsdk.AdListener: void onFailedToReceiveAd(com.adwo.adsdk.AdwoAdView)>
+RespAnalysis - [WARN]: No method source set for method <com.adwo.adsdk.AdListener: void onFailedToReceiveRefreshedAd(com.adwo.adsdk.AdwoAdView)>
+RespAnalysis - [WARN]: No method source set for method <com.adwo.adsdk.AdListener: void onReceiveAd(com.adwo.adsdk.AdwoAdView)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r10 = interfaceinvoke $r8.<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r9) at <com.adwo.adsdk.j: void a(com.adwo.adsdk.j,java.lang.String,android.app.Activity)> in com.adwo.adsdk.j
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.y: void run()>, Tgt: <com.adwo.adsdk.j: void a(com.adwo.adsdk.j,java.lang.String,android.app.Activity)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.y: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.y: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.j: void a(com.adwo.adsdk.j,java.lang.String,android.app.Activity)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.j: void a(com.adwo.adsdk.j,java.lang.String,android.app.Activity)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.j: void a(com.adwo.adsdk.j,java.lang.String,android.app.Activity)>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.j: void a(com.adwo.adsdk.j,java.lang.String,android.app.Activity)>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r10 = interfaceinvoke $r8.<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r9) at <com.adwo.adsdk.j: void a(java.lang.String,android.app.Activity)> in com.adwo.adsdk.j
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.x: void run()>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String,android.app.Activity)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.x: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.x: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.j: void a(java.lang.String,android.app.Activity)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.j: void a(java.lang.String,android.app.Activity)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.j: void a(java.lang.String,android.app.Activity)>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.j: void a(java.lang.String,android.app.Activity)>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r7 = interfaceinvoke $r6.<org.apache.http.client.HttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r4) at <com.adwo.adsdk.G: android.graphics.Bitmap a(java.lang.String,java.lang.String)> in com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void a()>, Tgt: <com.adwo.adsdk.G: android.graphics.Bitmap a(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.L: void run()>, Tgt: <com.adwo.adsdk.G: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <com.adwo.adsdk.L: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.L: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.L: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: android.graphics.Bitmap a(java.lang.String,java.lang.String)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: android.graphics.Bitmap a(java.lang.String,java.lang.String)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: android.graphics.Bitmap a(java.lang.String,java.lang.String)>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: android.graphics.Bitmap a(java.lang.String,java.lang.String)>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [WARN]: No method source set for method <com.adwo.adsdk.T: void a()>
+RespAnalysis - [WARN]: No method source set for method <com.adwo.adsdk.T: void b()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r9 = virtualinvoke $r8.<java.net.URL: java.net.URLConnection openConnection()>() at <com.adwo.adsdk.g: void run()> in com.adwo.adsdk.g
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.f: void a()>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.J: void run()>, Tgt: <com.adwo.adsdk.f: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.e: void run()>, Tgt: <com.adwo.adsdk.f: void a()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.g: void run()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.g: void run()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.I: void onClick(android.view.View)>, Tgt: <com.adwo.adsdk.J: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.J: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.J: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.e: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.e: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.e: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.e: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.g: void run()>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.g: void run()>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.I: void onClick(android.view.View)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.g: void run()>: <com.adwo.adsdk.I: void onClick(android.view.View)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.I
+RespAnalysis - [DEBUG]: Listener found: com.adwo.adsdk.I
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.I: void onClick(android.view.View)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r10.<java.net.HttpURLConnection: void connect()>() at <com.adwo.adsdk.g: void run()> in com.adwo.adsdk.g
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.f: void a()>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.J: void run()>, Tgt: <com.adwo.adsdk.f: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.e: void run()>, Tgt: <com.adwo.adsdk.f: void a()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.g: void run()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.g: void run()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.I: void onClick(android.view.View)>, Tgt: <com.adwo.adsdk.J: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.J: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.J: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.e: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.e: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.e: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.e: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.g: void run()>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.g: void run()>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.I: void onClick(android.view.View)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.g: void run()>: <com.adwo.adsdk.I: void onClick(android.view.View)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.I
+RespAnalysis - [DEBUG]: Listener found: com.adwo.adsdk.I
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.I: void onClick(android.view.View)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r13 = virtualinvoke $r11.<java.net.URL: java.net.URLConnection openConnection()>() at <com.adwo.adsdk.i: com.adwo.adsdk.f a(android.content.Context,byte,byte)> in com.adwo.adsdk.i
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.L: void run()>, Tgt: <com.adwo.adsdk.i: com.adwo.adsdk.f a(android.content.Context,byte,byte)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.i: com.adwo.adsdk.f a(android.content.Context,byte,byte)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <com.adwo.adsdk.L: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.L: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.L: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: com.adwo.adsdk.f a(android.content.Context,byte,byte)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: com.adwo.adsdk.f a(android.content.Context,byte,byte)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: com.adwo.adsdk.f a(android.content.Context,byte,byte)>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: com.adwo.adsdk.f a(android.content.Context,byte,byte)>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r13 = virtualinvoke $r11.<java.net.URL: java.net.URLConnection openConnection()>() at <com.adwo.adsdk.i: com.adwo.adsdk.f a(android.content.Context,byte,byte)> in com.adwo.adsdk.i
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.L: void run()>, Tgt: <com.adwo.adsdk.i: com.adwo.adsdk.f a(android.content.Context,byte,byte)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.i: com.adwo.adsdk.f a(android.content.Context,byte,byte)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <com.adwo.adsdk.L: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.L: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.L: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: com.adwo.adsdk.f a(android.content.Context,byte,byte)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: com.adwo.adsdk.f a(android.content.Context,byte,byte)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: com.adwo.adsdk.f a(android.content.Context,byte,byte)>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: com.adwo.adsdk.f a(android.content.Context,byte,byte)>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <com.adwo.adsdk.i: void b(android.content.Context)> in com.adwo.adsdk.i
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <com.adwo.adsdk.i: void b(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void a(android.content.Context)>, Tgt: <com.adwo.adsdk.i: void b(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet,int)>, Tgt: <com.adwo.adsdk.AdwoAdView: void a(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,java.lang.String,int,int,boolean,int)>, Tgt: <com.adwo.adsdk.AdwoAdView: void a(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>, Tgt: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet,int)>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void initAdwo(java.lang.String)>, Tgt: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,java.lang.String,int,int,boolean,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdView
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>]
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void access$7(com.safesys.remover.JmAdV2,java.lang.String)>, Tgt: <com.safesys.remover.JmAdV2: void initAdwo(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2$3: void run()>, Tgt: <com.safesys.remover.JmAdV2: void access$7(com.safesys.remover.JmAdV2,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()>() at <com.adwo.adsdk.i: void b(android.content.Context)> in com.adwo.adsdk.i
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <com.adwo.adsdk.i: void b(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void a(android.content.Context)>, Tgt: <com.adwo.adsdk.i: void b(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet,int)>, Tgt: <com.adwo.adsdk.AdwoAdView: void a(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,java.lang.String,int,int,boolean,int)>, Tgt: <com.adwo.adsdk.AdwoAdView: void a(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>, Tgt: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet,int)>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void initAdwo(java.lang.String)>, Tgt: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,java.lang.String,int,int,boolean,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdView
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>]
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void access$7(com.safesys.remover.JmAdV2,java.lang.String)>, Tgt: <com.safesys.remover.JmAdV2: void initAdwo(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2$3: void run()>, Tgt: <com.safesys.remover.JmAdV2: void access$7(com.safesys.remover.JmAdV2,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getLine1Number()>() at <com.adwo.adsdk.i: void b(android.content.Context)> in com.adwo.adsdk.i
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <com.adwo.adsdk.i: void b(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void a(android.content.Context)>, Tgt: <com.adwo.adsdk.i: void b(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet,int)>, Tgt: <com.adwo.adsdk.AdwoAdView: void a(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,java.lang.String,int,int,boolean,int)>, Tgt: <com.adwo.adsdk.AdwoAdView: void a(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>, Tgt: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet,int)>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void initAdwo(java.lang.String)>, Tgt: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,java.lang.String,int,int,boolean,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdView
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>]
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void access$7(com.safesys.remover.JmAdV2,java.lang.String)>, Tgt: <com.safesys.remover.JmAdV2: void initAdwo(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2$3: void run()>, Tgt: <com.safesys.remover.JmAdV2: void access$7(com.safesys.remover.JmAdV2,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r2 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() at <com.adwo.adsdk.i: void c(java.lang.String)> in com.adwo.adsdk.i
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.g: void run()>, Tgt: <com.adwo.adsdk.i: void c(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.g: void run()>, Tgt: <com.adwo.adsdk.i: void c(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.g: void run()>, Tgt: <com.adwo.adsdk.i: void c(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.f: void a()>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.J: void run()>, Tgt: <com.adwo.adsdk.f: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.e: void run()>, Tgt: <com.adwo.adsdk.f: void a()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void c(java.lang.String)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void c(java.lang.String)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.I: void onClick(android.view.View)>, Tgt: <com.adwo.adsdk.J: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.J: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.J: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.e: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.e: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.e: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.e: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void c(java.lang.String)>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void c(java.lang.String)>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.I: void onClick(android.view.View)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void c(java.lang.String)>: <com.adwo.adsdk.I: void onClick(android.view.View)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.I
+RespAnalysis - [DEBUG]: Listener found: com.adwo.adsdk.I
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.I: void onClick(android.view.View)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r3.<java.net.HttpURLConnection: void connect()>() at <com.adwo.adsdk.i: void c(java.lang.String)> in com.adwo.adsdk.i
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.g: void run()>, Tgt: <com.adwo.adsdk.i: void c(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.g: void run()>, Tgt: <com.adwo.adsdk.i: void c(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.g: void run()>, Tgt: <com.adwo.adsdk.i: void c(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.f: void a()>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.J: void run()>, Tgt: <com.adwo.adsdk.f: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.e: void run()>, Tgt: <com.adwo.adsdk.f: void a()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void c(java.lang.String)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void c(java.lang.String)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.I: void onClick(android.view.View)>, Tgt: <com.adwo.adsdk.J: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.J: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.J: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.e: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.e: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.e: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.e: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void c(java.lang.String)>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void c(java.lang.String)>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.I: void onClick(android.view.View)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void c(java.lang.String)>: <com.adwo.adsdk.I: void onClick(android.view.View)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.I
+RespAnalysis - [DEBUG]: Listener found: com.adwo.adsdk.I
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.I: void onClick(android.view.View)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r13 = virtualinvoke $r12.<java.net.URL: java.net.URLConnection openConnection()>() at <com.adwo.adsdk.w: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)> in com.adwo.adsdk.w
+RespAnalysis - [MSG]: <com.adwo.adsdk.w: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>: <com.adwo.adsdk.w: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.w
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.w: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r14.<java.net.HttpURLConnection: void connect()>() at <com.adwo.adsdk.w: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)> in com.adwo.adsdk.w
+RespAnalysis - [MSG]: <com.adwo.adsdk.w: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>: <com.adwo.adsdk.w: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.w
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.w: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>]
+RespAnalysis - [WARN]: No method source set for method <com.ju6.AdListener: void onConnectFailed()>
+RespAnalysis - [WARN]: No method source set for method <com.ju6.AdListener: void onReceiveAd(int)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r6.<java.net.HttpURLConnection: void connect()>() at <com.ju6.c: java.lang.String a(java.lang.String,java.lang.String)> in com.ju6.c
+RespAnalysis - [DEBUG]: Src: <com.ju6.c: boolean b()>, Tgt: <com.ju6.c: java.lang.String a(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.ju6.c: void run()>, Tgt: <com.ju6.c: boolean b()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.ju6.AdRequester: void getAd()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>, Tgt: <com.ju6.AdRequester: void getAd()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: java.lang.String a(java.lang.String,java.lang.String)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: java.lang.String a(java.lang.String,java.lang.String)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>, Tgt: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: java.lang.String a(java.lang.String,java.lang.String)>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: java.lang.String a(java.lang.String,java.lang.String)>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2$3: void run()>, Tgt: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r4 = virtualinvoke $r0.<java.net.URL: java.net.URLConnection openConnection()>() at <com.ju6.c: java.net.HttpURLConnection a(java.net.URL,int)> in com.ju6.c
+RespAnalysis - [DEBUG]: Src: <com.ju6.c: boolean b()>, Tgt: <com.ju6.c: java.net.HttpURLConnection a(java.net.URL,int)>
+RespAnalysis - [DEBUG]: Src: <com.ju6.c: java.lang.String a(java.lang.String,java.lang.String)>, Tgt: <com.ju6.c: java.net.HttpURLConnection a(java.net.URL,int)>
+RespAnalysis - [DEBUG]: Src: <com.ju6.c: boolean b()>, Tgt: <com.ju6.c: java.net.HttpURLConnection a(java.net.URL,int)>
+RespAnalysis - [DEBUG]: Src: <com.ju6.c: void run()>, Tgt: <com.ju6.c: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.ju6.c: boolean b()>, Tgt: <com.ju6.c: java.lang.String a(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.ju6.AdRequester: void getAd()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>, Tgt: <com.ju6.AdRequester: void getAd()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: java.net.HttpURLConnection a(java.net.URL,int)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: java.net.HttpURLConnection a(java.net.URL,int)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>, Tgt: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: java.net.HttpURLConnection a(java.net.URL,int)>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: java.net.HttpURLConnection a(java.net.URL,int)>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2$3: void run()>, Tgt: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r8.<java.net.HttpURLConnection: void connect()>() at <com.ju6.c: boolean b()> in com.ju6.c
+RespAnalysis - [DEBUG]: Src: <com.ju6.c: void run()>, Tgt: <com.ju6.c: boolean b()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.ju6.AdRequester: void getAd()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>, Tgt: <com.ju6.AdRequester: void getAd()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: boolean b()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: boolean b()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>, Tgt: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: boolean b()>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: boolean b()>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2$3: void run()>, Tgt: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r24 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms/inbox") at <com.ju6.c: boolean b()> in com.ju6.c
+RespAnalysis - [DEBUG]: Src: <com.ju6.c: void run()>, Tgt: <com.ju6.c: boolean b()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.ju6.AdRequester: void getAd()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>, Tgt: <com.ju6.AdRequester: void getAd()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: boolean b()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: boolean b()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>, Tgt: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: boolean b()>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: boolean b()>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2$3: void run()>, Tgt: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r1 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <com.ju6.c: void run()> in com.ju6.c
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.ju6.AdRequester: void getAd()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>, Tgt: <com.ju6.AdRequester: void getAd()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>, Tgt: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2$3: void run()>, Tgt: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r1 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()>() at <com.ju6.c: void run()> in com.ju6.c
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.ju6.AdRequester: void getAd()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>, Tgt: <com.ju6.AdRequester: void getAd()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>, Tgt: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2$3: void run()>, Tgt: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r1 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() at <com.ju6.c: void run()> in com.ju6.c
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.ju6.AdRequester: void getAd()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>, Tgt: <com.ju6.AdRequester: void getAd()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>, Tgt: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2$3: void run()>, Tgt: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r11 = virtualinvoke $r10.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>("network") at <com.ju6.c: void run()> in com.ju6.c
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.ju6.AdRequester: void getAd()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>, Tgt: <com.ju6.AdRequester: void getAd()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>, Tgt: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2$3: void run()>, Tgt: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $d0 = virtualinvoke $r11.<android.location.Location: double getLatitude()>() at <com.ju6.c: void run()> in com.ju6.c
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.ju6.AdRequester: void getAd()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>, Tgt: <com.ju6.AdRequester: void getAd()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>, Tgt: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2$3: void run()>, Tgt: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $d0 = virtualinvoke $r11.<android.location.Location: double getLongitude()>() at <com.ju6.c: void run()> in com.ju6.c
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.ju6.AdRequester: void getAd()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.ju6.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>, Tgt: <com.ju6.AdRequester: void getAd()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>, Tgt: <com.safesys.remover.JmAdV2: void initJu6Ad(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.JmAdV2$3: void run()>, Tgt: <com.safesys.remover.JmAdV2: void access$6(com.safesys.remover.JmAdV2,java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.safesys.remover.JmAdV2$3: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r5 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <com.safesys.remover.UpdateService: void updateInfo(java.lang.String)> in com.safesys.remover.UpdateService
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.UpdateService: void _doTimerTask()>, Tgt: <com.safesys.remover.UpdateService: void updateInfo(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.UpdateService: void doTimerTask()>, Tgt: <com.safesys.remover.UpdateService: void _doTimerTask()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.UpdateService: void access$1(com.safesys.remover.UpdateService)>, Tgt: <com.safesys.remover.UpdateService: void doTimerTask()>
+RespAnalysis - [DEBUG]: Src: <com.safesys.remover.UpdateService$1: void run()>, Tgt: <com.safesys.remover.UpdateService: void access$1(com.safesys.remover.UpdateService)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.safesys.remover.UpdateService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.safesys.remover.UpdateService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.safesys.remover.UpdateService: void updateInfo(java.lang.String)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.safesys.remover.UpdateService: void updateInfo(java.lang.String)>: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.G
+RespAnalysis - [DEBUG]: com.adwo.adsdk.h
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.R: void a()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdView: void c()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.j: void a(java.lang.String)>, Tgt: <com.adwo.adsdk.z: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.b: void b()>, Tgt: <com.adwo.adsdk.R: void a()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>, Tgt: <com.adwo.adsdk.j: void a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.safesys.remover.UpdateService: void updateInfo(java.lang.String)>: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoSplashAdActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.B: void run()>, Tgt: <com.adwo.adsdk.AdwoAdView: void c()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.A: void run()>, Tgt: <com.adwo.adsdk.b: void b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.safesys.remover.UpdateService: void updateInfo(java.lang.String)>: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.adwo.adsdk.AdwoAdBrowserActivity
+RespAnalysis - [MSG]: chainSet: [<com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.B: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <com.adwo.adsdk.z: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.adwo.adsdk.A: void run()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/e1c2188a69727bf4ec4a5d72319cfe87428c7f35.apk\e1c2188a69727bf4ec4a5d72319cfe87428c7f35.apk_resp.csv
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: com.adwo.adsdk.f a(android.content.Context,byte,byte)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.w: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.w: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.b: byte[] a(java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.b: void <init>(com.adwo.adsdk.f,android.content.Context,int,int,double)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.I: void onClick(android.view.View)>
+RespAnalysis - [MSG]: <com.ju6.c: java.net.HttpURLConnection a(java.net.URL,int)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: android.graphics.Bitmap a(java.lang.String,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.b: byte[] a(java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.b: void <init>(com.adwo.adsdk.f,android.content.Context,int,int,double)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: boolean b()>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.j: void a(com.adwo.adsdk.j,java.lang.String,android.app.Activity)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.w: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.w: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.j: void a(java.lang.String,android.app.Activity)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void c(java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.I: void onClick(android.view.View)>
+RespAnalysis - [MSG]: <com.ju6.c: java.lang.String a(java.lang.String,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: com.adwo.adsdk.f a(android.content.Context,byte,byte)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void c(java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.I: void onClick(android.view.View)>
+RespAnalysis - [MSG]: <com.ju6.c: boolean b()>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.g: void run()>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.I: void onClick(android.view.View)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/e1c2188a69727bf4ec4a5d72319cfe87428c7f35.apk\e1c2188a69727bf4ec4a5d72319cfe87428c7f35.apk_src.csv
+RespAnalysis - [MSG]: <com.ju6.c: void run()>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.safesys.remover.UpdateService: void updateInfo(java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.i: void b(android.content.Context)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdView: void <init>(android.content.Context,android.util.AttributeSet)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.ju6.c: void run()>
+RespAnalysis - [MSG]: <com.adwo.adsdk.G: void <init>(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoAdBrowserActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.adwo.adsdk.AdwoSplashAdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/e1c2188a69727bf4ec4a5d72319cfe87428c7f35.apk\e1c2188a69727bf4ec4a5d72319cfe87428c7f35.apk_StartActServ.csv
+RespAnalysis - [MSG]: com.safesys.remover.JmAdV2$6: onReceiveAd
+RespAnalysis - [MSG]: com.adwo.adsdk.z: run
+RespAnalysis - [MSG]: android.os.Handler: post
+RespAnalysis - [MSG]: com.adwo.adsdk.G: <init>
+RespAnalysis - [MSG]: com.safesys.remover.ShowTips$1: onClick
+RespAnalysis - [MSG]: com.safesys.remover.ShowTips$1: onClick
+RespAnalysis - [MSG]: com.safesys.remover.ShowTips$1: onClick
+RespAnalysis - [MSG]: com.safesys.remover.ShowTips$1: onClick
+RespAnalysis - [MSG]: com.safesys.remover.ShowTips$1: onClick
+RespAnalysis - [MSG]: com.safesys.remover.ShowTips$1: onClick
+RespAnalysis - [MSG]: com.safesys.remover.ShowTips$1: onClick
+RespAnalysis - [MSG]: com.safesys.remover.ShowTips$1: onClick
+RespAnalysis - [MSG]: com.safesys.remover.ShowTips$1: onClick
+RespAnalysis - [MSG]: com.adwo.adsdk.g: run
+RespAnalysis - [MSG]: android.os.Handler: post
+RespAnalysis - [MSG]: com.adwo.adsdk.G: <init>
+RespAnalysis - [MSG]: com.safesys.remover.ShowTips$1: onClick
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/e1c2188a69727bf4ec4a5d72319cfe87428c7f35.apk\e1c2188a69727bf4ec4a5d72319cfe87428c7f35.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/e1c2188a69727bf4ec4a5d72319cfe87428c7f35.apk\e1c2188a69727bf4ec4a5d72319cfe87428c7f35.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/e1c2188a69727bf4ec4a5d72319cfe87428c7f35.apk\e1c2188a69727bf4ec4a5d72319cfe87428c7f35.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: com.adwo.adsdk.G: <init>
+RespAnalysis - [MSG]: com.adwo.adsdk.AdwoSplashAdActivity: onCreate
+RespAnalysis - [MSG]: com.adwo.adsdk.AdwoAdBrowserActivity: onCreate
+RespAnalysis - [MSG]: com.adwo.adsdk.AdwoAdView: <init>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/e1c2188a69727bf4ec4a5d72319cfe87428c7f35.apk\e1c2188a69727bf4ec4a5d72319cfe87428c7f35.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: com.adwo.adsdk.G: <init>
+RespAnalysis - [MSG]: com.adwo.adsdk.AdwoSplashAdActivity: onCreate
+RespAnalysis - [MSG]: com.adwo.adsdk.b: <init>
+RespAnalysis - [MSG]: com.adwo.adsdk.w: shouldOverrideUrlLoading
+RespAnalysis - [MSG]: com.adwo.adsdk.I: onClick
+RespAnalysis - [MSG]: com.adwo.adsdk.AdwoAdBrowserActivity: onCreate
+test - [MSG]: Analysis has run for 54.6816568 seconds
+

@@ -1,0 +1,28 @@
+test - [MSG]: Begin to analyze: BroadcastReceiverLifecycle1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r5 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.TestReceiver: void onReceive(android.content.Context,android.content.Intent)> in de.ecspride.TestReceiver
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.TestReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <de.ecspride.TestReceiver: void onReceive(android.content.Context,android.content.Intent)>: <de.ecspride.TestReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.TestReceiver
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.TestReceiver: void onReceive(android.content.Context,android.content.Intent)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r6.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r5, null, null) at <de.ecspride.TestReceiver: void onReceive(android.content.Context,android.content.Intent)> in de.ecspride.TestReceiver
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.TestReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <de.ecspride.TestReceiver: void onReceive(android.content.Context,android.content.Intent)>: <de.ecspride.TestReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.TestReceiver
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.TestReceiver: void onReceive(android.content.Context,android.content.Intent)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/BroadcastReceiverLifecycle1.apk\BroadcastReceiverLifecycle1.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.TestReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/BroadcastReceiverLifecycle1.apk\BroadcastReceiverLifecycle1.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.TestReceiver: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/BroadcastReceiverLifecycle1.apk\BroadcastReceiverLifecycle1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/BroadcastReceiverLifecycle1.apk\BroadcastReceiverLifecycle1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/BroadcastReceiverLifecycle1.apk\BroadcastReceiverLifecycle1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/BroadcastReceiverLifecycle1.apk\BroadcastReceiverLifecycle1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.TestReceiver: onReceive
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/BroadcastReceiverLifecycle1.apk\BroadcastReceiverLifecycle1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.TestReceiver: onReceive
+test - [MSG]: Analysis has run for 13.63974845 seconds
+

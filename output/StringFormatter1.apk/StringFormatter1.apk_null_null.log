@@ -1,0 +1,28 @@
+test - [MSG]: Begin to analyze: StringFormatter1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r6 = virtualinvoke $r5.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <edu.mit.string_formatter.MainActivity: void onCreate(android.os.Bundle)> in edu.mit.string_formatter.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.string_formatter.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.string_formatter.MainActivity: void onCreate(android.os.Bundle)>: <edu.mit.string_formatter.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.string_formatter.MainActivity
+RespAnalysis - [MSG]: chainSet: [<edu.mit.string_formatter.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r8.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r6, null, null) at <edu.mit.string_formatter.MainActivity: void onCreate(android.os.Bundle)> in edu.mit.string_formatter.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.string_formatter.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.string_formatter.MainActivity: void onCreate(android.os.Bundle)>: <edu.mit.string_formatter.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.string_formatter.MainActivity
+RespAnalysis - [MSG]: chainSet: [<edu.mit.string_formatter.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StringFormatter1.apk\StringFormatter1.apk_resp.csv
+RespAnalysis - [MSG]: <edu.mit.string_formatter.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StringFormatter1.apk\StringFormatter1.apk_src.csv
+RespAnalysis - [MSG]: <edu.mit.string_formatter.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StringFormatter1.apk\StringFormatter1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StringFormatter1.apk\StringFormatter1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StringFormatter1.apk\StringFormatter1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StringFormatter1.apk\StringFormatter1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: edu.mit.string_formatter.MainActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/StringFormatter1.apk\StringFormatter1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: edu.mit.string_formatter.MainActivity: onCreate
+test - [MSG]: Analysis has run for 8.876057554 seconds
+

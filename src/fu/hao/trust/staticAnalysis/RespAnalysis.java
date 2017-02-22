@@ -64,6 +64,7 @@ public class RespAnalysis {
 	// <Listener, Chains>
 	//Map<SootClass, Set<LinkedList<SootMethod>>> viewListeners;
 	Map<SootClass, Set<LinkedList<SootMethod>>> listeners;
+	Map<SootClass, Set<LinkedList<SootMethod>>> lifecycleCallbackers;
 
 	// The nested class to implement singleton
 	private static class SingletonHolder {
@@ -107,6 +108,7 @@ public class RespAnalysis {
 				"android.location.LocationListener");
 		listenerInterfaces.add(listener);
 		
+		lifecycleCallbackers = new HashMap<>();
 
 		for (SootClass sootClass : Scene.v().getClasses()) {
 			if (sootClass.toString().startsWith("android")
@@ -232,6 +234,7 @@ public class RespAnalysis {
 		writeFragDeclrs(fragDeclrs);
 		writeInitUnknownFields(unknownInitFields);
 		bindListeners();
+		bindLifeCallbacker();
 		writeEventChains(srcEventChains, false);
 		writeEventChains(sinkEventChains, true);
 		return sinkUnits;
@@ -252,12 +255,24 @@ public class RespAnalysis {
 
 		return false;
 	}
+	
+	private boolean isApplication(SootClass clazz) {
+		while (clazz != null) {
+			String typeName = clazz.getShortName();
+			if (typeName.contains("Application")) {
+				return true;
+			}
+			if (clazz.hasSuperclass()) {
+				clazz = clazz.getSuperclass();
+			} else {
+				clazz = null;
+			}
+		}
+
+		return false;
+	}
 
 	private boolean isListener(SootClass clazz) {
-		SootClass listener = Scene.v().getSootClass(
-				"android.view.View$OnClickListener");
-		
-		Log.bb(TAG, "Listener " + listener);
 		for (SootClass sootInterface : clazz.getInterfaces()) {
 			if (listenerInterfaces.contains(sootInterface)) {	
 				Log.debug(TAG, "Listener found: " + clazz);
@@ -265,6 +280,20 @@ public class RespAnalysis {
 			}
 		}
 
+		return false;
+	}
+	
+	private boolean isActivityLifecycleCallbacks(SootClass clazz) {
+		//SootClass callBackClass = Scene.v().getSootClass("android.app.Application$ActivityLifecycleCallbacks");
+		//Log.bb(TAG, "callbackClass: " + callBackClass);
+		for (SootClass sootInterface : clazz.getInterfaces()) {
+			Log.debug(TAG, sootInterface.getName());
+			if (sootInterface.getName().contains("ActivityLifecycleCallbacks")) {	
+				Log.debug(TAG, "LifecycleCallback Monitor found: " + clazz);
+				return true;
+			}
+		}
+		
 		return false;
 	}
 
@@ -352,6 +381,23 @@ public class RespAnalysis {
 						}
 						chainSet = listeners.get(entryClass);
 						chainSet.add(srcEventChains.get(entry));
+					} else if (isActivityLifecycleCallbacks(entryClass)) {
+						Set<LinkedList<SootMethod>> chainSet;
+						if (!lifecycleCallbackers.containsKey(entryClass)) {
+							chainSet = new HashSet<>();
+							lifecycleCallbackers.put(entryClass, chainSet);
+						}
+						chainSet = lifecycleCallbackers.get(entryClass);
+						chainSet.add(srcEventChains.get(entry));					
+					} else if (isApplication(entryClass)) {
+						if (!entry.getName().equals("onCreate")) {
+							// TODO
+							SootMethod onCreate = entryClass
+									.getMethodByName("onCreate");
+							if (!srcEventChains.get(entry).getFirst().equals(onCreate)) {
+								srcEventChains.get(entry).addFirst(onCreate);
+							}
+						}
 					}
 					Log.msg(TAG, "chainSet: " + srcEventChains.get(entry));
 					for (SootClass subclass : Scene.v().getActiveHierarchy()
@@ -368,6 +414,52 @@ public class RespAnalysis {
 							mList.add(newm);
 						}
 					}
+				}
+			}
+		}
+	}
+	
+	private void bindLifeCallbacker() {
+		if (lifecycleCallbackers.size() == 0) {
+			return;
+		}
+
+		for (SootClass sootClass : Scene.v().getClasses()) {
+			if (sootClass.toString().startsWith("android")
+					|| sootClass.toString().startsWith("java")
+					|| sootClass.toString().startsWith("org.apache.http")
+					|| sootClass.toString().startsWith("org.xml")) {
+				continue;
+			}
+
+			for (SootMethod method : sootClass.getMethods()) {
+				if (method.hasActiveBody()) {
+					for (Unit unit : method.getActiveBody().getUnits()) {
+						Stmt stmt = (Stmt) unit;
+						if (stmt instanceof AssignStmt) {
+							AssignStmt astmt = (AssignStmt) stmt;
+							if (astmt.getRightOp() instanceof NewExpr) {
+								NewExpr nexExpr = (NewExpr) astmt.getRightOp();
+								for (SootClass listener : lifecycleCallbackers
+										.keySet()) {
+									if (nexExpr.toString().contains(
+											listener.toString())) {
+										Log.bb(TAG, "NewExpr: " + nexExpr);
+										for (LinkedList<SootMethod> chain : lifecycleCallbackers
+												.get(listener)) {
+											if (isApplication(sootClass)) {
+												SootMethod onCreate = sootClass
+														.getMethodByName("onCreate");
+												chain.addFirst(onCreate);
+												Log.warn(TAG, chain);
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+
 				}
 			}
 		}

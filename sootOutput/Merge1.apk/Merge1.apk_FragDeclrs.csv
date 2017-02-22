@@ -1,0 +1,4 @@
+"de.ecspride.MainActivity","dummyMainClass: dummyMainMethod"
+"android.support.v4.app.Fragment","de.ecspride.MainActivity$PlaceholderFragment: <init>"
+"android.support.v7.app.ActionBarActivity","de.ecspride.MainActivity: <init>"
+"de.ecspride.MainActivity$PlaceholderFragment","de.ecspride.MainActivity: onCreate"

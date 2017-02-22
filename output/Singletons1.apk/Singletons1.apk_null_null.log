@@ -1,0 +1,29 @@
+test - [MSG]: Begin to analyze: Singletons1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r2, null, null) at <edu.mit.to_components_share_memory.MainActivity: void onStop()> in edu.mit.to_components_share_memory.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.to_components_share_memory.MainActivity: void onStop()>
+RespAnalysis - [MSG]: <edu.mit.to_components_share_memory.MainActivity: void onStop()>: <edu.mit.to_components_share_memory.MainActivity: void onStop()>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.to_components_share_memory.MainActivity
+RespAnalysis - [MSG]: chainSet: [<edu.mit.to_components_share_memory.MainActivity: void onCreate(android.os.Bundle)>, <edu.mit.to_components_share_memory.MainActivity: void onStop()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r5 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <edu.mit.to_components_share_memory.AnotherActivity: void onCreate(android.os.Bundle)> in edu.mit.to_components_share_memory.AnotherActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.to_components_share_memory.AnotherActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.to_components_share_memory.AnotherActivity: void onCreate(android.os.Bundle)>: <edu.mit.to_components_share_memory.AnotherActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.to_components_share_memory.AnotherActivity
+RespAnalysis - [MSG]: chainSet: [<edu.mit.to_components_share_memory.AnotherActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Singletons1.apk\Singletons1.apk_resp.csv
+RespAnalysis - [MSG]: <edu.mit.to_components_share_memory.MainActivity: void onStop()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Singletons1.apk\Singletons1.apk_src.csv
+RespAnalysis - [MSG]: <edu.mit.to_components_share_memory.AnotherActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Singletons1.apk\Singletons1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Singletons1.apk\Singletons1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Singletons1.apk\Singletons1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Singletons1.apk\Singletons1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: edu.mit.to_components_share_memory.AnotherActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Singletons1.apk\Singletons1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: edu.mit.to_components_share_memory.MainActivity: onCreate
+RespAnalysis - [MSG]: edu.mit.to_components_share_memory.MainActivity: onStop
+test - [MSG]: Analysis has run for 7.363376961 seconds
+

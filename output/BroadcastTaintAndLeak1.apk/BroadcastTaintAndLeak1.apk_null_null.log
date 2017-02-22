@@ -1,0 +1,30 @@
+test - [MSG]: Begin to analyze: BroadcastTaintAndLeak1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest: void onDestroy()> in edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest: void onDestroy()>
+RespAnalysis - [MSG]: <edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest: void onDestroy()>: <edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest: void onDestroy()>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest
+RespAnalysis - [MSG]: chainSet: [<edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest: void onCreate(android.os.Bundle)>, <edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest: void onDestroy()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r4.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r3, null, null) at <edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest$1: void onReceive(android.content.Context,android.content.Intent)> in edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest$1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest$1: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest$1: void onReceive(android.content.Context,android.content.Intent)>: <edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest$1: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest$1
+RespAnalysis - [MSG]: chainSet: [<edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest: void onCreate(android.os.Bundle)>, <edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest$1: void onReceive(android.content.Context,android.content.Intent)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/BroadcastTaintAndLeak1.apk\BroadcastTaintAndLeak1.apk_resp.csv
+RespAnalysis - [MSG]: <edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest$1: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/BroadcastTaintAndLeak1.apk\BroadcastTaintAndLeak1.apk_src.csv
+RespAnalysis - [MSG]: <edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest: void onDestroy()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/BroadcastTaintAndLeak1.apk\BroadcastTaintAndLeak1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/BroadcastTaintAndLeak1.apk\BroadcastTaintAndLeak1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/BroadcastTaintAndLeak1.apk\BroadcastTaintAndLeak1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/BroadcastTaintAndLeak1.apk\BroadcastTaintAndLeak1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest: onCreate
+RespAnalysis - [MSG]: edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest: onDestroy
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/BroadcastTaintAndLeak1.apk\BroadcastTaintAndLeak1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest: onCreate
+RespAnalysis - [MSG]: edu.mit.icc_broadcast_programmatic_intentfilter.BroadcastTest$1: onReceive
+test - [MSG]: Analysis has run for 6.735399132 seconds
+

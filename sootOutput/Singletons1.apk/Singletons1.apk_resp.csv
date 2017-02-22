@@ -1,0 +1,1 @@
+"virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>(""+49"", null, $r2, null, null)","<edu.mit.to_components_share_memory.MainActivity: void onStop()>"

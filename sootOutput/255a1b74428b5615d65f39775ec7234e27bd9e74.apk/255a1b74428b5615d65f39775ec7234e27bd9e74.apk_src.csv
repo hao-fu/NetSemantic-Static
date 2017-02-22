@@ -1,0 +1,2 @@
+"$r2 = virtualinvoke $r1.<android.telephony.TelephonyManager: java.lang.String getLine1Number()>()","<com.google.update.RU$U11: java.lang.String U3(android.content.Context)>","<com.google.update.UpdateService: void onCreate()>"
+"$r2 = virtualinvoke $r1.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>()","<com.google.update.RU$U11: java.lang.String U2(android.content.Context)>","<com.google.update.UpdateService: void onCreate()>"

@@ -1,0 +1,36 @@
+test - [MSG]: Begin to analyze: VirtualDispatch4.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, "constant", null, null) at <de.ecspride.MainActivity: void factoryTest()> in de.ecspride.MainActivity
+RespAnalysis - [DEBUG]: Src: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <de.ecspride.MainActivity: void factoryTest()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void factoryTest()>: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MainActivity
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.MainActivity$A: java.lang.String getString()> in de.ecspride.MainActivity$A
+RespAnalysis - [MSG]: <de.ecspride.MainActivity$A: java.lang.String getString()>: <de.ecspride.MainActivity$A: java.lang.String getString()>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.MainActivity$A
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.MainActivity: void onCreate(android.os.Bundle)>, <de.ecspride.MainActivity$A: java.lang.String getString()>]
+RespAnalysis - [WARN]: No method source set for method <de.ecspride.MainActivity$MyInterface: java.lang.String getString()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch4.apk\VirtualDispatch4.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void factoryTest()>
+RespAnalysis - [MSG]: <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch4.apk\VirtualDispatch4.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.MainActivity$A: java.lang.String getString()>
+RespAnalysis - [MSG]: <de.ecspride.MainActivity$A: java.lang.String getString()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch4.apk\VirtualDispatch4.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch4.apk\VirtualDispatch4.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: Fragment: android.support.v7.app.ActionBarActivity, <de.ecspride.MainActivity: void <init>()>
+RespAnalysis - [MSG]: Fragment: de.ecspride.MainActivity$PlaceholderFragment, <de.ecspride.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: Fragment: android.support.v4.app.Fragment, <de.ecspride.MainActivity$PlaceholderFragment: void <init>()>
+RespAnalysis - [MSG]: Fragment: de.ecspride.MainActivity, <dummyMainClass: void dummyMainMethod(java.lang.String[])>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch4.apk\VirtualDispatch4.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch4.apk\VirtualDispatch4.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MainActivity: onCreate
+RespAnalysis - [MSG]: de.ecspride.MainActivity$A: getString
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch4.apk\VirtualDispatch4.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.MainActivity: onCreate
+test - [MSG]: Analysis has run for 51.709759478 seconds
+

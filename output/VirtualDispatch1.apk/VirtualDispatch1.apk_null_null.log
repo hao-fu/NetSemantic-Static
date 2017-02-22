@@ -1,22 +1,41 @@
 test - [MSG]: Begin to analyze: VirtualDispatch1.apk
 RespAnalysis - [WARN]: 
 
-RespAnalysis - [WARN]: Sens: virtualinvoke $r2.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r1, null, null) at <de.ecspride.DataLeak: void logData()> in de.ecspride.DataLeak
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.VirtualDispatch1: void onCreate(android.os.Bundle)> in de.ecspride.VirtualDispatch1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.VirtualDispatch1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <de.ecspride.VirtualDispatch1: void onCreate(android.os.Bundle)>: <de.ecspride.VirtualDispatch1: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.VirtualDispatch1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.VirtualDispatch1: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r2.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r1, null, null) at <de.ecspride.DataLeak: void logData()> in de.ecspride.DataLeak
 RespAnalysis - [DEBUG]: Src: <de.ecspride.VirtualDispatch1: void clickButton(android.view.View)>, Tgt: <de.ecspride.DataLeak: void logData()>
 RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.VirtualDispatch1: void clickButton(android.view.View)>
 RespAnalysis - [MSG]: <de.ecspride.DataLeak: void logData()>: <de.ecspride.VirtualDispatch1: void clickButton(android.view.View)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.VirtualDispatch1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.VirtualDispatch1: void onCreate(android.os.Bundle)>, <de.ecspride.VirtualDispatch1: void clickButton(android.view.View)>]
 RespAnalysis - [WARN]: 
 
-RespAnalysis - [WARN]: Sens: virtualinvoke $r1.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r2, null, null) at <de.ecspride.NoDataLeak: void logData()> in de.ecspride.NoDataLeak
+RespAnalysis - [WARN]: Sink: virtualinvoke $r1.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r2, null, null) at <de.ecspride.NoDataLeak: void logData()> in de.ecspride.NoDataLeak
 RespAnalysis - [DEBUG]: Src: <de.ecspride.VirtualDispatch1: void clickButton(android.view.View)>, Tgt: <de.ecspride.NoDataLeak: void logData()>
 RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.VirtualDispatch1: void clickButton(android.view.View)>
 RespAnalysis - [MSG]: <de.ecspride.NoDataLeak: void logData()>: <de.ecspride.VirtualDispatch1: void clickButton(android.view.View)>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.VirtualDispatch1
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.VirtualDispatch1: void onCreate(android.os.Bundle)>, <de.ecspride.VirtualDispatch1: void clickButton(android.view.View)>]
 RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch1.apk\VirtualDispatch1.apk_resp.csv
-RespAnalysis - [MSG]: <de.ecspride.DataLeak: void logData()>
-RespAnalysis - [MSG]: <de.ecspride.VirtualDispatch1: void clickButton(android.view.View)>
 RespAnalysis - [MSG]: <de.ecspride.NoDataLeak: void logData()>
 RespAnalysis - [MSG]: <de.ecspride.VirtualDispatch1: void clickButton(android.view.View)>
+RespAnalysis - [MSG]: <de.ecspride.DataLeak: void logData()>
+RespAnalysis - [MSG]: <de.ecspride.VirtualDispatch1: void clickButton(android.view.View)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch1.apk\VirtualDispatch1.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.VirtualDispatch1: void onCreate(android.os.Bundle)>
 RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch1.apk\VirtualDispatch1.apk_StartActServ.csv
 RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch1.apk\VirtualDispatch1.apk_FragDeclrs.csv
-test - [MSG]: Analysis has run for 20.794510237 seconds
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch1.apk\VirtualDispatch1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch1.apk\VirtualDispatch1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.VirtualDispatch1: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/VirtualDispatch1.apk\VirtualDispatch1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.VirtualDispatch1: onCreate
+RespAnalysis - [MSG]: de.ecspride.VirtualDispatch1: clickButton
+test - [MSG]: Analysis has run for 18.609128107 seconds
 

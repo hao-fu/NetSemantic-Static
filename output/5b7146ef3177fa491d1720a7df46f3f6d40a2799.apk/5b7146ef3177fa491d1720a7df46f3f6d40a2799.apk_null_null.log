@@ -1,0 +1,266 @@
+test - [MSG]: Begin to analyze: 5b7146ef3177fa491d1720a7df46f3f6d40a2799.apk
+RespAnalysis - [WARN]: No method source set for method <com.km.BbxChargeInterface: void BbxChargeEnd(int)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r4 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() at <com.km.HttpBox: void connect()> in com.km.HttpBox
+RespAnalysis - [DEBUG]: Src: <com.km.BbxChargeEngine$HttpClient: void run()>, Tgt: <com.km.HttpBox: void connect()>
+RespAnalysis - [DEBUG]: Src: <com.km.HttpBox: void autoTurn()>, Tgt: <com.km.HttpBox: void connect()>
+RespAnalysis - [DEBUG]: Src: <com.km.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <com.km.BbxChargeEngine$HttpClient: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.BbxChargeEngine: void StartConnect()>, Tgt: <com.km.BbxChargeEngine$HttpClient: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.ChargeEngine: void <init>(android.content.Context)>, Tgt: <com.km.BbxChargeEngine$HttpClient: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.km.BbxChargeEngine$HttpClient: void run()>
+RespAnalysis - [DEBUG]: Src: <km.home.Home: void onCreate(android.os.Bundle)>, Tgt: <com.km.BbxChargeEngine$HttpClient: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.HttpBox: void connect()>, Tgt: <com.km.HttpBox: void autoTurn()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.HttpBox: void connect()>: <com.km.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.km.BbxChargeEngine: void StartCharge(java.util.Vector)>, Tgt: <com.km.BbxChargeEngine: void StartConnect()>
+RespAnalysis - [DEBUG]: Src: <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.ChargeEngine: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.km.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.ChargeEngine: void <init>(android.content.Context)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <km.home.Home: void onCreate(android.os.Bundle)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <km.home.Home: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.HttpBox: void connect()>: <km.home.Home: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: km.home.Home
+RespAnalysis - [MSG]: chainSet: [<km.home.Home: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.km.ChargeEngine: void AnalyseData(java.lang.String)>, Tgt: <com.km.BbxChargeEngine: void StartCharge(java.util.Vector)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.HttpBox: void connect()>: <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.HttpBox: void connect()>: <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.MainActivity: void onCreate(android.os.Bundle)>, <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>]
+RespAnalysis - [DEBUG]: Src: <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.ChargeEngine: void AnalyseData(java.lang.String)>
+RespAnalysis - [WARN]: No method source set for method <com.km.SendMessageInterface: void SendMessageEnd(int)>
+RespAnalysis - [WARN]: No method source set for method <com.km.HoldMessageInterface: void AddBackMessage(java.lang.String,java.lang.String)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $z0 = virtualinvoke $r5.<java.lang.String: boolean equals(java.lang.Object)>("android.provider.Telephony.SMS_RECEIVED") at <com.km.HoldMessage: void onReceive(android.content.Context,android.content.Intent)> in com.km.HoldMessage
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.HoldMessage: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.km.HoldMessage: void onReceive(android.content.Context,android.content.Intent)>: <com.km.HoldMessage: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.HoldMessage
+RespAnalysis - [MSG]: chainSet: [<com.km.HoldMessage: void onReceive(android.content.Context,android.content.Intent)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r5 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <com.km.MainActivity: java.lang.String getUrl()> in com.km.MainActivity
+RespAnalysis - [DEBUG]: Src: <com.km.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <com.km.MainActivity: java.lang.String getUrl()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.MainActivity: java.lang.String getUrl()>: <com.km.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r6 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() at <com.km.MainActivity: java.lang.String getUrl()> in com.km.MainActivity
+RespAnalysis - [DEBUG]: Src: <com.km.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <com.km.MainActivity: java.lang.String getUrl()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.MainActivity: java.lang.String getUrl()>: <com.km.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: No method source set for method <com.km.MainActivity$ChargeListener: void chargeAction(int)>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r4 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms/inbox") at <com.km.MmsReceive: void start(android.content.Context)> in com.km.MmsReceive
+RespAnalysis - [MSG]: <com.km.MmsReceive: void start(android.content.Context)>: <com.km.MmsReceive: void start(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.MmsReceive
+RespAnalysis - [MSG]: chainSet: [<com.km.MmsReceive: void start(android.content.Context)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: specialinvoke $r7.<java.lang.StringBuilder: void <init>(java.lang.String)>("content://sms/") at <com.km.MmsReceive: void start(android.content.Context)> in com.km.MmsReceive
+RespAnalysis - [MSG]: <com.km.MmsReceive: void start(android.content.Context)>: <com.km.MmsReceive: void start(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.MmsReceive
+RespAnalysis - [MSG]: chainSet: [<com.km.MmsReceive: void start(android.content.Context)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r4 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms/inbox") at <com.km.SmsReceive: void start(android.content.Context)> in com.km.SmsReceive
+RespAnalysis - [MSG]: <com.km.SmsReceive: void start(android.content.Context)>: <com.km.SmsReceive: void start(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.SmsReceive
+RespAnalysis - [MSG]: chainSet: [<com.km.SmsReceive: void start(android.content.Context)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: specialinvoke $r7.<java.lang.StringBuilder: void <init>(java.lang.String)>("content://sms/") at <com.km.SmsReceive: void start(android.content.Context)> in com.km.SmsReceive
+RespAnalysis - [MSG]: <com.km.SmsReceive: void start(android.content.Context)>: <com.km.SmsReceive: void start(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.SmsReceive
+RespAnalysis - [MSG]: chainSet: [<com.km.SmsReceive: void start(android.content.Context)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r4 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() at <com.km.tool.Http: void connectOperate()> in com.km.tool.Http
+RespAnalysis - [DEBUG]: Src: <com.km.tool.Http: void connect()>, Tgt: <com.km.tool.Http: void connectOperate()>
+RespAnalysis - [DEBUG]: Src: <com.km.tool.Http: void connect()>, Tgt: <com.km.tool.Http: void connectOperate()>
+RespAnalysis - [DEBUG]: Src: <com.km.MainActivity: void run()>, Tgt: <com.km.tool.Http: void connect()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.km.MainActivity: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.ChargeEngine: void <init>(android.content.Context)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <km.home.Home: void onCreate(android.os.Bundle)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.tool.Http: void connectOperate()>: <com.km.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.ChargeEngine: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <km.home.Home: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.tool.Http: void connectOperate()>: <km.home.Home: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: km.home.Home
+RespAnalysis - [MSG]: chainSet: [<km.home.Home: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.tool.Http: void connectOperate()>: <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.tool.Http: void connectOperate()>: <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.MainActivity: void onCreate(android.os.Bundle)>, <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r4 = virtualinvoke $r1.<java.net.URL: java.net.URLConnection openConnection()>() at <com.km.tool.HttpBox: void connect()> in com.km.tool.HttpBox
+RespAnalysis - [DEBUG]: Src: <com.km.tool.mms.MmsContent: void connect()>, Tgt: <com.km.tool.HttpBox: void connect()>
+RespAnalysis - [DEBUG]: Src: <com.km.tool.HttpBox: void autoTurn()>, Tgt: <com.km.tool.HttpBox: void connect()>
+RespAnalysis - [DEBUG]: Src: <com.km.HoldMessage$1: void run()>, Tgt: <com.km.tool.mms.MmsContent: void connect()>
+RespAnalysis - [DEBUG]: Src: <com.km.tool.HttpBox: void connect()>, Tgt: <com.km.tool.HttpBox: void autoTurn()>
+RespAnalysis - [DEBUG]: Src: <com.km.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <com.km.HoldMessage$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.HoldMessage: boolean mmsHold(android.content.Intent)>, Tgt: <com.km.HoldMessage$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.ChargeEngine: void <init>(android.content.Context)>, Tgt: <com.km.HoldMessage$1: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.km.HoldMessage$1: void run()>
+RespAnalysis - [DEBUG]: Src: <km.home.Home: void onCreate(android.os.Bundle)>, Tgt: <com.km.HoldMessage$1: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.tool.HttpBox: void connect()>: <com.km.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.km.HoldMessage: void handleOrderMms(android.content.Context,android.content.Intent)>, Tgt: <com.km.HoldMessage: boolean mmsHold(android.content.Intent)>
+RespAnalysis - [DEBUG]: Src: <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>, Tgt: <com.km.ChargeEngine: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.km.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.km.ChargeEngine: void <init>(android.content.Context)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <km.home.Home: void onCreate(android.os.Bundle)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <km.home.Home: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.tool.HttpBox: void connect()>: <km.home.Home: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: km.home.Home
+RespAnalysis - [MSG]: chainSet: [<km.home.Home: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.km.HoldMessage: void onReceive(android.content.Context,android.content.Intent)>, Tgt: <com.km.HoldMessage: void handleOrderMms(android.content.Context,android.content.Intent)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.tool.HttpBox: void connect()>: <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.tool.HttpBox: void connect()>: <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.MainActivity
+RespAnalysis - [MSG]: chainSet: [<com.km.MainActivity: void onCreate(android.os.Bundle)>, <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.km.HoldMessage: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.km.tool.HttpBox: void connect()>: <com.km.HoldMessage: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.HoldMessage
+RespAnalysis - [MSG]: chainSet: [<com.km.HoldMessage: void onReceive(android.content.Context,android.content.Intent)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r6 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms/inbox") at <com.km.tool.Noti: android.net.Uri replaceMessage(android.content.Context,android.content.ContentValues)> in com.km.tool.Noti
+RespAnalysis - [MSG]: <com.km.tool.Noti: android.net.Uri replaceMessage(android.content.Context,android.content.ContentValues)>: <com.km.tool.Noti: android.net.Uri replaceMessage(android.content.Context,android.content.ContentValues)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.tool.Noti
+RespAnalysis - [MSG]: chainSet: [<com.km.tool.Noti: android.net.Uri replaceMessage(android.content.Context,android.content.ContentValues)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r6 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms") at <com.km.tool.Noti: android.net.Uri replaceMessage(android.content.Context,android.content.ContentValues)> in com.km.tool.Noti
+RespAnalysis - [MSG]: <com.km.tool.Noti: android.net.Uri replaceMessage(android.content.Context,android.content.ContentValues)>: <com.km.tool.Noti: android.net.Uri replaceMessage(android.content.Context,android.content.ContentValues)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.tool.Noti
+RespAnalysis - [MSG]: chainSet: [<com.km.tool.Noti: android.net.Uri replaceMessage(android.content.Context,android.content.ContentValues)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r4 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms/inbox") at <com.km.tool.Noti: android.net.Uri storeMessage(android.content.Context,android.content.ContentValues)> in com.km.tool.Noti
+RespAnalysis - [MSG]: <com.km.tool.Noti: android.net.Uri storeMessage(android.content.Context,android.content.ContentValues)>: <com.km.tool.Noti: android.net.Uri storeMessage(android.content.Context,android.content.ContentValues)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.tool.Noti
+RespAnalysis - [MSG]: chainSet: [<com.km.tool.Noti: android.net.Uri storeMessage(android.content.Context,android.content.ContentValues)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r0 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms/inbox") at <com.km.tool.SmsCreator: void <clinit>()> in com.km.tool.SmsCreator
+RespAnalysis - [MSG]: <com.km.tool.SmsCreator: void <clinit>()>: <com.km.tool.SmsCreator: void <clinit>()>
+RespAnalysis - [DEBUG]: EntryClass: com.km.tool.SmsCreator
+RespAnalysis - [MSG]: chainSet: [<com.km.tool.SmsCreator: void <clinit>()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: specialinvoke $r4.<android.content.Intent: void <init>(java.lang.String)>("android.provider.Telephony.SMS_RECEIVED") at <com.km.tool.SmsCreator: void sendBroadcast(android.content.Context)> in com.km.tool.SmsCreator
+RespAnalysis - [MSG]: <com.km.tool.SmsCreator: void sendBroadcast(android.content.Context)>: <com.km.tool.SmsCreator: void sendBroadcast(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.tool.SmsCreator
+RespAnalysis - [MSG]: chainSet: [<com.km.tool.SmsCreator: void sendBroadcast(android.content.Context)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: staticinvoke <android.util.Log: int i(java.lang.String,java.lang.String)>("sendBroadcast", "android.provider.Telephony.SMS_RECEIVED") at <com.km.tool.SmsCreator: void sendBroadcast(android.content.Context)> in com.km.tool.SmsCreator
+RespAnalysis - [MSG]: <com.km.tool.SmsCreator: void sendBroadcast(android.content.Context)>: <com.km.tool.SmsCreator: void sendBroadcast(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: com.km.tool.SmsCreator
+RespAnalysis - [MSG]: chainSet: [<com.km.tool.SmsCreator: void sendBroadcast(android.content.Context)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: $r3 = staticinvoke <android.net.Uri: android.net.Uri parse(java.lang.String)>("content://sms/inbox") at <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])> in com.km.tool.SmsMmsManager
+RespAnalysis - [MSG]: <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>: <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>
+RespAnalysis - [DEBUG]: EntryClass: com.km.tool.SmsMmsManager
+RespAnalysis - [MSG]: chainSet: [<com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sens: specialinvoke $r6.<java.lang.StringBuilder: void <init>(java.lang.String)>("content://sms/") at <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])> in com.km.tool.SmsMmsManager
+RespAnalysis - [MSG]: <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>: <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>
+RespAnalysis - [DEBUG]: EntryClass: com.km.tool.SmsMmsManager
+RespAnalysis - [MSG]: chainSet: [<com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>]
+RespAnalysis - [WARN]: No method source set for method <km.home.ThemeManager$ThemeSetupListener: void themeSetupAction(int)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/5b7146ef3177fa491d1720a7df46f3f6d40a2799.apk\5b7146ef3177fa491d1720a7df46f3f6d40a2799.apk_resp.csv
+RespAnalysis - [MSG]: <com.km.tool.Noti: android.net.Uri replaceMessage(android.content.Context,android.content.ContentValues)>
+RespAnalysis - [MSG]: <com.km.tool.Noti: android.net.Uri replaceMessage(android.content.Context,android.content.ContentValues)>
+RespAnalysis - [MSG]: <com.km.HttpBox: void connect()>
+RespAnalysis - [MSG]: <com.km.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <km.home.Home: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.tool.Noti: android.net.Uri replaceMessage(android.content.Context,android.content.ContentValues)>
+RespAnalysis - [MSG]: <com.km.tool.Noti: android.net.Uri replaceMessage(android.content.Context,android.content.ContentValues)>
+RespAnalysis - [MSG]: <com.km.tool.SmsCreator: void sendBroadcast(android.content.Context)>
+RespAnalysis - [MSG]: <com.km.tool.SmsCreator: void sendBroadcast(android.content.Context)>
+RespAnalysis - [MSG]: <com.km.SmsReceive: void start(android.content.Context)>
+RespAnalysis - [MSG]: <com.km.SmsReceive: void start(android.content.Context)>
+RespAnalysis - [MSG]: <com.km.MmsReceive: void start(android.content.Context)>
+RespAnalysis - [MSG]: <com.km.MmsReceive: void start(android.content.Context)>
+RespAnalysis - [MSG]: <com.km.HoldMessage: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.km.tool.SmsCreator: void <clinit>()>
+RespAnalysis - [MSG]: <com.km.tool.SmsCreator: void <clinit>()>
+RespAnalysis - [MSG]: <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>
+RespAnalysis - [MSG]: <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>
+RespAnalysis - [MSG]: <com.km.SmsReceive: void start(android.content.Context)>
+RespAnalysis - [MSG]: <com.km.SmsReceive: void start(android.content.Context)>
+RespAnalysis - [MSG]: <com.km.tool.SmsCreator: void sendBroadcast(android.content.Context)>
+RespAnalysis - [MSG]: <com.km.tool.SmsCreator: void sendBroadcast(android.content.Context)>
+RespAnalysis - [MSG]: <com.km.tool.HttpBox: void connect()>
+RespAnalysis - [MSG]: <com.km.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <km.home.Home: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.HoldMessage: void onReceive(android.content.Context,android.content.Intent)>
+RespAnalysis - [MSG]: <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>
+RespAnalysis - [MSG]: <com.km.tool.SmsMmsManager: void smsDel(android.content.Context,java.lang.String[])>
+RespAnalysis - [MSG]: <com.km.tool.Http: void connectOperate()>
+RespAnalysis - [MSG]: <com.km.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <km.home.Home: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.MainActivity: void onClick(android.content.DialogInterface,int)>
+RespAnalysis - [MSG]: <com.km.tool.Noti: android.net.Uri storeMessage(android.content.Context,android.content.ContentValues)>
+RespAnalysis - [MSG]: <com.km.tool.Noti: android.net.Uri storeMessage(android.content.Context,android.content.ContentValues)>
+RespAnalysis - [MSG]: <com.km.MmsReceive: void start(android.content.Context)>
+RespAnalysis - [MSG]: <com.km.MmsReceive: void start(android.content.Context)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/5b7146ef3177fa491d1720a7df46f3f6d40a2799.apk\5b7146ef3177fa491d1720a7df46f3f6d40a2799.apk_src.csv
+RespAnalysis - [MSG]: <com.km.MainActivity: java.lang.String getUrl()>
+RespAnalysis - [MSG]: <com.km.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.km.MainActivity: java.lang.String getUrl()>
+RespAnalysis - [MSG]: <com.km.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/5b7146ef3177fa491d1720a7df46f3f6d40a2799.apk\5b7146ef3177fa491d1720a7df46f3f6d40a2799.apk_StartActServ.csv
+RespAnalysis - [MSG]: km.home.UnlockActivity: onClick
+RespAnalysis - [MSG]: km.home.UnlockActivity: onClick
+RespAnalysis - [MSG]: km.home.UnlockActivity: onClick
+RespAnalysis - [MSG]: km.home.UnlockActivity: onClick
+RespAnalysis - [MSG]: km.home.UnlockActivity: onClick
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/5b7146ef3177fa491d1720a7df46f3f6d40a2799.apk\5b7146ef3177fa491d1720a7df46f3f6d40a2799.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/5b7146ef3177fa491d1720a7df46f3f6d40a2799.apk\5b7146ef3177fa491d1720a7df46f3f6d40a2799.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/5b7146ef3177fa491d1720a7df46f3f6d40a2799.apk\5b7146ef3177fa491d1720a7df46f3f6d40a2799.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: com.km.MainActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/5b7146ef3177fa491d1720a7df46f3f6d40a2799.apk\5b7146ef3177fa491d1720a7df46f3f6d40a2799.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: km.home.Home: onCreate
+RespAnalysis - [MSG]: com.km.SmsReceive: start
+RespAnalysis - [MSG]: com.km.tool.Noti: replaceMessage
+RespAnalysis - [MSG]: com.km.tool.SmsCreator: sendBroadcast
+RespAnalysis - [MSG]: com.km.MainActivity: onCreate
+RespAnalysis - [MSG]: com.km.MainActivity: onClick
+RespAnalysis - [MSG]: com.km.tool.Noti: storeMessage
+RespAnalysis - [MSG]: com.km.MmsReceive: start
+RespAnalysis - [MSG]: com.km.HoldMessage: onReceive
+RespAnalysis - [MSG]: com.km.tool.SmsCreator: <clinit>
+RespAnalysis - [MSG]: com.km.tool.SmsMmsManager: smsDel
+RespAnalysis - [MSG]: com.km.MainActivity: onCreate
+test - [MSG]: Analysis has run for 35.894910653 seconds
+

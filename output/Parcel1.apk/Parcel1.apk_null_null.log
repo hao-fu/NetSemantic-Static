@@ -1,0 +1,30 @@
+test - [MSG]: Begin to analyze: Parcel1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <edu.mit.parcel.MainActivity: void onCreate(android.os.Bundle)> in edu.mit.parcel.MainActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.parcel.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.parcel.MainActivity: void onCreate(android.os.Bundle)>: <edu.mit.parcel.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.parcel.MainActivity
+RespAnalysis - [MSG]: chainSet: [<edu.mit.parcel.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r5.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r1, null, null) at <edu.mit.parcel.MainActivity: void writeParcel(java.lang.String)> in edu.mit.parcel.MainActivity
+RespAnalysis - [DEBUG]: Src: <edu.mit.parcel.MainActivity: void onCreate(android.os.Bundle)>, Tgt: <edu.mit.parcel.MainActivity: void writeParcel(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.parcel.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.parcel.MainActivity: void writeParcel(java.lang.String)>: <edu.mit.parcel.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.parcel.MainActivity
+RespAnalysis - [MSG]: chainSet: [<edu.mit.parcel.MainActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Parcel1.apk\Parcel1.apk_resp.csv
+RespAnalysis - [MSG]: <edu.mit.parcel.MainActivity: void writeParcel(java.lang.String)>
+RespAnalysis - [MSG]: <edu.mit.parcel.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Parcel1.apk\Parcel1.apk_src.csv
+RespAnalysis - [MSG]: <edu.mit.parcel.MainActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Parcel1.apk\Parcel1.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Parcel1.apk\Parcel1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Parcel1.apk\Parcel1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Parcel1.apk\Parcel1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: edu.mit.parcel.MainActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/Parcel1.apk\Parcel1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: edu.mit.parcel.MainActivity: onCreate
+test - [MSG]: Analysis has run for 8.927209784 seconds
+

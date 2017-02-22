@@ -1,0 +1,1 @@
+"$r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()>()","<de.ecspride.MainService: int onStartCommand(android.content.Intent,int,int)>"

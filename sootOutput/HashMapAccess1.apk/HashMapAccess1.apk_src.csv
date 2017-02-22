@@ -1,0 +1,1 @@
+"$r5 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>()","<de.ecspride.HashMapAccess1: void onCreate(android.os.Bundle)>"

@@ -1,0 +1,1418 @@
+test - [MSG]: Begin to analyze: 1353bd14e91a53fa1ee54cd51c1db6918eb9f851.apk
+RespAnalysis - [WARN]: No method source set for method <com.geinimi.ads.Advertisable: boolean b()>
+RespAnalysis - [WARN]: No method source set for method <com.geinimi.ads.Advertisable: void c()>
+RespAnalysis - [WARN]: No method source set for method <com.geinimi.ads.Advertisable: int d()>
+RespAnalysis - [WARN]: No method source set for method <com.geinimi.ads.Advertisable: int e()>
+RespAnalysis - [WARN]: No method source set for method <com.geinimi.ads.Advertisable: android.content.Intent f()>
+RespAnalysis - [WARN]: No method source set for method <com.geinimi.ads.Advertisable: java.lang.String[] h()>
+RespAnalysis - [WARN]: No method source set for method <com.geinimi.AdPushable: void a(android.content.Context)>
+RespAnalysis - [WARN]: No method source set for method <com.geinimi.AdPushable: void a(android.os.Parcel)>
+RespAnalysis - [WARN]: No method source set for method <com.geinimi.AdPushable: java.lang.String[] a()>
+RespAnalysis - [WARN]: No method source set for method <com.geinimi.AdPushable: void b(android.os.Parcel)>
+RespAnalysis - [WARN]: No method source set for method <com.geinimi.AdPushable: boolean b()>
+RespAnalysis - [WARN]: No method source set for method <com.geinimi.a.a: void a()>
+RespAnalysis - [WARN]: No method source set for method <com.geinimi.a.a: void b()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>($r6) at <com.geinimi.c.c: boolean a(float[])> in com.geinimi.c.c
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c.c: boolean a(java.lang.String)>, Tgt: <com.geinimi.c.c: boolean a(float[])>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.ads.i: android.content.Intent f()>, Tgt: <com.geinimi.c.c: boolean a(float[])>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.c.c: boolean a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.a.f: void b()>, Tgt: <com.geinimi.c.c: boolean a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c: void run()>, Tgt: <com.geinimi.ads.i: android.content.Intent f()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.ads.k: boolean b()>, Tgt: <com.geinimi.ads.i: android.content.Intent f()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.i: void a(android.content.Context)>, Tgt: <com.geinimi.ads.i: android.content.Intent f()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void onCreate()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.d: boolean b()>, Tgt: <com.geinimi.a.f: void b()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c: void run()>, Tgt: <com.geinimi.ads.k: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.i: boolean b()>, Tgt: <com.geinimi.ads.k: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.geinimi.i: void a(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogo: void <init>(android.content.Context,android.widget.AbsoluteLayout)>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: wbs.logo.WbsLogoWiew
+RespAnalysis - [DEBUG]: java.lang.Runnable
+RespAnalysis - [MSG]: chainSet: [<wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String runIt(java.lang.String)>, Tgt: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.custom.AdShow: void show()>, Tgt: <com.geinimi.AdService: void a(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void onResume()>, Tgt: <com.xmobileapp.taskmanager.TaskManager: void refresh()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdService
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.d: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.i: boolean b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdActivity
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>, Tgt: <wbs.logo.WbsLogo: void <init>(android.content.Context,android.widget.AbsoluteLayout)>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.ProcessInfo: void ps()>, Tgt: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String runIt(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.geinimi.custom.AdShow: void show()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [DEBUG]: EntryClass: com.xmobileapp.taskmanager.TaskManager
+RespAnalysis - [MSG]: chainSet: [<com.xmobileapp.taskmanager.TaskManager: void onCreate(android.os.Bundle)>, <com.xmobileapp.taskmanager.TaskManager: void onResume()>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: wbs.logo.WbsLogoAct
+RespAnalysis - [MSG]: chainSet: [<wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.ProcessInfo: void <init>()>, Tgt: <com.xmobileapp.taskmanager.ProcessInfo: void ps()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager$1: void run()>, Tgt: <com.xmobileapp.taskmanager.ProcessInfo: void <init>()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r9 = virtualinvoke $r3.<android.location.LocationManager: android.location.Location getLastKnownLocation(java.lang.String)>("network") at <com.geinimi.c.c: boolean a(float[])> in com.geinimi.c.c
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c.c: boolean a(java.lang.String)>, Tgt: <com.geinimi.c.c: boolean a(float[])>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.ads.i: android.content.Intent f()>, Tgt: <com.geinimi.c.c: boolean a(float[])>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.c.c: boolean a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.a.f: void b()>, Tgt: <com.geinimi.c.c: boolean a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c: void run()>, Tgt: <com.geinimi.ads.i: android.content.Intent f()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.ads.k: boolean b()>, Tgt: <com.geinimi.ads.i: android.content.Intent f()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.i: void a(android.content.Context)>, Tgt: <com.geinimi.ads.i: android.content.Intent f()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void onCreate()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.d: boolean b()>, Tgt: <com.geinimi.a.f: void b()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c: void run()>, Tgt: <com.geinimi.ads.k: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.i: boolean b()>, Tgt: <com.geinimi.ads.k: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.geinimi.i: void a(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogo: void <init>(android.content.Context,android.widget.AbsoluteLayout)>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: wbs.logo.WbsLogoWiew
+RespAnalysis - [DEBUG]: java.lang.Runnable
+RespAnalysis - [MSG]: chainSet: [<wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String runIt(java.lang.String)>, Tgt: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.custom.AdShow: void show()>, Tgt: <com.geinimi.AdService: void a(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void onResume()>, Tgt: <com.xmobileapp.taskmanager.TaskManager: void refresh()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdService
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.d: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.i: boolean b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdActivity
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>, Tgt: <wbs.logo.WbsLogo: void <init>(android.content.Context,android.widget.AbsoluteLayout)>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.ProcessInfo: void ps()>, Tgt: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String runIt(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.geinimi.custom.AdShow: void show()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [DEBUG]: EntryClass: com.xmobileapp.taskmanager.TaskManager
+RespAnalysis - [MSG]: chainSet: [<com.xmobileapp.taskmanager.TaskManager: void onCreate(android.os.Bundle)>, <com.xmobileapp.taskmanager.TaskManager: void onResume()>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: wbs.logo.WbsLogoAct
+RespAnalysis - [MSG]: chainSet: [<wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.ProcessInfo: void <init>()>, Tgt: <com.xmobileapp.taskmanager.ProcessInfo: void ps()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager$1: void run()>, Tgt: <com.xmobileapp.taskmanager.ProcessInfo: void <init>()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $d0 = virtualinvoke $r9.<android.location.Location: double getLatitude()>() at <com.geinimi.c.c: boolean a(float[])> in com.geinimi.c.c
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c.c: boolean a(java.lang.String)>, Tgt: <com.geinimi.c.c: boolean a(float[])>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.ads.i: android.content.Intent f()>, Tgt: <com.geinimi.c.c: boolean a(float[])>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.c.c: boolean a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.a.f: void b()>, Tgt: <com.geinimi.c.c: boolean a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c: void run()>, Tgt: <com.geinimi.ads.i: android.content.Intent f()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.ads.k: boolean b()>, Tgt: <com.geinimi.ads.i: android.content.Intent f()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.i: void a(android.content.Context)>, Tgt: <com.geinimi.ads.i: android.content.Intent f()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void onCreate()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.d: boolean b()>, Tgt: <com.geinimi.a.f: void b()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c: void run()>, Tgt: <com.geinimi.ads.k: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.i: boolean b()>, Tgt: <com.geinimi.ads.k: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.geinimi.i: void a(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogo: void <init>(android.content.Context,android.widget.AbsoluteLayout)>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: wbs.logo.WbsLogoWiew
+RespAnalysis - [DEBUG]: java.lang.Runnable
+RespAnalysis - [MSG]: chainSet: [<wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String runIt(java.lang.String)>, Tgt: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.custom.AdShow: void show()>, Tgt: <com.geinimi.AdService: void a(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void onResume()>, Tgt: <com.xmobileapp.taskmanager.TaskManager: void refresh()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdService
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.d: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.i: boolean b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdActivity
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>, Tgt: <wbs.logo.WbsLogo: void <init>(android.content.Context,android.widget.AbsoluteLayout)>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.ProcessInfo: void ps()>, Tgt: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String runIt(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.geinimi.custom.AdShow: void show()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [DEBUG]: EntryClass: com.xmobileapp.taskmanager.TaskManager
+RespAnalysis - [MSG]: chainSet: [<com.xmobileapp.taskmanager.TaskManager: void onCreate(android.os.Bundle)>, <com.xmobileapp.taskmanager.TaskManager: void onResume()>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: wbs.logo.WbsLogoAct
+RespAnalysis - [MSG]: chainSet: [<wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.ProcessInfo: void <init>()>, Tgt: <com.xmobileapp.taskmanager.ProcessInfo: void ps()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager$1: void run()>, Tgt: <com.xmobileapp.taskmanager.ProcessInfo: void <init>()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $d0 = virtualinvoke $r9.<android.location.Location: double getLongitude()>() at <com.geinimi.c.c: boolean a(float[])> in com.geinimi.c.c
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c.c: boolean a(java.lang.String)>, Tgt: <com.geinimi.c.c: boolean a(float[])>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.ads.i: android.content.Intent f()>, Tgt: <com.geinimi.c.c: boolean a(float[])>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.c.c: boolean a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.a.f: void b()>, Tgt: <com.geinimi.c.c: boolean a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c: void run()>, Tgt: <com.geinimi.ads.i: android.content.Intent f()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.ads.k: boolean b()>, Tgt: <com.geinimi.ads.i: android.content.Intent f()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.i: void a(android.content.Context)>, Tgt: <com.geinimi.ads.i: android.content.Intent f()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void onCreate()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.d: boolean b()>, Tgt: <com.geinimi.a.f: void b()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c: void run()>, Tgt: <com.geinimi.ads.k: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.i: boolean b()>, Tgt: <com.geinimi.ads.k: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.geinimi.i: void a(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogo: void <init>(android.content.Context,android.widget.AbsoluteLayout)>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: wbs.logo.WbsLogoWiew
+RespAnalysis - [DEBUG]: java.lang.Runnable
+RespAnalysis - [MSG]: chainSet: [<wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String runIt(java.lang.String)>, Tgt: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.custom.AdShow: void show()>, Tgt: <com.geinimi.AdService: void a(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void onResume()>, Tgt: <com.xmobileapp.taskmanager.TaskManager: void refresh()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdService
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.d: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.i: boolean b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdActivity
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>, Tgt: <wbs.logo.WbsLogo: void <init>(android.content.Context,android.widget.AbsoluteLayout)>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.ProcessInfo: void ps()>, Tgt: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String runIt(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.geinimi.custom.AdShow: void show()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [DEBUG]: EntryClass: com.xmobileapp.taskmanager.TaskManager
+RespAnalysis - [MSG]: chainSet: [<com.xmobileapp.taskmanager.TaskManager: void onCreate(android.os.Bundle)>, <com.xmobileapp.taskmanager.TaskManager: void onResume()>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: wbs.logo.WbsLogoAct
+RespAnalysis - [MSG]: chainSet: [<wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.ProcessInfo: void <init>()>, Tgt: <com.xmobileapp.taskmanager.ProcessInfo: void ps()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager$1: void run()>, Tgt: <com.xmobileapp.taskmanager.ProcessInfo: void <init>()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r8.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>($r0, null, $r1, $r7, null) at <com.geinimi.c.d: void a(java.lang.String,java.lang.String)> in com.geinimi.c.d
+RespAnalysis - [DEBUG]: Src: <com.geinimi.a.h: void b()>, Tgt: <com.geinimi.c.d: void a(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.a.g: void b()>, Tgt: <com.geinimi.c.d: void a(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.d: boolean b()>, Tgt: <com.geinimi.a.h: void b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.d: boolean b()>, Tgt: <com.geinimi.a.g: void b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.d: boolean b()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void onCreate()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.c.d: void a(java.lang.String,java.lang.String)>: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogo: void <init>(android.content.Context,android.widget.AbsoluteLayout)>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.c.d: void a(java.lang.String,java.lang.String)>: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: wbs.logo.WbsLogoWiew
+RespAnalysis - [DEBUG]: java.lang.Runnable
+RespAnalysis - [MSG]: chainSet: [<wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String runIt(java.lang.String)>, Tgt: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.custom.AdShow: void show()>, Tgt: <com.geinimi.AdService: void a(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void onResume()>, Tgt: <com.xmobileapp.taskmanager.TaskManager: void refresh()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.d: void a(java.lang.String,java.lang.String)>: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdService
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>, Tgt: <wbs.logo.WbsLogo: void <init>(android.content.Context,android.widget.AbsoluteLayout)>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.ProcessInfo: void ps()>, Tgt: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String runIt(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.geinimi.custom.AdShow: void show()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [MSG]: <com.geinimi.c.d: void a(java.lang.String,java.lang.String)>: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [DEBUG]: EntryClass: com.xmobileapp.taskmanager.TaskManager
+RespAnalysis - [MSG]: chainSet: [<com.xmobileapp.taskmanager.TaskManager: void onCreate(android.os.Bundle)>, <com.xmobileapp.taskmanager.TaskManager: void onResume()>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.d: void a(java.lang.String,java.lang.String)>: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: wbs.logo.WbsLogoAct
+RespAnalysis - [MSG]: chainSet: [<wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.ProcessInfo: void <init>()>, Tgt: <com.xmobileapp.taskmanager.ProcessInfo: void ps()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.d: void a(java.lang.String,java.lang.String)>: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdActivity
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager$1: void run()>, Tgt: <com.xmobileapp.taskmanager.ProcessInfo: void <init>()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <com.geinimi.c.f: void <init>(com.geinimi.AdService)> in com.geinimi.c.f
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void onCreate()>, Tgt: <com.geinimi.c.f: void <init>(com.geinimi.AdService)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.f: void <init>(com.geinimi.AdService)>: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdService
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdService: void onCreate()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceSoftwareVersion()>() at <com.geinimi.c.f: void <init>(com.geinimi.AdService)> in com.geinimi.c.f
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void onCreate()>, Tgt: <com.geinimi.c.f: void <init>(com.geinimi.AdService)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.f: void <init>(com.geinimi.AdService)>: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdService
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdService: void onCreate()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getLine1Number()>() at <com.geinimi.c.f: void <init>(com.geinimi.AdService)> in com.geinimi.c.f
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void onCreate()>, Tgt: <com.geinimi.c.f: void <init>(com.geinimi.AdService)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.f: void <init>(com.geinimi.AdService)>: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdService
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdService: void onCreate()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSimSerialNumber()>() at <com.geinimi.c.f: void <init>(com.geinimi.AdService)> in com.geinimi.c.f
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void onCreate()>, Tgt: <com.geinimi.c.f: void <init>(com.geinimi.AdService)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.f: void <init>(com.geinimi.AdService)>: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdService
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdService: void onCreate()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>() at <com.geinimi.c.f: void <init>(com.geinimi.AdService)> in com.geinimi.c.f
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void onCreate()>, Tgt: <com.geinimi.c.f: void <init>(com.geinimi.AdService)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.f: void <init>(com.geinimi.AdService)>: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdService
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdService: void onCreate()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getVoiceMailNumber()>() at <com.geinimi.c.f: void <init>(com.geinimi.AdService)> in com.geinimi.c.f
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void onCreate()>, Tgt: <com.geinimi.c.f: void <init>(com.geinimi.AdService)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.f: void <init>(com.geinimi.AdService)>: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdService
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdService: void onCreate()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() at <com.geinimi.c.g: void a(java.lang.String,java.lang.String)> in com.geinimi.c.g
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c.i: void a(com.geinimi.AdPushable)>, Tgt: <com.geinimi.c.g: void a(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c.d: boolean a(java.lang.String,java.lang.String,java.lang.String)>, Tgt: <com.geinimi.c.g: void a(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c.d: boolean a(java.lang.String,java.lang.String,java.lang.String)>, Tgt: <com.geinimi.c.g: void a(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c.b: boolean b(java.lang.String)>, Tgt: <com.geinimi.c.g: void a(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c.b: boolean b(java.lang.String)>, Tgt: <com.geinimi.c.g: void a(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.a.e: void b()>, Tgt: <com.geinimi.c.g: void a(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c.c: boolean a(java.lang.String)>, Tgt: <com.geinimi.c.g: void a(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.c.g: void a(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.geinimi.c.i: void a(com.geinimi.AdPushable)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.c.i: void a(com.geinimi.AdPushable)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.a.i: void b()>, Tgt: <com.geinimi.c.d: boolean a(java.lang.String,java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.a.d: void b()>, Tgt: <com.geinimi.c.b: boolean b(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.d: boolean b()>, Tgt: <com.geinimi.a.e: void b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.c.c: boolean a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.a.f: void b()>, Tgt: <com.geinimi.c.c: boolean a(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void onCreate()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.lang.String)>: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdActivity
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.geinimi.d: boolean b()>, Tgt: <com.geinimi.a.i: void b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.d: boolean b()>, Tgt: <com.geinimi.a.d: void b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.d: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.d: boolean b()>, Tgt: <com.geinimi.a.f: void b()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.lang.String)>: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogo: void <init>(android.content.Context,android.widget.AbsoluteLayout)>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.lang.String)>: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: wbs.logo.WbsLogoWiew
+RespAnalysis - [DEBUG]: java.lang.Runnable
+RespAnalysis - [MSG]: chainSet: [<wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String runIt(java.lang.String)>, Tgt: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.custom.AdShow: void show()>, Tgt: <com.geinimi.AdService: void a(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void onResume()>, Tgt: <com.xmobileapp.taskmanager.TaskManager: void refresh()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.lang.String)>: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdService
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>, Tgt: <wbs.logo.WbsLogo: void <init>(android.content.Context,android.widget.AbsoluteLayout)>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.ProcessInfo: void ps()>, Tgt: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String runIt(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.geinimi.custom.AdShow: void show()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.lang.String)>: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [DEBUG]: EntryClass: com.xmobileapp.taskmanager.TaskManager
+RespAnalysis - [MSG]: chainSet: [<com.xmobileapp.taskmanager.TaskManager: void onCreate(android.os.Bundle)>, <com.xmobileapp.taskmanager.TaskManager: void onResume()>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.lang.String)>: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: wbs.logo.WbsLogoAct
+RespAnalysis - [MSG]: chainSet: [<wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.ProcessInfo: void <init>()>, Tgt: <com.xmobileapp.taskmanager.ProcessInfo: void ps()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager$1: void run()>, Tgt: <com.xmobileapp.taskmanager.ProcessInfo: void <init>()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r12 = virtualinvoke $r11.<java.net.URL: java.net.URLConnection openConnection()>() at <com.geinimi.c.g: void a(java.lang.String,java.util.Map,org.apache.http.util.ByteArrayBuffer)> in com.geinimi.c.g
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.c.g: void a(java.lang.String,java.util.Map,org.apache.http.util.ByteArrayBuffer)>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void onCreate()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.util.Map,org.apache.http.util.ByteArrayBuffer)>: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogo: void <init>(android.content.Context,android.widget.AbsoluteLayout)>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.util.Map,org.apache.http.util.ByteArrayBuffer)>: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: wbs.logo.WbsLogoWiew
+RespAnalysis - [DEBUG]: java.lang.Runnable
+RespAnalysis - [MSG]: chainSet: [<wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String runIt(java.lang.String)>, Tgt: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.custom.AdShow: void show()>, Tgt: <com.geinimi.AdService: void a(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void onResume()>, Tgt: <com.xmobileapp.taskmanager.TaskManager: void refresh()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.util.Map,org.apache.http.util.ByteArrayBuffer)>: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdService
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>, Tgt: <wbs.logo.WbsLogo: void <init>(android.content.Context,android.widget.AbsoluteLayout)>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.ProcessInfo: void ps()>, Tgt: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String runIt(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.geinimi.custom.AdShow: void show()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.util.Map,org.apache.http.util.ByteArrayBuffer)>: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [DEBUG]: EntryClass: com.xmobileapp.taskmanager.TaskManager
+RespAnalysis - [MSG]: chainSet: [<com.xmobileapp.taskmanager.TaskManager: void onCreate(android.os.Bundle)>, <com.xmobileapp.taskmanager.TaskManager: void onResume()>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.util.Map,org.apache.http.util.ByteArrayBuffer)>: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: wbs.logo.WbsLogoAct
+RespAnalysis - [MSG]: chainSet: [<wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.ProcessInfo: void <init>()>, Tgt: <com.xmobileapp.taskmanager.ProcessInfo: void ps()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.util.Map,org.apache.http.util.ByteArrayBuffer)>: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdActivity
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager$1: void run()>, Tgt: <com.xmobileapp.taskmanager.ProcessInfo: void <init>()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r13.<java.net.HttpURLConnection: void connect()>() at <com.geinimi.c.g: void a(java.lang.String,java.util.Map,org.apache.http.util.ByteArrayBuffer)> in com.geinimi.c.g
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.c.g: void a(java.lang.String,java.util.Map,org.apache.http.util.ByteArrayBuffer)>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void onCreate()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.util.Map,org.apache.http.util.ByteArrayBuffer)>: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogo: void <init>(android.content.Context,android.widget.AbsoluteLayout)>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.util.Map,org.apache.http.util.ByteArrayBuffer)>: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: wbs.logo.WbsLogoWiew
+RespAnalysis - [DEBUG]: java.lang.Runnable
+RespAnalysis - [MSG]: chainSet: [<wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String runIt(java.lang.String)>, Tgt: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.custom.AdShow: void show()>, Tgt: <com.geinimi.AdService: void a(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void onResume()>, Tgt: <com.xmobileapp.taskmanager.TaskManager: void refresh()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.util.Map,org.apache.http.util.ByteArrayBuffer)>: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdService
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>, Tgt: <wbs.logo.WbsLogo: void <init>(android.content.Context,android.widget.AbsoluteLayout)>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.ProcessInfo: void ps()>, Tgt: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String runIt(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.geinimi.custom.AdShow: void show()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.util.Map,org.apache.http.util.ByteArrayBuffer)>: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [DEBUG]: EntryClass: com.xmobileapp.taskmanager.TaskManager
+RespAnalysis - [MSG]: chainSet: [<com.xmobileapp.taskmanager.TaskManager: void onCreate(android.os.Bundle)>, <com.xmobileapp.taskmanager.TaskManager: void onResume()>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.util.Map,org.apache.http.util.ByteArrayBuffer)>: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: wbs.logo.WbsLogoAct
+RespAnalysis - [MSG]: chainSet: [<wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.ProcessInfo: void <init>()>, Tgt: <com.xmobileapp.taskmanager.ProcessInfo: void ps()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.util.Map,org.apache.http.util.ByteArrayBuffer)>: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdActivity
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager$1: void run()>, Tgt: <com.xmobileapp.taskmanager.ProcessInfo: void <init>()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r3 = virtualinvoke $r2.<java.net.URL: java.net.URLConnection openConnection()>() at <com.geinimi.c.g: java.io.File b(java.lang.String,java.lang.String)> in com.geinimi.c.g
+RespAnalysis - [DEBUG]: Src: <com.geinimi.ads.p: boolean b()>, Tgt: <com.geinimi.c.g: java.io.File b(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c.g: java.lang.String c(java.lang.String,java.lang.String)>, Tgt: <com.geinimi.c.g: java.io.File b(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.ads.g: boolean b()>, Tgt: <com.geinimi.c.g: java.io.File b(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.ads.g: boolean b()>, Tgt: <com.geinimi.c.g: java.io.File b(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.ads.k: boolean b()>, Tgt: <com.geinimi.c.g: java.io.File b(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c: void run()>, Tgt: <com.geinimi.ads.p: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.i: boolean b()>, Tgt: <com.geinimi.ads.p: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.ads.d: boolean b()>, Tgt: <com.geinimi.c.g: java.lang.String c(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c: void run()>, Tgt: <com.geinimi.ads.g: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.i: boolean b()>, Tgt: <com.geinimi.ads.g: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.ads.g: android.content.Intent f()>, Tgt: <com.geinimi.ads.g: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c: void run()>, Tgt: <com.geinimi.ads.k: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.i: boolean b()>, Tgt: <com.geinimi.ads.k: boolean b()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.geinimi.c: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdServiceThread: void run()>, Tgt: <com.geinimi.i: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c: void run()>, Tgt: <com.geinimi.ads.d: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.i: boolean b()>, Tgt: <com.geinimi.ads.d: boolean b()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.c: void run()>, Tgt: <com.geinimi.ads.g: android.content.Intent f()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.ads.k: boolean b()>, Tgt: <com.geinimi.ads.g: android.content.Intent f()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.i: void a(android.content.Context)>, Tgt: <com.geinimi.ads.g: android.content.Intent f()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.c.g: java.io.File b(java.lang.String,java.lang.String)>: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogo: void <init>(android.content.Context,android.widget.AbsoluteLayout)>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.c.g: java.io.File b(java.lang.String,java.lang.String)>: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [DEBUG]: EntryClass: wbs.logo.WbsLogoWiew
+RespAnalysis - [DEBUG]: java.lang.Runnable
+RespAnalysis - [MSG]: chainSet: [<wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String runIt(java.lang.String)>, Tgt: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <android.os.Handler: boolean post(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.custom.AdShow: void show()>, Tgt: <com.geinimi.AdService: void a(java.lang.Runnable)>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void onResume()>, Tgt: <com.xmobileapp.taskmanager.TaskManager: void refresh()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager: void refresh()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void onCreate()>, Tgt: <com.geinimi.AdServiceThread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.geinimi.i: void a(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>, Tgt: <wbs.logo.WbsLogo: void <init>(android.content.Context,android.widget.AbsoluteLayout)>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.ProcessInfo: void ps()>, Tgt: <com.xmobileapp.taskmanager.tools.RunScript: java.lang.String runIt(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>, Tgt: <com.geinimi.custom.AdShow: void show()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [MSG]: <com.geinimi.c.g: java.io.File b(java.lang.String,java.lang.String)>: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [DEBUG]: EntryClass: com.xmobileapp.taskmanager.TaskManager
+RespAnalysis - [MSG]: chainSet: [<com.xmobileapp.taskmanager.TaskManager: void onCreate(android.os.Bundle)>, <com.xmobileapp.taskmanager.TaskManager: void onResume()>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.g: java.io.File b(java.lang.String,java.lang.String)>: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdService
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.g: java.io.File b(java.lang.String,java.lang.String)>: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: com.geinimi.AdActivity
+RespAnalysis - [MSG]: chainSet: [<com.geinimi.AdActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.g: java.io.File b(java.lang.String,java.lang.String)>: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: wbs.logo.WbsLogoAct
+RespAnalysis - [MSG]: chainSet: [<wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>]
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.ProcessInfo: void <init>()>, Tgt: <com.xmobileapp.taskmanager.ProcessInfo: void ps()>
+RespAnalysis - [DEBUG]: Src: <com.xmobileapp.taskmanager.TaskManager$1: void run()>, Tgt: <com.xmobileapp.taskmanager.ProcessInfo: void <init>()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [DEBUG]: Src: <android.os.Handler: boolean post(java.lang.Runnable)>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.geinimi.AdService: void a(java.lang.Runnable)>, Tgt: <com.xmobileapp.taskmanager.TaskManager$1: void run()>
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Document is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Document,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Element is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Element,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMImplementation is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMImplementation,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMImplementation is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMImplementation,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMImplementation is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMImplementation,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMImplementation is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMImplementation,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Node is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Node,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMException is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMException,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DocumentType is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DocumentType,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DocumentType is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DocumentType,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DocumentType is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DocumentType,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DocumentType is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DocumentType,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DocumentType is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DocumentType,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DocumentType is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DocumentType,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Text is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Text,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Text is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Text,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Text is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Text,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Text is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Text,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ProcessingInstruction is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ProcessingInstruction,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ProcessingInstruction is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ProcessingInstruction,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ProcessingInstruction is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ProcessingInstruction,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Attr is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Attr,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Attr is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Attr,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Attr is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Attr,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Attr is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Attr,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Attr is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Attr,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Attr is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Attr,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.Attr is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.Attr,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NodeList is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NodeList,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NodeList is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NodeList,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMConfiguration is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMConfiguration,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMConfiguration is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMConfiguration,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMConfiguration is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMConfiguration,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMConfiguration is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMConfiguration,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.TypeInfo is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.TypeInfo,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.TypeInfo is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.TypeInfo,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.TypeInfo is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.TypeInfo,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.NamedNodeMap is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.NamedNodeMap,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.UserDataHandler is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.UserDataHandler,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.CharacterData is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.CharacterData,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMStringList is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMStringList,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMStringList is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMStringList,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.DOMStringList is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.DOMStringList,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSResourceResolver is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSResourceResolver,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: This operation requires resolving level BODIES but org.w3c.dom.ls.LSInput is at resolving level SIGNATURES
+If you are extending Soot, try to add the following call before calling soot.Main.main(..):
+Scene.v().addBasicClass(org.w3c.dom.ls.LSInput,BODIES);
+Otherwise, try whole-program mode (-w).
+RespAnalysis - [WARN]: No method source set for method <com.geinimi.custom.Ad0000_000004: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/1353bd14e91a53fa1ee54cd51c1db6918eb9f851.apk\1353bd14e91a53fa1ee54cd51c1db6918eb9f851.apk_resp.csv
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.lang.String)>
+RespAnalysis - [MSG]: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [MSG]: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.d: void a(java.lang.String,java.lang.String)>
+RespAnalysis - [MSG]: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [MSG]: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.util.Map,org.apache.http.util.ByteArrayBuffer)>
+RespAnalysis - [MSG]: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [MSG]: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.g: java.io.File b(java.lang.String,java.lang.String)>
+RespAnalysis - [MSG]: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [MSG]: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.g: void a(java.lang.String,java.util.Map,org.apache.http.util.ByteArrayBuffer)>
+RespAnalysis - [MSG]: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [MSG]: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/1353bd14e91a53fa1ee54cd51c1db6918eb9f851.apk\1353bd14e91a53fa1ee54cd51c1db6918eb9f851.apk_src.csv
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>
+RespAnalysis - [MSG]: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [MSG]: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>
+RespAnalysis - [MSG]: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [MSG]: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.f: void <init>(com.geinimi.AdService)>
+RespAnalysis - [MSG]: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>
+RespAnalysis - [MSG]: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [MSG]: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.c.f: void <init>(com.geinimi.AdService)>
+RespAnalysis - [MSG]: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.f: void <init>(com.geinimi.AdService)>
+RespAnalysis - [MSG]: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.f: void <init>(com.geinimi.AdService)>
+RespAnalysis - [MSG]: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.f: void <init>(com.geinimi.AdService)>
+RespAnalysis - [MSG]: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.f: void <init>(com.geinimi.AdService)>
+RespAnalysis - [MSG]: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.c.c: boolean a(float[])>
+RespAnalysis - [MSG]: <wbs.logo.WbsLogoWiew: void <init>(android.content.Context)>
+RespAnalysis - [MSG]: <com.geinimi.AdService: void onCreate()>
+RespAnalysis - [MSG]: <com.geinimi.AdActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.geinimi.custom.Ad0000_000004: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <com.xmobileapp.taskmanager.TaskManager: void onResume()>
+RespAnalysis - [MSG]: <wbs.logo.WbsLogoAct: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/1353bd14e91a53fa1ee54cd51c1db6918eb9f851.apk\1353bd14e91a53fa1ee54cd51c1db6918eb9f851.apk_StartActServ.csv
+RespAnalysis - [MSG]: com.geinimi.AdActivity: onCreate
+RespAnalysis - [MSG]: com.geinimi.AdActivity: onCreate
+RespAnalysis - [MSG]: com.geinimi.AdActivity: onCreate
+RespAnalysis - [MSG]: com.geinimi.AdActivity: onCreate
+RespAnalysis - [MSG]: com.geinimi.AdActivity: onCreate
+RespAnalysis - [MSG]: com.geinimi.AdActivity: onCreate
+RespAnalysis - [MSG]: com.geinimi.AdActivity: onCreate
+RespAnalysis - [MSG]: com.geinimi.AdActivity: onCreate
+RespAnalysis - [MSG]: com.geinimi.AdActivity: onCreate
+RespAnalysis - [MSG]: com.geinimi.AdActivity: onCreate
+RespAnalysis - [MSG]: com.geinimi.AdActivity: onCreate
+RespAnalysis - [MSG]: com.geinimi.AdActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/1353bd14e91a53fa1ee54cd51c1db6918eb9f851.apk\1353bd14e91a53fa1ee54cd51c1db6918eb9f851.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/1353bd14e91a53fa1ee54cd51c1db6918eb9f851.apk\1353bd14e91a53fa1ee54cd51c1db6918eb9f851.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/1353bd14e91a53fa1ee54cd51c1db6918eb9f851.apk\1353bd14e91a53fa1ee54cd51c1db6918eb9f851.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: com.geinimi.AdService: onCreate
+RespAnalysis - [MSG]: com.xmobileapp.taskmanager.TaskManager: onCreate
+RespAnalysis - [MSG]: com.xmobileapp.taskmanager.TaskManager: onResume
+RespAnalysis - [MSG]: wbs.logo.WbsLogoWiew: <init>
+RespAnalysis - [MSG]: com.geinimi.AdActivity: onCreate
+RespAnalysis - [MSG]: wbs.logo.WbsLogoAct: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/1353bd14e91a53fa1ee54cd51c1db6918eb9f851.apk\1353bd14e91a53fa1ee54cd51c1db6918eb9f851.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: com.geinimi.AdService: onCreate
+RespAnalysis - [MSG]: com.xmobileapp.taskmanager.TaskManager: onCreate
+RespAnalysis - [MSG]: com.xmobileapp.taskmanager.TaskManager: onResume
+RespAnalysis - [MSG]: wbs.logo.WbsLogoWiew: <init>
+RespAnalysis - [MSG]: com.geinimi.AdActivity: onCreate
+RespAnalysis - [MSG]: wbs.logo.WbsLogoAct: onCreate
+test - [MSG]: Analysis has run for 32.958073639 seconds
+

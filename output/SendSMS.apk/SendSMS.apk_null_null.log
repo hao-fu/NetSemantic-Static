@@ -1,0 +1,35 @@
+test - [MSG]: Begin to analyze: SendSMS.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("1234567890", null, $r1, null, null) at <org.cert.sendsms.MainActivity: void sendSMSMessage(java.lang.String)> in org.cert.sendsms.MainActivity
+RespAnalysis - [DEBUG]: Src: <org.cert.sendsms.MainActivity: void onActivityResult(int,int,android.content.Intent)>, Tgt: <org.cert.sendsms.MainActivity: void sendSMSMessage(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <org.cert.sendsms.MainActivity: void onActivityResult(int,int,android.content.Intent)>
+RespAnalysis - [MSG]: <org.cert.sendsms.MainActivity: void sendSMSMessage(java.lang.String)>: <org.cert.sendsms.MainActivity: void onActivityResult(int,int,android.content.Intent)>
+RespAnalysis - [DEBUG]: EntryClass: org.cert.sendsms.MainActivity
+RespAnalysis - [MSG]: chainSet: [<org.cert.sendsms.MainActivity: void onCreate(android.os.Bundle)>, <org.cert.sendsms.MainActivity: void onActivityResult(int,int,android.content.Intent)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r6 = virtualinvoke $r5.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <org.cert.sendsms.Button1Listener: void onClick(android.view.View)> in org.cert.sendsms.Button1Listener
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <org.cert.sendsms.Button1Listener: void onClick(android.view.View)>
+RespAnalysis - [MSG]: <org.cert.sendsms.Button1Listener: void onClick(android.view.View)>: <org.cert.sendsms.Button1Listener: void onClick(android.view.View)>
+RespAnalysis - [DEBUG]: EntryClass: org.cert.sendsms.Button1Listener
+RespAnalysis - [DEBUG]: Listener found: org.cert.sendsms.Button1Listener
+RespAnalysis - [MSG]: chainSet: [<org.cert.sendsms.Button1Listener: void onClick(android.view.View)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/SendSMS.apk\SendSMS.apk_resp.csv
+RespAnalysis - [MSG]: <org.cert.sendsms.MainActivity: void sendSMSMessage(java.lang.String)>
+RespAnalysis - [MSG]: <org.cert.sendsms.MainActivity: void onActivityResult(int,int,android.content.Intent)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/SendSMS.apk\SendSMS.apk_src.csv
+RespAnalysis - [MSG]: <org.cert.sendsms.Button1Listener: void onClick(android.view.View)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/SendSMS.apk\SendSMS.apk_StartActServ.csv
+RespAnalysis - [MSG]: org.cert.sendsms.Button1Listener: onClick
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/SendSMS.apk\SendSMS.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/SendSMS.apk\SendSMS.apk_UnknownInitFields.csv
+RespAnalysis - [WARN]: [<org.cert.sendsms.MainActivity: void onCreate(android.os.Bundle)>, <org.cert.sendsms.Button1Listener: void onClick(android.view.View)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/SendSMS.apk\SendSMS.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: org.cert.sendsms.MainActivity: onCreate
+RespAnalysis - [MSG]: org.cert.sendsms.Button1Listener: onClick
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/SendSMS.apk\SendSMS.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: org.cert.sendsms.MainActivity: onCreate
+RespAnalysis - [MSG]: org.cert.sendsms.MainActivity: onActivityResult
+test - [MSG]: Analysis has run for 16.497230213 seconds
+

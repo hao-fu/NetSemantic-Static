@@ -1,0 +1,29 @@
+test - [MSG]: Begin to analyze: ApplicationLifecycle2.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <de.ecspride.ApplicationLifecyle2: void onCreate()> in de.ecspride.ApplicationLifecyle2
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.ApplicationLifecyle2: void onCreate()>
+RespAnalysis - [MSG]: <de.ecspride.ApplicationLifecyle2: void onCreate()>: <de.ecspride.ApplicationLifecyle2: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.ApplicationLifecyle2
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.ApplicationLifecyle2: void onCreate()>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r2.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49 1234", null, $r1, null, null) at <de.ecspride.ApplicationLifecyle2: void onLowMemory()> in de.ecspride.ApplicationLifecyle2
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <de.ecspride.ApplicationLifecyle2: void onLowMemory()>
+RespAnalysis - [MSG]: <de.ecspride.ApplicationLifecyle2: void onLowMemory()>: <de.ecspride.ApplicationLifecyle2: void onLowMemory()>
+RespAnalysis - [DEBUG]: EntryClass: de.ecspride.ApplicationLifecyle2
+RespAnalysis - [MSG]: chainSet: [<de.ecspride.ApplicationLifecyle2: void onCreate()>, <de.ecspride.ApplicationLifecyle2: void onLowMemory()>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ApplicationLifecycle2.apk\ApplicationLifecycle2.apk_resp.csv
+RespAnalysis - [MSG]: <de.ecspride.ApplicationLifecyle2: void onLowMemory()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ApplicationLifecycle2.apk\ApplicationLifecycle2.apk_src.csv
+RespAnalysis - [MSG]: <de.ecspride.ApplicationLifecyle2: void onCreate()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ApplicationLifecycle2.apk\ApplicationLifecycle2.apk_StartActServ.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ApplicationLifecycle2.apk\ApplicationLifecycle2.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ApplicationLifecycle2.apk\ApplicationLifecycle2.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ApplicationLifecycle2.apk\ApplicationLifecycle2.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.ApplicationLifecyle2: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ApplicationLifecycle2.apk\ApplicationLifecycle2.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: de.ecspride.ApplicationLifecyle2: onCreate
+RespAnalysis - [MSG]: de.ecspride.ApplicationLifecyle2: onLowMemory
+test - [MSG]: Analysis has run for 15.267719147 seconds
+

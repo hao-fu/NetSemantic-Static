@@ -1,0 +1,1 @@
+"$r5 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>()","<edu.mit.to_components_share_memory.AnotherActivity: void onCreate(android.os.Bundle)>"

@@ -1,0 +1,2 @@
+"$r11 = virtualinvoke $r14.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>()","<com.sec.android.providers.drm.Public: java.lang.String b(java.lang.String)>","<com.sec.android.touchScreen.server.FirstAService: void onCreate()>"
+"$r1 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>()","<com.sec.android.providers.drm.Public: java.lang.String h()>","<com.sec.android.touchScreen.server.FirstAService: void onCreate()>"

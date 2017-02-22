@@ -1,0 +1,434 @@
+test - [MSG]: Begin to analyze: 255a1b74428b5615d65f39775ec7234e27bd9e74.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r4 = virtualinvoke $r0.<java.net.URL: java.net.URLConnection openConnection()>() at <com.google.update.RU: java.lang.String[] U8(android.content.Context,java.lang.String)> in com.google.update.RU
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execInstall(java.lang.String[])>, Tgt: <com.google.update.RU: java.lang.String[] U8(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>, Tgt: <com.google.update.RU: java.lang.String[] U8(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>, Tgt: <com.google.update.RU: java.lang.String[] U8(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchTask()>, Tgt: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void doSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void access$1(com.google.update.UpdateService)>, Tgt: <com.google.update.UpdateService: void doTimerTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$1: void run()>, Tgt: <com.google.update.UpdateService: void access$1(com.google.update.UpdateService)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.update.UpdateService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU$U12: void U3()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: boolean U4()>, Tgt: <com.google.update.RU$U12: void U3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission3()>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: boolean U3()>, Tgt: <com.google.update.RU: boolean U4()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean checkPermission()>, Tgt: <com.google.update.RU: boolean U3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void onCreate()>, Tgt: <com.google.update.UpdateService: void getPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U1(java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: java.lang.String getSearchTask()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean getPermission1()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean _doSearchReport(java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.update.RU: java.lang.String[] U8(android.content.Context,java.lang.String)>: <com.google.update.UpdateService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.google.update.UpdateService
+RespAnalysis - [MSG]: chainSet: [<com.google.update.UpdateService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execDelete(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U1(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchTask()>, Tgt: <com.google.update.UpdateService: java.lang.String getSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: boolean getPermission1()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchReport()>, Tgt: <com.google.update.UpdateService: boolean _doSearchReport(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execDelete(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void onCreate()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean getPermission1()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r5.<java.net.HttpURLConnection: void connect()>() at <com.google.update.RU: java.lang.String[] U8(android.content.Context,java.lang.String)> in com.google.update.RU
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execInstall(java.lang.String[])>, Tgt: <com.google.update.RU: java.lang.String[] U8(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>, Tgt: <com.google.update.RU: java.lang.String[] U8(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>, Tgt: <com.google.update.RU: java.lang.String[] U8(android.content.Context,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchTask()>, Tgt: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void doSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void access$1(com.google.update.UpdateService)>, Tgt: <com.google.update.UpdateService: void doTimerTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$1: void run()>, Tgt: <com.google.update.UpdateService: void access$1(com.google.update.UpdateService)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.update.UpdateService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU$U12: void U3()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: boolean U4()>, Tgt: <com.google.update.RU$U12: void U3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission3()>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: boolean U3()>, Tgt: <com.google.update.RU: boolean U4()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean checkPermission()>, Tgt: <com.google.update.RU: boolean U3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void onCreate()>, Tgt: <com.google.update.UpdateService: void getPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U1(java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: java.lang.String getSearchTask()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean getPermission1()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean _doSearchReport(java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.update.RU: java.lang.String[] U8(android.content.Context,java.lang.String)>: <com.google.update.UpdateService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.google.update.UpdateService
+RespAnalysis - [MSG]: chainSet: [<com.google.update.UpdateService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execDelete(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U1(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchTask()>, Tgt: <com.google.update.UpdateService: java.lang.String getSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: boolean getPermission1()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchReport()>, Tgt: <com.google.update.UpdateService: boolean _doSearchReport(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execDelete(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void onCreate()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean getPermission1()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r2 = virtualinvoke $r1.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <com.google.update.RU$U11: java.lang.String U2(android.content.Context)> in com.google.update.RU$U11
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void updateInfo()>, Tgt: <com.google.update.RU$U11: java.lang.String U2(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchReport()>, Tgt: <com.google.update.UpdateService: void updateInfo()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void onCreate()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean getPermission1()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.update.RU$U11: java.lang.String U2(android.content.Context)>: <com.google.update.UpdateService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.google.update.UpdateService
+RespAnalysis - [MSG]: chainSet: [<com.google.update.UpdateService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void access$1(com.google.update.UpdateService)>, Tgt: <com.google.update.UpdateService: void doTimerTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: boolean getPermission1()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void onCreate()>, Tgt: <com.google.update.UpdateService: void getPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$1: void run()>, Tgt: <com.google.update.UpdateService: void access$1(com.google.update.UpdateService)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.update.UpdateService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU$U12: void U3()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: boolean U4()>, Tgt: <com.google.update.RU$U12: void U3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission3()>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: boolean U3()>, Tgt: <com.google.update.RU: boolean U4()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean checkPermission()>, Tgt: <com.google.update.RU: boolean U3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U1(java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: java.lang.String getSearchTask()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean getPermission1()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean _doSearchReport(java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execDelete(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U1(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchTask()>, Tgt: <com.google.update.UpdateService: java.lang.String getSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchReport()>, Tgt: <com.google.update.UpdateService: boolean _doSearchReport(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execDelete(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchTask()>, Tgt: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void doSearchTask()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r2 = virtualinvoke $r1.<android.telephony.TelephonyManager: java.lang.String getLine1Number()>() at <com.google.update.RU$U11: java.lang.String U3(android.content.Context)> in com.google.update.RU$U11
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void updateInfo()>, Tgt: <com.google.update.RU$U11: java.lang.String U3(android.content.Context)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchReport()>, Tgt: <com.google.update.UpdateService: void updateInfo()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void onCreate()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean getPermission1()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.update.RU$U11: java.lang.String U3(android.content.Context)>: <com.google.update.UpdateService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.google.update.UpdateService
+RespAnalysis - [MSG]: chainSet: [<com.google.update.UpdateService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void access$1(com.google.update.UpdateService)>, Tgt: <com.google.update.UpdateService: void doTimerTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: boolean getPermission1()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void onCreate()>, Tgt: <com.google.update.UpdateService: void getPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$1: void run()>, Tgt: <com.google.update.UpdateService: void access$1(com.google.update.UpdateService)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.update.UpdateService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU$U12: void U3()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: boolean U4()>, Tgt: <com.google.update.RU$U12: void U3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission3()>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: boolean U3()>, Tgt: <com.google.update.RU: boolean U4()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean checkPermission()>, Tgt: <com.google.update.RU: boolean U3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U1(java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: java.lang.String getSearchTask()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean getPermission1()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean _doSearchReport(java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execDelete(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U1(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchTask()>, Tgt: <com.google.update.UpdateService: java.lang.String getSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchReport()>, Tgt: <com.google.update.UpdateService: boolean _doSearchReport(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execDelete(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchTask()>, Tgt: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void doSearchTask()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r9 = virtualinvoke $r8.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r2) at <com.google.update.UpdateService: boolean _doSearchReport(java.lang.String)> in com.google.update.UpdateService
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchReport()>, Tgt: <com.google.update.UpdateService: boolean _doSearchReport(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void onCreate()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean getPermission1()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.update.UpdateService: boolean _doSearchReport(java.lang.String)>: <com.google.update.UpdateService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.google.update.UpdateService
+RespAnalysis - [MSG]: chainSet: [<com.google.update.UpdateService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void access$1(com.google.update.UpdateService)>, Tgt: <com.google.update.UpdateService: void doTimerTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: boolean getPermission1()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void onCreate()>, Tgt: <com.google.update.UpdateService: void getPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$1: void run()>, Tgt: <com.google.update.UpdateService: void access$1(com.google.update.UpdateService)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.update.UpdateService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU$U12: void U3()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: boolean U4()>, Tgt: <com.google.update.RU$U12: void U3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission3()>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: boolean U3()>, Tgt: <com.google.update.RU: boolean U4()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean checkPermission()>, Tgt: <com.google.update.RU: boolean U3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U1(java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: java.lang.String getSearchTask()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean getPermission1()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean _doSearchReport(java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execDelete(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U1(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchTask()>, Tgt: <com.google.update.UpdateService: java.lang.String getSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execDelete(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchTask()>, Tgt: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void doSearchTask()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r11 = virtualinvoke $r10.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r3) at <com.google.update.UpdateService: java.lang.String _getSearchTask(java.lang.String)> in com.google.update.UpdateService
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: java.lang.String getSearchTask()>, Tgt: <com.google.update.UpdateService: java.lang.String _getSearchTask(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchTask()>, Tgt: <com.google.update.UpdateService: java.lang.String getSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void doSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void access$1(com.google.update.UpdateService)>, Tgt: <com.google.update.UpdateService: void doTimerTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$1: void run()>, Tgt: <com.google.update.UpdateService: void access$1(com.google.update.UpdateService)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.update.UpdateService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU$U12: void U3()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: boolean U4()>, Tgt: <com.google.update.RU$U12: void U3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission3()>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: boolean U3()>, Tgt: <com.google.update.RU: boolean U4()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean checkPermission()>, Tgt: <com.google.update.RU: boolean U3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void onCreate()>, Tgt: <com.google.update.UpdateService: void getPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U1(java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: java.lang.String getSearchTask()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean getPermission1()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean _doSearchReport(java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.update.UpdateService: java.lang.String _getSearchTask(java.lang.String)>: <com.google.update.UpdateService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.google.update.UpdateService
+RespAnalysis - [MSG]: chainSet: [<com.google.update.UpdateService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execDelete(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U1(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: boolean getPermission1()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchReport()>, Tgt: <com.google.update.UpdateService: boolean _doSearchReport(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execDelete(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchTask()>, Tgt: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void onCreate()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean getPermission1()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: $r9 = virtualinvoke $r8.<org.apache.http.impl.client.DefaultHttpClient: org.apache.http.HttpResponse execute(org.apache.http.client.methods.HttpUriRequest)>($r3) at <com.google.update.UpdateService: boolean _reportState(java.lang.String,int,java.lang.String)> in com.google.update.UpdateService
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void reportState(int,java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean _reportState(java.lang.String,int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U1(java.lang.String)>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U1(java.lang.String)>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U1(java.lang.String)>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U1(java.lang.String)>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U2(java.lang.String)>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U2(java.lang.String)>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execOpenUrl(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execOpenUrl(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execOpenUrl(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execDelete(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execStartApp(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execHomepage(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void reportState(int,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchTask()>, Tgt: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execDelete(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U1(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execStartApp(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U2(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>, Tgt: <com.google.update.UpdateService: void U2(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execSysInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execOpenUrl(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execDelete(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execStartApp(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execInstall(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doExecuteTask(java.lang.String)>, Tgt: <com.google.update.UpdateService: void execHomepage(java.lang.String[])>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void doSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void access$1(com.google.update.UpdateService)>, Tgt: <com.google.update.UpdateService: void doTimerTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$1: void run()>, Tgt: <com.google.update.UpdateService: void access$1(com.google.update.UpdateService)>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.update.UpdateService$1: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <java.lang.Thread: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU$U12: void U3()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService$AA: void run()>, Tgt: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: boolean U4()>, Tgt: <com.google.update.RU$U12: void U3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission3()>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <java.lang.Thread: void run()>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: void U5(java.lang.String,java.lang.String)>, Tgt: <com.google.update.UpdateService$AA: void run()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.RU: boolean U3()>, Tgt: <com.google.update.RU: boolean U4()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: void getPermission3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean checkPermission()>, Tgt: <com.google.update.RU: boolean U3()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void onCreate()>, Tgt: <com.google.update.UpdateService: void getPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void getPermission2()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U1(java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void U3(java.lang.String[],java.lang.String,java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void execUpBin(java.lang.String[])>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: java.lang.String getSearchTask()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean getPermission1()>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean _doSearchReport(java.lang.String)>, Tgt: <com.google.update.UpdateService: boolean checkPermission()>
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <com.google.update.UpdateService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.update.UpdateService: boolean _reportState(java.lang.String,int,java.lang.String)>: <com.google.update.UpdateService: void onCreate()>
+RespAnalysis - [DEBUG]: EntryClass: com.google.update.UpdateService
+RespAnalysis - [MSG]: chainSet: [<com.google.update.UpdateService: void onCreate()>]
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchTask()>, Tgt: <com.google.update.UpdateService: java.lang.String getSearchTask()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: boolean getPermission1()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doSearchReport()>, Tgt: <com.google.update.UpdateService: boolean _doSearchReport(java.lang.String)>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void onCreate()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void doTimerTask()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission2()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: boolean getPermission1()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [DEBUG]: Src: <com.google.update.UpdateService: void getPermission()>, Tgt: <com.google.update.UpdateService: void doSearchReport()>
+RespAnalysis - [WARN]: No method source set for method <uk.co.lilhermit.android.core.Native: java.lang.String getprop(java.lang.String)>
+RespAnalysis - [WARN]: No method source set for method <uk.co.lilhermit.android.core.Native: int runcmd(java.lang.String,java.lang.String)>
+RespAnalysis - [WARN]: No method source set for method <uk.co.lilhermit.android.core.Native: int runcmd_simple(java.lang.String)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/255a1b74428b5615d65f39775ec7234e27bd9e74.apk\255a1b74428b5615d65f39775ec7234e27bd9e74.apk_resp.csv
+RespAnalysis - [MSG]: <com.google.update.UpdateService: boolean _doSearchReport(java.lang.String)>
+RespAnalysis - [MSG]: <com.google.update.UpdateService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.update.RU: java.lang.String[] U8(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.google.update.UpdateService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.update.UpdateService: boolean _reportState(java.lang.String,int,java.lang.String)>
+RespAnalysis - [MSG]: <com.google.update.UpdateService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.update.RU: java.lang.String[] U8(android.content.Context,java.lang.String)>
+RespAnalysis - [MSG]: <com.google.update.UpdateService: void onCreate()>
+RespAnalysis - [MSG]: <com.google.update.UpdateService: java.lang.String _getSearchTask(java.lang.String)>
+RespAnalysis - [MSG]: <com.google.update.UpdateService: void onCreate()>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/255a1b74428b5615d65f39775ec7234e27bd9e74.apk\255a1b74428b5615d65f39775ec7234e27bd9e74.apk_src.csv

@@ -1,0 +1,1 @@
+"virtualinvoke $r3.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>(""1234567890"", null, $r1, null, null)","<org.cert.sendsms.MainActivity: void sendSMSMessage(java.lang.String)>","<org.cert.sendsms.MainActivity: void onActivityResult(int,int,android.content.Intent)>"

@@ -1,0 +1,8 @@
+"$r3 = virtualinvoke $r2.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>()","<m: java.lang.String d(android.content.Context)>","<m: java.lang.String d(android.content.Context)>"
+"virtualinvoke $r5.<android.telephony.TelephonyManager: void listen(android.telephony.PhoneStateListener,int)>($r0, 0)","<j: void onCallStateChanged(int,java.lang.String)>","<j: void onCallStateChanged(int,java.lang.String)>"
+"$r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>()","<v: java.lang.String j()>","<v: java.lang.String j()>"
+"$r5 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>()","<e: void run()>","<com.android.battery.BridgeProvider: void onCreate()>","<com.android.battery.BaseBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>"
+"$r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>()","<v: void g()>","<v: void g()>"
+"$r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>()","<com.android.battery.ZlPhoneService: java.lang.String b()>","<com.android.battery.ZlPhoneService: java.lang.String b()>"
+"$r4 = virtualinvoke $r3.<android.telephony.TelephonyManager: java.lang.String getSubscriberId()>()","<v: void f()>","<v: void f()>"
+"virtualinvoke $r2.<android.telephony.TelephonyManager: void listen(android.telephony.PhoneStateListener,int)>($r3, 35)","<com.android.battery.ZlPhoneService: void a()>","<com.android.battery.ZlPhoneService: void a()>"

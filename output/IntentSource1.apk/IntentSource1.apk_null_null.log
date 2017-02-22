@@ -1,0 +1,30 @@
+test - [MSG]: Begin to analyze: IntentSource1.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r9.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r6, null, null) at <lu.uni.snt.serval.IntentSource1: void onActivityResult(int,int,android.content.Intent)> in lu.uni.snt.serval.IntentSource1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <lu.uni.snt.serval.IntentSource1: void onActivityResult(int,int,android.content.Intent)>
+RespAnalysis - [MSG]: <lu.uni.snt.serval.IntentSource1: void onActivityResult(int,int,android.content.Intent)>: <lu.uni.snt.serval.IntentSource1: void onActivityResult(int,int,android.content.Intent)>
+RespAnalysis - [DEBUG]: EntryClass: lu.uni.snt.serval.IntentSource1
+RespAnalysis - [MSG]: chainSet: [<lu.uni.snt.serval.IntentSource1: void onCreate(android.os.Bundle)>, <lu.uni.snt.serval.IntentSource1: void onActivityResult(int,int,android.content.Intent)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r5 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <lu.uni.snt.serval.IntentSource1: void onCreate(android.os.Bundle)> in lu.uni.snt.serval.IntentSource1
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <lu.uni.snt.serval.IntentSource1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <lu.uni.snt.serval.IntentSource1: void onCreate(android.os.Bundle)>: <lu.uni.snt.serval.IntentSource1: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: lu.uni.snt.serval.IntentSource1
+RespAnalysis - [MSG]: chainSet: [<lu.uni.snt.serval.IntentSource1: void onCreate(android.os.Bundle)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/IntentSource1.apk\IntentSource1.apk_resp.csv
+RespAnalysis - [MSG]: <lu.uni.snt.serval.IntentSource1: void onActivityResult(int,int,android.content.Intent)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/IntentSource1.apk\IntentSource1.apk_src.csv
+RespAnalysis - [MSG]: <lu.uni.snt.serval.IntentSource1: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/IntentSource1.apk\IntentSource1.apk_StartActServ.csv
+RespAnalysis - [MSG]: lu.uni.snt.serval.IntentSource1: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/IntentSource1.apk\IntentSource1.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/IntentSource1.apk\IntentSource1.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/IntentSource1.apk\IntentSource1.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: lu.uni.snt.serval.IntentSource1: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/IntentSource1.apk\IntentSource1.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: lu.uni.snt.serval.IntentSource1: onCreate
+RespAnalysis - [MSG]: lu.uni.snt.serval.IntentSource1: onActivityResult
+test - [MSG]: Analysis has run for 15.341107474 seconds
+

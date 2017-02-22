@@ -1,0 +1,38 @@
+test - [MSG]: Begin to analyze: ActivityCommunication2.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r4.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r3, null, null) at <edu.mit.icc_action_string_operations.IsolateActivity: void onCreate(android.os.Bundle)> in edu.mit.icc_action_string_operations.IsolateActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.icc_action_string_operations.IsolateActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.icc_action_string_operations.IsolateActivity: void onCreate(android.os.Bundle)>: <edu.mit.icc_action_string_operations.IsolateActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.icc_action_string_operations.IsolateActivity
+RespAnalysis - [MSG]: chainSet: [<edu.mit.icc_action_string_operations.IsolateActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r4.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r3, null, null) at <edu.mit.icc_action_string_operations.InFlowActivity: void onCreate(android.os.Bundle)> in edu.mit.icc_action_string_operations.InFlowActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.icc_action_string_operations.InFlowActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.icc_action_string_operations.InFlowActivity: void onCreate(android.os.Bundle)>: <edu.mit.icc_action_string_operations.InFlowActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.icc_action_string_operations.InFlowActivity
+RespAnalysis - [MSG]: chainSet: [<edu.mit.icc_action_string_operations.InFlowActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r5 = virtualinvoke $r4.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <edu.mit.icc_action_string_operations.OutFlowActivity: void onCreate(android.os.Bundle)> in edu.mit.icc_action_string_operations.OutFlowActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.icc_action_string_operations.OutFlowActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.icc_action_string_operations.OutFlowActivity: void onCreate(android.os.Bundle)>: <edu.mit.icc_action_string_operations.OutFlowActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.icc_action_string_operations.OutFlowActivity
+RespAnalysis - [MSG]: chainSet: [<edu.mit.icc_action_string_operations.OutFlowActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityCommunication2.apk\ActivityCommunication2.apk_resp.csv
+RespAnalysis - [MSG]: <edu.mit.icc_action_string_operations.IsolateActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.icc_action_string_operations.InFlowActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityCommunication2.apk\ActivityCommunication2.apk_src.csv
+RespAnalysis - [MSG]: <edu.mit.icc_action_string_operations.OutFlowActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityCommunication2.apk\ActivityCommunication2.apk_StartActServ.csv
+RespAnalysis - [MSG]: edu.mit.icc_action_string_operations.OutFlowActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityCommunication2.apk\ActivityCommunication2.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityCommunication2.apk\ActivityCommunication2.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityCommunication2.apk\ActivityCommunication2.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: edu.mit.icc_action_string_operations.OutFlowActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityCommunication2.apk\ActivityCommunication2.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: edu.mit.icc_action_string_operations.InFlowActivity: onCreate
+RespAnalysis - [MSG]: edu.mit.icc_action_string_operations.IsolateActivity: onCreate
+test - [MSG]: Analysis has run for 13.507598435 seconds
+

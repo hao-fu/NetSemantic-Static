@@ -1,0 +1,29 @@
+test - [MSG]: Begin to analyze: ActivityCommunication7.apk
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Sink: virtualinvoke $r4.<android.telephony.SmsManager: void sendTextMessage(java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,android.app.PendingIntent)>("+49", null, $r3, null, null) at <edu.mit.icc_non_constant_class_object.InFlowActivity: void onCreate(android.os.Bundle)> in edu.mit.icc_non_constant_class_object.InFlowActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.icc_non_constant_class_object.InFlowActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.icc_non_constant_class_object.InFlowActivity: void onCreate(android.os.Bundle)>: <edu.mit.icc_non_constant_class_object.InFlowActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.icc_non_constant_class_object.InFlowActivity
+RespAnalysis - [MSG]: chainSet: [<edu.mit.icc_non_constant_class_object.InFlowActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [WARN]: 
+
+RespAnalysis - [WARN]: Src: $r6 = virtualinvoke $r5.<android.telephony.TelephonyManager: java.lang.String getDeviceId()>() at <edu.mit.icc_non_constant_class_object.OutFlowActivity: void onCreate(android.os.Bundle)> in edu.mit.icc_non_constant_class_object.OutFlowActivity
+RespAnalysis - [DEBUG]: Src: <dummyMainClass: void dummyMainMethod(java.lang.String[])>, Tgt: <edu.mit.icc_non_constant_class_object.OutFlowActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: <edu.mit.icc_non_constant_class_object.OutFlowActivity: void onCreate(android.os.Bundle)>: <edu.mit.icc_non_constant_class_object.OutFlowActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [DEBUG]: EntryClass: edu.mit.icc_non_constant_class_object.OutFlowActivity
+RespAnalysis - [MSG]: chainSet: [<edu.mit.icc_non_constant_class_object.OutFlowActivity: void onCreate(android.os.Bundle)>]
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityCommunication7.apk\ActivityCommunication7.apk_resp.csv
+RespAnalysis - [MSG]: <edu.mit.icc_non_constant_class_object.InFlowActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityCommunication7.apk\ActivityCommunication7.apk_src.csv
+RespAnalysis - [MSG]: <edu.mit.icc_non_constant_class_object.OutFlowActivity: void onCreate(android.os.Bundle)>
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityCommunication7.apk\ActivityCommunication7.apk_StartActServ.csv
+RespAnalysis - [MSG]: edu.mit.icc_non_constant_class_object.OutFlowActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityCommunication7.apk\ActivityCommunication7.apk_FragDeclrs.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityCommunication7.apk\ActivityCommunication7.apk_UnknownInitFields.csv
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityCommunication7.apk\ActivityCommunication7.apk_SrcEventChains.csv
+RespAnalysis - [MSG]: edu.mit.icc_non_constant_class_object.OutFlowActivity: onCreate
+RespAnalysis - [MSG]: C:/Users/hao/workspace/NetSemantic-Static/sootOutput/ActivityCommunication7.apk\ActivityCommunication7.apk_SinkEventChains.csv
+RespAnalysis - [MSG]: edu.mit.icc_non_constant_class_object.InFlowActivity: onCreate
+test - [MSG]: Analysis has run for 16.770016929 seconds
+
